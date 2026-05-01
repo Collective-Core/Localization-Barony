@@ -1,0 +1,1253 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial7a": {
+            "sign": [
+                "Таке чудове спорядження.",
+				"Шкода, що ви",
+                "не можете скористатися ним самі.",
+				"",
+				"Добрий Лідер",
+                "має використовувати свої",
+				"ресурси мудро."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1,2],
+					[],
+					[0,1,2,3],
+					[],
+					[2],
+					[1],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/partyequip_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7b": {
+            "sign": [
+                "Ваша здатність",
+				"командувати послідовниками",
+				"ефективно буде",
+				"буде випробувано."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7c": {
+            "sign": [
+                "Сувої Виклику",
+				"можуть дати союзників",
+				"у скрутну мить.",
+				"",
+                "Вам варто зберегти цей",
+				"сувій для випробування",
+				"наприкінці",
+                "цього Випробування."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1,2],
+					[1,2],
+					[],
+					[2],
+					[3],
+					[2,3],
+					[1,2],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial7d": {
+            "sign": [
+                "Наказуйте послідовникам",
+				"[Чекати], щоб тримати",
+				"їх осторонь.",
+				"$ $",
+                "Коли встановлено [Слідувати],",
+				"послідовники намагатимуться",
+				"триматися поруч із вами."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0,1],
+					[],
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2,3,4],
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",	
+					"value": "*#data/scripts/tutorial7/sign_wait.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial7/sign_follow.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },
+        "tutorial7d_gamepad": {
+            "sign": [
+                "Наказуйте послідовникам",
+				"[Чекати], щоб тримати",
+				"їх осторонь.",
+				"$ $",
+                "Коли встановлено [Слідувати],",
+				"послідовники намагатимуться",
+				"триматися поруч із вами."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0,1],
+					[],
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2,3,4],
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial7/sign_wait.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial7/sign_follow.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },		
+        "tutorial7do": {
+            "sign": [
+                "Послідовники завжди",
+				"атакують помічених ворогів.",
+				"",
+				"Щоб не дати їм",
+				"почати бій,",
+				"тримайте їх",
+				"осторонь",
+				"доки не будете готові."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2],
+					[0,1],
+					[],
+					[1],
+					[0,1,2],
+					[],
+					[0,1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/moveall_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7do_gamepad": {
+            "sign": [
+                "Послідовники завжди",
+				"атакують помічених ворогів.",
+				"",
+				"Щоб не дати їм",
+				"почати бій,",
+				"тримайте їх",
+				"осторонь",
+				"доки не будете готові."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2],
+					[0,1],
+					[],
+					[1],
+					[0,1,2],
+					[],
+					[0,1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/moveall_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },			
+        "tutorial7e": {
+            "sign": [
+                "Вам доведеться",
+				"розташуйте послідовника",
+				"так, щоб він зміг",
+				"звільнити вам шлях.",
+				"",
+				"Послідовники можуть бути",
+				"обережними. Можливо, треба",
+				"наказати їм [Рухатися]",
+				"далі для кращого результату."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2,3,4],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[0],
+					[4],
+					[0,1],
+					[],
+					[],
+					[0],
+					[],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/movefurther_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7f": {
+            "sign": [
+                "Стратегічне використання",
+				"послідовників може допомогти",
+				"вам вижити й перемогти",
+				"підземелля."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0]
+				]
+            },
+            "variables": []
+        },
+        "tutorial7g": {
+            "sign": [
+                "Якщо наказати",
+				"послідовнику [Рухатися],",
+                "він чекатиме там",
+				"на ваш наступний наказ.",
+				"$",
+                "Використайте$, щоб віддати інший",
+				"наказ звідки завгодно."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[0,2],
+					[],
+					[],
+					[],
+					[0,2,3],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[1,2,3],
+					[],
+					[]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial7/sign_moveto.png",
+					"sizex": 0,
+					"sizey": 0
+				},			
+				{
+					"type": "input_glyph",
+					"value": "Show NPC Commands"
+				}						
+			]
+        },
+        "tutorial7h": {
+            "sign": [
+                "Ви можете наказати",
+				"союзникам підібрати",
+				"і використати спорядження",
+				"через [Взаємодію].",
+				"",
+                "Вони використовуватимуть предмети",
+				"у своїх зусиллях",
+				"допомогти вам."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[],
+					[1,2],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/lantern_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7i": {
+            "sign": [
+                "Ви можете командувати",
+				"послідовником з будь-якої відстані",
+				"натиснувши$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",			
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[2,3]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Show NPC Commands"
+				}					
+			]
+        },
+        "tutorial7j": {
+            "sign": [
+                "Вам знадобиться",
+				"допомога союзника, щоб відкрити",
+				"цю браму.",
+				"$",
+                "Накажіть союзнику",
+				"[Взаємодіяти] з",
+				"важелем, якого ви не дістанете."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,2],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[0,1,3],
+					[1],
+					[],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/interactgate_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial7/sign_interact.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },
+        "tutorial7j_gamepad": {
+            "sign": [
+                "Вам знадобиться",
+				"допомога союзника, щоб відкрити",
+				"цю браму.",
+				"$",
+                "Накажіть союзнику",
+				"[Взаємодіяти] з",
+				"важелем, якого ви не дістанете."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,2],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[0,1,3],
+					[1],
+					[],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/interactgate_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial7/sign_interact.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },		
+        "tutorial7k": {
+            "sign": [
+                "Ви можете покладатися",
+				"на допомогу послідовників",
+				"для підтримки.",
+				"",
+                "Натисніть$, щоб завербувати",
+				"людину на",
+				"іншому боці провалля."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[1,2,3],
+					[],
+					[],
+					[],
+					[1],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/recruit.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}					
+			]
+        },
+        "tutorial7kb": {
+            "sign": [
+                "Кількість послідовників,",
+				"яких ви можете мати одночасно,",
+				"і доступні вам",
+				"команди",
+				"залежать від вашої",
+				"Навички Лідерства.",
+				"",
+				"$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1,2,3],
+					[],
+					[2,3,4],
+					[],
+					[0],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Leadership02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				}						
+			]
+        },		
+        "tutorial7l": {
+            "sign": [
+                "Будьте обережні",
+				"у тому, як командуєте",
+				"своїми союзниками.",
+				"",
+                "Вони не такі герої,",
+				"як ви, але піклуйтеся",
+				"про них, і вони",
+				"служитимуть вам добре."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7m": {
+            "sign": [
+                "Люди-послідовники",
+				"добре володіють більшістю",
+				"зброї та спорядження.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1],
+					[0],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/bowman_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_shortbow.png",
+					"sizex": 0,
+					"sizey": 0
+				}				
+			]
+        },
+        "tutorial7n": {
+            "sign": [
+                "УВАГА:",
+				"Цей важіль відкриває",
+				"браму.",
+				"",
+                "Братання зі",
+				"скелетними вартовими",
+				"не рекомендується."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+						"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7o": {
+            "sign": [
+                "Ви можете завербувати",
+				"Келлі через браму.",
+                "",
+				"Потягніть цей важіль, коли",
+				"будете готові звільнити",
+				"нового послідовника."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[1,2],
+					[1,2,3],
+					[],
+					[],
+					[2,3,4]
+				]
+            },
+            "variables": []
+        },
+        "tutorial7op": {
+            "sign": [
+                "Допомога прицілювання взаємодії",
+				"допомагає взаємодіяти з",
+				"ближніми об'єктами без",
+                "потреби прицілюватися.",
+				"",
+				"Використайте$, щоб перебирати",
+				"кілька ближніх дій."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[0,1,2],
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/tooltipoff_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Interact Tooltip Next"
+				}
+			]
+        },				
+        "tutorial7p": {
+            "sign": [
+                "Використайте$, щоб віддати",
+				"ту саму команду повторно",
+                "без потреби відкривати",
+				"колесо команд."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,1,2],
+					[0,1,2]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Command NPC"
+				}			
+			]
+        },
+        "tutorial7q": {
+            "sign": [
+                "Вас зробили",
+				"нездатними битися",
+				"самостійно.",
+				"",
+                "Троє людей",
+				"готові допомогти вам.",
+				"Завербуйте й підготуйте",
+				"їх до бою."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1,2],
+					[],
+					[],
+					[0,1],
+					[],
+					[0,2],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/partyrecruit.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7r": {
+            "sign": [
+                "Статус послідовників видно",
+				"у верхньому правому куті",
+				"екрана. Останній",
+				"активний послідовник",
+				"підсвічується.",
+				"",
+				"Прокрутіть до наступного",
+				"послідовника за допомогою$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[1]
+				],
+                "word_highlights2": [
+					[1,2],
+					[],
+					[],
+					[0,1],
+					[0]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Cycle NPCs"
+				}					
+			]
+        },
+        "tutorial7s": {
+            "sign": [
+                "Натисніть$, щоб швидко переходити",
+				"між послідовниками,",
+                "дозволяючи віддавати",
+				"команди кожному з них",
+				"за допомогою$і$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,2,3],
+					[2],
+					[3],
+					[0],
+					[0]
+
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Cycle NPCs"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Show NPC Commands"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Command NPC"
+				}				
+			]
+        },
+        "tutorial7t": {
+            "sign": [
+                "ОБЕРЕЖНО:",
+				"",
+				"Ви маєте керувати",
+				"послідовниками",
+				"обережно, щоб вони",
+				"не були розчавлені",
+				"пасткою з валуном",
+				"на шляху попереду."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+						"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[1],
+					[],
+					[1,2],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/bouldermove.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7z": {
+            "sign": [
+                "Наказуйте послідовникам",
+				"[Відпочивати] раз на поверх,",
+				"що відновлює HP.",
+				"$",
+				"Вони також можуть відновитися",
+				"якщо наказати їм",
+				"[Взаємодіяти] з їжею."
+		
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2],
+					[],
+					[3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/foodgive.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial7/sign_rest.png",
+					"sizex": 0,
+					"sizey": 0
+				}				
+			]
+        },		
+        "tutorial7u": {
+            "sign": [
+                "Мудро наказати",
+				"послідовникам [Чекати],",
+                "поки ви розвідуєте попереду.",
+				"",
+				"Утримуйте$, віддаючи",
+				"деякі команди, щоб спрямувати",
+				"усіх своїх послідовників",
+				"одним наказом."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[4],
+					[2],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[2,3],
+					[],
+					[],
+					[],
+					[0,1,2,3],
+					[2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/allwait_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Захист"
+				}					
+			]
+        },
+        "tutorial7u_gamepad": {
+            "sign": [
+                "Мудро наказати",
+				"послідовникам [Чекати],",
+                "поки ви розвідуєте попереду.",
+				"",
+				"Утримуйте$, віддаючи",
+				"деякі команди, щоб спрямувати",
+				"усіх своїх послідовників",
+				"одним наказом."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[4],
+					[2],
+					[],
+					[],
+					[0,1,2],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[2,3],
+					[],
+					[],
+					[3],
+					[0,3],
+					[0,1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/allwait_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Захист"
+				}					
+			]
+        },		
+        "tutorial7up": {
+            "sign": [
+                "Ця брама відкриється лише",
+				"коли всіх",
+				"ворогів буде",
+				"переможено."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[3],
+					[],
+					[0]
+				]
+            },
+            "variables": []
+        }		
+    }
+}

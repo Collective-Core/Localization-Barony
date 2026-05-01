@@ -1,0 +1,376 @@
+{
+	"version": 1,
+	"contents": [
+		{
+			"    ГУМАНОЇДИ": "-"
+		},
+		{
+			"ЛЮДИ": "human"
+		},
+		{
+			"ГОБЛІН": "goblin"
+		},
+		{
+			"КАРТОПЛЯНИЙ КОРОЛЬ": "potato king"
+		},
+		{
+			"GNOME": "gnome"
+		},
+		{
+			"ГНОМ ЗЛОДІЙ": "gnome thief"
+		},
+		{
+			"МАГАЗИН": "shopkeeper"
+		},
+		{
+			"ТАЄМНИЧИЙ КУПЕЦЬ": "mysterious shop"
+		},
+		{
+			"    ЗВІРІ": "-"
+		},
+		{
+			"ЩУР": "rat"
+		},
+		{
+			"ЕЛДЖЕРНОН": "algernon"
+		},
+		{
+			"BAT": "bat"
+		},
+		{
+			"ПАВУК": "spider"
+		},
+		{
+			"КРАБ": "crab"
+		},
+		{
+			"ШЕЛОБ": "shelob"
+		},
+		{
+			"БУЛЬБАШКИ": "bubbles"
+		},
+		{
+			"ТРОЛЛЬ": "troll"
+		},
+		{
+			"ТУМПУС": "thumpus"
+		},
+		{
+			"СКОРПІОН": "scorpion"
+		},
+		{
+			"СКРАББЛАГ": "skrabblag"
+		},
+		{
+			"СКАРАБЕЙ": "scarab"
+		},
+		{
+			"XYGGI": "xyggi"
+		},
+		{
+			"КОКАТРИС": "cockatrice"
+		},
+		{
+			"МІНОТАВР": "minotaur"
+		},
+		{
+			"    БІСТФОЛК": "-"
+		},
+		{
+			"ІНСЕКТОЇД": "insectoid"
+		},
+		{
+			"БУГБЕР": "bugbear"
+		},
+		{
+			"КОБОЛД": "kobold"
+		},
+		{
+			"КОЗАПНИК": "goatman"
+		},
+		{
+			"ГАРБАД": "gharbad"
+		},
+		{
+			"    НЕЖЕТЬ": "-"
+		},
+		{
+			"ПРИВИД": "ghost"
+		},
+		{
+			"СКЕЛЕТ": "skeleton"
+		},
+		{
+			"СМІШНІ КІСТКИ": "funny bones"
+		},
+		{
+			"УПИРИ": "ghoul"
+		},
+		{
+			"КОРАЛ ГРАЙМС": "coral grimes"
+		},
+		{
+			"ПОНЕВОЛЕНІ УПИРИ": "enslaved ghoul"
+		},
+		{
+			"ЧЕРЕП РЕВЕНАНТА": "revenant_skull"
+		},
+		{
+			"ВАМПІР": "vampire"
+		},
+		{
+			"БРЕМ ЛЮБ'ЯЗНО": "bram kindly"
+		},
+		{
+			"ТІНЬ": "shadow"
+		},
+		{
+			"АРТЕМІЗІЯ": "artemisia"
+		},
+		{
+			"БАРАТЕОН": "baratheon"
+		},
+		{
+			"БАРОН ГЕРКС": "lich"
+		},
+		{
+			"ЕРУДИЦЕ": "lichice"
+		},
+		{
+			"ОРФЕЙ": "lichfire"
+		},
+		{
+			"    ДЕМОНІКА": "-"
+		},
+		{
+			"СУККУБ": "succubus"
+		},
+		{
+			"ЛІЛІТ": "lilith"
+		},
+		{
+			"ДРУЖИНА СУККУБА": "bram succubi"
+		},
+		{
+			"ІНКУБ": "incubus"
+		},
+		{
+			"IMP": "imp"
+		},
+		{
+			"ДЕМОН": "demon"
+		},
+		{
+			"DEU DE'BREAU": "deudebreau"
+		},
+		{
+			"БАФОМЕТ": "devil"
+		},
+		{
+			"    КОНСТРУКЦІЇ": "-"
+		},
+		{
+			"АВТОМАТ": "automaton"
+		},
+		{
+			"КРИСТАЛЕВИЙ ГОЛЕМ": "crystalgolem"
+		},
+		{
+			"SENTRYBOT": "sentrybot"
+		},
+		{
+			"SPELLBOT": "spellbot"
+		},
+		{
+			"МАНЕКЕН-БОТ": "dummybot"
+		},
+		{
+			"МІМІКА": "mimic"
+		},
+		{
+			"    ЕЛЕМЕНТАЛИ": "-"
+		},
+		{
+			"СЛИЗИ": "slime"
+		},
+		{
+			"СПРАЙТ ЗЕМЛІ": "earth_elemental"
+		}
+	],
+	"contents_alphabetical": [
+		{
+			"ЕЛДЖЕРНОН": "algernon"
+		},
+		{
+			"АРТЕМІЗІЯ": "artemisia"
+		},
+		{
+			"АВТОМАТ": "automaton"
+		},
+		{
+			"БАФОМЕТ": "devil"
+		},
+		{
+			"БАРАТЕОН": "baratheon"
+		},
+		{
+			"БАРОН ГЕРКС": "lich"
+		},
+		{
+			"BAT": "bat"
+		},
+		{
+			"БРЕМ ЛЮБ'ЯЗНО": "bram kindly"
+		},
+		{
+			"БУЛЬБАШКИ": "bubbles"
+		},
+		{
+			"БУГБЕР": "bugbear"
+		},
+		{
+			"КОКАТРИС": "cockatrice"
+		},
+		{
+			"КОРАЛ ГРАЙМС": "coral grimes"
+		},
+		{
+			"КРАБ": "crab"
+		},
+		{
+			"КРИСТАЛЕВИЙ ГОЛЕМ": "crystalgolem"
+		},
+		{
+			"ДЕМОН": "demon"
+		},
+		{
+			"DEU DE'BREAU": "deudebreau"
+		},
+		{
+			"МАНЕКЕН-БОТ": "dummybot"
+		},
+		{
+			"СПРАЙТ ЗЕМЛІ": "earth sprite"
+		},
+		{
+			"ПОНЕВОЛЕНІ УПИРИ": "enslaved ghoul"
+		},
+		{
+			"ЕРУДИЦЕ": "lichice"
+		},
+		{
+			"СМІШНІ КІСТКИ": "funny bones"
+		},
+		{
+			"ГАРБАД": "gharbad"
+		},
+		{
+			"ПРИВИД": "ghost"
+		},
+		{
+			"УПИРИ": "ghoul"
+		},
+		{
+			"GNOME": "gnome"
+		},
+		{
+			"ГНОМ ЗЛОДІЙ": "gnome thief"
+		},
+		{
+			"КОЗАПНИК": "goatman"
+		},
+		{
+			"ГОБЛІН": "goblin"
+		},
+		{
+			"ЛЮДИ": "human"
+		},
+		{
+			"IMP": "imp"
+		},
+		{
+			"ІНКУБ": "incubus"
+		},
+		{
+			"ІНСЕКТОЇД": "insectoid"
+		},
+		{
+			"КОБОЛД": "kobold"
+		},
+		{
+			"ЛІЛІТ": "lilith"
+		},
+		{
+			"МІМІКА": "mimic"
+		},
+		{
+			"МІНОТАВР": "minotaur"
+		},
+		{
+			"ТАЄМНИЧИЙ КУПЕЦЬ": "mysterious shop"
+		},
+		{
+			"ОРФЕЙ": "lichfire"
+		},
+		{
+			"ЩУР": "rat"
+		},
+		{
+			"ЧЕРЕП РЕВЕНАНТА": "revenant_skull"
+		},
+		{
+			"СКАРАБЕЙ": "scarab"
+		},
+		{
+			"СКОРПІОН": "scorpion"
+		},
+		{
+			"SENTRYBOT": "sentrybot"
+		},
+		{
+			"ТІНЬ": "shadow"
+		},
+		{
+			"ШЕЛОБ": "shelob"
+		},
+		{
+			"МАГАЗИН": "shopkeeper"
+		},
+		{
+			"СКЕЛЕТ": "skeleton"
+		},
+		{
+			"СКРАББЛАГ": "skrabblag"
+		},
+		{
+			"СЛИЗИ": "slime"
+		},
+		{
+			"SPELLBOT": "spellbot"
+		},
+		{
+			"ПАВУК": "spider"
+		},
+		{
+			"ДРУЖИНА СУККУБА": "bram succubi"
+		},
+		{
+			"СУККУБ": "succubus"
+		},
+		{
+			"КАРТОПЛЯНИЙ КОРОЛЬ": "potato king"
+		},
+		{
+			"ТУМПУС": "thumpus"
+		},
+		{
+			"ТРОЛЛЬ": "troll"
+		},
+		{
+			"ВАМПІР": "vampire"
+		},
+		{
+			"XYGGI": "xyggi"
+		}
+	]
+}

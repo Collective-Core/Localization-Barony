@@ -1,0 +1,780 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 29,
+			"g": 16,
+			"b": 11,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 255,
+			"g": 0,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+		"humanoid_skull": {
+			"message": [
+				"Ви бачите гуманоїдний череп."
+			]
+		},
+		"pit_spikes": {
+			"message": [
+				"Ви бачите смертельні шипи на дні ями."
+			]
+		},
+		"bastille_exit": {
+			"sign": [
+				"Іди геть, або залишайся тут",
+				"ще однією загубленою душею."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_exit": {
+			"sign": [
+				"ПОВІДОМЛЕННЯ:",
+				"Операції в межах цих",
+				"воріт більше не є",
+				"продуктивними та",
+				"припинені.",
+				"Поверніться до Цитаделі",
+				"негайно, щоб поновити службу.",
+				"-E"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_autos": {
+			"sign": [
+				"УВАГА:",
+				"Місцевим автоматам доручено",
+				"запобігати несанкціонованому",
+				"втручанню в роботу брами.",
+				"Порушників буде знищено.",
+				"Так, це стосується",
+				"всіх, Шермане.",
+				"-E"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_hint": {
+			"sign": [
+				"ПОВІДОМЛЕННЯ:",
+				"Поки ключ до брами",
+				"не буде викувано, безпеку Цитаделі",
+				"віднині",
+				"знято на невизначений строк.",
+				"Споруди свідомо",
+				"віддано ворожим силам.",
+				"НЕ МАРНУЙТЕ РЕСУРСИ.",
+				"-E"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_hint2": {
+			"sign": [
+				"Відступ за Воротами 1",
+				"має бути ініційований",
+				"обома офіцерами на службі."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"gatehouse_hint3": {
+			"sign": [
+				"Любий Орфею,",
+				"Воно не зламається.",
+				"Навіть для тебе.",
+				"Повертайся додому."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},				
+		"bastille_hint": {
+			"sign": [
+				"Ніхто не дізнається, що чекає",
+				"в кінці його шляху,",
+				"якщо не наважиться йти ним.",
+				"Та не всі шляхи",
+				"закінчуються успіхом.",
+				"",
+				"Іди вперед із метою",
+				"або залишишся без неї."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},			
+		"bastille_gold": {
+			"sign": [
+				"Доведи свою відданість.",
+				"Шукай коштовні скарби",
+				"і неси їх сюди."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},			
+		"bastille_silver_a": {
+			"sign": [
+				"Подолай це випробування",
+				"і стань гідним",
+				"зустріти наступне."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}
+		},
+		"bastille_silver_b": {
+			"sign": [
+				"Відкрий шлях до ще",
+				"цінніших скарбів."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}
+		},
+		"bastille_finale": {
+			"sign": [
+				"Активуй пристрої",
+				"на півночі, заході та сході,",
+				"і зустрінься з духами,",
+				"що оплакують власні",
+				"невдачі."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}
+		},				
+		"dont_pull": {
+			"sign": [
+				"Не смикати."
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"curses": {
+			"sign": [
+				"Прокляття на",
+				"всіх, хто входить."
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"security": {
+			"sign": [
+				"УВАГА:",
+				"Система Безпеки Активна.",
+				"-M"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"literacy_a": {
+			"sign": [
+				"Будь же начитаним",
+				"і входь."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"literacy_b": {
+			"sign": [
+				"Лише грамотним",
+				"тут раді."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"underworld_exit": {
+			"sign": [
+				"Тікай, смертний, назад",
+				"до свого смертного світу.",
+				"Безсмертні душі не можуть",
+				"звідси втекти."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"underworld_latin_a": {
+			"sign": [
+				"Будьте гідні прийняти, а не",
+				"те, що вже було принесене,",
+				"владиці, інакше",
+				"пізнаєте його гнів."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"underworld_latin_b": {
+			"sign": [
+				"Наполегливість звільнить,",
+				"та жадібність є",
+				"злодієм у здобутому."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"underworld_latin_c": {
+			"sign": [
+				"Колись ви могли здобути",
+				"все, хіба що смерть була готова."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"hell_latin_a": {
+			"sign": [
+				"Ти мусиш бути випробуваним",
+				"і лише тоді зможеш пройти."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"hell_latin_b": {
+			"sign": [
+				"Жадібність коштуватиме тобі дорого."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"fraternity_hint": {
+			"sign": [
+				"Моя місія принизити",
+				"демонічні братства",
+				"зазнала невдачі. Використай мій ключ, щоб",
+				"продовжити мою добру справу.",
+				"Їх треба упокорити.",
+				" ",
+				"-B"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_pzr": {
+			"sign": [
+				"$ $ $ ",
+				" ",
+				"Френес",
+				"Зімон",
+				"Реонтес"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			},
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_phi.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_zeta.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_rho.png",
+					"sizex": 32,
+					"sizey": 32
+				}				
+			]
+		},
+		"frat_pzr_grog": {
+			"sign": [
+				"Сховище Грогу Балрога",
+				"Новачкам вхід заборонено.",
+				" ",
+				"ЛИШЕ ДЛЯ ОФІЦЕРІВ"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_pzr_basileus": {
+			"sign": [
+				"Вариво Басілея",
+				" ",
+				"НЕ ЧІПАТИ"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},		
+		"frat_sky": {
+			"sign": [
+				"$ $ $ ",
+				" ",
+				"Стенос",
+				"Кратесіс",
+				"Іпістос"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			},
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_sigma.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_kappa.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_upsilon.png",
+					"sizex": 32,
+					"sizey": 32
+				}				
+			]			
+		},
+		"frat_sky_trophy": {
+			"sign": [
+				"Кімната Огляду Трофеїв",
+				" ",
+				"Шукай офіцера для",
+				"огляду в супроводі."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_txo": {
+			"sign": [
+				"$ $ $ ",
+				" ",
+				"Торубос",
+				"Ксенос",
+				"Омілос"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			},
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_theta.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_chi.png",
+					"sizex": 32,
+					"sizey": 32
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/dungeon_signs/sign_omicron.png",
+					"sizex": 32,
+					"sizey": 32
+				}				
+			]			
+		},
+		"frat_txo_damien": {
+			"sign": [
+				"КІМНАТА ТАЛІСМАНА ДЕМІЄНА",
+				" ",
+				"Якшо лишиш двері відчиненими",
+				"він може вибратися, і тоді",
+				"буде халепа!!",
+				"А так можеш сміливо",
+				"гратися з ним, він норм"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_presidents": {
+			"sign": [
+				"Президенти Братств:",
+				" ",
+				"Подайте ключ свого дому",
+				"лише якщо бажаєте позмагатися за",
+				"панування над усім закладом.",
+				" ",
+				"-J"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"frat_exit": {
+			"sign": [
+				"Портал назад до",
+				"Латинського Кварталу"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"automat_exit": {
+			"sign": [
+				"ДО ПОДАЛЬШОГО ПОВІДОМЛЕННЯ:",
+				" ",
+				"Автоматам заборонено",
+				"залишати територію фабрики",
+				"без",
+				"наказу адміністратора.",
+				"Порушники підлягають",
+				"негайному відновленню.",
+				" ",
+				"-O"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"automat_qa": {
+			"sign": [
+				"ЗОНА КОНТРОЛЮ ЯКОСТІ ПРОДУКЦІЇ",
+				" ",
+				"УПОВНОВАЖЕНИЙ ДОСТУП",
+				"ЛИШЕ"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"automat_floor": {
+			"sign": [
+				"СКЛАДАЛЬНИЙ РІВЕНЬ",
+				"НЕДОСТУПНИЙ, ДОКИ",
+				"ВИРОБНИЧИЙ РІВЕНЬ",
+				"ПРАЦЮЄ"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},		
+		"automat_failsafe": {
+			"sign": [
+				"АВАРІЙНЕ ВИМКНЕННЯ",
+				"ЗАХИСТ ВІД ЗБІЮ",
+				" ",
+				"НЕ ВИКОРИСТОВУВАТИ"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"automat_override": {
+			"sign": [
+				"ПОТРІБНЕ ПОДВІЙНЕ ПЕРЕВИЗНАЧЕННЯ",
+				" ",
+				"ВИРОБНИЦТВО ПРИПИНИТЬСЯ",
+				"НЕГАЙНО"
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},				
+		"mines_fountain": {
+			"sign": [
+				"Он той фонтан удалині,",
+				"Води його не вичерпано,",
+				"Шукай же його благословення,",
+				"Пославши снаряд."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},
+		"mines_chest": {
+			"sign": [
+				"Он та скриня вдалині,",
+				"Її таємниці невідомі,",
+				"Пізнай же її вміст,",
+				"Кинувши в неї предмет."
+			],
+			"attributes": {
+				"font": "fonts/pixelmix.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}	
+		},		
+		"mines_secret": {
+			"sign": [
+				"Стороннім Вхід Заборонено"
+			],
+			"attributes": {
+				"font": "fonts/scream.ttf#16#2",
+				"horizontal_justify": "center",
+				"vertical_justify": "center",
+				"line_padding": 0,
+				"top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+			}
+		}
+	}
+}

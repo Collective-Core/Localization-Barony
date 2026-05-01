@@ -1,0 +1,848 @@
+{
+    "version": 1,
+        "default_attributes": {
+			"font_color": {
+				"r": 239,
+				"g": 237,
+				"b": 235,
+				"a": 255
+			},
+			"font_outline_color": {
+				"r": 50,
+				"g": 29,
+				"b": 25,
+				"a": 255
+			},
+			"font_highlight_color": {
+				"r": 18,
+				"g": 196,
+				"b": 131,
+				"a": 255
+			},
+			"font_highlight2_color": {
+				"r": 64,
+				"g": 192,
+				"b": 255,
+				"a": 255
+			}
+        },
+    "script_entries": {		
+        "tutorial4a": {
+            "sign": [
+				"$",			
+                "Сувої Ідентифікації",
+				"можуть дати ту",
+				"певність, якої ви потребуєте,",
+				"коли у вас немає",
+				"часу чекати."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1,2],
+					[],
+					[0]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial4/sign_scroll.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial4b": {
+            "sign": [
+                "Викидайте предмети, які",
+				"вам не потрібні, адже вони",
+				"обтяжують вас.",
+				"",
+                "Повільний рух може",
+				"вас убити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+				},
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0],
+					[],
+					[],
+					[2]
+				],
+                "word_highlights2": [
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial4/dump_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial4b_gamepad": {
+            "sign": [
+                "Викидайте предмети, які",
+				"вам не потрібні, адже вони",
+				"обтяжують вас.",
+				"",
+                "Повільний рух може",
+				"вас убити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+				},
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0],
+					[],
+					[],
+					[2]
+				],
+                "word_highlights2": [
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial4/dump_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },		
+        "tutorial4c": {
+            "sign": [
+                "Ви не можете атакувати,",
+				"блокувати, чаклувати чи",
+				"скрадатися під час плавання,",
+                "але можете взаємодіяти",
+				"з об'єктами!",
+				"",
+				"$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight2_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[1]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#images/ui/SkillSheet/Icons/Swimming02_32.png",
+				"sizex": 0,
+				"sizey": 0
+				}
+			]
+        },
+        "tutorial4do": {
+            "sign": [
+                "Якщо Левітація зникне",
+				"коли ви будете над ямою,",
+				"ви напевно загинете.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[5],
+					[2,3]
+				],
+                "word_highlights2": [
+					[1]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#items/images/spells/levitation.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial4d": {
+            "sign": [
+                "У вас не завжди буде",
+				"розкіш мати час, коли",
+				"ви стикаєтеся з випробуваннями",
+				"у підземеллі.",
+				"",
+				"Недосконалі рішення іноді",
+				"необхідні для виживання.",
+                "Тепер вас буде випробувано."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1,2,3],
+					[],
+					[],
+					[],
+					[0,1],
+					[1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial4e": {
+            "sign": [
+                "Пошук їжі є життєво важливим",
+				"для вашого виживання.",
+				"",
+				"$",
+                "Якщо ви баритиметеся, то",
+				"помрете з голоду."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},		
+					"font_highlight2_color": {
+						"r": 64,
+						"g": 192,
+						"b": 255,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[1,3]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#images/ui/HUD/HUD_Hunger_01D.png",
+				"sizex": 0,
+				"sizey": 0
+				}		
+			]
+        },
+        "tutorial4f": {
+            "sign": [
+                "Один із цих амулетів",
+				"зачарований",
+				"смертельним прокляттям.",
+				"",
+                "Оцінювання підкаже",
+				"вам, який є яким."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [
+					[3],
+					[],
+					[],
+					[],
+					[0]
+				]
+            },
+            "variables": []
+        },
+        "tutorial4g": {
+            "sign": [
+                "Більшість предметів у підземеллі",
+				"не ідентифіковані.",
+				"$",
+                "Якщо ваша навичка Знань",
+				"занадто низька, ви можете",
+                "не зуміти їх Оцінити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 255,
+						"b": 64,
+						"a": 255
+					},		
+					"font_highlight2_color": {
+						"r": 64,
+						"g": 192,
+						"b": 255,
+						"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[4],
+					[0,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial4/sign_bread.png",
+				"sizex": 0,
+				"sizey": 0
+				}
+			]
+        },
+        "tutorial4h": {
+            "sign": [
+                "Іноді прокляті предмети",
+				"кращі, ніж нічого.",
+				"Користуйтеся ними, коли мусите.",
+				"",
+				"Деякі прокляття мають штрафи",
+				"під час використання, а ще гірше — їхні",
+				"переваги можуть обернутися навпаки.",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[3],
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[1,2,3]				
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial4/sign_reverse.png",
+				"sizex": 0,
+				"sizey": 0
+				}			
+			]
+        },
+        "tutorial4ha": {
+            "sign": [
+                "Прокляте спорядження зазвичай",
+				"неможливо зняти",
+				"після екіпірування.",
+				"$",
+				"Наслідки",
+				"цього можуть бути руйнівними,",
+				"залежно від предмета."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,2],
+					[1,2],
+					[],
+					[],
+					[],
+					[3]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial4/sign_curse.png",
+				"sizex": 0,
+				"sizey": 0
+				}	
+			]		
+        },
+        "tutorial4hi": {
+            "sign": [
+                "Визначайте пріоритети для предметів",
+				"в інвентарі, які слід Оцінити першими,",
+				"натиснувши$.",
+				"$",
+				"Натисніть$ на ідентифікованих",
+				"предметах, щоб переглянути докладні",
+				"подробиці їхніх ефектів."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[2],
+					[1],
+					[],
+					[0],
+					[2,3],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Розгорнути Підказку Інвентаря"
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial4/sign_appraise.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Розгорнути Підказку Інвентаря"
+				}		
+			]				
+        },
+        "tutorial4i": {
+            "sign": [
+                "Оцінювання та",
+				"вирішення, чи варто",
+                "використовувати предмети, може означати",
+				"різницю між",
+                "життям і смертю",
+				"у підземеллях.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#images/ui/SkillSheet/Icons/Appraisal02_32.png",
+				"sizex": 0,
+				"sizey": 0
+				}
+			]
+        },
+        "tutorial4j": {
+            "sign": [
+                "Терпіння може стати",
+				"причиною вашої смерті.",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial4/sign_potion.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial4k": {
+            "sign": [
+				"Цей предмет —",
+				"Проклятий Амулет",
+				"Магічного Відбиття.",
+				"",
+				"Цей ефект усе одно працює,",
+				"навіть якщо предмет проклятий.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1],
+					[],
+					[2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial4/magicreflect.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#items/images/spells/reflect_magic.png",
+				"sizex": 0,
+				"sizey": 0
+				}	
+			]
+        },
+        "tutorial4ks": {
+            "sign": [
+                "Благословення можуть давати",
+				"посилені ефекти для",
+				"деяких предметів."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0],
+					[0,1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial4l": {
+            "sign": [
+                "Їжа низької якості",
+				"може як",
+				"викликати у вас хворобу, так і ні.",
+				"$",
+                "Ваш відчай має",
+				"впливати на те, чи",
+				"вартий цей ризик того."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[2],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial4/sign_pie.png",
+				"sizex": 0,
+				"sizey": 0
+				}			
+			]
+        },
+        "tutorial4m": {
+            "sign": [
+                "Спочатку їжі може здаватися",
+				"занадто мало.",
+				"",
+                "Будьте наполегливі й ставайте кращим",
+				"як шукач пригод."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial4n": {
+            "sign": [
+				"$$$",
+                "Рушники можна використати, щоб",
+				"витертися дочиста,",
+                "або як бинти,",
+				"щоб зупинити кровотечу.",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight2_color": {
+						"r": 64,
+						"g": 192,
+						"b": 255,
+						"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[0],
+					[1,2,3],
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#images/ui/HUD/statusfx/messypie.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+				"type": "зображення",
+				"value": "*#images/ui/HUD/statusfx/grease.png",
+				"sizex": 0,
+				"sizey": 0
+				},			
+				{
+				"type": "зображення",
+				"value": "*#images/ui/HUD/statusfx/bleed.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial4/sign_towel.png",
+				"sizex": 80,
+				"sizey": 80
+				}				
+			]
+        },
+        "tutorial4o": {
+            "sign": [
+                "Гнила їжа може",
+				"викликати у вас хворобу, прискорюючи",
+				"ваше голодування.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,1],
+					[],
+					[1]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial4/sign_meat.png",
+				"sizex": 0,
+				"sizey": 0
+				}
+			]
+        }
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "version": 1,
+    "items": {
+        "bronze_sword": {
+            "name_identified": "ніж м'ясника",
+            "name_unidentified": "ніж м'ясника"
+        },
+        "bronze_mace": {
+            "name_identified": "бита",
+            "name_unidentified": "бита"
+        },
+        "bronze_axe": {
+            "name_identified": "сікач",
+            "name_unidentified": "сікач"
+        },
+        "iron_spear": {
+            "name_identified": "вила",
+            "name_unidentified": "вила"
+        },
+        "iron_sword": {
+            "name_identified": "залізний палаш",
+            "name_unidentified": "залізний палаш"
+        },
+        "iron_mace": {
+            "name_identified": "залізний молот",
+            "name_unidentified": "залізний молот"
+        },
+        "iron_axe": {
+            "name_identified": "залізний гак",
+            "name_unidentified": "залізний гак"
+        },
+        "steel_halberd": {
+            "name_identified": "сталевий серп",
+            "name_unidentified": "сталевий серп"
+        },
+        "steel_axe": {
+            "name_identified": "сокира з крилами кажана",
+            "name_unidentified": "сокира з крилами кажана"
+        },
+        "cloak": {
+            "name_identified": "костюм на спину",
+            "name_unidentified": "костюм на спину"
+        },
+        "cloak_magicreflection": {
+            "name_identified": "костюм на спину відбиття магії",
+            "name_unidentified": "костюм на спину"
+        },
+        "cloak_invisibility": {
+            "name_identified": "костюм на спину невидимості",
+            "name_unidentified": "костюм на спину"
+        },
+        "cloak_protection": {
+            "name_identified": "костюм на спину захисту",
+            "name_unidentified": "костюм на спину"
+        },
+        "hat_phrygian": {
+            "name_identified": "головний убір фараона",
+            "name_unidentified": "головний убір фараона"
+        },
+        "hat_hood": {
+            "name_identified": "костюм на голову",
+            "name_unidentified": "костюм на голову"
+        },
+		"mask_steel_visor": {
+			"name_identified": "страшна маска",
+			"name_unidentified": "страшна маска"
+		},
+        "hat_wizard": {
+            "name_identified": "капелюх відьми",
+            "name_unidentified": "капелюх відьми"
+        },
+        "hat_jester": {
+            "name_identified": "перука клоуна",
+            "name_unidentified": "перука клоуна"
+        },
+        "leather_helm": {
+            "name_identified": "комедійна пов'язка",
+            "name_unidentified": "комедійна пов'язка"
+        },
+        "iron_helm": {
+            "name_identified": "шолом чорнокнижника",
+            "name_unidentified": "шолом чорнокнижника"
+        },
+        "steel_helm": {
+            "name_identified": "костюмний шолом",
+            "name_unidentified": "костюмний шолом"
+        },
+        "scroll_food": {
+            "name_identified": "сувій цукерок",
+            "name_unidentified": "сувій"
+        },
+        "tool_tinopener": {
+            "name_identified": "ножиці",
+            "name_unidentified": "ножиці"
+        },
+        "tool_torch": {
+            "name_identified": "духовне полум'я",
+            "name_unidentified": "духовне полум'я"
+        },
+        "tool_lantern": {
+            "name_identified": "ліхтар-гарбуз",
+            "name_unidentified": "ліхтар-гарбуз"
+        },
+        "tool_glasses": {
+            "name_identified": "окуляри для маскування",
+            "name_unidentified": "окуляри для маскування"
+        },
+        "food_bread": {
+            "name_identified": "льодяник",
+            "name_unidentified": "льодяник"
+        },
+        "food_cheese": {
+            "name_identified": "шоколадна жуйка",
+            "name_unidentified": "шоколадна жуйка"
+        },
+        "food_apple": {
+            "name_identified": "карамельне яблуко",
+            "name_unidentified": "карамельне яблуко"
+        },
+        "food_meat": {
+            "name_identified": "великий батончик",
+            "name_unidentified": "великий батончик"
+        },
+        "food_fish": {
+            "name_identified": "цукерковий череп",
+            "name_unidentified": "цукерковий череп"
+        },
+        "food_tin": {
+            "name_identified": "маленький мішечок",
+            "name_unidentified": "маленький мішечок"
+        },
+        "artifact_orb_blue": {
+            "name_identified": "синій символ кажана",
+            "name_unidentified": "синій символ кажана"
+        },
+        "artifact_orb_red": {
+            "name_identified": "помаранчевий символ гарбуза",
+            "name_unidentified": "помаранчевий символ гарбуза"
+        },
+        "artifact_orb_purple": {
+            "name_identified": "фіолетовий символ привида",
+            "name_unidentified": "фіолетовий символ привида"
+        },
+        "artifact_orb_green": {
+            "name_identified": "зелений символ черепа",
+            "name_unidentified": "зелений символ черепа"
+        },
+        "hat_fez": {
+            "name_identified": "котячі вушка",
+            "name_unidentified": "котячі вушка"
+        },
+        "cloak_backpack": {
+            "name_identified": "наволочка",
+            "name_unidentified": "наволочка"
+        },
+        "spellbook_detect_food": {
+            "name_identified": "книга заклять виявлення цукерок",
+            "name_unidentified": "книга заклять"
+        }
+    },
+	"spell_names": {
+        "spell_detect_food": {
+            "name": "Виявити Цукерки"
+        }
+    }
+}

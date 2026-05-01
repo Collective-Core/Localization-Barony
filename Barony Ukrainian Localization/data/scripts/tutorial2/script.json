@@ -1,0 +1,687 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial2a": {
+            "sign": [
+                "Використовуючи поєднання",
+				"луків, боєприпасів і метальної",
+                "зброї, шукачі пригод",
+                "можуть тримати дистанцію",
+				"від найнебезпечніших",
+				"загроз підземелля."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+				[],
+				[],
+				[],
+				[0,1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial2b": {
+            "sign": [
+                "Мисливські Боєприпаси",
+				"$",
+				"Отруює та Сповільнює ворогів."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[0,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/hunting.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_hunting.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2c": {
+            "sign": [
+                "Швидкі Боєприпаси",
+				"$",
+				"Стріляє швидше, але завдає",
+				"трохи менше шкоди."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"word_highlights2": [
+					[],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/swift.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_swift.png",
+					"sizex": 74,
+					"sizey": 74
+				}]
+        },
+        "tutorial2d": {
+            "sign": [
+                "Пружні Боєприпаси",
+				"$",
+				"Відкидає ворогів назад."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/springshot.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_springshot.png",
+					"sizex": 74,
+					"sizey": 74
+				}]
+        },
+        "tutorial2e": {
+            "sign": [
+                "Вашу здатність битися",
+				"на відстані тепер",
+				"буде випробувано.",
+                "",
+				"Переконайтеся, що ви готові."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+            },
+            "variables": []
+        },
+        "tutorial2f": {
+            "sign": [
+                "Щоб тримати дистанцію",
+				"від ворогів, вам може",
+				"знадобитися розвернутися й тікати."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial2f_gamepad": {
+            "sign": [
+                "Щоб тримати дистанцію",
+				"від ворогів, вам може",
+				"знадобитися розвернутися й тікати.",
+				"",
+                "Натисніть$, щоб виконати",
+				"швидкий розворот."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[2],
+					[],
+					[0],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/backpedal.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [				{
+					"type": "input_glyph",
+					"value": "Швидкий Розворот"
+				}]
+        },		
+        "tutorial2g": {
+            "sign": [
+                "Рух уперед є",
+				"швидшим за відступання назад",
+				"та кроки вбік."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/backpedal.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial2h": {
+            "sign": [
+				"$",			
+                "За сильного кидка",
+				"чакрами рикошетять від стін.",
+                "Підлогові пастки за цими",
+				"брамами відкриють шлях."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},
+				"line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[2,3],
+					[1],
+					[],
+					[2]
+				]
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_chakram.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2i": {
+            "sign": [
+                "Деякі предмети можна використовувати",
+				"як метальну зброю.",
+				"$",
+                "Користуйтеся ними, щоб атакувати ворогів",
+				"або активувати підлогові пастки."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[1],
+					[1],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/rockthrow.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_rock.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2j": {
+            "sign": [
+				"$",
+                "Сагайдаки з боєприпасами",
+				"посилюватимуть ваші",
+				"атаки з лука.",
+				"",
+                "Екіпіруйте різні сагайдаки, щоб",
+				"отримувати різні ефекти."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[0],
+					[2]
+				]
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_quiver.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2k": {
+            "sign": [
+                "Відстань, яку може пролетіти стріла,",
+				"залежить від",
+				"використаного лука.",
+				"$",
+                "Довгий лук б'є далеко,",
+				"але це повільна зброя."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[3,4]
+				],		
+				"word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[2,3,4]
+				]
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_longbow.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2l": {
+            "sign": [
+                "Упасти в лаву — це",
+				"швидкий спосіб загинути.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#images/ui/HUD/statusfx/burning.png",
+					"sizex": 32,
+					"sizey": 32
+				}]
+        },
+        "tutorial2m": {
+            "sign": [
+				"$",
+                "Екіпіруйте короткий лук і",
+				"покажіть свою влучність.",
+                "Утримуйте$, щоб вистрілити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": -4,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/bows.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_shortbow.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				}
+			]
+        },
+        "tutorial2n": {
+            "sign": [
+                "Боєприпаси не можна",
+                "повернути після пострілу.",
+				"",
+				"Метальну зброю",
+				"можна підібрати й",
+				"кинути знову."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+            },
+            "variables": []
+        },
+        "tutorial2o": {
+            "sign": [
+                "Утримуйте$, щоб зарядити",
+				"метальну атаку.",
+				"",
+                "Заряджені кидки летять далі",
+				"та завдають більше шкоди."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": -4,
+				"word_highlights": [
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/hardthrow.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [				{
+					"type": "input_glyph",
+					"value": "Атака"
+				}]
+        },
+        "tutorial2q": {
+            "sign": [
+				"Цей манекен броньований.",
+                "$$",
+				"Пробивні Боєприпаси обходять",
+				"захист, завдаючи більше",
+				"шкоди броньованим ворогам."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},							
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[3],
+					[],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/longbow.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_longbow.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_pierce.png",
+					"sizex": 0,
+					"sizey": 0
+		}]
+        },		
+        "tutorial2p": {
+            "sign": [
+                "Срібні Стріли",
+				"",
+				"$",
+				"Смертоносніші проти Демонів",
+				"та Нежиті."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[2],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/silver.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial2/sign_silver.png",
+					"sizex": 74,
+					"sizey": 74
+				}]
+        }
+    }
+}

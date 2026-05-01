@@ -1,0 +1,1902 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},	
+    "script_entries": {
+        "tutorial9a": {
+            "sign": [
+                "Усі ці предмети",
+				"зламані й марні.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,2]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#items/images/spells/recycle.png",
+				"sizex": 32,
+				"sizey": 32
+				}						
+			]
+        },
+        "tutorial9b": {
+            "sign": [
+				"$",
+                "Гіробот це",
+				"мобільний помічник майстра.",
+				"Після розгортання використовуйте",
+				"його команди, щоб виконувати",
+				"різноманітні завдання."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/gyrobotdeploy.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_gyrobot.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9c": {
+            "sign": [
+                "Манекенбот, наданий",
+				"раніше, був пошкоджений.",
+				"",
+                "Полагодьте його, щоб",
+				"пережити цю пастку.",
+				"Якщо він зламаний, ви",
+				"маєте [Створити] нового",
+				"у меню майстрування."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[2],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9d": {
+            "sign": [
+                "Набір майстра можна",
+				"використати для ремонту.",
+				"",
+                "Це необхідно, щоб",
+				"підтримувати створені машини",
+				"і сам набір",
+				"у робочому стані.",
+                "Якщо ваш набір зламається,",
+				"ви можете не знайти іншого."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": [
+					[],
+					[3],
+					[],
+					[2],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9e": {
+            "sign": [
+                "ПОВІДОМЛЕННЯ:",
+				"Ви в пастці.",
+				"",
+                "Важіль відкриє",
+				"браму, але також",
+				"випустить валун, щоб",
+				"знищити вас.",
+				"",
+                "Вам доведеться майструвати,",
+				"щоб пройти далі."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[0,1,2,3],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/boulder_block.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9f": {
+            "sign": [
+                "Створені пастки, як",
+				"ця, можна кидати",
+				"на підлогу, стіни або",
+				"навіть двері й скрині.",
+				"",
+                "Розгорнуті пастки не",
+				"спрацюють проти союзників,",
+                "якщо їх не змінити",
+				"відмичкою."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/firetrap.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9g": {
+            "sign": [
+                "Використайте набір майстра,",
+				"щоб відкрити меню майстрування,",
+				"і виберіть вкладку ремонту.",
+				"Потім виберіть предмети для покращення.",
+				"",
+				"Тримайте свої машини",
+				"полагодженими й покращеними."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[3,4],
+					[1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[4],
+					[],
+					[],
+					[0,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9h": {
+            "sign": [
+                "Вашу стратегію та",
+				"винахідливість із",
+				"майструванням тепер буде",
+				"перевірено.",
+				"",
+				"Переконайтеся, що ви готові."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1],
+					[0]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9i": {
+            "sign": [
+                "Кількість машин,",
+				"які можна розгорнути одночасно,",
+                "залежить від вашої",
+				"навички майстрування.",
+				"",
+				"Обирайте мудро й",
+				"стежте за своїми",
+				"механічними союзниками."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1,2,3],
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[0,1]
+				]
+            },			
+            "variables": []
+		},
+        "tutorial9is": {
+            "sign": [
+                "Ви можете розбирати предмети",
+				"у своєму інвентарі через",
+				"меню майстрування.",
+				"",
+				"Натисніть$ на своєму наборі",
+				"і виберіть [Майструвати].",
+				"Використайте вкладку [Розібрати],",
+				"щоб почати вибирати предмети",
+				"для перетворення на брухт."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[1,2],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2]				
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/salvage.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}				
+			]			
+        },
+		"tutorial9is_gamepad": {
+            "sign": [
+                "Ви можете розбирати предмети",
+				"у своєму інвентарі через",
+				"меню майстрування.",
+				"",
+				"Натисніть$ на своєму наборі",
+				"і виберіть [Майструвати].",
+				"Використайте вкладку [Розібрати],",
+				"щоб почати вибирати предмети",
+				"для перетворення на брухт."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[1,2],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2]				
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/salvage.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}				
+			]			
+        },
+        "tutorial9j": {
+            "sign": [
+                "Виберіть предмети для створення",
+				"у вкладці створення",
+				"меню майстрування.",
+				"Переглядайте вартість у брухті,",
+				"наводячи на кожен предмет.",
+				"",
+                "На вас чекає випробування",
+				"виживання з використанням",
+				"створених вами предметів."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[3],
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial9k": {
+            "sign": [
+                "З екіпірованим набором майстра",
+				"утримуйте$, щоб",
+				"увімкнути авто-розбирання.",
+				"",
+				"Предмети, які ви потім підберете",
+                "за допомогою$, буде розібрано",
+				"на корисний брухт."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[1],
+					[1],
+					[],
+					[],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/autoscrap.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Захист"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}					
+			]
+        },
+        "tutorial9l": {
+            "sign": [
+                "Щоб швидко відкрити",
+				"меню майстрування з",
+				"екіпірованим набором майстра,",
+				"утримуйте$і натисніть$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/repair_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Захист"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				}				
+			]
+        },
+        "tutorial9l_gamepad": {
+            "sign": [
+                "Щоб швидко відкрити",
+				"меню майстрування з",
+				"екіпірованим набором майстра,",
+				"утримуйте$і натисніть$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/repair_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Захист"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				}				
+			]
+        },		
+        "tutorial9m": {
+            "sign": [
+                " Погляньте!",
+				"$",
+				"З екіпірованим набором майстра",
+				"ви можете отримати доступ до машин,",
+				"пасток і корисних предметів,",
+				"якщо маєте потрібну",
+				"навичку й запас брухту."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[2,3],
+					[],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_tinkerkit.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9n": {
+            "sign": [
+                "Створені машини",
+				"і пастки можуть отримати",
+				"серйозні пошкодження в бою.",
+                "Якщо вони не зламані, їх можна",
+				"полагодити й використати знову.",
+				"",
+                "Але навіть зламаний",
+				"мотлох може мати цінність",
+				"для майстра."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0],
+					[],
+					[1,2,3],
+					[],
+					[],
+					[3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9o": {
+            "sign": [
+                "Турелі вразливі",
+				"і можуть швидко бути",
+				"знищені ворогами.",
+				"",
+				"Інші інструменти можуть допомогти",
+				"вам тримати ворогів",
+                "на відстані, дозволяючи турелям",
+				"вільно атакувати."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9p": {
+            "sign": [
+				"$",
+                "Манекенботи міцні",
+				"і добре втримують",
+				"увагу ворогів.",
+				"",
+                "Зважайте, ви не можете",
+				"стріляти крізь них."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[0,1,2],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/dummybot.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_dummy.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9q": {
+            "sign": [
+                "Ви можете повернути трохи",
+				"брухту, зламавши відмичкою",
+				"замкнену скриню."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/chest_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9q_gamepad": {
+            "sign": [
+                "Ви можете повернути трохи",
+				"брухту, зламавши відмичкою",
+				"замкнену скриню."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/chest_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },		
+        "tutorial9r": {
+            "sign": [
+                "Смолоскипи можуть забезпечити",
+				"стабільний запас",
+                "металевого брухту.",
+				"",
+				"Трохи навички майстрування",
+				"можна здобути завдяки",
+				"наполегливому розбиранню.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1],
+					[],
+					[1,2],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/torcher.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#images/ui/SkillSheet/Icons/Tinkering02_32.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial9re": {
+            "sign": [
+                "Умілі майстри",
+				"можуть іноді отримувати",
+				"додатковий брухт під час",
+				"розбирання предметів."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial9s": {
+            "sign": [
+				"$",
+                "У вас немає дальньої",
+				"чи метальної зброї.",
+                "Але турель може битися",
+				"з ворогами замість вас."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[2]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/sentry.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_sentry.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9t": {
+            "sign": [
+				"$",
+                "Капкани ставляться",
+				"на підлогу за допомогою$ .",
+                "Вороги, які наступають",
+				"на них, знерухомлюються,",
+				"стаючи легкою ціллю",
+				"на певний час."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_beartrap.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				}						
+			]
+        },
+        "tutorial9u": {
+            "sign": [
+                "Ці двері замкнені.",
+				"",
+				"$ ",
+				"Замкнені двері та скрині",
+				"можна розбити, але",
+                "зламувати їх зазвичай",
+				"швидше, якщо ви вправні в",
+				"майструванні."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lockpick.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#items/images/spells/locking.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
+        },
+        "tutorial9v": {
+            "sign": [
+				"$ $",
+				"",
+                "Розібрані предмети дають",
+				"металевий брухт і магічний брухт.",
+				"",
+                "Магічний брухт рідкісніший,",
+				"і потрібен для більш",
+				"складних робіт."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1,3,4]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#items/images/metal_scrap.png",
+				"sizex": 32,
+				"sizey": 32
+				},
+				{
+				"type": "зображення",
+				"value": "*#items/images/magic_scrap.png",
+				"sizex": 32,
+				"sizey": 32
+				}						
+			]
+        },
+        "tutorial9w": {
+            "sign": [
+				"$",
+				"Використайте$, щоб командувати машинами.",
+				"Вимикайте, збирайте",
+				"і беріть їх із собою",
+				"для подальшого використання."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deactivate_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_deactivate.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}				
+			]
+        },
+        "tutorial9w_gamepad": {
+            "sign": [
+				"$",
+				"Використайте$, щоб командувати машинами.",
+				"Вимикайте, збирайте",
+				"і беріть їх із собою",
+				"для подальшого використання."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deactivate_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_deactivate.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}				
+			]
+        },		
+        "tutorial9x": {
+            "sign": [
+				"$",
+                "Шумовик це",
+				"простий, але корисний пристрій,",
+                "створений майстрами.",
+				"Використайте його, щоб приманити монстрів",
+                "туди, куди вам потрібно."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[],
+					[],
+					[1,2,3,4]
+				]
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_noisemaker.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },
+        "tutorial9y": {
+            "sign": [
+                "Більшість створених машин",
+				"і пасток екіпіруються",
+				"як зброя.",
+				"",
+                "Використайте$, щоб розгорнути їх",
+				"перед собою."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[3],
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deploy.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				}				
+			]
+        },
+        "tutorial9z": {
+            "sign": [
+                "За цією брамою",
+				"є троль,",
+				"з яким ви не",
+                "споряджені битися.",
+				"",
+				"Використайте все, що можете,",
+				"щоб обійти його.",
+				"Не забувайте тримати",
+				"дистанцію."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/noisemaker.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9ab": {
+            "sign": [
+                "Цей важіль потрібно",
+				"накрутити, щоб",
+				"повністю активувати.",
+				"",
+                "Він вимкнеться",
+				"сам по собі через",
+				"певний час."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1,2],
+					[],
+					[],
+					[],
+					[0,1,2]
+					
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/timedlever.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9ac": {
+            "sign": [
+                "Машини й пастки,",
+				"які ви зібрали, можна",
+                "використати для захисту від",
+				"свого господаря.",
+				"",
+				"Затримайте їх і",
+				"заманіть їх",
+				"на смерть."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9ace": {
+            "sign": [
+				"$",
+                "Накажіть своєму гіроботу",
+				"[Повернутися й сісти], якщо",
+				"вам більше не потрібна",
+				"його допомога."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[1,2,3]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/land.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_land.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },		
+        "tutorial9ad": {
+            "sign": [
+                "Нежить у",
+				"цих камерах",
+				"має бути знищена, перш ніж",
+				"ви зможете пройти далі.",
+				"",
+				"Потягніть важіль, коли",
+                "будете готові."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1],
+					[],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9ae": {
+            "sign": [
+                "Турелі створені, щоб",
+				"випадково шукати ворогів.",
+				"$",
+				"Накажіть їм",
+                "[Дивитися на...] і натисніть$",
+				"щоб задати напрям прицілювання."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0],
+					[0,1,3],
+					[1,2,3]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lookat_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_lookat.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}						
+			]
+        },
+        "tutorial9ae_gamepad": {
+            "sign": [
+                "Турелі створені, щоб",
+				"випадково шукати ворогів.",
+				"$",
+				"Накажіть їм",
+                "[Дивитися на...] і натисніть$",
+				"щоб задати напрям прицілювання."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0],
+					[0,1,3],
+					[1,2,3]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lookat_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_lookat.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}						
+			]
+        },		
+        "tutorial9af": {
+            "sign": [
+				"$ $ $",
+                "Ваш гіробот може підбирати",
+				"предмети через [Взаємодію].",
+				"",
+                "Використайте [Рухатися до], щоб змусити",
+				"гіробота [Скинути] предмети",
+				"там, де ви дістанете їх."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[1,2],
+					[],
+					[1,2],
+					[2]
+				],
+                "word_highlights2": [
+					[],
+					[3,4],
+					[],
+					[],
+					[],
+					[],
+					[3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/retrieve.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_interact.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_move.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+				"type": "зображення",
+				"value": "*#data/scripts/tutorial9/sign_drop.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9ag": {
+            "sign": [
+                "Просунуті гіроботи можуть",
+				"розгортати пастки за допомогою",
+				"команди скидання.",
+				"",
+                "Вони також можуть керувати",
+				"важелями й майструвати з",
+				"розгорнутими пастками."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[2]
+					
+				]
+            },
+            "variables": []
+        },
+        "tutorial9ah": {
+            "sign": [
+                "Розгорнуті гіроботи",
+				"розпізнають союзні",
+				"машини й перенесуть",
+				"їх на наступний рівень,",
+				"якщо ті лишаться позаду.",
+				"",
+                "Хоч вороги ігнорують",
+				"гіроботів, їх можуть",
+				"вбити деякі пастки."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[3,4]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9ai": {
+            "sign": [
+                "УВАГА:",
+				"",
+				"Розгорнуті машини",
+				"не підуть за вами через",
+                "цей портал. Зберіть усі,",
+				"які маєте, щоб узяти їх",
+				"із собою. Ви не зможете",
+				"повернутися назад."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9aj": {
+            "sign": [
+                "Активуйте важіль",
+				"у кінці",
+				"платформи, і монстри",
+				"почнуть атакувати.",
+				"Використайте знання майстрування,",
+				"щоб пережити натиск,",
+				"і брама відкриється."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+                "word_highlights2": [
+					[0,1,2],
+					[],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/necrotron.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9ajz": {
+            "sign": [
+				"ПОВІДОМЛЕННЯ:",
+                "Ваші турелі",
+				"стрілятимуть у ворогів, яких",
+				"помітять, навіть якщо союзники",
+				"будуть на лінії вогню.",
+				"",
+				"Розміщуйте манекенботів",
+				"і себе",
+				"відповідно."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+                "word_highlights2": [
+					[0],
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial9ak": {
+            "sign": [
+                "Авантюристи, що зосереджуються на",
+				"майструванні, матимуть багато",
+				"стратегічних переваг у",
+				"підземеллях."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        }
+    }
+}

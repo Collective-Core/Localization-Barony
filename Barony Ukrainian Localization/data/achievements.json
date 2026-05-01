@@ -1,0 +1,2560 @@
+{
+  "achievements": {
+    "BARONY_ACH_ENTER_THE_DUNGEON": {
+      "name": "Увійти до Підземелля",
+      "description": "Спустіться на 1-й рівень підземелля.",
+      "lore_points": 10,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ENTER_THE_DUNGEON_l.png",
+      "icon_unlocked": "BARONY_ACH_ENTER_THE_DUNGEON.png"
+    },
+	"BARONY_ACH_5000_SECOND_RULE": {
+      "name": "Правило 5000 Секунд",
+      "description": "Підберіть 50 виявлених харчових предметів, граючи за Щура, протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_5000_SECOND_RULE_l.png",
+      "icon_unlocked": "BARONY_ACH_5000_SECOND_RULE.png"
+    },
+    "BARONY_ACH_ALL_IN_REFLEXES": {
+      "name": "Уся Справа в Рефлексах",
+      "description": "Спіймайте метальну зброю Інсектоїда або Козолюда в польоті.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_ALL_IN_REFLEXES_l.png",
+      "icon_unlocked": "BARONY_ACH_ALL_IN_REFLEXES.png"
+    },
+    "BARONY_ACH_ALWAYS_WAITING": {
+      "name": "...Завжди Чекатиме",
+      "description": "Покладіть край бідам Архімагістрів.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_ALWAYS_WAITING_l.png",
+      "icon_unlocked": "BARONY_ACH_ALWAYS_WAITING.png",
+      "hidden": true
+    },
+    "BARONY_ACH_ANGEL_OF_DEATH": {
+      "name": "Ангел Смерті",
+      "description": "Виконайте смертельну скритну атаку по ворогу, який атакує іншого гравця або союзного NPC.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_ANGEL_OF_DEATH_l.png",
+      "icon_unlocked": "BARONY_ACH_ANGEL_OF_DEATH.png"
+    },
+    "BARONY_ACH_ARCANE_LINK": {
+      "name": "Арканний Зв'язок",
+      "description": "Отримайте додаткову Регенерацію Мани з двох джерел одночасно.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ARCANE_LINK_l.png",
+      "icon_unlocked": "BARONY_ACH_ARCANE_LINK.png"
+    },
+    "BARONY_ACH_ARSENAL": {
+      "name": "Арсенал",
+      "description": "Тримайте арбалет, лук і всі типи боєприпасів в інвентарі одночасно, граючи за Мисливця.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ARSENAL_l.png",
+      "icon_unlocked": "BARONY_ACH_ARSENAL.png"
+    },
+    "BARONY_ACH_BACK_TO_BASICS": {
+      "name": "Назад до Основ",
+      "description": "Завершіть Випробування після зустрічі з лічем.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BACK_TO_BASICS_l.png",
+      "icon_unlocked": "BARONY_ACH_BACK_TO_BASICS.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BAD_BEAUTIFUL": {
+      "name": "Погані й Прекрасні",
+      "description": "Екіпіруйте 4 прокляті предмети одночасно, граючи за справжнього Інкуба або Сукуба.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAD_BEAUTIFUL_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BEAUTIFUL.png"
+    },
+    "BARONY_ACH_BAD_BLOOD": {
+      "name": "Погана Кров",
+      "description": "Висмокчіть 500 HP від беззбройних скритних убивств, граючи за Проклятого справжнього Вампіра.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAD_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BLOOD.png"
+    },
+    "BARONY_ACH_BAD_BOY_BARON": {
+      "name": "Поганий Хлопець Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Інкуба.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAD_BOY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_BOY_BARON.png"
+    },
+    "BARONY_ACH_BAD_REVIEW": {
+      "name": "Негативний Відгук для MLP",
+      "description": "Оскверніть кінський мурал.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BAD_REVIEW_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_REVIEW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BAD_ROMANCE": {
+      "name": "Поганий Роман",
+      "description": "Завербуйте двох інкубів або сукубів одночасно, граючи за справжнього Сукуба.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAD_ROMANCE_l.png",
+      "icon_unlocked": "BARONY_ACH_BAD_ROMANCE.png"
+    },
+    "BARONY_ACH_BAIT_AND_SWITCH": {
+      "name": "Приманка й Підміна",
+      "description": "Телепортуйтеся, коли ворог атакує вас у ближньому бою, граючи за справжнього Сукуба.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BAIT_AND_SWITCH_l.png",
+      "icon_unlocked": "BARONY_ACH_BAIT_AND_SWITCH.png"
+    },
+    "BARONY_ACH_BARFIGHT_CHAMP": {
+      "name": "Чемпіон Тавернової Бійки",
+      "description": "Забийте 50 ворогів кулаками до смерті, будучи п'яним і граючи за справжнього Козолюда.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BARFIGHT_CHAMP_l.png",
+      "icon_unlocked": "BARONY_ACH_BARFIGHT_CHAMP.png"
+    },
+    "BARONY_ACH_BAYOU_BARON": {
+      "name": "Болотяний Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Гобліна.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BAYOU_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BAYOU_BARON.png"
+    },
+    "BARONY_ACH_BLEATING_BARON": {
+      "name": "Мекотливий Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Козолюда будь-якого класу.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLEATING_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BLEATING_BARON.png"
+    },
+    "BARONY_ACH_BLESSED": {
+      "name": "#Благословенний",
+      "description": "Тримайте Зброю +10.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BLESSED_l.png",
+      "icon_unlocked": "BARONY_ACH_BLESSED.png"
+    },
+    "BARONY_ACH_BLOOD_BOIL": {
+      "name": "Кров Закипає",
+      "description": "Відкрийте ефекти води, граючи за справжнього Вампіра.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_BOIL_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_BOIL.png"
+    },
+    "BARONY_ACH_BLOOD_IS_THE_LIFE": {
+      "name": "Кров це Життя",
+      "description": "Утечіть із Цитаделі класом Проклятий, не вилікувавшись і з увімкненим голодом.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_IS_THE_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_IS_THE_LIFE.png"
+    },
+    "BARONY_ACH_BLOOD_RUNS_CLEAR": {
+      "name": "Кров Стає Чистою",
+      "description": "Досягніть Легендарної Скритності, граючи класом Проклятий.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_RUNS_CLEAR_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_RUNS_CLEAR.png"
+    },
+    "BARONY_ACH_BLOOD_SPORT": {
+      "name": "Кривавий Спорт",
+      "description": "Убийте 50 цілей, будучи невидимим і граючи за справжнього Вампіра.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_SPORT_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_SPORT.png"
+    },
+    "BARONY_ACH_BLOOD_VESSELS": {
+      "name": "Кровоносні Судини",
+      "description": "Накопичте 20 флаконів крові одночасно, граючи за справжнього Вампіра.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BLOOD_VESSELS_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOD_VESSELS.png"
+    },
+    "BARONY_ACH_BODYGUARDS": {
+      "name": "Охоронці",
+      "description": "Майте 2 Підкорених Кришталевих Големів під своїм керівництвом.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BODYGUARDS_l.png",
+      "icon_unlocked": "BARONY_ACH_BODYGUARDS.png"
+    },
+    "BARONY_ACH_BOILERPLATE_BARON": {
+      "name": "Котельний Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Автоматона.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BOILERPLATE_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOILERPLATE_BARON.png"
+    },
+    "BARONY_ACH_BOMBARDIER": {
+      "name": "Бомбардир",
+      "description": "Убийте 50 ворогів кинутими зіллями.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BOMBARDIER_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBARDIER.png"
+    },
+    "BARONY_ACH_BOMBSHELL_BARON": {
+      "name": "Вибуховий Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Сукуба будь-якого класу.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BOMBSHELL_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBSHELL_BARON.png"
+    },
+    "BARONY_ACH_BOMBTRACK": {
+      "name": "Бомбовий Трек",
+      "description": "Нехай 5 бомб спрацюють від одного ворога протягом 5 секунд.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BOMBTRACK_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMBTRACK.png"
+    },
+    "BARONY_ACH_BOMB_SQUAD": {
+      "name": "Саперна Команда",
+      "description": "Успішно знешкодьте 5 Автоматонів за допомогою Злому.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BOMB_SQUAD_l.png",
+      "icon_unlocked": "BARONY_ACH_BOMB_SQUAD.png"
+    },
+    "BARONY_ACH_BONEHEADED": {
+      "name": "Кісткоголовий",
+      "description": "\"З'їжте\" їжу, граючи за скелета.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONEHEADED_l.png",
+      "icon_unlocked": "BARONY_ACH_BONEHEADED.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BONE_TO_PICK": {
+      "name": "Є Кістка до Обговорення",
+      "description": "Доведіть викликаного фамільяра до 35-го рівня.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONE_TO_PICK_l.png",
+      "icon_unlocked": "BARONY_ACH_BONE_TO_PICK.png"
+    },
+    "BARONY_ACH_BONY_BARON": {
+      "name": "Кістяний Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Скелета будь-якого класу.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BONY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BONY_BARON.png"
+    },
+    "BARONY_ACH_BOOKWORM": {
+      "name": "Книжковий Черв'як",
+      "description": "Отримайте 50 рівнів Магії від читання або застосування книг заклять, граючи за справжнього Інсектоїда протягом кількох проходжень.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BOOKWORM_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOKWORM.png"
+    },
+    "BARONY_ACH_BOOTS_OF_SPEED": {
+      "name": "Чоботи Швидкості",
+      "description": "Переможіть Барона Герекса або Бафомета за 20 хвилин або швидше.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BOOTS_OF_SPEED_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOTS_OF_SPEED.png"
+    },
+    "BARONY_ACH_BORN_AGAIN": {
+      "name": "Народжений Знову",
+      "description": "Переживіть миттєву смерть завдяки амулету порятунку життя.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOTTLE_NOSED": {
+      "name": "Пляшконосий",
+      "description": "Знайдіть додаткові зілля з фонтанів 20 разів, граючи за справжнього Козолюда.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BOTTLE_NOSED_l.png",
+      "icon_unlocked": "BARONY_ACH_BOTTLE_NOSED.png"
+    },
+    "BARONY_ACH_BRAWLER": {
+      "name": "Забіяка",
+      "description": "Здобудьте перемогу в Цитаделі, атакуючи лише кулаками й кидаючи зілля від початку гри.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BRAWLER_l.png",
+      "icon_unlocked": "BARONY_ACH_BRAWLER.png"
+    },
+    "BARONY_ACH_BRING_A_TOWEL": {
+      "name": "Не Забудь Узять Рушник!",
+      "description": "Використайте рушник, щоб зупинити кровотечу, витерти пиріг з обличчя й стерти жир із рук.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BRING_A_TOWEL_l.png",
+      "icon_unlocked": "BARONY_ACH_BRING_A_TOWEL.png"
+    },
+    "BARONY_ACH_BUCKTOOTH_BARON": {
+      "name": "Зубатий Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Вампіра будь-якого класу.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BUCKTOOTH_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BUCKTOOTH_BARON.png"
+    },
+    "BARONY_ACH_BUGGAR_BARON": {
+      "name": "Жучиний Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Інсектоїда.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BUGGAR_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BUGGAR_BARON.png"
+    },
+    "BARONY_ACH_BUT_A_SCRATCH": {
+      "name": "Це Лише Подряпина!",
+      "description": "Переможіть могутнього ворога, маючи не більше ніж 5 очок здоров'я.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BUT_A_SCRATCH_l.png",
+      "icon_unlocked": "BARONY_ACH_BUT_A_SCRATCH.png"
+    },
+    "BARONY_ACH_CALM_LIKE_A_BOMB": {
+      "name": "Спокійний, як Бомба",
+      "description": "Киньте ушкоджувальну бомбу у ворога, приспаного сонною бомбою.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_CALM_LIKE_A_BOMB_l.png",
+      "icon_unlocked": "BARONY_ACH_CALM_LIKE_A_BOMB.png"
+    },
+    "BARONY_ACH_CAUGHT_IN_A_MOSH": {
+      "name": "У Мошпіті",
+      "description": "Нехай щонайменше 4 турелі одночасно націляться на одного монстра.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_CAUGHT_IN_A_MOSH_l.png",
+      "icon_unlocked": "BARONY_ACH_CAUGHT_IN_A_MOSH.png"
+    },
+    "BARONY_ACH_CHEERS": {
+      "name": "Будьмо!",
+      "description": "Киньте випивку в іншого персонажа, перебуваючи під її дією.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CHEERS_l.png",
+      "icon_unlocked": "BARONY_ACH_CHEERS.png"
+    },
+    "BARONY_ACH_CHOPPING_BLOCK": {
+      "name": "Плаха",
+      "description": "Убийте 50 ворогів, знерухомлених ефектами сповільнення, сну або паралічу, сокирою, граючи за Карателя протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_CHOPPING_BLOCK_l.png",
+      "icon_unlocked": "BARONY_ACH_CHOPPING_BLOCK.png"
+    },
+    "BARONY_ACH_CHOSEN_ONE": {
+      "name": "Ти Був Обраним!",
+      "description": "Помріть, маючи екіпірований Легендарний предмет.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CHOSEN_ONE_l.png",
+      "icon_unlocked": "BARONY_ACH_CHOSEN_ONE.png"
+    },
+    "BARONY_ACH_COCK_BLOCK": {
+      "name": "Блок Кокатрикса",
+      "description": "Заблокуйте ближню атаку Кокатрикса й не отримайте шкоди.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_COCK_BLOCK_l.png",
+      "icon_unlocked": "BARONY_ACH_COCK_BLOCK.png"
+    },
+    "BARONY_ACH_COLD_BLOODED": {
+      "name": "Холоднокровний",
+      "description": "Утечіть із Шахт у кооперативній грі, де в групі є справжній Вампір та Інсектоїд.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_COLD_BLOODED_l.png",
+      "icon_unlocked": "BARONY_ACH_COLD_BLOODED.png"
+    },
+    "BARONY_ACH_COMEDIAN": {
+      "name": "Комік",
+      "description": "Екіпіруйте зброю й плащ Веселих Кісток без іншого спорядження, граючи за скелета.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_COMEDIAN_l.png",
+      "icon_unlocked": "BARONY_ACH_COMEDIAN.png"
+    },
+    "BARONY_ACH_COMMANDER_CHIEF": {
+      "name": "Головнокомандувач",
+      "description": "Утечіть із Цитаделі, граючи класом Месмер будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_COMMANDER_CHIEF_l.png",
+      "icon_unlocked": "BARONY_ACH_COMMANDER_CHIEF.png"
+    },
+    "BARONY_ACH_CONFESSOR": {
+      "name": "Сповідник",
+      "description": "Підкоріть NPC, який уже є вашим союзником.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CONFESSOR_l.png",
+      "icon_unlocked": "BARONY_ACH_CONFESSOR.png"
+    },
+    "BARONY_ACH_COWBOY_FROM_HELL": {
+      "name": "Ковбой із Пекла",
+      "description": "Убийте 50 ворогів батогом невдовзі після їх телепортації протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_COWBOY_FROM_HELL_l.png",
+      "icon_unlocked": "BARONY_ACH_COWBOY_FROM_HELL.png"
+    },
+    "BARONY_ACH_CULT_FOLLOWING": {
+      "name": "Культові Послідовники",
+      "description": "Вийдіть із Лігва Кокатрикса.",
+      "lore_points": 3,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_CULT_FOLLOWING_l.png",
+      "icon_unlocked": "BARONY_ACH_CULT_FOLLOWING.png"
+    },
+    "BARONY_ACH_DESPAIR_CALMS": {
+      "name": "У Відчаю Є Свій Спокій",
+      "description": "Вийдіть із Замку Брама.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_DESPAIR_CALMS_l.png",
+      "icon_unlocked": "BARONY_ACH_DESPAIR_CALMS.png"
+    },
+    "BARONY_ACH_DIPLOMA": {
+      "name": "Диплом",
+      "description": "Завершіть усі Випробування в Залі Випробувань.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_DIPLOMA_l.png",
+      "icon_unlocked": "BARONY_ACH_DIPLOMA.png"
+    },
+    "BARONY_ACH_DRUNK_POWER": {
+      "name": "П'яний від Сили",
+      "description": "Утечіть із Цитаделі, граючи класом Пивовар будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_DRUNK_POWER_l.png",
+      "icon_unlocked": "BARONY_ACH_DRUNK_POWER.png"
+    },
+    "BARONY_ACH_DYSLEXIA": {
+      "name": "Дислексія",
+      "description": "Спаліть 50 книг заклять до попелу, граючи за Гобліна протягом кількох проходжень.",
+      "lore_points": 3,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_DYSLEXIA_l.png",
+      "icon_unlocked": "BARONY_ACH_DYSLEXIA.png"
+    },
+    "BARONY_ACH_EARN_THIS": {
+      "name": "Заслужи Це",
+      "description": "Віддайте Легендарний предмет союзному NPC.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_EARN_THIS_l.png",
+      "icon_unlocked": "BARONY_ACH_EARN_THIS.png"
+    },
+    "BARONY_ACH_ESCORT": {
+      "name": "Ескорт",
+      "description": "Поверніться до Гамлета з людським NPC-союзником.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_ESCORT_l.png",
+      "icon_unlocked": "BARONY_ACH_ESCORT.png"
+    },
+    "BARONY_ACH_EVIL_INCARNATE": {
+      "name": "Втілене Зло",
+      "description": "Знайдіть і переможіть Бафомета.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_EVIL_INCARNATE_l.png",
+      "icon_unlocked": "BARONY_ACH_EVIL_INCARNATE.png"
+    },
+    "BARONY_ACH_EXPELLED": {
+      "name": "Відрахований",
+      "description": "Помріть у хабі Залу Випробувань.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_EXPELLED_l.png",
+      "icon_unlocked": "BARONY_ACH_EXPELLED.png",
+      "hidden": true
+    },
+    "BARONY_ACH_EXTERNAL_BATTERY": {
+      "name": "Зовнішня Батарея",
+      "description": "Відпустіть душу викликаного фамільяра, маючи нуль MP.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_EXTERNAL_BATTERY_l.png",
+      "icon_unlocked": "BARONY_ACH_EXTERNAL_BATTERY.png"
+    },
+    "BARONY_ACH_EXTRA_CREDIT": {
+      "name": "Додатковий Залік",
+      "description": "Знайдіть секретну зону в кожному з 10 Випробувань у Залі Випробувань.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_EXTRA_CREDIT_l.png",
+      "icon_unlocked": "BARONY_ACH_EXTRA_CREDIT.png"
+    },
+    "BARONY_ACH_FACES_OF_DEATH": {
+      "name": "Обличчя Смерті",
+      "description": "Утечіть із Шахт у кооперативній грі, де в групі є Шаман і Заклинач.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_FACES_OF_DEATH_l.png",
+      "icon_unlocked": "BARONY_ACH_FACES_OF_DEATH.png"
+    },
+    "BARONY_ACH_FAMILY_REUNION": {
+      "name": "Сімейне Возз'єднання",
+      "description": "Завербуйте трьох союзників-козолюдів, граючи за справжнього Козолюда.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_FAMILY_REUNION_l.png",
+      "icon_unlocked": "BARONY_ACH_FAMILY_REUNION.png"
+    },
+    "BARONY_ACH_FASCIST": {
+      "name": "Фашист",
+      "description": "Споживіть 50 немагічних книг або сувоїв, граючи за справжнього Автоматона протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FASCIST_l.png",
+      "icon_unlocked": "BARONY_ACH_FASCIST.png"
+    },
+    "BARONY_ACH_FAST_LEARNER": {
+      "name": "Швидкий Учень",
+      "description": "Завершіть усі Випробування із сумарним часом менше ніж 20 хвилин.",
+      "lore_points": 4,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_FAST_LEARNER_l.png",
+      "icon_unlocked": "BARONY_ACH_FAST_LEARNER.png"
+    },
+    "BARONY_ACH_FELL_BEAST": {
+      "name": "Лютий Звір",
+      "description": "Завдайте дуже великої шкоди ворогу одним пострілом із дальньої зброї.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_FELL_BEAST_l.png",
+      "icon_unlocked": "BARONY_ACH_FELL_BEAST.png"
+    },
+    "BARONY_ACH_FILTHY_RICH": {
+      "name": "Непристойно Багатий",
+      "description": "Отримайте 10 000 золота.",
+      "lore_points": 1,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_FILTHY_RICH_l.png",
+      "icon_unlocked": "BARONY_ACH_FILTHY_RICH.png"
+    },
+    "BARONY_ACH_FIRE_MAYBE_DIFFERENT": {
+      "name": "Може, Цього Разу Буде Інакше",
+      "description": "Прочитайте два сувої вогню.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FIRE_MAYBE_DIFFERENT_l.png",
+      "icon_unlocked": "BARONY_ACH_FIRE_MAYBE_DIFFERENT.png",
+      "hidden": true
+    },
+    "BARONY_ACH_FIXER_UPPER": {
+      "name": "Майстер Ремонту",
+      "description": "Полагодьте або розберіть 100 створених пасток і машин-союзників.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FIXER_UPPER_l.png",
+      "icon_unlocked": "BARONY_ACH_FIXER_UPPER.png"
+    },
+    "BARONY_ACH_FLUTTERSHY": {
+      "name": "Трепетний Політ",
+      "description": "Отримайте доступ до інакше недоступної зони рівня, використавши Трепет.",
+      "lore_points": 1,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FLUTTERSHY_l.png",
+      "icon_unlocked": "BARONY_ACH_FLUTTERSHY.png"
+    },
+    "BARONY_ACH_FOODLESS_CONDUCT": {
+      "name": "Безхарчове Проходження",
+      "description": "Виграйте гру, не з'ївши жодної їжі.",
+      "lore_points": 4,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FOODLESS_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_FOODLESS_CONDUCT.png"
+    },
+    "BARONY_ACH_FORUM_TROLL": {
+      "name": "Форумний Троль",
+      "description": "Здобудьте 3 союзників-тролів, зламайте 3 стіни й застосуйте Страх на 3 персонажів за одне проходження, граючи за Троля.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_FORUM_TROLL_l.png",
+      "icon_unlocked": "BARONY_ACH_FORUM_TROLL.png"
+    },
+    "BARONY_ACH_FREE_REFILLS": {
+      "name": "Безкоштовні Доливки",
+      "description": "Наповніть 50 порожніх пляшок із раковин або фонтанів.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FREE_REFILLS_l.png",
+      "icon_unlocked": "BARONY_ACH_FREE_REFILLS.png"
+    },
+    "BARONY_ACH_FUNCTIONAL": {
+      "name": "Функціональний",
+      "description": "Вилікуйте похмілля 10 разів за одне проходження, граючи за справжнього Козолюда.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_FUNCTIONAL_l.png",
+      "icon_unlocked": "BARONY_ACH_FUNCTIONAL.png"
+    },
+    "BARONY_ACH_GASTRIC_BYPASS": {
+      "name": "Шлункове Шунтування",
+      "description": "Убийте ворога закляттям, після якого у вас лишається 5 або менше Енергії, граючи за справжнього Інсектоїда.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_GASTRIC_BYPASS_l.png",
+      "icon_unlocked": "BARONY_ACH_GASTRIC_BYPASS.png"
+    },
+    "BARONY_ACH_GIFTS_ETERNALS": {
+      "name": "Дарунки Вічних",
+      "description": "Отримайте й надіньте повний комплект Артефактної Броні.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GIFTS_ETERNALS_l.png",
+      "icon_unlocked": "BARONY_ACH_GIFTS_ETERNALS.png"
+    },
+    "BARONY_ACH_GILDED": {
+      "name": "Позолочений",
+      "description": "Отримайте 100 000 золота.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GILDED_l.png",
+      "icon_unlocked": "BARONY_ACH_GILDED.png"
+    },
+    "BARONY_ACH_GOODNIGHT_SWEET_PRINCE": {
+      "name": "На Добраніч, Милий Принце",
+      "description": "Подивіться, як вашого Гіробота розчавить валун.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_GOODNIGHT_SWEET_PRINCE_l.png",
+      "icon_unlocked": "BARONY_ACH_GOODNIGHT_SWEET_PRINCE.png",
+      "hidden": true
+    },
+    "BARONY_ACH_GUDIPARIAN_BAZI": {
+      "name": "Гудіпаран Базі",
+      "description": "Утечіть із Цитаделі, жодного разу не вдаривши ворога зброєю ближнього бою, граючи за Мисливця від початку гри.",
+      "lore_points": 5,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_GUDIPARAN_BAZI_l.png",
+      "icon_unlocked": "BARONY_ACH_GUDIPARAN_BAZI.png"
+    },
+    "BARONY_ACH_GUERILLA_RADIO": {
+      "name": "Партизанське Радіо",
+      "description": "Убийте 20 ворогів, яких приманює Шумовик.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_GUERILLA_RADIO_l.png",
+      "icon_unlocked": "BARONY_ACH_GUERILLA_RADIO.png"
+    },
+    "BARONY_ACH_HARDCORE": {
+      "name": "Класичний Хардкор",
+      "description": "Завершіть гру від початку до кінця з увімкненими режимами Класичний і Хардкор.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HARDCORE_l.png",
+      "icon_unlocked": "BARONY_ACH_HARDCORE.png"
+    },
+    "BARONY_ACH_HEAL_BOT": {
+      "name": "Бот-Цілитель",
+      "description": "Відновіть 1000 очок здоров'я гравцям або союзним NPC за одне проходження.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_HEAL_BOT_l.png",
+      "icon_unlocked": "BARONY_ACH_HEAL_BOT.png"
+    },
+    "BARONY_ACH_HOMICIDAL_MANIAC": {
+      "name": "Маніяк-Убивця",
+      "description": "Убийте щонайменше 10 людей за одну гру.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HOMICIDAL_MANIAC_l.png",
+      "icon_unlocked": "BARONY_ACH_HOMICIDAL_MANIAC.png"
+    },
+    "BARONY_ACH_HOT_SHOWER": {
+      "name": "Гарячий Душ",
+      "description": "Використайте раковину або фонтан, щоб загасити полум'я.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_HOT_SHOWER_l.png",
+      "icon_unlocked": "BARONY_ACH_HOT_SHOWER.png"
+    },
+    "BARONY_ACH_HOT_TUB": {
+      "name": "Машина Часу в Джакузі",
+      "description": "Отримайте 50+ рівнів Плавання з вимкненим голодом, ніби існує навичка Плавання.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_HOT_TUB_l.png",
+      "icon_unlocked": "BARONY_ACH_HOT_TUB.png"
+    },
+    "BARONY_ACH_IF_YOU_LOVE_SOMETHING": {
+      "name": "Якщо Щось Любиш",
+      "description": "Нехай Бумеранг повернеться до вас 100 разів після влучання у ворога протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_IF_YOU_LOVE_SOMETHING_l.png",
+      "icon_unlocked": "BARONY_ACH_IF_YOU_LOVE_SOMETHING.png"
+    },
+    "BARONY_ACH_ILLITERATE_CONDUCT": {
+      "name": "Неписьменне Проходження",
+      "description": "Виграйте гру, не прочитавши жодної книги, сувою або книги заклять.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ILLITERATE_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_ILLITERATE_CONDUCT.png"
+    },
+    "BARONY_ACH_IN_GREATER_NUMBERS": {
+      "name": "У Більшій Кількості",
+      "description": "Виграйте гру, маючи щонайменше двох живих гравців.",
+      "lore_points": 5,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_IN_GREATER_NUMBERS_l.png",
+      "icon_unlocked": "BARONY_ACH_IN_GREATER_NUMBERS.png"
+    },
+    "BARONY_ACH_IN_THE_MIX": {
+      "name": "У Суміші",
+      "description": "Зваріть 50 зіль за допомогою Аламбіка.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_IN_THE_MIX_l.png",
+      "icon_unlocked": "BARONY_ACH_IN_THE_MIX.png"
+    },
+    "BARONY_ACH_IRONIC_PUNISHMENT": {
+      "name": "Відділ Іронічного Покарання",
+      "description": "Використайте батіг, щоб вибити зброю ближнього бою з рук цілі, підберіть її й убийте нею ту саму ціль.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_IRONIC_PUNISHMENT_l.png",
+      "icon_unlocked": "BARONY_ACH_IRONIC_PUNISHMENT.png"
+    },
+    "BARONY_ACH_IRON_GUT": {
+      "name": "Залізний Шлунок",
+      "description": "З'їжте 20 консервних банок, граючи за справжнього Козолюда.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_IRON_GUT_l.png",
+      "icon_unlocked": "BARONY_ACH_IRON_GUT.png"
+    },
+    "BARONY_ACH_ITS_A_LIVING": {
+      "name": "Це Робота",
+      "description": "Накладіть кровотечу на 50 ворогів, носячи каптур ката, протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ITS_A_LIVING_l.png",
+      "icon_unlocked": "BARONY_ACH_ITS_A_LIVING.png"
+    },
+    "BARONY_ACH_I_WANT_IT_ALL": {
+      "name": "Хочу Все",
+      "description": "Зіграйте за кожен DLC-клас і расу.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_I_WANT_IT_ALL_l.png",
+      "icon_unlocked": "BARONY_ACH_I_WANT_IT_ALL.png"
+    },
+    "BARONY_ACH_JUNGLE_FEVER": {
+      "name": "Болотяна Лихоманка",
+      "description": "Утечіть із болота.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_JUNGLE_FEVER_l.png",
+      "icon_unlocked": "BARONY_ACH_JUNGLE_FEVER.png"
+    },
+    "BARONY_ACH_KILL_COMMAND": {
+      "name": "Команда Вбити",
+      "description": "Нехай ваші зачаровані союзники вб'ють 50 ворогів.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_KILL_COMMAND_l.png",
+      "icon_unlocked": "BARONY_ACH_KILL_COMMAND.png"
+    },
+    "BARONY_ACH_KING_ARTHURS_BLADE": {
+      "name": "Клинок Короля Артура",
+      "description": "Знайдіть містичний меч Короля Артура, Дірнвін.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_KING_ARTHURS_BLADE_l.png",
+      "icon_unlocked": "BARONY_ACH_KING_ARTHURS_BLADE.png"
+    },
+    "BARONY_ACH_KNOW_THYSELF": {
+      "name": "Пізнай Себе",
+      "description": "Убийте Тінь, яка імітує вашу особу.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_KNOW_THYSELF_l.png",
+      "icon_unlocked": "BARONY_ACH_KNOW_THYSELF.png"
+    },
+    "BARONY_ACH_LAST_RESORT": {
+      "name": "Заборонена Зона",
+      "description": "Спробуйте зачарувати монстра, якого неможливо приручити.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_LAST_RESORT_l.png",
+      "icon_unlocked": "BARONY_ACH_LAST_RESORT.png"
+    },
+    "BARONY_ACH_LEVITANT_LACKEY": {
+      "name": "Левітуючий Лакей",
+      "description": "Накажіть Гіроботу взяти предмет або взаємодіяти з перемикачем, який інакше недоступний.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LEVITANT_LACKEY_l.png",
+      "icon_unlocked": "BARONY_ACH_LEVITANT_LACKEY.png"
+    },
+    "BARONY_ACH_LICH_HUNTER": {
+      "name": "Мисливець на Лічів",
+      "description": "Знайдіть і переможіть Барона Герекса в його лігві.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_LICH_HUNTER_l.png",
+      "icon_unlocked": "BARONY_ACH_LICH_HUNTER.png"
+    },
+    "BARONY_ACH_LIFE_FOR_A_LIFE": {
+      "name": "Життя за Життя",
+      "description": "Пожертвуйте всім своїм запасом здоров'я, щоб Підкорити ворога, і переживіть це.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LIFE_FOR_A_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_LIFE_FOR_A_LIFE.png"
+    },
+    "BARONY_ACH_LIKE_CLOCKWORK": {
+      "name": "Як Годинник",
+      "description": "Утечіть із Цитаделі, граючи за Механіста будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_LIKE_CLOCKWORK_l.png",
+      "icon_unlocked": "BARONY_ACH_LIKE_CLOCKWORK.png"
+    },
+    "BARONY_ACH_LOCAL_CUSTOMS": {
+      "name": "Місцеві Звичаї",
+      "description": "Почніть гру із завантаженим локальним файлом мода.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_LOCAL_CUSTOMS_l.png",
+      "icon_unlocked": "BARONY_ACH_LOCAL_CUSTOMS.png"
+    },
+    "BARONY_ACH_MACHINE_HEAD": {
+      "name": "Машинна Голова",
+      "description": "Майте арбалетну турель, магічну турель і гірокоптер активними одночасно.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_MACHINE_HEAD_l.png",
+      "icon_unlocked": "BARONY_ACH_MACHINE_HEAD.png"
+    },
+    "BARONY_ACH_MAGIC_MASTERY": {
+      "name": "Майстерність Магії",
+      "description": "Вивчіть 20 Заклять.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MAGIC_MASTERY_l.png",
+      "icon_unlocked": "BARONY_ACH_MAGIC_MASTERY.png"
+    },
+    "BARONY_ACH_MANAGEMENT_TEAM": {
+      "name": "Управлінська Команда",
+      "description": "Утечіть із Шахт у кооперативній грі, де в групі є Механіст і Месмер.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_MANAGEMENT_TEAM_l.png",
+      "icon_unlocked": "BARONY_ACH_MANAGEMENT_TEAM.png"
+    },
+    "BARONY_ACH_MANY_PEDI_PALP": {
+      "name": "Багато-Ніжко-Щуп",
+      "description": "Убийте 50 обплутаних павутиною ворогів, граючи за Павука протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_MANY_PEDI_PALP_l.png",
+      "icon_unlocked": "BARONY_ACH_MANY_PEDI_PALP.png"
+    },
+    "BARONY_ACH_MASTER": {
+      "name": "Майстер",
+      "description": "Знайдіть Крило Майстра в хабі Залу Випробувань.",
+      "lore_points": 4,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_MASTER_l.png",
+      "icon_unlocked": "BARONY_ACH_MASTER.png",
+      "hidden": true
+    },
+    "BARONY_ACH_MIXOLOGIST": {
+      "name": "Майстер-Міксолог",
+      "description": "Вивчіть усі базові та вторинні алхімічні інгредієнти.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MIXOLOGIST_l.png",
+      "icon_unlocked": "BARONY_ACH_MIXOLOGIST.png"
+    },
+    "BARONY_ACH_MONARCH": {
+      "name": "Монарх",
+      "description": "Нехай союзники-Інсектоїди вб'ють для вас 20 ворогів, граючи за справжнього Інсектоїда.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_MONARCH_l.png",
+      "icon_unlocked": "BARONY_ACH_MONARCH.png"
+    },
+    "BARONY_ACH_MONSTER_SQUAD": {
+      "name": "Загін Монстрів",
+      "description": "Зіграйте гру з 3 або більше гравцями, де всі є монстрами.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_MONSTER_SQUAD_l.png",
+      "icon_unlocked": "BARONY_ACH_MONSTER_SQUAD.png"
+    },
+    "BARONY_ACH_MOVED_ITSELF": {
+      "name": "Той Валун Сам Рухався!",
+      "description": "Убийте союзного гравця штовхнутим валуном.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_MOVED_ITSELF_l.png",
+      "icon_unlocked": "BARONY_ACH_MOVED_ITSELF.png"
+    },
+    "BARONY_ACH_MUSCLE_MEMORY": {
+      "name": "М'язова Пам'ять",
+      "description": "З'їжте їжу, будучи перетвореним на людину, граючи за справжнього Скелета.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_MUSCLE_MEMORY_l.png",
+      "icon_unlocked": "BARONY_ACH_MUSCLE_MEMORY.png"
+    },
+    "BARONY_ACH_MY_FINAL_FORM": {
+      "name": "Моя Остаточна Форма",
+      "description": "Утечіть із Цитаделі, граючи Шаманом будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_MY_FINAL_FORM_l.png",
+      "icon_unlocked": "BARONY_ACH_MY_FINAL_FORM.png"
+    },
+    "BARONY_ACH_NARCISSIST": {
+      "name": "Нарцис",
+      "description": "Використайте Дзеркальний Щит, щоб убити ворога його власним відбитим закляттям.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_NARCISSIST_l.png",
+      "icon_unlocked": "BARONY_ACH_NARCISSIST.png"
+    },
+    "BARONY_ACH_NATURAL_BORN_LEADER": {
+      "name": "Природжений Лідер",
+      "description": "Переконайте щонайменше трьох NPC слідувати за вами одночасно.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_NATURAL_BORN_LEADER_l.png",
+      "icon_unlocked": "BARONY_ACH_NATURAL_BORN_LEADER.png"
+    },
+    "BARONY_ACH_NOT_A_TEAM_PLAYER": {
+      "name": "Не Командний Гравець",
+      "description": "Убийте іншого гравця.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_NOT_A_TEAM_PLAYER_l.png",
+      "icon_unlocked": "BARONY_ACH_NOT_A_TEAM_PLAYER.png"
+    },
+    "BARONY_ACH_OFF_LIMITS": {
+      "name": "Поза Межами",
+      "description": "Спробуйте зачарувати монстра, якого неможливо приручити.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_OFF_LIMITS_l.png",
+      "icon_unlocked": "BARONY_ACH_OFF_LIMITS.png"
+    },
+    "BARONY_ACH_OHAI_MARK": {
+      "name": "OHAI MARK",
+      "description": "Телепортуйтеся до 20 позначених ворогів і вбийте їх за одне проходження.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_OHAI_MARK_l.png",
+      "icon_unlocked": "BARONY_ACH_OHAI_MARK.png"
+    },
+    "BARONY_ACH_ONE_MANS_TRASH": {
+      "name": "Сміття Одного",
+      "description": "Користуйтеся Проклятим Магічним Посохом, доки він не зламається.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ONE_MANS_TRASH_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_MANS_TRASH.png",
+      "hidden": true
+    },
+    "BARONY_ACH_ONE_PUNCH_MAN": {
+      "name": "Людина Одного Удару",
+      "description": "Паралізуйте монстра з Легендарною навичкою Беззбройного бою.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ONE_PUNCH_MAN_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_PUNCH_MAN.png"
+    },
+    "BARONY_ACH_ONE_WHO_KNOCKS": {
+      "name": "Я Той, Хто Стукає",
+      "description": "Витримайте атаку мінотавра й не отримайте шкоди від неї без блокування.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_ONE_WHO_KNOCKS_l.png",
+      "icon_unlocked": "BARONY_ACH_ONE_WHO_KNOCKS.png"
+    },
+    "BARONY_ACH_OVERCLOCKED": {
+      "name": "Розігнаний",
+      "description": "Накопичте 10 хвилин ігрового часу з перегрітим котлом, граючи за справжнього Автоматона.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_OVERCLOCKED_l.png",
+      "icon_unlocked": "BARONY_ACH_OVERCLOCKED.png"
+    },
+    "BARONY_ACH_OWN_WORST_ENEMY": {
+      "name": "Ваш Найгірший Ворог",
+      "description": "Доможіться, щоб ліча вбив його власний викликаний прислужник.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_OWN_WORST_ENEMY_l.png",
+      "icon_unlocked": "BARONY_ACH_OWN_WORST_ENEMY.png",
+      "hidden": true
+    },
+    "BARONY_ACH_PENNILESS_CONDUCT": {
+      "name": "Безгрошове Проходження",
+      "description": "Виграйте гру, не збираючи золота.",
+      "lore_points": 4,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_PENNILESS_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_PENNILESS_CONDUCT.png"
+    },
+    "BARONY_ACH_PIMPIN": {
+      "name": "Сутенерство Не Легке",
+      "description": "Завербуйте загалом 6 Сукубів, Інкубів або Людей, граючи за справжнього Інкуба або Сукуба.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_PIMPIN_l.png",
+      "icon_unlocked": "BARONY_ACH_PIMPIN.png"
+    },
+    "BARONY_ACH_PITY_FRIEND": {
+      "name": "Друг із Жалю",
+      "description": "Завербуйте людського союзника, граючи за монстра.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_PITY_FRIEND_l.png",
+      "icon_unlocked": "BARONY_ACH_PITY_FRIEND.png"
+    },
+    "BARONY_ACH_PLEASE_HOLD": {
+      "name": "Будь Ласка, Зачекайте",
+      "description": "Влучте у ворога Мисливськими або Вогняними боєприпасами, а потім затримайте його Пружинними боєприпасами.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PLEASE_HOLD_l.png",
+      "icon_unlocked": "BARONY_ACH_PLEASE_HOLD.png"
+    },
+    "BARONY_ACH_PLUS_BOOTS_OF_SPEED": {
+      "name": "Благословенні Чоботи Швидкості",
+      "description": "Досягніть фінального етапу за 45 хвилин або швидше й виграйте гру.",
+      "lore_points": 5,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PLUS_BOOTS_OF_SPEED_l.png",
+      "icon_unlocked": "BARONY_ACH_PLUS_BOOTS_OF_SPEED.png"
+    },
+    "BARONY_ACH_POP_QUIZ": {
+      "name": "Раптова Контрольна",
+      "description": "Застосуйте 20 різних заклять із книг заклять за одне проходження, граючи за справжнього Гобліна.",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_POP_QUIZ_l.png",
+      "icon_unlocked": "BARONY_ACH_POP_QUIZ.png"
+    },
+    "BARONY_ACH_POST_HARDCORE": {
+      "name": "Постмодерний Хардкор",
+      "description": "Завершіть гру від початку до кінця з увімкненим Хардкором і вимкненим Класичним Режимом.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_POST_HARDCORE_l.png",
+      "icon_unlocked": "BARONY_ACH_POST_HARDCORE.png"
+    },
+    "BARONY_ACH_POTION_PREPARATION": {
+      "name": "Підготовка Зілля",
+      "description": "Тримайте в інвентарі 16 різних зіль або пляшкових рідин, які не треба спершу варити.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_POTION_PREPARATION_l.png",
+      "icon_unlocked": "BARONY_ACH_POTION_PREPARATION.png"
+    },
+    "BARONY_ACH_POWER_HUNGRY": {
+      "name": "Жадоба Сили",
+      "description": "Утечіть із Цитаделі, граючи класом Проклятий будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_POWER_HUNGRY_l.png",
+      "icon_unlocked": "BARONY_ACH_POWER_HUNGRY.png"
+    },
+    "BARONY_ACH_PROFESSIONAL_BURGLAR": {
+      "name": "Професійний Зломщик",
+      "description": "Убийте щонайменше 3 крамарів за одну гру.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PROFESSIONAL_BURGLAR_l.png",
+      "icon_unlocked": "BARONY_ACH_PROFESSIONAL_BURGLAR.png"
+    },
+    "BARONY_ACH_PUZZLE_MASTER": {
+      "name": "Майстер Головоломок",
+      "description": "Розкрийте таємницю Сокобана.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_PUZZLE_MASTER_l.png",
+      "icon_unlocked": "BARONY_ACH_PUZZLE_MASTER.png"
+    },
+    "BARONY_ACH_RAGE_AGAINST": {
+      "name": "Лють Проти Машини",
+      "description": "Убийте 20 ворогів, поки вони атакують Манекенботів, протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RAGE_AGAINST_l.png",
+      "icon_unlocked": "BARONY_ACH_RAGE_AGAINST.png"
+    },
+    "BARONY_ACH_RANGER_DANGER": {
+      "name": "Рейнджерська Небезпека",
+      "description": "Утечіть із Цитаделі, граючи Мисливцем будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_RANGER_DANGER_l.png",
+      "icon_unlocked": "BARONY_ACH_RANGER_DANGER.png"
+    },
+    "BARONY_ACH_REAL_BOY": {
+      "name": "Я Справжній Хлопчик",
+      "description": "Завербуйте союзника-Людину й торгуйте з купцем під дією поліморфу, граючи за справжнього Автоматона.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_REAL_BOY_l.png",
+      "icon_unlocked": "BARONY_ACH_REAL_BOY.png"
+    },
+    "BARONY_ACH_RECYCLER": {
+      "name": "Переробник",
+      "description": "Дайте предмет союзному Автоматону для переробки.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RECYCLER_l.png",
+      "icon_unlocked": "BARONY_ACH_RECYCLER.png"
+    },
+    "BARONY_ACH_REPOSSESSION": {
+      "name": "Повернення Власності",
+      "description": "Підберіть предмет, який украв у вас Інкуб або Сукуб.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_REPOSSESSION_l.png",
+      "icon_unlocked": "BARONY_ACH_REPOSSESSION.png"
+    },
+    "BARONY_ACH_REUNITED": {
+      "name": "Возз'єднані",
+      "description": "Убийте Мінотавра після зустрічі з Герексом.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_REUNITED_l.png",
+      "icon_unlocked": "BARONY_ACH_REUNITED.png"
+    },
+    "BARONY_ACH_REVERSE_THIS_CURSE": {
+      "name": "Повернути Це Прокляття",
+      "description": "Знайдіть ліки для класу Проклятий.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_REVERSE_THIS_CURSE_l.png",
+      "icon_unlocked": "BARONY_ACH_REVERSE_THIS_CURSE.png"
+    },
+    "BARONY_ACH_RHINESTONE_COWBOY": {
+      "name": "Ковбой у Стразах",
+      "description": "Ідентифікуйте 50 шматків Нікчемного Скла протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_RHINESTONE_COWBOY_l.png",
+      "icon_unlocked": "BARONY_ACH_RHINESTONE_COWBOY.png"
+    },
+    "BARONY_ACH_RHYTHM_OF_THE_KNIGHT": {
+      "name": "Ритм Лицаря",
+      "description": "Виконайте обмін Блок-Атака 3 рази проти одного ворога, не отримавши незаблокованого удару.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_RHYTHM_OF_THE_KNIGHT_l.png",
+      "icon_unlocked": "BARONY_ACH_RHYTHM_OF_THE_KNIGHT.png"
+    },
+    "BARONY_ACH_RICH_ALTER_EGO": {
+      "name": "Моє Багате Альтер-Его",
+      "description": "Граючи за монстра, наторгуйте 50 000 золота під дією Поліморфу за всі ваші ігри.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_RICH_ALTER_EGO_l.png",
+      "icon_unlocked": "BARONY_ACH_RICH_ALTER_EGO.png"
+    },
+    "BARONY_ACH_RIGHT_TO_REFUSE": {
+      "name": "Право Відмовити",
+      "description": "Нехай вас виженуть із крамниці, бо ви монстр.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_RIGHT_TO_REFUSE_l.png",
+      "icon_unlocked": "BARONY_ACH_RIGHT_TO_REFUSE.png"
+    },
+    "BARONY_ACH_ROBBING_THE_CRADLE": {
+      "name": "Грабуючи Колиску",
+      "description": "Пограбуйте Замок із Привидами й утечіть живими.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_ROBBING_THE_CRADLE_l.png",
+      "icon_unlocked": "BARONY_ACH_ROBBING_THE_CRADLE.png"
+    },
+    "BARONY_ACH_ROLL_THE_BONES": {
+      "name": "Кинь Кістки",
+      "description": "Нанесіть 50 сувоїв Магічним Пером, граючи за Шамана протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_ROLL_THE_BONES_l.png",
+      "icon_unlocked": "BARONY_ACH_ROLL_THE_BONES.png"
+    },
+    "BARONY_ACH_RUST_IN_PEACE": {
+      "name": "Іржавій із Миром",
+      "description": "Помріть від наслідків холодного котла, граючи за справжнього Автоматона.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_RUST_IN_PEACE_l.png",
+      "icon_unlocked": "BARONY_ACH_RUST_IN_PEACE.png",
+      "hidden": true
+    },
+    "BARONY_ACH_SANDMAN": {
+      "name": "Піщаний Чоловік",
+      "description": "Утечіть із піщаного лабіринту.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SANDMAN_l.png",
+      "icon_unlocked": "BARONY_ACH_SANDMAN.png"
+    },
+    "BARONY_ACH_SAVAGE": {
+      "name": "Дикун",
+      "description": "Досягніть Легендарної навички в будь-якій навичці зброї ближнього бою, граючи за справжнього Гобліна.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SAVAGE_l.png",
+      "icon_unlocked": "BARONY_ACH_SAVAGE.png"
+    },
+    "BARONY_ACH_SCALES_IN_FAVOR": {
+      "name": "Терези на Вашу Користь",
+      "description": "Убийте Кокатрикса скритною атакою.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SCALES_IN_FAVOR_l.png",
+      "icon_unlocked": "BARONY_ACH_SCALES_IN_FAVOR.png"
+    },
+    "BARONY_ACH_SECOND_CHANCE": {
+      "name": "Другий Шанс",
+      "description": "Оживіть себе, витративши ману, граючи за скелета.",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SECOND_CHANCE_l.png",
+      "icon_unlocked": "BARONY_ACH_SECOND_CHANCE.png"
+    },
+    "BARONY_ACH_SECRET_WEAPON": {
+      "name": "Секретна Зброя",
+      "description": "Убийте ліча кинутим зіллям.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SECRET_WEAPON_l.png",
+      "icon_unlocked": "BARONY_ACH_SECRET_WEAPON.png"
+    },
+    "BARONY_ACH_SEE_THAT": {
+      "name": "Ти Це Бачив?!",
+      "description": "Убийте монстра сюрікеном після того, як він двічі відскочив від стіни.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SEE_THAT_l.png",
+      "icon_unlocked": "BARONY_ACH_SEE_THAT.png"
+    },
+    "BARONY_ACH_SELF_FLAGELLATION": {
+      "name": "Самобичування",
+      "description": "Нехай 30 Ворогів уб'ють себе від відплати Внутрішнього Демона протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SELF_FLAGELLATION_l.png",
+      "icon_unlocked": "BARONY_ACH_SELF_FLAGELLATION.png"
+    },
+    "BARONY_ACH_SERIAL_THRILLA": {
+      "name": "Серійний Трилер",
+      "description": "Отримайте 100 мани від Амулетів Задушення, граючи за справжнього Інкуба або Сукуба.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SERIAL_THRILLA_l.png",
+      "icon_unlocked": "BARONY_ACH_SERIAL_THRILLA.png"
+    },
+    "BARONY_ACH_SITTING_DUCK": {
+      "name": "Сидяча Качка",
+      "description": "Убийте 10 ворогів, поки вони паралізовані або сплутані, за одне проходження.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SITTING_DUCK_l.png",
+      "icon_unlocked": "BARONY_ACH_SITTING_DUCK.png"
+    },
+    "BARONY_ACH_SKELETON_CREW": {
+      "name": "Кістяна Команда",
+      "description": "Викличте двох Скелетів-Фамільярів одночасно.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SKELETON_CREW_l.png",
+      "icon_unlocked": "BARONY_ACH_SKELETON_CREW.png"
+    },
+    "BARONY_ACH_SOCIAL_BUTTERFLY": {
+      "name": "Соціальний Метелик",
+      "description": "Завербуйте 50 союзників у формі Перевтілення або під Поліморфом, граючи за Шамана протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SOCIAL_BUTTERFLY_l.png",
+      "icon_unlocked": "BARONY_ACH_SOCIAL_BUTTERFLY.png"
+    },
+    "BARONY_ACH_SOCIOPATHS": {
+      "name": "Соціопати",
+      "description": "Утечіть із Шахт у кооперативній грі, де в групі є Проклятий і Каратель.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_SOCIOPATHS_l.png",
+      "icon_unlocked": "BARONY_ACH_SOCIOPATHS.png"
+    },
+    "BARONY_ACH_SOULLESS": {
+      "name": "Бездушний",
+      "description": "Утечіть із Шахт у кооперативній грі, де в групі є справжній Автоматон і Скелет.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_SOULLESS_l.png",
+      "icon_unlocked": "BARONY_ACH_SOULLESS.png"
+    },
+    "BARONY_ACH_SPEAR_OF_DESTINY": {
+      "name": "Спис Долі",
+      "description": "Знайдіть легендарний спис Одіна, Гунгнір.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPEAR_OF_DESTINY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPEAR_OF_DESTINY.png"
+    },
+    "BARONY_ACH_SPELUNKY": {
+      "name": "Спеланкі!",
+      "description": "Утечіть із Печер.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPELUNKY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPELUNKY.png"
+    },
+    "BARONY_ACH_SPICE_OF_LIFE": {
+      "name": "Смак Життя",
+      "description": "Почніть щонайменше одну гру кожним класом.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SPICE_OF_LIFE_l.png",
+      "icon_unlocked": "BARONY_ACH_SPICE_OF_LIFE.png"
+    },
+    "BARONY_ACH_SPICY": {
+      "name": "Гостро!",
+      "description": "Споживіть 10 Сувоїв Вогню, граючи за справжнього Автоматона.",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_SPICY_l.png",
+      "icon_unlocked": "BARONY_ACH_SPICY.png"
+    },
+    "BARONY_ACH_SPONGE": {
+      "name": "Губка",
+      "description": "Переживіть 150 або більше шкоди від однієї атаки.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_SPONGE_l.png",
+      "icon_unlocked": "BARONY_ACH_SPONGE.png"
+    },
+    "BARONY_ACH_SPUD_LORD": {
+      "name": "Картопляний Лорд",
+      "description": "Знайдіть містичну розмовляючу булаву, Шарур.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_SPUD_LORD_l.png",
+      "icon_unlocked": "BARONY_ACH_SPUD_LORD.png"
+    },
+    "BARONY_ACH_SQUAD_GHOULS": {
+      "name": "Загін Упирів",
+      "description": "Завербуйте чотирьох упирів одночасно, граючи за скелета.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SQUAD_GHOULS_l.png",
+      "icon_unlocked": "BARONY_ACH_SQUAD_GHOULS.png"
+    },
+    "BARONY_ACH_STFU": {
+      "name": "STFU",
+      "description": "Киньте Шарур у яму.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_STFU_l.png",
+      "icon_unlocked": "BARONY_ACH_STFU.png"
+    },
+    "BARONY_ACH_STROBE": {
+      "name": "Хай Буде Стробоскоп",
+      "description": "Зловжийте закляттям Світла, застосувавши його 20 разів за одну хвилину.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_STROBE_l.png",
+      "icon_unlocked": "BARONY_ACH_STROBE.png"
+    },
+    "BARONY_ACH_STRUNG_OUT": {
+      "name": "На Нервах",
+      "description": "Використайте швидкі боєприпаси з композитним луком, щоб швидко влучити по ворогах 10 разів.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_STRUNG_OUT_l.png",
+      "icon_unlocked": "BARONY_ACH_STRUNG_OUT.png"
+    },
+    "BARONY_ACH_STUCK_ON_YOU": {
+      "name": "Прилип до Тебе",
+      "description": "Нехай фонтан благословить ваше спорядження, граючи за справжнього Сукуба.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_STUCK_ON_YOU_l.png",
+      "icon_unlocked": "BARONY_ACH_STUCK_ON_YOU.png"
+    },
+    "BARONY_ACH_SUPER_SHREDDER": {
+      "name": "Супер-Шредер",
+      "description": "Переробіть предмети на 1000 одиниць Брухту та Есенції за допомогою Наборів Майстрування.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SUPER_SHREDDER_l.png",
+      "icon_unlocked": "BARONY_ACH_SUPER_SHREDDER.png"
+    },
+    "BARONY_ACH_SURROGATES": {
+      "name": "Сурогати",
+      "description": "Дозвольте 50 зачарованим союзникам загинути на вашій службі, граючи за Месмера.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_SURROGATES_l.png",
+      "icon_unlocked": "BARONY_ACH_SURROGATES.png"
+    },
+    "BARONY_ACH_SURVIVALISTS": {
+      "name": "Виживальники",
+      "description": "Утечіть із Шахт у кооперативній грі, де в групі є Мисливець і Пивовар.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_SURVIVALISTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SURVIVALISTS.png"
+    },
+    "BARONY_ACH_SWINGERS": {
+      "name": "Свінгери",
+      "description": "Утечіть із Шахт у кооперативній грі, де в групі є справжні Інкуб і Сукуб.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_SWINGERS_l.png",
+      "icon_unlocked": "BARONY_ACH_SWINGERS.png"
+    },
+    "BARONY_ACH_TAKE_THIS_OUTSIDE": {
+      "name": "Винесімо Це Надвір",
+      "description": "Відкиньте 10 монстрів у двері.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TAKE_THIS_OUTSIDE_l.png",
+      "icon_unlocked": "BARONY_ACH_TAKE_THIS_OUTSIDE.png"
+    },
+    "BARONY_ACH_TAKING_WITH": {
+      "name": "Я Заберу Тебе з Собою",
+      "description": "Убийте ворога після своєї смерті за допомогою отрути, вогню або кинутих створених пасток.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TAKING_WITH_l.png",
+      "icon_unlocked": "BARONY_ACH_TAKING_WITH.png"
+    },
+    "BARONY_ACH_TEACHABLE_MOMENT": {
+      "name": "Повчальний Момент",
+      "description": "Помріть під час будь-якого Випробування в Залі Випробувань.",
+      "lore_points": 5,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TEACHABLE_MOMENT_l.png",
+      "icon_unlocked": "BARONY_ACH_TEACHABLE_MOMENT.png",
+      "hidden": true
+    },
+    "BARONY_ACH_TELEFRAG": {
+      "name": "Телефраг",
+      "description": "Убийте ворога протягом 1 секунди після його телепортації.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TELEFRAG_l.png",
+      "icon_unlocked": "BARONY_ACH_TELEFRAG.png"
+    },
+    "BARONY_ACH_TEMPTRESS": {
+      "name": "Спокусниця",
+      "description": "Завербуйте спантеличену або п'яну людину, граючи за справжнього Сукуба.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_TEMPTRESS_l.png",
+      "icon_unlocked": "BARONY_ACH_TEMPTRESS.png"
+    },
+    "BARONY_ACH_TEMPT_FATE": {
+      "name": "Спокушай Долю",
+      "description": "З'їжте Томалі невдовзі після блювання.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_TEMPT_FATE_l.png",
+      "icon_unlocked": "BARONY_ACH_TEMPT_FATE.png"
+    },
+    "BARONY_ACH_THANKS_MR_SKELTAL": {
+      "name": "Дякую, Містере Скелтал",
+      "description": "Знайдіть містичну сокиру, Парашу.",
+      "lore_points": 5,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THANKS_MR_SKELTAL_l.png",
+      "icon_unlocked": "BARONY_ACH_THANKS_MR_SKELTAL.png"
+    },
+    "BARONY_ACH_THANK_ME_LATER": {
+      "name": "Потім Подякуєш",
+      "description": "Киньте зілля Зцілення або Екстра Зцілення в іншого Гравця або союзного NPC.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_THANK_ME_LATER_l.png",
+      "icon_unlocked": "BARONY_ACH_THANK_ME_LATER.png"
+    },
+    "BARONY_ACH_THANK_THE_TANK": {
+      "name": "Подякуй Танку",
+      "description": "Нехай союзний гравець або NPC уб'є ворога, якого ви Блокуєте.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_THANK_THE_TANK_l.png",
+      "icon_unlocked": "BARONY_ACH_THANK_THE_TANK.png"
+    },
+    "BARONY_ACH_THESEUS_LEGACY": {
+      "name": "Спадщина Тесея",
+      "description": "Утечіть із Лабіринту Мінотавра.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THESEUS_LEGACY_l.png",
+      "icon_unlocked": "BARONY_ACH_THESEUS_LEGACY.png"
+    },
+    "BARONY_ACH_THE_WAY_YOU_LIKE_IT": {
+      "name": "Як Тобі Подобається",
+      "description": "Прокляніть благословенну зброю, граючи за справжнього Сукуба.",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_THE_WAY_YOU_LIKE_IT_l.png",
+      "icon_unlocked": "BARONY_ACH_THE_WAY_YOU_LIKE_IT.png"
+    },
+    "BARONY_ACH_THICK_SKULL": {
+      "name": "Товстий Череп",
+      "description": "Убийте Скарабея магічним закляттям.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THICK_SKULL_l.png",
+      "icon_unlocked": "BARONY_ACH_THICK_SKULL.png"
+    },
+    "BARONY_ACH_THROW_ME_THE_WHIP": {
+      "name": "Кинь Мені Батіг!",
+      "description": "Будьте розчавлені валуном.",
+      "lore_points": 5,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THROW_ME_THE_WHIP_l.png",
+      "icon_unlocked": "BARONY_ACH_THROW_ME_THE_WHIP.png"
+    },
+    "BARONY_ACH_THUNDERGNOME": {
+      "name": "Громогном",
+      "description": "Утечіть із Гном'ячих Шахт.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_THUNDERGNOME_l.png",
+      "icon_unlocked": "BARONY_ACH_THUNDERGNOME.png"
+    },
+    "BARONY_ACH_TIME_TO_PLAN": {
+      "name": "Досить Часу на План",
+      "description": "Завдайте смертельного удару мінотавру за допомогою машин і / або пасток.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_TIME_TO_PLAN_l.png",
+      "icon_unlocked": "BARONY_ACH_TIME_TO_PLAN.png"
+    },
+    "BARONY_ACH_TIME_TO_SUFFER": {
+      "name": "Час Страждати",
+      "description": "Утечіть із Цитаделі, граючи Карателем будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TIME_TO_SUFFER_l.png",
+      "icon_unlocked": "BARONY_ACH_TIME_TO_SUFFER.png"
+    },
+    "BARONY_ACH_TORCHERER": {
+      "name": "Смолоскипник",
+      "description": "Отримайте 100 Брухту від розбирання смолоскипів.",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_TORCHERER_l.png",
+      "icon_unlocked": "BARONY_ACH_TORCHERER.png"
+    },
+    "BARONY_ACH_TOUGH_AS_NAILS": {
+      "name": "Міцний, як Цвяхи",
+      "description": "Нехай 50 ворогів зламають свою зброю об вас протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_TOUGH_AS_NAILS_l.png",
+      "icon_unlocked": "BARONY_ACH_TOUGH_AS_NAILS.png"
+    },
+    "BARONY_ACH_TRADITION": {
+      "name": "Це Традиція",
+      "description": "Убийте 20 ворогів поблизу фонтана, граючи за справжнього Інкуба.",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRADITION_l.png",
+      "icon_unlocked": "BARONY_ACH_TRADITION.png"
+    },
+    "BARONY_ACH_TRASH_COMPACTOR": {
+      "name": "Прес для Сміття",
+      "description": "Споживіть 100 брухту, граючи за справжнього Автоматона.",
+      "lore_points": 1,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRASH_COMPACTOR_l.png",
+      "icon_unlocked": "BARONY_ACH_TRASH_COMPACTOR.png"
+    },
+    "BARONY_ACH_TRIBAL": {
+      "name": "Племінний",
+      "description": "Утечіть із Шахт у кооперативній грі, де в групі є справжній Козолюд і Гоблін.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_TRIBAL_L.png",
+      "icon_unlocked": "BARONY_ACH_TRIBAL.png"
+    },
+    "BARONY_ACH_TRIBE_SUBSCRIBE": {
+      "name": "Плем'я й Підписка",
+      "description": "Завербуйте 4 Гоблінів, граючи за справжнього Гобліна.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_TRIBE_SUBSCRIBE_l.png",
+      "icon_unlocked": "BARONY_ACH_TRIBE_SUBSCRIBE.png"
+    },
+    "BARONY_ACH_TRICKS_AND_TRAPS": {
+      "name": "Трюки й Пастки",
+      "description": "Відкрийте кишить-пастками Храм у болоті.",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_TRICKS_AND_TRAPS_l.png",
+      "icon_unlocked": "BARONY_ACH_TRICKS_AND_TRAPS.png"
+    },
+    "BARONY_ACH_TROLLS_BLOOD": {
+      "name": "Кров Троля",
+      "description": "Отримайте додаткову Регенерацію Здоров'я з двох джерел одночасно.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_TROLLS_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_TROLLS_BLOOD.png"
+    },
+    "BARONY_ACH_TURN_UNDEAD": {
+      "name": "Обернути Нежить",
+      "description": "Утечіть із Цитаделі, граючи класом Заклинач будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_TURN_UNDEAD_l.png",
+      "icon_unlocked": "BARONY_ACH_TURN_UNDEAD.png"
+    },
+    "BARONY_ACH_TWISTY_PASSAGES": {
+      "name": "Звивисті Проходи",
+      "description": "Утечіть із шахт.",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_TWISTY_PASSAGES_l.png",
+      "icon_unlocked": "BARONY_ACH_TWISTY_PASSAGES.png"
+    },
+    "BARONY_ACH_UNSTOPPABLE_FORCE": {
+      "name": "Нестримна Сила",
+      "description": "Зламайте 50 частин ворожої броні протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_UNSTOPPABLE_FORCE_l.png",
+      "icon_unlocked": "BARONY_ACH_UNSTOPPABLE_FORCE.png"
+    },
+    "BARONY_ACH_UTILITY_BELT": {
+      "name": "Пояс Інструментів",
+      "description": "Майте в інвентарі по одному з кожного створеного предмета Майстрування.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_UTILITY_BELT_l.png",
+      "icon_unlocked": "BARONY_ACH_UTILITY_BELT.png"
+    },
+    "BARONY_ACH_VEGETARIAN_CONDUCT": {
+      "name": "Вегетаріанське Проходження",
+      "description": "Виграйте гру, не з'ївши жодної консерви, м'яса або риби.",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_VEGETARIAN_CONDUCT_l.png",
+      "icon_unlocked": "BARONY_ACH_VEGETARIAN_CONDUCT.png"
+    },
+    "BARONY_ACH_VOLATILE": {
+      "name": "Нестабільний",
+      "description": "Пошкодьте кількох ворогів одним звареним нестабільним зіллям 20 разів.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_VOLATILE_l.png",
+      "icon_unlocked": "BARONY_ACH_VOLATILE.png"
+    },
+    "BARONY_ACH_WELL_PREPARED": {
+      "name": "Добре Підготовлений",
+      "description": "Майте 3 ефекти Містичної Сфери активними одночасно.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WELL_PREPARED_l.png",
+      "icon_unlocked": "BARONY_ACH_WELL_PREPARED.png"
+    },
+    "BARONY_ACH_WELL_READ": {
+      "name": "Начитаний",
+      "description": "Знайдіть і прочитайте всі книги.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WELL_READ_l.png",
+      "icon_unlocked": "BARONY_ACH_WELL_READ.png"
+    },
+    "BARONY_ACH_WHAT_NOW": {
+      "name": "Е-е... І Що Тепер?",
+      "description": "Зламайте Магічний Посох Зачарування, не знаючи закляття Зачарування, граючи за Месмера.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_WHAT_NOW_l.png",
+      "icon_unlocked": "BARONY_ACH_WHAT_NOW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_WONDERFUL_TOYS": {
+      "name": "Дивовижні Іграшки",
+      "description": "Використайте Телепортаційну Пастку, щоб відправити себе в інакше недоступну частину рівня.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_WONDERFUL_TOYS_l.png",
+      "icon_unlocked": "BARONY_ACH_WONDERFUL_TOYS.png"
+    },
+    "BARONY_ACH_YES_WE_CAN": {
+      "name": "Так, Ми Можемо!",
+      "description": "З'їжте 10 банок їжі за одне проходження.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_YES_WE_CAN_l.png",
+      "icon_unlocked": "BARONY_ACH_YES_WE_CAN.png"
+    },
+    "BARONY_ACH_YOUNG_BLOOD": {
+      "name": "Молода Кров",
+      "description": "Завербуйте Молодого Вампіра, граючи за вампіра.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_YOUNG_BLOOD_l.png",
+      "icon_unlocked": "BARONY_ACH_YOUNG_BLOOD.png"
+    },
+    "BARONY_ACH_DAPPER": {
+      "name": "Стильний і Чепурний",
+      "description": "Одягніть 30 різних предметів спорядження для голови й обличчя протягом кількох проходжень, не враховуючи стартові предмети класу.",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DAPPER_l.png",
+      "icon_unlocked": "BARONY_ACH_DAPPER.png"
+    },
+    "BARONY_ACH_BY_EXAMPLE": {
+      "name": "Власним Прикладом",
+      "description": "Допоможіть послідовникам отримати повний рівень лише завдяки бонусному XP від Натхнення.",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BY_EXAMPLE_l.png",
+      "icon_unlocked": "BARONY_ACH_BY_EXAMPLE.png"
+    },
+    "BARONY_ACH_CRUMPLE_ZONES": {
+      "name": "Зони Деформації",
+      "description": "Переживіть розчавлення валуном лише тому, що носите Циліндр або Шахтарський Шолом.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CRUMPLE_ZONES_l.png",
+      "icon_unlocked": "BARONY_ACH_CRUMPLE_ZONES.png"
+    },
+    "BARONY_ACH_ETERNAL_REWARD": {
+      "name": "Твоя Вічна Нагорода",
+      "description": "Будьте вбиті Міміком.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_ETERNAL_REWARD_l.png",
+      "icon_unlocked": "BARONY_ACH_ETERNAL_REWARD.png",
+      "hidden": true
+    },
+    "BARONY_ACH_I_NEEDED_THAT": {
+      "name": "Мені Це Було Потрібно!",
+      "description": "Нехай Мімік украде 10 частин вашого спорядження протягом кількох проходжень.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_I_NEEDED_THAT_l.png",
+      "icon_unlocked": "BARONY_ACH_I_NEEDED_THAT.png"
+    },
+    "BARONY_ACH_LOCKJAW": {
+      "name": "Судома Щелепи",
+      "description": "Спричиніть смерть Міміка шкодою від закляття Замка.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_LOCKJAW_l.png",
+      "icon_unlocked": "BARONY_ACH_LOCKJAW.png",
+      "hidden": true
+    },
+    "BARONY_ACH_MON_PETIT": {
+      "name": "Mon Petite Chou-Fleur",
+      "description": "Залицяйтеся до Інкуба або Сукуба романтичним жестом.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_MON_PETIT_l.png",
+      "icon_unlocked": "BARONY_ACH_MON_PETIT.png"
+    },
+    "BARONY_ACH_PET_DA_DOG": {
+      "name": "Собаку Можна Погладити",
+      "description": "Екіпіруйте благословенний Вовчий Каптур.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_PET_DA_DOG_l.png",
+      "icon_unlocked": "BARONY_ACH_PET_DA_DOG.png"
+    },
+    "BARONY_ACH_SMOKIN": {
+      "name": "Димить",
+      "description": "Отримайте шкоду від негативної регенерації здоров'я, спричиненої Люлькою.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SMOKIN_l.png",
+      "icon_unlocked": "BARONY_ACH_SMOKIN.png"
+    },
+    "BARONY_ACH_SSSMOKIN": {
+      "name": "ДИИИМИТЬ",
+      "description": "Завербуйте NPC протилежної статі, носячи повну маску для обличчя.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_SSSMOKIN_l.png",
+      "icon_unlocked": "BARONY_ACH_SSSMOKIN.png"
+    },
+    "BARONY_ACH_DUNGEONSEED": {
+      "name": "Джонні Данжнсід",
+      "description": "Утечіть із Шахт із першої спроби в таблиці лідерів для 12 різних Подій Зерна.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DUNGEONSEED_l.png",
+      "icon_unlocked": "BARONY_ACH_DUNGEONSEED.png"
+    },
+    "BARONY_ACH_REAP_SOW": {
+      "name": "Що Посієш, Те й Пожнеш",
+      "description": "Виграйте будь-яку Подію Зерна.",
+      "lore_points": 4,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_REAP_SOW_l.png",
+      "icon_unlocked": "BARONY_ACH_REAP_SOW.png"
+    },
+    "BARONY_ACH_GROWTH_MINDSET": {
+      "name": "Мислення Зростання",
+      "description": "Переграйте Подію Зерна й надішліть кращий Найвищий Результат після втечі з Шахт.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_GROWTH_MINDSET_l.png",
+      "icon_unlocked": "BARONY_ACH_GROWTH_MINDSET.png"
+    },
+    "BARONY_ACH_SPROUTS": {
+      "name": "Паростки",
+      "description": "Досягніть Боліт у Події Зерна з іншим гравцем у кооперативній грі.",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_SPROUTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SPROUTS.png"
+    },
+    "BARONY_ACH_BLOOM_PLANTED": {
+      "name": "Квітни Там, Де Посаджено",
+      "description": "Убийте ліча або диявола в Події Зерна, де ваш Клас або Расу визначено наперед.",
+      "lore_points": 4,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BLOOM_PLANTED_l.png",
+      "icon_unlocked": "BARONY_ACH_BLOOM_PLANTED.png"
+    },
+    "BARONY_ACH_CARTOGRAPHER": {
+      "name": "Картограф",
+      "description": "Запустіть редактор рівнів Barony.",
+      "lore_points": 4,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_CARTOGRAPHER_l.png",
+      "icon_unlocked": "BARONY_ACH_CARTOGRAPHER.png"
+    },
+    "BARONY_ACH_BAT1000": {
+      "name": "Ідеальна Подача",
+      "description": "Промахніться 81 раз у ближньому бою проти Кажанів протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BAT1000_l.png",
+      "icon_unlocked": "BARONY_ACH_BAT1000.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BEAR_WITH_ME": {
+      "name": "Потерпи Зі Мною",
+      "description": "Знищте Скутум Багбира, поки він захищається.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BEAR_WITH_ME_l.png",
+      "icon_unlocked": "BARONY_ACH_BEAR_WITH_ME.png"
+    },
+    "BARONY_ACH_BULL_RUSH": {
+      "name": "Бичачий Ривок",
+      "description": "Отримайте ефект Швидкості після дотику до Вівтаря Дедала.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BULL_RUSH_l.png",
+      "icon_unlocked": "BARONY_ACH_BULL_RUSH.png"
+    },
+    "BARONY_ACH_BY_THE_BOOK": {
+      "name": "За Книгою",
+      "description": "Змішайте записаний рецепт зілля з запису Навички Алхімії в Компендіумі протягом 10 секунд після відкриття сторінки.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BY_THE_BOOK_l.png",
+      "icon_unlocked": "BARONY_ACH_BY_THE_BOOK.png",
+      "hidden": true
+    },
+    "BARONY_ACH_CURIOSITY": {
+      "name": "Допитливість",
+      "description": "Дослідіть будь-який Запис Компендіуму.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CURIOSITY_l.png",
+      "icon_unlocked": "BARONY_ACH_CURIOSITY.png"
+    },
+    "BARONY_ACH_ISEENTIT": {
+      "name": "Я Це Бачив!",
+      "description": "Відкрийте кожен запис у вкладці Світ Компендіуму.",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_ISEENTIT_l.png",
+      "icon_unlocked": "BARONY_ACH_ISEENTIT.png"
+    },
+    "BARONY_ACH_JUBBAITED": {
+      "name": "Джаб-Приманка",
+      "description": "Убийте Гнома, скинувши на нього дзвін.",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_JUBBAITED_l.png",
+      "icon_unlocked": "BARONY_ACH_JUBBAITED.png"
+    },
+    "BARONY_ACH_RUNG_OUT": {
+      "name": "Вибитий Дзвін",
+      "description": "Зламайте 20 дзвонів протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_RUNG_OUT_l.png",
+      "icon_unlocked": "BARONY_ACH_RUNG_OUT.png"
+    },
+    "BARONY_ACH_SMASH_MELEE": {
+      "name": "Трощити Вручну",
+      "description": "Знищте 500 ламких контейнерів атаками ближнього бою протягом кількох проходжень.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SMASH_MELEE_l.png",
+      "icon_unlocked": "BARONY_ACH_SMASH_MELEE.png"
+    },
+    "BARONY_ACH_JANITOR": {
+      "name": "Прибиральник",
+      "description": "Майте при собі 4 або більше різних типів ключів одночасно.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_JANITOR_l.png",
+      "icon_unlocked": "BARONY_ACH_JANITOR.png"
+    },
+    "BARONY_ACH_CALL_LOCKSMITH": {
+      "name": "Виклич Слюсаря",
+      "description": "Зламайте 20 Залізних, Бронзових або Срібних Замків протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_CALL_LOCKSMITH_l.png",
+      "icon_unlocked": "BARONY_ACH_CALL_LOCKSMITH.png"
+    },
+    "BARONY_ACH_PREMIUM_LOOTBOX": {
+      "name": "Преміальна Лутбокс-Скриня",
+      "description": "Використайте Бронзові, Срібні та Золоті Ключі, щоб відкрити 20 кімнат зі скарбами протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PREMIUM_LOOTBOX_l.png",
+      "icon_unlocked": "BARONY_ACH_PREMIUM_LOOTBOX.png"
+    },
+    "BARONY_ACH_WITCHES_BREW": {
+      "name": "Відьомське Вариво",
+      "description": "Зваріть або приготуйте 50 предметів у Казані протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_WITCHES_BREW_l.png",
+      "icon_unlocked": "BARONY_ACH_WITCHES_BREW.png"
+    },
+    "BARONY_ACH_HOBBYIST": {
+      "name": "Аматор",
+      "description": "Створіть 50 предметів на Верстаку протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_HOBBYIST_l.png",
+      "icon_unlocked": "BARONY_ACH_HOBBYIST.png"
+    },
+    "BARONY_ACH_POWER_BALLAD": {
+      "name": "Пауер-Балада",
+      "description": "Майте 4 або більше ефектів Бардової Пісні 4-го Рівня активними одночасно від Бардових Інструментів.",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_POWER_BALLAD_l.png",
+      "icon_unlocked": "BARONY_ACH_POWER_BALLAD.png"
+    },
+    "BARONY_ACH_BLESSED_ADDITION": {
+      "name": "Благословенне Доповнення",
+      "description": "Убийте 50 ворогів під дією Святого Символу протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BLESSED_ADDITION_l.png",
+      "icon_unlocked": "BARONY_ACH_BLESSED_ADDITION.png"
+    },
+    "BARONY_ACH_BARDIC_INSPIRATION": {
+      "name": "Бардове Натхнення",
+      "description": "Отримайте 10 послідовних рівнів з активною Бардовою Піснею за одне проходження.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BARDIC_INSPIRATION_l.png",
+      "icon_unlocked": "BARONY_ACH_BARDIC_INSPIRATION.png"
+    },
+    "BARONY_ACH_FIGHT_FIRE_WITH": {
+      "name": "Клин Клинoм",
+      "description": "Убийте вогняну істоту за допомогою Подиху Вогню, граючи за справжнього Саламандра.",
+      "lore_points": 2,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FIGHT_FIRE_WITH_l.png",
+      "icon_unlocked": "BARONY_ACH_FIGHT_FIRE_WITH.png"
+    },
+    "BARONY_ACH_MAKE_SMOKEY_PROUD": {
+      "name": "Змусь Смокі Пишатися",
+      "description": "Загасіть себе, коли горите, граючи за справжню Дріаду й використовуючи Пророщення.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MAKE_SMOKEY_PROUD_l.png",
+      "icon_unlocked": "BARONY_ACH_MAKE_SMOKEY_PROUD.png"
+    },
+    "BARONY_ACH_THATS_A_WRAP": {
+      "name": "На Цьому Все",
+      "description": "Убийте 50 ворогів Ціпом, поки вони вкорінені Боласами, протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_THATS_A_WRAP_l.png",
+      "icon_unlocked": "BARONY_ACH_THATS_A_WRAP.png"
+    },
+    "BARONY_ACH_SKID_ROW": {
+      "name": "Слизький Ряд",
+      "description": "Відкиньте 50 Слизьких ворогів за одне проходження.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_SKID_ROW_l.png",
+      "icon_unlocked": "BARONY_ACH_SKID_ROW.png"
+    },
+    "BARONY_ACH_LET_HIM_COOK": {
+      "name": "Дай Йому Готувати",
+      "description": "Приготуйте 100 пайків протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_LET_HIM_COOK_l.png",
+      "icon_unlocked": "BARONY_ACH_LET_HIM_COOK.png"
+    },
+    "BARONY_ACH_FLAVORTOWN": {
+      "name": "Місто Смаку",
+      "description": "Споживіть по одному пайку кожного смаку за одне проходження.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_FLAVORTOWN_l.png",
+      "icon_unlocked": "BARONY_ACH_FLAVORTOWN.png"
+    },
+    "BARONY_ACH_HELLS_KITCHEN": {
+      "name": "Пекельна Кухня",
+      "description": "Майте 25 жирових пожеж активними одночасно.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_HELLS_KITCHEN_l.png",
+      "icon_unlocked": "BARONY_ACH_HELLS_KITCHEN.png"
+    },
+    "BARONY_ACH_FOOD_FIGHT": {
+      "name": "ХАРЧОВА БИТВА!!!",
+      "description": "Засліпіть 4 різні цілі протягом 5 секунд за допомогою Куль Помий.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_FOOD_FIGHT_l.png",
+      "icon_unlocked": "BARONY_ACH_FOOD_FIGHT.png"
+    },
+    "BARONY_ACH_SECOND_BREAKFAST": {
+      "name": "Другий Сніданок",
+      "description": "Підберіть Пайки, надані іншим гравцем, коли ви голодні.",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_SECOND_BREAKFAST_l.png",
+      "icon_unlocked": "BARONY_ACH_SECOND_BREAKFAST.png"
+    },
+    "BARONY_ACH_HAUNTED": {
+      "name": "З Привидами",
+      "description": "Будьте вбиті Тінню, чию могилу ви осквернили закляттям Осквернення.",
+      "lore_points": 2,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_HAUNTED_l.png",
+      "icon_unlocked": "BARONY_ACH_HAUNTED.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_WRECKING_CREW": {
+      "name": "Руйнівна Бригада",
+      "description": "Використайте закляття Осквернення на 20 об'єктах за одне проходження.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_WRECKING_CREW_l.png",
+      "icon_unlocked": "BARONY_ACH_WRECKING_CREW.png"
+    },
+    "BARONY_ACH_FAVORITE_BOOK": {
+      "name": "Улюблена Книга",
+      "description": "Перевчіть і забудьте те саме закляття 5 разів за допомогою скіпетра Нащадка.",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FAVORITE_BOOK_l.png",
+      "icon_unlocked": "BARONY_ACH_FAVORITE_BOOK.png"
+    },
+    "BARONY_ACH_BONK": {
+      "name": "БОНК.",
+      "description": "Убийте ворогів Шилелей, поки вони мають 3 або більше дебафів, 20 разів за одне проходження.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BONK_l.png",
+      "icon_unlocked": "BARONY_ACH_BONK.png"
+    },
+    "BARONY_ACH_RIGHTEOUS_FURY": {
+      "name": "Праведна Лють",
+      "description": "Використайте Божественну Ревність, щоб убити 50 нежиті або демонічних ворогів за одне проходження.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_RIGHTEOUS_FURY_l.png",
+      "icon_unlocked": "BARONY_ACH_RIGHTEOUS_FURY.png"
+    },
+    "BARONY_ACH_PARRY_TANK": {
+      "name": "Танк-Парирувальник",
+      "description": "Парируйте 20 атак поспіль, не отримавши шкоди ближнього бою під час серії за одне проходження.",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_PARRY_TANK_l.png",
+      "icon_unlocked": "BARONY_ACH_PARRY_TANK.png"
+    },
+    "BARONY_ACH_TOUCHE": {
+      "name": "Туше",
+      "description": "Завдайте 1000 шкоди ріпостом рапіри протягом кількох проходжень.",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_TOUCHE_l.png",
+      "icon_unlocked": "BARONY_ACH_TOUCHE.png"
+    },
+    "BARONY_ACH_MERCENARY_ARMY": {
+      "name": "Армія Найманців",
+      "description": "Використайте Коштовності, щоб завербувати союзників 20 разів, граючи за справжнього Гнома протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MERCENARY_ARMY_l.png",
+      "icon_unlocked": "BARONY_ACH_MERCENARY_ARMY.png"
+    },
+    "BARONY_ACH_COLONIST": {
+      "name": "Колоніст",
+      "description": "Використайте Пророщення 50 разів протягом кількох проходжень, граючи за справжню Дріаду або Міконіда.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_COLONIST_l.png",
+      "icon_unlocked": "BARONY_ACH_COLONIST.png"
+    },
+    "BARONY_ACH_EAT_ME": {
+      "name": "З'їж Мене",
+      "description": "Зберіть 50 Грибів Міконіда або Горіхів Дріади за допомогою Пророщення за одне проходження.",
+      "lore_points": 1,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_EAT_ME_l.png",
+      "icon_unlocked": "BARONY_ACH_EAT_ME.png"
+    },
+    "BARONY_ACH_CULINARY_AMBASSADOR": {
+      "name": "Кулінарний Амбасадор",
+      "description": "Приготуйте страву, яку не можете з'їсти.",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_CULINARY_AMBASSADOR_l.png",
+      "icon_unlocked": "BARONY_ACH_CULINARY_AMBASSADOR.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_NO_CAP": {
+      "name": "Без Кепки",
+      "description": "Носіть шолом, який не дає вашому листю рости, щонайменше 5 поверхів підземелля, граючи за справжнього Міконіда.",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_NO_CAP_l.png",
+      "icon_unlocked": "BARONY_ACH_NO_CAP.png"
+    },
+    "BARONY_ACH_PRICKLY_PERSONALITY": {
+      "name": "Колючий Характер",
+      "description": "Убийте 20 ворогів шкодою Шипів, граючи за справжню Дріаду протягом кількох проходжень.",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_PRICKLY_PERSONALITY_l.png",
+      "icon_unlocked": "BARONY_ACH_PRICKLY_PERSONALITY.png"
+    },
+    "BARONY_ACH_DONT_TOUCH_HAIR": {
+      "name": "Не Чіпай Волосся",
+      "description": "Пройдіть 25 поверхів Підземелля й жодного разу не втратьте своє листя, граючи за справжню Дріаду або Міконіда.",
+      "lore_points": 3,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DONT_TOUCH_HAIR_l.png",
+      "icon_unlocked": "BARONY_ACH_DONT_TOUCH_HAIR.png"
+    },
+    "BARONY_ACH_FIRE_FIGHTER": {
+      "name": "Пожежний Боєць",
+      "description": "Підтримуйте Сяйний стан протягом 5 Поверхів Підземелля, граючи за справжнього Саламандра.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_FIRE_FIGHTER_l.png",
+      "icon_unlocked": "BARONY_ACH_FIRE_FIGHTER.png"
+    },
+    "BARONY_ACH_GARGOYLES_QUEST": {
+      "name": "Квест Гаргульї",
+      "description": "Підтримуйте Кам'яний стан протягом 10 Поверхів Підземелля, граючи за справжнього Саламандра.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_GARGOYLES_QUEST_l.png",
+      "icon_unlocked": "BARONY_ACH_GARGOYLES_QUEST.png"
+    },
+    "BARONY_ACH_DISCIPLINE": {
+      "name": "Дисципліна",
+      "description": "Завершіть 25 Поверхів Підземелля, граючи за справжнього Саламандра, не входячи у Сяйну або Кам'яну форми.",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DISCIPLINE_l.png",
+      "icon_unlocked": "BARONY_ACH_DISCIPLINE.png"
+    },
+    "BARONY_ACH_MASTER_MAGIC": {
+      "name": "Майстер Магії",
+      "description": "Отримайте Легендарну навичку в усіх трьох школах заклять.",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_MASTER_MAGIC_l.png",
+      "icon_unlocked": "BARONY_ACH_MASTER_MAGIC.png"
+    },
+    "BARONY_ACH_QUACKERY": {
+      "name": "Шарлатанство",
+      "description": "Використовуйте Пташиний Дух 5 хвилин за одне проходження.",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_QUACKERY_l.png",
+      "icon_unlocked": "BARONY_ACH_QUACKERY.png"
+    },
+    "BARONY_ACH_DISTRACTED": {
+      "name": "Відволікся",
+      "description": "Отримайте шкоду, що перерве використання Пташиного Духа.",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DISTRACTED_l.png",
+      "icon_unlocked": "BARONY_ACH_DISTRACTED.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_BOOM_DYNAMITE": {
+      "name": "Бум, Динаміт",
+      "description": "Убийте 50 Ворогів вибухами Пастки-Сюрпризу протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOOM_DYNAMITE_l.png",
+      "icon_unlocked": "BARONY_ACH_BOOM_DYNAMITE.png"
+    },
+    "BARONY_ACH_PAY_TO_WIN": {
+      "name": "Плати, Щоб Перемогти",
+      "description": "Витратьте 5000 золота, потрібного для магічних ефектів, протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_PAY_TO_WIN_l.png",
+      "icon_unlocked": "BARONY_ACH_PAY_TO_WIN.png"
+    },
+    "BARONY_ACH_BOLDER_BOULDER": {
+      "name": "Сміливіший Валун",
+      "description": "Убийте ворога, вкотивши в нього Земляного Духа за допомогою Телекінезу.",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOLDER_BOULDER_l.png",
+      "icon_unlocked": "BARONY_ACH_BOLDER_BOULDER.png"
+    },
+    "BARONY_ACH_DOESNT_COUNT": {
+      "name": "Не Рахується",
+      "description": "Відбийте 50 ударів за допомогою Бульбашки Магів протягом кількох проходжень.",
+      "lore_points": 1,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_DOESNT_COUNT_l.png",
+      "icon_unlocked": "BARONY_ACH_DOESNT_COUNT.png"
+    },
+    "BARONY_ACH_THATS_CHEATING": {
+      "name": "Це Шахрайство!",
+      "description": "Не дайте лічу застосувати 10 заклять проти вас за допомогою Нульових заклять.",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_THATS_CHEATING_l.png",
+      "icon_unlocked": "BARONY_ACH_THATS_CHEATING.png"
+    },
+    "BARONY_ACH_APPRENTICES": {
+      "name": "Учні",
+      "description": "Утечіть із Шахт у кооперативній грі з Нащадком, а також Магом, Цілителем або Арканістом.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_APPRENTICES_l.png",
+      "icon_unlocked": "BARONY_ACH_APPRENTICES.png"
+    },
+    "BARONY_ACH_SHORT_SHORTS": {
+      "name": "Короткі Шорти",
+      "description": "Утечіть із Шахт у кооперативній грі з 3+ гравцями, де кожен персонаж низький у своїй справжній расі.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_SHORT_SHORTS_l.png",
+      "icon_unlocked": "BARONY_ACH_SHORT_SHORTS.png"
+    },
+    "BARONY_ACH_HOLY_ORDER": {
+      "name": "Святий Орден",
+      "description": "Утечіть із Шахт у кооперативній грі з Паладином, а також Монахом, Секстонoм або Кліриком.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_HOLY_ORDER_l.png",
+      "icon_unlocked": "BARONY_ACH_HOLY_ORDER.png"
+    },
+    "BARONY_ACH_CONSCRIPTED": {
+      "name": "Призваний",
+      "description": "Утечіть із Шахт у кооперативній грі з Сапером, а також Воїном або Варваром.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_CONSCRIPTED_l.png",
+      "icon_unlocked": "BARONY_ACH_CONSCRIPTED.png"
+    },
+    "BARONY_ACH_LONER_LEAGUE": {
+      "name": "Ліга Одиночок",
+      "description": "Утечіть із Шахт у кооперативній грі з Відлюдником, а також Мандрівником або Ніндзя.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_LONER_LEAGUE_l.png",
+      "icon_unlocked": "BARONY_ACH_LONER_LEAGUE.png"
+    },
+    "BARONY_ACH_RIZZLERS": {
+      "name": "Різлери",
+      "description": "Утечіть із Шахт у кооперативній грі з Бардом, а також Купцем, Джокером або Розбійником.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_RIZZLERS_l.png",
+      "icon_unlocked": "BARONY_ACH_RIZZLERS.png"
+    },
+    "BARONY_ACH_FOREIGN_EXCHANGE": {
+      "name": "Іноземний Обмін",
+      "description": "Утечіть із Шахт у кооперативній грі з 3+ гравцями, маючи щонайменше одну расу з кожного DLC.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": ["myths_outcasts", "legends_pariahs", "deserters_disciples"],
+      "icon_locked": "BARONY_ACH_FOREIGN_EXCHANGE_l.png",
+      "icon_unlocked": "BARONY_ACH_FOREIGN_EXCHANGE.png"
+    },
+    "BARONY_ACH_STUDY_ABROAD": {
+      "name": "Навчання за Кордоном",
+      "description": "Утечіть із Шахт у кооперативній грі з 3+ гравцями, маючи щонайменше один клас із кожного DLC.",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": ["myths_outcasts", "legends_pariahs", "deserters_disciples"],
+      "icon_locked": "BARONY_ACH_STUDY_ABROAD_l.png",
+      "icon_unlocked": "BARONY_ACH_STUDY_ABROAD.png"
+    },
+    "BARONY_ACH_SOURCE_ENGINE": {
+      "name": "Рушій Source",
+      "description": "Витратьте 1000 магічних очок за допомогою Фокусів Чаклунства протягом кількох проходжень.",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_SOURCE_ENGINE_l.png",
+      "icon_unlocked": "BARONY_ACH_SOURCE_ENGINE.png"
+    },
+    "BARONY_ACH_SWAN_SONG": {
+      "name": "Лебедина Пісня",
+      "description": "Утечіть із Цитаделі, граючи Бардом будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_SWAN_SONG_l.png",
+      "icon_unlocked": "BARONY_ACH_SWAN_SONG.png"
+    },
+    "BARONY_ACH_MISSION_GOD": {
+      "name": "Місія від Бога",
+      "description": "Утечіть із Цитаделі, граючи Паладином будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_MISSION_GOD_l.png",
+      "icon_unlocked": "BARONY_ACH_MISSION_GOD.png"
+    },
+    "BARONY_ACH_NEPO_BABY": {
+      "name": "Непо-Дитя",
+      "description": "Утечіть із Цитаделі, граючи Нащадком будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_NEPO_BABY_l.png",
+      "icon_unlocked": "BARONY_ACH_NEPO_BABY.png"
+    },
+    "BARONY_ACH_REINTEGRATED": {
+      "name": "Реінтегрований",
+      "description": "Утечіть із Цитаделі, граючи Відлюдником будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_REINTEGRATED_l.png",
+      "icon_unlocked": "BARONY_ACH_REINTEGRATED.png"
+    },
+    "BARONY_ACH_DUNGEON_SEIGE": {
+      "name": "Облога Підземелля",
+      "description": "Утечіть із Цитаделі, граючи Сапером будь-якої раси.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_DUNGEON_SEIGE_l.png",
+      "icon_unlocked": "BARONY_ACH_DUNGEON_SEIGE.png"
+    },
+    "BARONY_ACH_BURNINATION_BARON": {
+      "name": "Палючий Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Саламандра.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BURNINATION_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BURNINATION_BARON.png"
+    },
+    "BARONY_ACH_BOLETE_BARON": {
+      "name": "Болетовий Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Міконіда.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BOLETE_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BOLETE_BARON.png"
+    },
+    "BARONY_ACH_BARKSKIN_BARON": {
+      "name": "Корашкірий Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжню Дріаду.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BARKSKIN_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BARKSKIN_BARON.png"
+    },
+    "BARONY_ACH_BONKERS_BARON": {
+      "name": "Божевільний Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Гремліна.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BONKERS_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BONKERS_BARON.png"
+    },
+    "BARONY_ACH_BITTY_BARON": {
+      "name": "Крихітний Барон",
+      "description": "Утечіть із Цитаделі, граючи за справжнього Гнома.",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BITTY_BARON_l.png",
+      "icon_unlocked": "BARONY_ACH_BITTY_BARON.png"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+    "version": 1,
+    "items": {
+        "leather_helm": {
+            "name_identified": "ельфійський головний убір",
+            "name_unidentified": "ельфійський головний убір"
+        },
+        "steel_helm": {
+            "name_identified": "святковий головний убір",
+            "name_unidentified": "святковий головний убір"
+        },
+        "food_bread": {
+            "name_identified": "фруктовий кекс",
+            "name_unidentified": "фруктовий кекс"
+        },
+        "food_cheese": {
+            "name_identified": "цукеркова тростина",
+            "name_unidentified": "цукеркова тростина"
+        },
+        "food_apple": {
+            "name_identified": "шматок пирога",
+            "name_unidentified": "шматок пирога"
+        },
+        "food_meat": {
+            "name_identified": "індичка",
+            "name_unidentified": "індичка"
+        },
+        "food_fish": {
+            "name_identified": "печиво",
+            "name_unidentified": "печиво"
+        },
+        "artifact_breastpiece": {
+            "name_identified": "Кольчуга Санти",
+            "name_unidentified": "артефактний нагрудник"
+        },
+        "artifact_helm": {
+            "name_identified": "Вуаль Санти",
+            "name_unidentified": "артефактний шолом"
+        },
+        "artifact_boots": {
+            "name_identified": "Хода Санти",
+            "name_unidentified": "артефактні чоботи"
+        },
+        "artifact_cloak": {
+            "name_identified": "Мантія Санти",
+            "name_unidentified": "артефактний плащ"
+        },
+        "artifact_gloves": {
+            "name_identified": "Наруч Санти",
+            "name_unidentified": "артефактні рукавиці"
+        },
+        "food_tomalley": {
+            "name_identified": "журавлинний соус",
+            "name_unidentified": "журавлинний соус"
+        },
+        "artifact_orb_blue": {
+            "name_identified": "синій подарунок",
+            "name_unidentified": "синій подарунок"
+        },
+        "artifact_orb_red": {
+            "name_identified": "червона панчоха",
+            "name_unidentified": "червона панчоха"
+        },
+        "artifact_orb_purple": {
+            "name_identified": "фіолетова прикраса",
+            "name_unidentified": "фіолетова прикраса"
+        },
+        "artifact_orb_green": {
+            "name_identified": "зелена маленька ялинка",
+            "name_unidentified": "зелена маленька ялинка"
+        },
+        "hat_fez": {
+            "name_identified": "ельфійський капелюх",
+            "name_unidentified": "ельфійський капелюх"
+        },
+        "cloak_backpack": {
+            "name_identified": "мішок подарунків",
+            "name_unidentified": "мішок подарунків"
+        }
+    }
+}

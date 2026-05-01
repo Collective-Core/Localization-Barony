@@ -1,0 +1,1462 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial1z": {
+            "sign": [
+                "Використовуйте клавіші$$$$",
+				"щоб пересуватися.",
+				"",
+				"Рухайте$ щоб озиратися й повертатися.",
+				"",
+                "Натисніть$, щоб взаємодіяти з",
+				"об'єктами у світі."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[0,1],
+					[1],
+					[],
+					[0,2,4],
+					[],
+					[0, 2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Рух Уперед"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Рух Ліворуч"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Рух Назад"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Рух Праворуч"
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/Glyphs/Mouse/Mouse_Base_00.png",
+					"sizex": 22,
+					"sizey": 40
+				},
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}				
+			]
+        },
+        "tutorial1z_gamepad": {
+            "sign": [
+                "Нахиліть$, щоб пересуватися.",
+				"",
+				"Нахиліть$, щоб озиратися й повертатися.",
+				"",
+                "Натисніть$, щоб взаємодіяти з",
+				"об'єктами у світі."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[0,2],
+					[],
+					[0,2,4],
+					[],
+					[0,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#images/ui/Glyphs/Stick_PS_L_00.png",
+					"sizex": 34,
+					"sizey": 34
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/Glyphs/Stick_PS_R_00.png",
+					"sizex": 34,
+					"sizey": 34
+				},
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}
+			]
+        },
+        "tutorial1a": {
+            "sign": [
+                "Натисніть$, щоб відкрити ",
+				"Меню Паузи.",
+				"",
+                "Щоб вийти з будь-якого випробування, оберіть",
+				"",
+				"[ Повернутися до Зали Випробувань ]"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[0],
+					[],
+					[],
+					[],
+					[],
+					[1,2,3,4]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Пауза Гри"
+				}
+			]
+        },
+        "tutorial1b": {
+            "sign": [
+                "Екіпіруйте меч, щоб",
+				"підвищити свій ATK і",
+				"швидше вбивати ворогів.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[0],
+					[2]
+				]
+            },
+            "variables": [{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial1/sign_sword.png",
+					"sizex": 74,
+					"sizey": 74
+				}]
+        },
+        "tutorial1c": {
+            "sign": [
+				"$",
+                "Екіпіруйте щити, щоб отримати AC,",
+				"зменшуючи отримувану шкоду.",
+				"",
+                "Утримуйте$, щоб Блокувати,",
+				"ще більше підвищуючи AC."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,2]
+				],
+				"word_highlights2": [
+					[],
+					[1,4],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/shieldequip.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}				
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial1/sign_shield.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Захист"
+				}
+			]
+        },
+        "tutorial1d": {
+            "sign": [
+                "Цей важіль керує",
+				"брамою біля ліжка.",
+				"$",
+                "Наведіться на важелі та",
+				"натисніть$, щоб перемкнути."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+				},			
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[0,2],
+					[0,1,2]
+				],
+				"word_highlights2": [
+					[1],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/lever.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}			
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial1/sign_levergate.png",
+					"sizex": 189,
+					"sizey": 87
+				},
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				}
+			]
+        },
+        "tutorial1e": {
+            "sign": [
+                "Збирайте смолоскипи зі",
+				"стіни за допомогою$ .",
+				"$",
+				"Екіпіровані смолоскипи освітлюють",
+				"шлях, але з часом догоряють",
+				"з часом."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},							
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[0],
+					[2]
+				],
+				"word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[4,5]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/torchget.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}			
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Використати"
+				},
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial1/sign_torch.png",
+					"sizex": 74,
+					"sizey": 74
+				}
+			]
+        },
+        "tutorial1e2": {
+            "sign": [
+                "Відкрийте свого персонажа",
+				"натиснувши$ .",
+				"Натисніть$, щоб використовувати предмети.",
+				"Беріть і пересувайте предмети за допомогою$ .",
+                "Натисніть$ ще раз або$",
+				"щоб вийти з меню."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[1],
+					[0,2,3],
+					[0,2,3,4],
+					[0,2],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/torch_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}	
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Стан Персонажа"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuLeftClick"
+				},				
+				{
+					"type": "input_glyph",
+					"value": "Стан Персонажа"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuCancel"
+				}				
+			]
+        },
+		"tutorial1e2_gamepad": {
+            "sign": [
+                "Відкрийте свого персонажа",
+				"натиснувши$ .",
+				"",
+				"Використовуйте$$$$щоб",
+				"пересуватися інвентарем.",
+				"",
+				"Натисніть$, щоб використовувати предмети.",
+				"Використовуйте$, щоб брати й класти.",
+                "Натисніть$ або$, щоб закрити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[0],
+					[1],
+					[],
+					[0],
+					[],
+					[],
+					[0,2],
+					[0,2,4],
+					[0,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/torch_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}	
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Стан Персонажа"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuLeft"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuUp"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuDown"
+				},				
+				{
+					"type": "input_glyph",
+					"value": "MenuRight"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				},		
+				{
+					"type": "input_glyph",
+					"value": "MenuAlt1"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Стан Персонажа"
+				},				
+				{
+					"type": "input_glyph",
+					"value": "MenuCancel"
+				}				
+			]
+        },
+        "tutorial1f": {
+            "sign": [
+                "Деякі рукавиці можуть збільшити",
+				"вашу шкоду беззбройного бою.",
+				"",
+				"Щоб використовувати беззбройні атаки,",
+				"зніміть свою зброю."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"word_highlights2": [
+					[1],
+					[1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial1g": {
+            "sign": [
+                "Вороги атакують",
+				"в рівномірному темпі.",
+				"",
+                "Блокуйте до самого удару,",
+				"потім швидко атакуйте,",
+				"а тоді знову блокуйте, щоб",
+				"уникнути шкоди."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [],
+				"word_highlights2": [
+					[1],
+					[3],
+					[],
+					[0],
+					[1,2],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/block-attack.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}	
+            },
+            "variables": []
+        },
+        "tutorial1h": {
+            "sign": [
+                "Перетягуйте предмети на панель швидкого доступу",
+				"за допомогою$ , або наведіть курсор і",
+				"використайте $-$, щоб призначити.",
+				"",
+				"Користуйтеся панеллю швидкого доступу через$-$,",
+				"або виділіть за допомогою$ $ і",
+                "а потім натисніть$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+				[4],
+				[0,3],
+				[3],
+				[],
+				[0,1,2,3],
+				[1,2],
+				[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/hotbarassign_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/Numbers/Unpressed_Text_1_00.png",
+					"sizex": 26,
+					"sizey": 26
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/Numbers/Unpressed_Text_0_00.png",
+					"sizex": 26,
+					"sizey": 26
+				},		
+				{
+					"type": "зображення",
+					"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/Numbers/Unpressed_Text_1_00.png",
+					"sizex": 26,
+					"sizey": 26
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/Numbers/Unpressed_Text_0_00.png",
+					"sizex": 26,
+					"sizey": 26
+				},						
+				{
+					"type": "input_glyph",
+					"value": "Панель Швидкого Доступу Ліворуч"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Панель Швидкого Доступу Праворуч"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Панель Швидкого Доступу Вгору / Вибір"
+				}
+			]
+        },
+		"tutorial1h_gamepad": {
+            "sign": [
+                "З інвентарю",
+				"беріть предмети за допомогою$ і переносьте",
+				"їх на панель швидкого доступу через$.",
+				"Натисніть$ ще раз, щоб",
+				"покласти предмети в комірку.",
+				"",
+                "Коли інвентар закрито,",
+				"утримуйте$$ або$, щоб відкрити",
+				"комірки панелі швидкого доступу $ і$." 
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+				[],
+				[0,1,2],
+				[],
+				[0],
+				[],
+				[],
+				[],
+				[0,3],
+				[2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/hotbarassign_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuAlt1"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuPageRight"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuAlt1"
+				},				
+				{
+					"type": "input_glyph",
+					"value": "Панель Швидкого Доступу Ліворуч"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Панель Швидкого Доступу Вгору / Вибір"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Панель Швидкого Доступу Праворуч"
+				},
+				{
+					"type": "input_glyph",
+					"value": "HotbarFacebarModifierLeft"
+				},	
+				{
+					"type": "input_glyph",
+					"value": "HotbarFacebarModifierRight"
+				}						
+			]
+        },
+       "tutorial1ha": {
+            "sign": [
+                "Ви не можете тримати",
+				"щит і смолоскип",
+				"одночасно!",
+				"",
+				"Скористайтеся панеллю швидкого доступу, щоб",
+                "швидко перемикатися."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/hotswap_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}	
+            },
+            "variables": []
+        },
+       "tutorial1ha_gamepad": {
+            "sign": [
+                "Ви не можете тримати",
+				"щит і смолоскип",
+				"одночасно!",
+				"",
+				"Скористайтеся панеллю швидкого доступу, щоб",
+                "швидко перемикатися."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/hotswap_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+			},
+            "variables": []
+        },		
+        "tutorial1i": {
+            "sign": [
+                "Швидко натисніть$, щоб Атакувати.",
+				"",
+				"Утримуйте$, доки ваша",
+				"зброя не здригнеться для",
+				"Критичного Удару."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[1,3],
+					[],
+					[0],
+					[1],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/attacks.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}			
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				}				
+			]
+        },
+        "tutorial1i2": {
+            "sign": [
+                "Відкрийте Аркуш Персонажа",
+				"за допомогою$, праворуч.",
+				"",
+				"Наведіть$ щоб дізнатися",
+				"про характеристики на кшталт ATK."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[0],
+					[],
+					[0,1],
+					[]
+				],
+				"word_highlights2": [
+					[2,3],
+					[],
+					[],
+					[],
+					[3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/atk_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}	
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Стан Персонажа"
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/Glyphs/Mouse/Mouse_Base_00.png",
+					"sizex": 22,
+					"sizey": 40
+				}
+			]
+        },
+        "tutorial1i2_gamepad": {
+            "sign": [
+                "Відкрийте Аркуш Персонажа",
+				"за допомогою$, праворуч.",
+				"",
+				"Натисніть$ двічі та дізнайтеся",
+				"про характеристики на кшталт ATK",
+				"перейшовши до них",
+				"і утримуючи$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[0],
+					[],
+					[0,1],
+					[],
+					[],
+					[1]
+				],
+				"word_highlights2": [
+					[2,3],
+					[],
+					[],
+					[],
+					[3],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/atk_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}								
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Стан Персонажа"
+				},	
+				{
+					"type": "input_glyph",
+					"value": "MenuPageRight"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}				
+			]			
+        },		
+        "tutorial1j": {
+            "sign": [
+                "Ваше розуміння",
+				"атак, блокування та",
+				"типів зброї",
+				"буде випробувано.",
+				"",
+                "Кожне випробування має",
+				"підсумковий тест."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [],
+				"word_highlights2": [
+					[],
+					[0,1],
+					[0,1],
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial1jz": {
+            "sign": [
+                "Спостерігайте за ворогом",
+				"і темпом його атак крізь",
+				"двері праворуч від вас.",
+                "",
+				"Пройдіть крізь",
+				"двері ліворуч від вас",
+                "коли будете готові."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [],
+				"word_highlights2": [
+					[0],
+					[0,1],
+					[4],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial1kz": {
+            "sign": [
+                "Спорядження може зношуватися",
+				"і зрештою ламатися.",
+				"",
+                "Зброя завдає менше шкоди",
+				"за нижчої якості."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [],
+				"word_highlights2": [
+					[2],
+					[2],
+					[],
+					[2,3],
+					[1,2]
+				]		
+            },
+            "variables": []
+        },
+        "tutorial1ky": {
+            "sign": [
+				"Навички володіння зброєю покращують",
+				"шкоду від зброї.",
+				"Зброя також зношується",
+				"рідше за",
+				"вищого рівня навички.",
+				"",
+				"Дізнайтеся більше про навички",
+				"зі списку навичок.",
+				"",
+				"$$$$$$$$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2,3]
+				],
+				"word_highlights2": [
+					[1,2],
+					[1],
+					[2],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/skillslist_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}					
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Swords02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Maces02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Polearms02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Axes02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Ranged02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Unarmed02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},				
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Blocking02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial1ky_gamepad": {
+            "sign": [
+				"Навички володіння зброєю покращують",
+				"шкоду від зброї.",
+				"Зброя також зношується",
+				"рідше за",
+				"вищого рівня навички.",
+				"",
+				"Дізнайтеся більше про навички",
+				"зі списку навичок.",
+				"",
+				"$$$$$$$$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2,3]
+				],
+				"word_highlights2": [
+					[1,2],
+					[1],
+					[2],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/skillslist_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}					
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Swords02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Maces02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Polearms02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Axes02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Ranged02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Unarmed02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},				
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Blocking02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },		
+        "tutorial1k": {
+            "sign": [
+                "Блокування може зменшити",
+				"шкоду від атаки до нуля.",
+				"",
+                "Утримуйте$, щоб Блокувати",
+				"стільки, скільки потрібно,",
+				"щоб відкласти смерть."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[0,2]
+],
+				"word_highlights2": [
+					[0],
+					[1,3],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial1/block.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Захист"
+				}
+			]
+        },		
+        "tutorial1l": {
+            "sign": [
+                "Вороги можуть бути стійкими",
+				"або вразливими до",
+				"різних типів зброї.",
+				"$",
+                "Це може стати вирішальним",
+				"для перемоги чи поразки."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [],
+				"word_highlights2": [
+					[2],
+					[0,1],
+					[1,2],
+					[],
+					[3],
+					[1]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial1/sign_mace.png",
+					"sizex": 189,
+					"sizey": 87
+				}
+			]
+        },
+        "tutorial1m": {
+            "sign": [
+                "Правильне використання атак,",
+				"типів зброї, критичних",
+				"ударів і блокування допоможе",
+				"вам вижити",
+				"у підземеллі."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [],
+				"word_highlights2": [
+					[2],
+					[0,1,2],
+					[0,2],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial1mo": {
+            "sign": [
+                "Вітаємо!",
+				"Ви щойно пройшли",
+				"Вступне Випробування.",
+				"",
+				"Випробування 1:",
+				"Основи Підземелля",
+				"та Ближній Бій"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [],
+				"word_highlights2": [
+					[2],
+					[0,1,2],
+					[0,1,2],
+					[0,2],
+					[2]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial1n": {
+            "sign": [
+                "Люки зазвичай",
+				"ведуть вас на",
+				"наступний рівень.",
+				"",
+                "Цей люк веде вас до",
+				"Центру Зали Випробувань",
+				"де ви можете дослідити",
+				"більше Випробувань."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},		
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [],
+				"word_highlights2": [
+					[0,1],
+					[],
+					[1,2],
+					[],
+					[0,1],
+					[1,2,3,4],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        }
+    }
+}

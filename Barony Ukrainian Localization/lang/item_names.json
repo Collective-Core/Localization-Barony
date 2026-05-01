@@ -1,0 +1,2739 @@
+{
+    "version": 1,
+    "items": {
+        "wooden_shield": {
+            "name_identified": "дерев'яний щит",
+            "name_unidentified": "дерев'яний щит"
+        },
+        "quarterstaff": {
+            "name_identified": "бойовий посох",
+            "name_unidentified": "бойовий посох"
+        },
+        "bronze_sword": {
+            "name_identified": "бронзовий меч",
+            "name_unidentified": "бронзовий меч"
+        },
+        "bronze_mace": {
+            "name_identified": "бронзова булава",
+            "name_unidentified": "бронзова булава"
+        },
+        "bronze_axe": {
+            "name_identified": "бронзова сокира",
+            "name_unidentified": "бронзова сокира"
+        },
+        "bronze_shield": {
+            "name_identified": "бронзовий щит",
+            "name_unidentified": "бронзовий щит"
+        },
+        "sling": {
+            "name_identified": "рогатка",
+            "name_unidentified": "рогатка"
+        },
+        "iron_spear": {
+            "name_identified": "залізний спис",
+            "name_unidentified": "залізний спис"
+        },
+        "iron_sword": {
+            "name_identified": "залізний меч",
+            "name_unidentified": "залізний меч"
+        },
+        "iron_mace": {
+            "name_identified": "залізна булава",
+            "name_unidentified": "залізна булава"
+        },
+        "iron_axe": {
+            "name_identified": "залізна сокира",
+            "name_unidentified": "залізна сокира"
+        },
+        "iron_shield": {
+            "name_identified": "залізний щит",
+            "name_unidentified": "залізний щит"
+        },
+        "shortbow": {
+            "name_identified": "короткий лук",
+            "name_unidentified": "короткий лук"
+        },
+        "steel_halberd": {
+            "name_identified": "сталева алебарда",
+            "name_unidentified": "сталева алебарда"
+        },
+        "steel_sword": {
+            "name_identified": "сталевий меч",
+            "name_unidentified": "сталевий меч"
+        },
+        "steel_mace": {
+            "name_identified": "сталева булава",
+            "name_unidentified": "сталева булава"
+        },
+        "steel_axe": {
+            "name_identified": "сталева сокира",
+            "name_unidentified": "сталева сокира"
+        },
+        "steel_shield": {
+            "name_identified": "сталевий щит",
+            "name_unidentified": "сталевий щит"
+        },
+        "steel_shield_resistance": {
+            "name_identified": "сталевий щит опору магії",
+            "name_unidentified": "сталевий щит"
+        },
+        "crossbow": {
+            "name_identified": "арбалет",
+            "name_unidentified": "арбалет"
+        },
+        "gloves": {
+            "name_identified": "шкіряні рукавиці",
+            "name_unidentified": "рукавиці"
+        },
+        "gloves_dexterity": {
+            "name_identified": "шкіряні рукавиці спритності",
+            "name_unidentified": "рукавиці"
+        },
+        "bracers": {
+            "name_identified": "залізні наручі",
+            "name_unidentified": "наручі"
+        },
+        "bracers_constitution": {
+            "name_identified": "залізні наручі витривалості",
+            "name_unidentified": "наручі"
+        },
+        "gauntlets": {
+            "name_identified": "сталеві рукавиці",
+            "name_unidentified": "латні рукавиці"
+        },
+        "gauntlets_strength": {
+            "name_identified": "сталеві рукавиці могутності",
+            "name_unidentified": "латні рукавиці"
+        },
+        "cloak": {
+            "name_identified": "плащ",
+            "name_unidentified": "плащ"
+        },
+        "cloak_magicreflection": {
+            "name_identified": "плащ віддзеркалення магії",
+            "name_unidentified": "плащ"
+        },
+        "cloak_invisibility": {
+            "name_identified": "плащ невидимості",
+            "name_unidentified": "плащ"
+        },
+        "cloak_protection": {
+            "name_identified": "плащ захисту",
+            "name_unidentified": "плащ"
+        },
+        "leather_boots": {
+            "name_identified": "шкіряні чоботи",
+            "name_unidentified": "шкіряні чоботи"
+        },
+        "leather_boots_speed": {
+            "name_identified": "шкіряні чоботи швидкості",
+            "name_unidentified": "шкіряні чоботи"
+        },
+        "iron_boots": {
+            "name_identified": "залізні чоботи",
+            "name_unidentified": "залізні чоботи"
+        },
+        "iron_boots_waterwalking": {
+            "name_identified": "залізні чоботи ходіння по воді",
+            "name_unidentified": "залізні чоботи"
+        },
+        "steel_boots": {
+            "name_identified": "сталеві чоботи",
+            "name_unidentified": "сталеві чоботи"
+        },
+        "steel_boots_levitation": {
+            "name_identified": "сталеві чоботи левітації",
+            "name_unidentified": "сталеві чоботи"
+        },
+        "steel_boots_feather": {
+            "name_identified": "сталеві чоботи пера",
+            "name_unidentified": "сталеві чоботи"
+        },
+        "leather_breastpiece": {
+            "name_identified": "шкіряний нагрудник",
+            "name_unidentified": "шкіряний нагрудник"
+        },
+        "iron_breastpiece": {
+            "name_identified": "залізний нагрудник",
+            "name_unidentified": "залізний нагрудник"
+        },
+        "steel_breastpiece": {
+            "name_identified": "сталевий нагрудник",
+            "name_unidentified": "сталевий нагрудник"
+        },
+        "hat_phrygian": {
+            "name_identified": "фригійський ковпак",
+            "name_unidentified": "фригійський ковпак"
+        },
+        "hat_hood": {
+            "name_identified": "каптур",
+            "name_unidentified": "каптур"
+        },
+        "hat_wizard": {
+            "name_identified": "чарівницький капелюх",
+            "name_unidentified": "чарівницький капелюх"
+        },
+        "hat_jester": {
+            "name_identified": "блазнівський ковпак",
+            "name_unidentified": "блазнівський ковпак"
+        },
+        "leather_helm": {
+            "name_identified": "шкіряний шолом",
+            "name_unidentified": "шкіряний шолом"
+        },
+        "iron_helm": {
+            "name_identified": "залізний шолом",
+            "name_unidentified": "залізний шолом"
+        },
+        "steel_helm": {
+            "name_identified": "сталевий шолом",
+            "name_unidentified": "сталевий шолом"
+        },
+        "amulet_sexchange": {
+            "name_identified": "амулет зміни статі",
+            "name_unidentified": "амулет"
+        },
+        "amulet_lifesaving": {
+            "name_identified": "амулет порятунку життя",
+            "name_unidentified": "амулет"
+        },
+        "amulet_waterbreathing": {
+            "name_identified": "амулет олімпійського плавання",
+            "name_unidentified": "амулет"
+        },
+        "amulet_magicreflection": {
+            "name_identified": "амулет віддзеркалення магії",
+            "name_unidentified": "амулет"
+        },
+        "amulet_strangulation": {
+            "name_identified": "амулет задушення",
+            "name_unidentified": "амулет"
+        },
+        "amulet_poisonresistance": {
+            "name_identified": "амулет опору отруті",
+            "name_unidentified": "амулет"
+        },
+        "potion_water": {
+            "name_identified": "пляшка води",
+            "name_unidentified": "зілля"
+        },
+        "potion_booze": {
+            "name_identified": "пляшка випивки",
+            "name_unidentified": "зілля"
+        },
+        "potion_juice": {
+            "name_identified": "пляшка фруктового соку",
+            "name_unidentified": "зілля"
+        },
+        "potion_sickness": {
+            "name_identified": "зілля хвороби",
+            "name_unidentified": "зілля"
+        },
+        "potion_confusion": {
+            "name_identified": "зілля сплутаності",
+            "name_unidentified": "зілля"
+        },
+        "potion_extrahealing": {
+            "name_identified": "зілля додаткового зцілення",
+            "name_unidentified": "зілля"
+        },
+        "potion_healing": {
+            "name_identified": "зілля зцілення",
+            "name_unidentified": "зілля"
+        },
+        "potion_cureailment": {
+            "name_identified": "зілля зцілення недуги",
+            "name_unidentified": "зілля"
+        },
+        "potion_blindness": {
+            "name_identified": "зілля сліпоти",
+            "name_unidentified": "зілля"
+        },
+        "potion_restoremagic": {
+            "name_identified": "зілля відновлення магії",
+            "name_unidentified": "зілля"
+        },
+        "potion_invisibility": {
+            "name_identified": "зілля невидимості",
+            "name_unidentified": "зілля"
+        },
+        "potion_levitation": {
+            "name_identified": "зілля левітації",
+            "name_unidentified": "зілля"
+        },
+        "potion_speed": {
+            "name_identified": "зілля швидкості",
+            "name_unidentified": "зілля"
+        },
+        "potion_acid": {
+            "name_identified": "зілля кислоти",
+            "name_unidentified": "зілля"
+        },
+        "potion_paralysis": {
+            "name_identified": "зілля паралічу",
+            "name_unidentified": "зілля"
+        },
+        "scroll_mail": {
+            "name_identified": "лист",
+            "name_unidentified": "маркований сувій"
+        },
+        "scroll_identify": {
+            "name_identified": "сувій розпізнавання",
+            "name_unidentified": "сувій"
+        },
+        "scroll_light": {
+            "name_identified": "сувій світла",
+            "name_unidentified": "сувій"
+        },
+        "scroll_blank": {
+            "name_identified": "порожній сувій",
+            "name_unidentified": "сувій"
+        },
+        "scroll_enchantweapon": {
+            "name_identified": "сувій зачарування зброї",
+            "name_unidentified": "сувій"
+        },
+        "scroll_enchantarmor": {
+            "name_identified": "сувій зачарування броні",
+            "name_unidentified": "сувій"
+        },
+        "scroll_removecurse": {
+            "name_identified": "сувій зняття прокляття",
+            "name_unidentified": "сувій"
+        },
+        "scroll_fire": {
+            "name_identified": "сувій вогню",
+            "name_unidentified": "сувій"
+        },
+        "scroll_food": {
+            "name_identified": "сувій їжі",
+            "name_unidentified": "сувій"
+        },
+        "scroll_magicmapping": {
+            "name_identified": "сувій магічного картографування",
+            "name_unidentified": "сувій"
+        },
+        "scroll_repair": {
+            "name_identified": "сувій ремонту",
+            "name_unidentified": "сувій"
+        },
+        "scroll_destroyarmor": {
+            "name_identified": "сувій знищення броні",
+            "name_unidentified": "сувій"
+        },
+        "scroll_teleportation": {
+            "name_identified": "сувій телепортації",
+            "name_unidentified": "сувій"
+        },
+        "scroll_summon": {
+            "name_identified": "сувій призову",
+            "name_unidentified": "сувій"
+        },
+        "magicstaff_light": {
+            "name_identified": "магічний посох світла",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_digging": {
+            "name_identified": "магічний посох копання",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_locking": {
+            "name_identified": "магічний посох замикання",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_magicmissile": {
+            "name_identified": "магічний посох Magic Missile",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_opening": {
+            "name_identified": "магічний посох відкривання",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_slow": {
+            "name_identified": "магічний посох уповільнення",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_cold": {
+            "name_identified": "магічний посох холоду",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_fire": {
+            "name_identified": "магічний посох вогню",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_lightning": {
+            "name_identified": "магічний посох блискавки",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_sleep": {
+            "name_identified": "магічний посох сну",
+            "name_unidentified": "магічний посох"
+        },
+        "ring_adornment": {
+            "name_identified": "перстень оздоби",
+            "name_unidentified": "перстень"
+        },
+        "ring_slowdigestion": {
+            "name_identified": "перстень повільного травлення",
+            "name_unidentified": "перстень"
+        },
+        "ring_protection": {
+            "name_identified": "перстень захисту",
+            "name_unidentified": "перстень"
+        },
+        "ring_warning": {
+            "name_identified": "перстень попередження",
+            "name_unidentified": "перстень"
+        },
+        "ring_strength": {
+            "name_identified": "перстень могутності",
+            "name_unidentified": "перстень"
+        },
+        "ring_constitution": {
+            "name_identified": "перстень витривалості",
+            "name_unidentified": "перстень"
+        },
+        "ring_invisibility": {
+            "name_identified": "перстень невидимості",
+            "name_unidentified": "перстень"
+        },
+        "ring_magicresistance": {
+            "name_identified": "перстень опору магії",
+            "name_unidentified": "перстень"
+        },
+        "ring_conflict": {
+            "name_identified": "перстень конфлікту",
+            "name_unidentified": "перстень"
+        },
+        "ring_levitation": {
+            "name_identified": "перстень левітації",
+            "name_unidentified": "перстень"
+        },
+        "ring_regeneration": {
+            "name_identified": "перстень регенерації",
+            "name_unidentified": "перстень"
+        },
+        "ring_teleportation": {
+            "name_identified": "перстень телепортації",
+            "name_unidentified": "перстень"
+        },
+        "spellbook_forcebolt": {
+            "name_identified": "книга заклять Forcebolt",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_magicmissile": {
+            "name_identified": "книга заклять Magic Missile",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_cold": {
+            "name_identified": "книга заклять холоду",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_fireball": {
+            "name_identified": "книга заклять вогняної кулі",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_light": {
+            "name_identified": "книга заклять світла",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_removecurse": {
+            "name_identified": "книга заклять зняття прокляття",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_lightning": {
+            "name_identified": "книга заклять блискавки",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_identify": {
+            "name_identified": "книга заклять розпізнавання",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_magicmapping": {
+            "name_identified": "книга заклять магічного картографування",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_sleep": {
+            "name_identified": "книга заклять сну",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_confuse": {
+            "name_identified": "книга заклять сплутаності",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_slow": {
+            "name_identified": "книга заклять уповільнення",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_opening": {
+            "name_identified": "книга заклять відкривання",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_locking": {
+            "name_identified": "книга заклять замикання",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_levitation": {
+            "name_identified": "книга заклять левітації",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_invisibility": {
+            "name_identified": "книга заклять невидимості",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_teleportation": {
+            "name_identified": "книга заклять телепортації",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_healing": {
+            "name_identified": "книга заклять зцілення",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_extrahealing": {
+            "name_identified": "книга заклять додаткового зцілення",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_cureailment": {
+            "name_identified": "книга заклять зцілення недуги",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_dig": {
+            "name_identified": "книга заклять копання",
+            "name_unidentified": "книга заклять"
+        },
+        "gem_rock": {
+            "name_identified": "камінь",
+            "name_unidentified": "камінь"
+        },
+        "gem_luck": {
+            "name_identified": "камінь удачі",
+            "name_unidentified": "камінь"
+        },
+        "gem_garnet": {
+            "name_identified": "гранат",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_ruby": {
+            "name_identified": "рубін",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_jacinth": {
+            "name_identified": "гіацинт",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_amber": {
+            "name_identified": "бурштин",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_citrine": {
+            "name_identified": "цитрин",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_jade": {
+            "name_identified": "нефрит",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_emerald": {
+            "name_identified": "смарагд",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_sapphire": {
+            "name_identified": "сапфір",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_aquamarine": {
+            "name_identified": "аквамарин",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_amethyst": {
+            "name_identified": "аметист",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_fluorite": {
+            "name_identified": "флюорит",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_opal": {
+            "name_identified": "опал",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_diamond": {
+            "name_identified": "діамант",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_jetstone": {
+            "name_identified": "гагат",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_obsidian": {
+            "name_identified": "обсидіан",
+            "name_unidentified": "самоцвіт"
+        },
+        "gem_glass": {
+            "name_identified": "шматок нікчемного скла",
+            "name_unidentified": "самоцвіт"
+        },
+        "tool_pickaxe": {
+            "name_identified": "кайло",
+            "name_unidentified": "кайло"
+        },
+        "tool_tinopener": {
+            "name_identified": "консервний ніж",
+            "name_unidentified": "консервний ніж"
+        },
+        "tool_mirror": {
+            "name_identified": "дзеркало",
+            "name_unidentified": "дзеркало"
+        },
+        "tool_lockpick": {
+            "name_identified": "відмичка",
+            "name_unidentified": "відмичка"
+        },
+        "tool_skeletonkey": {
+            "name_identified": "скелетний ключ",
+            "name_unidentified": "ключ"
+        },
+        "tool_torch": {
+            "name_identified": "смолоскип",
+            "name_unidentified": "смолоскип"
+        },
+        "tool_lantern": {
+            "name_identified": "ліхтар",
+            "name_unidentified": "ліхтар"
+        },
+        "tool_blindfold": {
+            "name_identified": "пов'язка на очі",
+            "name_unidentified": "пов'язка на очі"
+        },
+        "tool_towel": {
+            "name_identified": "рушник",
+            "name_unidentified": "рушник"
+        },
+        "tool_glasses": {
+            "name_identified": "окуляри",
+            "name_unidentified": "окуляри"
+        },
+        "tool_beartrap": {
+            "name_identified": "ведмежий капкан",
+            "name_unidentified": "ведмежий капкан"
+        },
+        "food_bread": {
+            "name_identified": "хліб",
+            "name_unidentified": "хліб"
+        },
+        "food_creampie": {
+            "name_identified": "кремовий пиріг",
+            "name_unidentified": "кремовий пиріг"
+        },
+        "food_cheese": {
+            "name_identified": "сир",
+            "name_unidentified": "сир"
+        },
+        "food_apple": {
+            "name_identified": "яблуко",
+            "name_unidentified": "яблуко"
+        },
+        "food_meat": {
+            "name_identified": "м'ясо",
+            "name_unidentified": "м'ясо"
+        },
+        "food_fish": {
+            "name_identified": "риба",
+            "name_unidentified": "риба"
+        },
+        "food_tin": {
+            "name_identified": "консерви",
+            "name_unidentified": "консерви"
+        },
+        "readable_book": {
+            "name_identified": "книга",
+            "name_unidentified": "читабельна книга"
+        },
+        "spell_item": {
+            "name_identified": "закляття",
+            "name_unidentified": "закляття"
+        },
+        "artifact_sword": {
+            "name_identified": "Дірнвін",
+            "name_unidentified": "магічний меч"
+        },
+        "artifact_mace": {
+            "name_identified": "Шарур",
+            "name_unidentified": "магічна булава"
+        },
+        "artifact_spear": {
+            "name_identified": "Ґунґнір",
+            "name_unidentified": "магічний спис"
+        },
+        "artifact_axe": {
+            "name_identified": "Парашу",
+            "name_unidentified": "магічна сокира"
+        },
+        "artifact_bow": {
+            "name_identified": "Хріселакатос",
+            "name_unidentified": "магічний лук"
+        },
+        "artifact_breastpiece": {
+            "name_identified": "Драконяча Кольчуга",
+            "name_unidentified": "артефактний нагрудник"
+        },
+        "artifact_helm": {
+            "name_identified": "Шолом Сфінкса",
+            "name_unidentified": "артефактний шолом"
+        },
+        "artifact_boots": {
+            "name_identified": "Кроки Оракула",
+            "name_unidentified": "артефактні чоботи"
+        },
+        "artifact_cloak": {
+            "name_identified": "Шати Примари",
+            "name_unidentified": "артефактний плащ"
+        },
+        "artifact_gloves": {
+            "name_identified": "Наруч Джина",
+            "name_unidentified": "артефактні рукавиці"
+        },
+        "crystal_breastpiece": {
+            "name_identified": "кристалічний нагрудник",
+            "name_unidentified": "кристалічний нагрудник"
+        },
+        "crystal_helm": {
+            "name_identified": "кристалічний шолом",
+            "name_unidentified": "кристалічний шолом"
+        },
+        "crystal_boots": {
+            "name_identified": "кристалічні чоботи",
+            "name_unidentified": "кристалічні чоботи"
+        },
+        "crystal_shield": {
+            "name_identified": "кристалічний щит",
+            "name_unidentified": "кристалічний щит"
+        },
+        "crystal_gloves": {
+            "name_identified": "кристалічні рукавиці",
+            "name_unidentified": "кристалічні рукавиці"
+        },
+        "vampire_doublet": {
+            "name_identified": "камзол вампіра",
+            "name_unidentified": "камзол"
+        },
+        "wizard_doublet": {
+            "name_identified": "камзол чарівника",
+            "name_unidentified": "камзол"
+        },
+        "healer_doublet": {
+            "name_identified": "камзол цілителя",
+            "name_unidentified": "камзол"
+        },
+        "mirror_shield": {
+            "name_identified": "дзеркальний щит",
+            "name_unidentified": "дзеркальний щит"
+        },
+        "brass_knuckles": {
+            "name_identified": "латунні кастети",
+            "name_unidentified": "кастети"
+        },
+        "iron_knuckles": {
+            "name_identified": "залізні кастети",
+            "name_unidentified": "кастети"
+        },
+        "spiked_gauntlets": {
+            "name_identified": "шиповані рукавиці",
+            "name_unidentified": "кастети"
+        },
+        "food_tomalley": {
+            "name_identified": "томалей",
+            "name_unidentified": "томалей"
+        },
+        "tool_crystalshard": {
+            "name_identified": "кристалічний уламок",
+            "name_unidentified": "кристалічний уламок"
+        },
+        "crystal_sword": {
+            "name_identified": "кристалічний меч",
+            "name_unidentified": "кристалічний меч"
+        },
+        "crystal_spear": {
+            "name_identified": "кристалічний спис",
+            "name_unidentified": "кристалічний спис"
+        },
+        "crystal_battleaxe": {
+            "name_identified": "кристалічна сокира",
+            "name_unidentified": "кристалічна сокира"
+        },
+        "crystal_mace": {
+            "name_identified": "кристалічна булава",
+            "name_unidentified": "кристалічна булава"
+        },
+        "bronze_tomahawk": {
+            "name_identified": "бронзовий томагавк",
+            "name_unidentified": "бронзовий томагавк"
+        },
+        "iron_dagger": {
+            "name_identified": "залізний кинджал",
+            "name_unidentified": "залізний кинджал"
+        },
+        "steel_chakram": {
+            "name_identified": "сталевий чакрам",
+            "name_unidentified": "сталевий чакрам"
+        },
+        "crystal_shuriken": {
+            "name_identified": "кристалічний сюрікен",
+            "name_unidentified": "кристалічний сюрікен"
+        },
+        "cloak_black": {
+            "name_identified": "чорний плащ",
+            "name_unidentified": "чорний плащ"
+        },
+        "magicstaff_stoneblood": {
+            "name_identified": "магічний посох кам'яної крові",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_bleed": {
+            "name_identified": "магічний посох кровопускання",
+            "name_unidentified": "магічний посох"
+        },
+        "magicstaff_summon": {
+            "name_identified": "магічний посох призову скелета",
+            "name_unidentified": "магічний посох"
+        },
+        "tool_blindfold_focus": {
+            "name_identified": "пов'язка на очі вільної дії",
+            "name_unidentified": "пов'язка на очі"
+        },
+        "tool_blindfold_telepathy": {
+            "name_identified": "пов'язка на очі телепатії",
+            "name_unidentified": "пов'язка на очі"
+        },
+        "spellbook_summon": {
+            "name_identified": "книга заклять призову скелета",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_stoneblood": {
+            "name_identified": "книга заклять кам'яної крові",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_bleed": {
+            "name_identified": "книга заклять кровопускання",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_reflect_magic": {
+            "name_identified": "книга заклять відбиття магії",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_acid_spray": {
+            "name_identified": "книга заклять кислотного розпилу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_steal_weapon": {
+            "name_identified": "книга заклять викрадення зброї",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_drain_soul": {
+            "name_identified": "книга заклять висмоктування душі",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_vampiric_aura": {
+            "name_identified": "книга заклять вампірської аури",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_charm": {
+            "name_identified": "книга заклять зачарування монстра",
+            "name_unidentified": "книга заклять"
+        },
+        "potion_empty": {
+            "name_identified": "порожня пляшка",
+            "name_unidentified": "порожня пляшка"
+        },
+        "artifact_orb_blue": {
+            "name_identified": "синя містична сфера",
+            "name_unidentified": "синя містична сфера"
+        },
+        "artifact_orb_red": {
+            "name_identified": "червона містична сфера",
+            "name_unidentified": "червона містична сфера"
+        },
+        "artifact_orb_purple": {
+            "name_identified": "фіолетова містична сфера",
+            "name_unidentified": "фіолетова містична сфера"
+        },
+        "artifact_orb_green": {
+            "name_identified": "зелена містична сфера",
+            "name_unidentified": "зелена містична сфера"
+        },
+        "tunic": {
+            "name_identified": "туніка",
+            "name_unidentified": "туніка"
+        },
+        "hat_fez": {
+            "name_identified": "феска",
+            "name_unidentified": "феска"
+        },
+        "magicstaff_charm": {
+            "name_identified": "магічний посох зачарування монстра",
+            "name_unidentified": "магічний посох"
+        },
+        "potion_polymorph": {
+            "name_identified": "зілля поліморфії",
+            "name_unidentified": "зілля"
+        },
+        "food_blood": {
+            "name_identified": "флакон крові",
+            "name_unidentified": "зілля"
+        },
+        "cloak_backpack": {
+            "name_identified": "наплічник",
+            "name_unidentified": "наплічник"
+        },
+        "tool_alembic": {
+            "name_identified": "алембік",
+            "name_unidentified": "алембік"
+        },
+        "potion_firestorm": {
+            "name_identified": "зілля вогняного шторму",
+            "name_unidentified": "нестабільне зілля"
+        },
+        "potion_icestorm": {
+            "name_identified": "зілля крижаного шторму",
+            "name_unidentified": "нестабільне зілля"
+        },
+        "potion_thunderstorm": {
+            "name_identified": "зілля грозового шторму",
+            "name_unidentified": "нестабільне зілля"
+        },
+        "potion_strength": {
+            "name_identified": "зілля сили",
+            "name_unidentified": "зілля"
+        },
+        "suede_boots": {
+            "name_identified": "замшеві чоботи",
+            "name_unidentified": "замшеві чоботи"
+        },
+        "suede_gloves": {
+            "name_identified": "замшеві рукавиці",
+            "name_unidentified": "замшеві рукавиці"
+        },
+        "cloak_silver": {
+            "name_identified": "срібний плащ",
+            "name_unidentified": "срібний плащ"
+        },
+        "hat_hood_silver": {
+            "name_identified": "срібний каптур",
+            "name_unidentified": "срібний каптур"
+        },
+        "hat_hood_red": {
+            "name_identified": "червоний каптур",
+            "name_unidentified": "червоний каптур"
+        },
+        "silver_doublet": {
+            "name_identified": "срібний камзол",
+            "name_unidentified": "срібний камзол"
+        },
+        "spellbook_revert_form": {
+            "name_identified": "книга заклять повернення форми",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_rat_form": {
+            "name_identified": "книга заклять щурячої форми",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_spider_form": {
+            "name_identified": "книга заклять форми членистоногого",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_troll_form": {
+            "name_identified": "книга заклять форми троля",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_imp_form": {
+            "name_identified": "книга заклять форми імпа",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_spray_web": {
+            "name_identified": "книга заклять павутинного розпилу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_poison": {
+            "name_identified": "книга заклять отрути",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_speed": {
+            "name_identified": "книга заклять швидкості",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_fear": {
+            "name_identified": "книга заклять страху",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_strike": {
+            "name_identified": "книга заклять силового удару",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_detect_food": {
+            "name_identified": "книга заклять пошуку їжі",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_weakness": {
+            "name_identified": "книга заклять слабкості",
+            "name_unidentified": "книга заклять"
+        },
+        "mask_shaman": {
+            "name_identified": "шаманська маска",
+            "name_unidentified": "шаманська маска"
+        },
+        "spellbook_amplify_magic": {
+            "name_identified": "книга заклять стихійного фокусу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_shadow_tag": {
+            "name_identified": "книга заклять таємної мітки",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_telepull": {
+            "name_identified": "книга заклять телепортації іншого",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_demon_illu": {
+            "name_identified": "книга заклять внутрішнього демона",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_trolls_blood": {
+            "name_identified": "книга заклять крові троля",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_salvage": {
+            "name_identified": "книга заклять розбирання",
+            "name_unidentified": "книга заклять"
+        },
+        "tool_whip": {
+            "name_identified": "батіг",
+            "name_unidentified": "батіг"
+        },
+        "spellbook_flutter": {
+            "name_identified": "книга заклять пурхання",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_dash": {
+            "name_identified": "книга заклять ривка",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_self_polymorph": {
+            "name_identified": "книга заклять поліморфії",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_9": {
+            "name_identified": "книга заклять 9",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_10": {
+            "name_identified": "книга заклять 10",
+            "name_unidentified": "книга заклять"
+        },
+        "magicstaff_poison": {
+            "name_identified": "магічний посох отрути",
+            "name_unidentified": "магічний посох"
+        },
+        "tool_metal_scrap": {
+            "name_identified": "металобрухт",
+            "name_unidentified": "брухт"
+        },
+        "tool_magic_scrap": {
+            "name_identified": "магічний брухт",
+            "name_unidentified": "брухт"
+        },
+        "tool_tinkering_kit": {
+            "name_identified": "набір майстрування",
+            "name_unidentified": "набір майстрування"
+        },
+        "tool_sentrybot": {
+            "name_identified": "сторожовий бот",
+            "name_unidentified": "сторожовий бот"
+        },
+        "tool_detonated_charge": {
+            "name_identified": "детонатор",
+            "name_unidentified": "детонатор"
+        },
+        "tool_fire_bomb": {
+            "name_identified": "вогняна пастка",
+            "name_unidentified": "пастка"
+        },
+        "tool_sleep_bomb": {
+            "name_identified": "пастка сну",
+            "name_unidentified": "пастка"
+        },
+        "tool_freeze_bomb": {
+            "name_identified": "морозильна пастка",
+            "name_unidentified": "пастка"
+        },
+        "tool_teleport_bomb": {
+            "name_identified": "пастка телепортації",
+            "name_unidentified": "пастка"
+        },
+        "tool_gyrobot": {
+            "name_identified": "гіробот",
+            "name_unidentified": "гіробот"
+        },
+        "tool_spellbot": {
+            "name_identified": "спелбот",
+            "name_unidentified": "спелбот"
+        },
+        "tool_decoy": {
+            "name_identified": "шумівка",
+            "name_unidentified": "шумівка"
+        },
+        "tool_dummybot": {
+            "name_identified": "манекен-бот",
+            "name_unidentified": "манекен-бот"
+        },
+        "machinist_apron": {
+            "name_identified": "шкіряний фартух",
+            "name_unidentified": "фартух"
+        },
+        "enchanted_feather": {
+            "name_identified": "зачароване перо",
+            "name_unidentified": "перо"
+        },
+        "punisher_hood": {
+            "name_identified": "каптур ката",
+            "name_unidentified": "каптур"
+        },
+        "scroll_charging": {
+            "name_identified": "сувій зарядження",
+            "name_unidentified": "сувій"
+        },
+        "quiver_silver": {
+            "name_identified": "сагайдак срібних боєприпасів",
+            "name_unidentified": "сагайдак"
+        },
+        "quiver_pierce": {
+            "name_identified": "сагайдак пробивних боєприпасів",
+            "name_unidentified": "сагайдак"
+        },
+        "quiver_lightweight": {
+            "name_identified": "сагайдак швидких боєприпасів",
+            "name_unidentified": "сагайдак"
+        },
+        "quiver_fire": {
+            "name_identified": "сагайдак вогняних боєприпасів",
+            "name_unidentified": "сагайдак"
+        },
+        "quiver_heavy": {
+            "name_identified": "сагайдак пружинних боєприпасів",
+            "name_unidentified": "сагайдак"
+        },
+        "quiver_crystal": {
+            "name_identified": "сагайдак кристалічних боєприпасів",
+            "name_unidentified": "сагайдак"
+        },
+        "quiver_hunting": {
+            "name_identified": "сагайдак мисливських боєприпасів",
+            "name_unidentified": "сагайдак"
+        },
+        "longbow": {
+            "name_identified": "довгий лук",
+            "name_unidentified": "довгий лук"
+        },
+        "compound_bow": {
+            "name_identified": "складний лук",
+            "name_unidentified": "складний лук"
+        },
+        "heavy_crossbow": {
+            "name_identified": "аркбалеста",
+            "name_unidentified": "аркбалеста"
+        },
+        "boomerang": {
+            "name_identified": "бумеранг",
+            "name_unidentified": "бумеранг"
+        },
+        "scroll_conjurearrow": {
+            "name_identified": "сувій створення стріли",
+            "name_unidentified": "сувій"
+        },
+        "monocle": {
+            "name_identified": "монокль",
+            "name_unidentified": "монокль"
+        },
+        "tool_player_loot_bag": {
+            "name_identified": "скринька смерті",
+            "name_unidentified": "скринька смерті"
+        },
+        "mask_bandit": {
+            "name_identified": "розбійницька маска",
+            "name_unidentified": "розбійницька маска"
+        },
+        "mask_eyepatch": {
+            "name_identified": "пов'язка на око",
+            "name_unidentified": "пов'язка на око"
+        },
+        "mask_masquerade": {
+            "name_identified": "маска для маскараду",
+            "name_unidentified": "маска для маскараду"
+        },
+        "mask_mouth_rose": {
+            "name_identified": "троянда",
+            "name_unidentified": "троянда"
+        },
+        "mask_golden": {
+            "name_identified": "золота маска",
+            "name_unidentified": "золота маска"
+        },
+        "mask_spooky": {
+            "name_identified": "моторошна маска",
+            "name_unidentified": "моторошна маска"
+        },
+        "mask_tech_goggles": {
+            "name_identified": "техноокуляри",
+            "name_unidentified": "техноокуляри"
+        },
+        "mask_hazard_goggles": {
+            "name_identified": "захисні окуляри",
+            "name_unidentified": "захисні окуляри"
+        },
+        "mask_phantom": {
+            "name_identified": "фантомна маска",
+            "name_unidentified": "фантомна маска"
+        },
+        "mask_pipe": {
+            "name_identified": "люлька",
+            "name_unidentified": "люлька"
+        },
+        "mask_grass_sprig": {
+            "name_identified": "пагінець солодкої трави",
+            "name_unidentified": "пагінець солодкої трави"
+        },
+        "mask_plague": {
+            "name_identified": "чумна маска",
+            "name_unidentified": "чумна маска"
+        },
+        "mask_mouthknife": {
+            "name_identified": "ніж у роті",
+            "name_unidentified": "ніж у роті"
+        },
+        "hat_silken_bow": {
+            "name_identified": "шовковий бант",
+            "name_unidentified": "шовковий бант"
+        },
+        "hat_plumed_cap": {
+            "name_identified": "капелюх із пером",
+            "name_unidentified": "капелюх із пером"
+        },
+        "hat_bycocket": {
+            "name_identified": "бікокет",
+            "name_unidentified": "бікокет"
+        },
+        "hat_tophat": {
+            "name_identified": "циліндр",
+            "name_unidentified": "циліндр"
+        },
+        "hat_bandana": {
+            "name_identified": "бандана",
+            "name_unidentified": "бандана"
+        },
+        "hat_circlet": {
+            "name_identified": "вінець містицизму",
+            "name_unidentified": "вінець"
+        },
+        "hat_crown": {
+            "name_identified": "корона",
+            "name_unidentified": "корона"
+        },
+        "hat_laurels": {
+            "name_identified": "лавровий вінок",
+            "name_unidentified": "лавровий вінок"
+        },
+        "hat_turban": {
+            "name_identified": "тюрбан",
+            "name_unidentified": "тюрбан"
+        },
+        "hat_crowned_helm": {
+            "name_identified": "коронований шолом",
+            "name_unidentified": "коронований шолом"
+        },
+        "hat_warm": {
+            "name_identified": "теплий капелюх",
+            "name_unidentified": "теплий капелюх"
+        },
+        "hat_wolf_hood": {
+            "name_identified": "вовчий каптур",
+            "name_unidentified": "вовчий каптур"
+        },
+        "hat_bear_hood": {
+            "name_identified": "ведмежий каптур",
+            "name_unidentified": "ведмежий каптур"
+        },
+        "hat_stag_hood": {
+            "name_identified": "оленячий каптур",
+            "name_unidentified": "оленячий каптур"
+        },
+        "hat_bunny_hood": {
+            "name_identified": "кролячий каптур",
+            "name_unidentified": "кролячий каптур"
+        },
+        "hat_bountyhunter": {
+            "name_identified": "капелюх мисливця за головами",
+            "name_unidentified": "капелюх мисливця за головами"
+        },
+        "hat_miter": {
+            "name_identified": "священицька мітра",
+            "name_unidentified": "священицька мітра"
+        },
+        "hat_headdress": {
+            "name_identified": "головний убір мага",
+            "name_unidentified": "головний убір мага"
+        },
+        "hat_chef": {
+            "name_identified": "кухарський ковпак",
+            "name_unidentified": "кухарський ковпак"
+        },
+        "helm_mining": {
+            "name_identified": "шахтарський шолом",
+            "name_unidentified": "шахтарський шолом"
+        },
+        "mask_steel_visor": {
+            "name_identified": "сталеве забрало",
+            "name_unidentified": "сталеве забрало"
+        },
+        "mask_crystal_visor": {
+            "name_identified": "кристалічне забрало",
+            "name_unidentified": "кристалічне забрало"
+        },
+        "mask_artifact_visor": {
+            "name_identified": "Вуаль Валькірії",
+            "name_unidentified": "артефактне забрало"
+        },
+        "hat_circlet_wisdom": {
+            "name_identified": "вінець мудрості",
+            "name_unidentified": "вінець"
+        },
+        "hat_hood_apprentice": {
+            "name_identified": "каптур учня",
+            "name_unidentified": "каптур"
+        },
+        "hat_hood_assassin": {
+            "name_identified": "каптур асасина",
+            "name_unidentified": "каптур"
+        },
+        "hat_hood_whispers": {
+            "name_identified": "каптур шепотів",
+            "name_unidentified": "каптур"
+        },
+        "ring_resolve": {
+            "name_identified": "перстень рішучості",
+            "name_unidentified": "перстень"
+        },
+        "cloak_guardian": {
+            "name_identified": "плащ хранителя",
+            "name_unidentified": "плащ"
+        },
+        "mask_marigold": {
+            "name_identified": "нагідка",
+            "name_unidentified": "нагідка"
+        },
+        "key_stone": {
+            "name_identified": "кам'яний ключ",
+            "name_unidentified": "кам'яний ключ"
+        },
+        "key_bone": {
+            "name_identified": "духовний ключ",
+            "name_unidentified": "духовний ключ"
+        },
+        "key_bronze": {
+            "name_identified": "бронзовий ключ",
+            "name_unidentified": "бронзовий ключ"
+        },
+        "key_iron": {
+            "name_identified": "залізний ключ",
+            "name_unidentified": "залізний ключ"
+        },
+        "key_silver": {
+            "name_identified": "срібний ключ",
+            "name_unidentified": "срібний ключ"
+        },
+        "key_gold": {
+            "name_identified": "золотий ключ",
+            "name_unidentified": "золотий ключ"
+        },
+        "key_crystal": {
+            "name_identified": "кристалічний ключ",
+            "name_unidentified": "кристалічний ключ"
+        },
+        "key_machine": {
+            "name_identified": "машинний ключ",
+            "name_unidentified": "машинний ключ"
+        },
+        "tool_foci_fire": {
+            "name_identified": "фокус полум'я",
+            "name_unidentified": "фокус"
+        },
+        "instrument_flute": {
+            "name_identified": "флейта",
+            "name_unidentified": "флейта"
+        },
+        "instrument_lyre": {
+            "name_identified": "ліра",
+            "name_unidentified": "ліра"
+        },
+        "instrument_drum": {
+            "name_identified": "барабан",
+            "name_unidentified": "барабан"
+        },
+        "instrument_lute": {
+            "name_identified": "лютня",
+            "name_unidentified": "лютня"
+        },
+        "instrument_horn": {
+            "name_identified": "ріг",
+            "name_unidentified": "ріг"
+        },
+        "rapier": {
+            "name_identified": "рапіра",
+            "name_unidentified": "рапіра"
+        },
+        "amulet_burningresist": {
+            "name_identified": "амулет опору горінню",
+            "name_unidentified": "амулет"
+        },
+        "grease_ball": {
+            "name_identified": "жирова куля",
+            "name_unidentified": "жирова куля"
+        },
+        "branch_staff": {
+            "name_identified": "гіллястий посох",
+            "name_unidentified": "гіллястий посох"
+        },
+        "branch_bow": {
+            "name_identified": "гіллястий лук",
+            "name_unidentified": "гіллястий лук"
+        },
+        "branch_bow_infected": {
+            "name_identified": "заражений гіллястий лук",
+            "name_unidentified": "заражений гіллястий лук"
+        },
+        "dust_ball": {
+            "name_identified": "пилова куля",
+            "name_unidentified": "пилова куля"
+        },
+        "bolas": {
+            "name_identified": "бола",
+            "name_unidentified": "бола"
+        },
+        "steel_flail": {
+            "name_identified": "сталевий цеп",
+            "name_unidentified": "сталевий цеп"
+        },
+        "food_ration": {
+            "name_identified": "сухпайок",
+            "name_unidentified": "сухпайок"
+        },
+        "food_ration_spicy": {
+            "name_identified": "гострий сухпайок",
+            "name_unidentified": "сухпайок"
+        },
+        "food_ration_sour": {
+            "name_identified": "кислий сухпайок",
+            "name_unidentified": "сухпайок"
+        },
+        "food_ration_bitter": {
+            "name_identified": "гіркий сухпайок",
+            "name_unidentified": "сухпайок"
+        },
+        "food_ration_hearty": {
+            "name_identified": "ситний сухпайок",
+            "name_unidentified": "сухпайок"
+        },
+        "food_ration_herbal": {
+            "name_identified": "трав'яний сухпайок",
+            "name_unidentified": "сухпайок"
+        },
+        "food_ration_sweet": {
+            "name_identified": "солодкий сухпайок",
+            "name_unidentified": "сухпайок"
+        },
+        "slop_ball": {
+            "name_identified": "куля баланди",
+            "name_unidentified": "куля баланди"
+        },
+        "tool_frying_pan": {
+            "name_identified": "сковорідка",
+            "name_unidentified": "сковорідка"
+        },
+        "cleat_boots": {
+            "name_identified": "бутси",
+            "name_unidentified": "бутси"
+        },
+        "bandit_breastpiece": {
+            "name_identified": "розбійницька шкіряна броня",
+            "name_unidentified": "розбійницька шкіряна броня"
+        },
+        "tunic_blouse": {
+            "name_identified": "блуза",
+            "name_unidentified": "блуза"
+        },
+        "bone_breastpiece": {
+            "name_identified": "кістяний нагрудник",
+            "name_unidentified": "кістяний нагрудник"
+        },
+        "blackiron_breastpiece": {
+            "name_identified": "нагрудник із чорного заліза",
+            "name_unidentified": "нагрудник із чорного заліза"
+        },
+        "silver_breastpiece": {
+            "name_identified": "срібний нагрудник",
+            "name_unidentified": "срібний нагрудник"
+        },
+        "iron_pauldrons": {
+            "name_identified": "залізні наплічники",
+            "name_unidentified": "залізні наплічники"
+        },
+        "quilted_gambeson": {
+            "name_identified": "стьобаний гамбезон",
+            "name_unidentified": "стьобаний гамбезон"
+        },
+        "robe_cultist": {
+            "name_identified": "мантія культиста",
+            "name_unidentified": "мантія культиста"
+        },
+        "robe_healer": {
+            "name_identified": "мантія цілителя",
+            "name_unidentified": "мантія цілителя"
+        },
+        "robe_monk": {
+            "name_identified": "мантія монаха",
+            "name_unidentified": "мантія монаха"
+        },
+        "robe_wizard": {
+            "name_identified": "мантія чарівника",
+            "name_unidentified": "мантія чарівника"
+        },
+        "shawl": {
+            "name_identified": "шаль",
+            "name_unidentified": "шаль"
+        },
+        "chain_hauberk": {
+            "name_identified": "кольчужний хауберк",
+            "name_unidentified": "кольчужний хауберк"
+        },
+        "bone_bracers": {
+            "name_identified": "кістяні наручі",
+            "name_unidentified": "кістяні наручі"
+        },
+        "blackiron_gauntlets": {
+            "name_identified": "рукавиці з чорного заліза",
+            "name_unidentified": "рукавиці з чорного заліза"
+        },
+        "silver_gauntlets": {
+            "name_identified": "срібні рукавиці",
+            "name_unidentified": "срібні рукавиці"
+        },
+        "quilted_gloves": {
+            "name_identified": "стьобані рукавиці",
+            "name_unidentified": "стьобані рукавиці"
+        },
+        "chain_gloves": {
+            "name_identified": "кольчужні рукавиці",
+            "name_unidentified": "кольчужні рукавиці"
+        },
+        "bone_boots": {
+            "name_identified": "кістяні чоботи",
+            "name_unidentified": "кістяні чоботи"
+        },
+        "blackiron_boots": {
+            "name_identified": "чоботи з чорного заліза",
+            "name_unidentified": "чоботи з чорного заліза"
+        },
+        "silver_boots": {
+            "name_identified": "срібні чоботи",
+            "name_unidentified": "срібні чоботи"
+        },
+        "quilted_boots": {
+            "name_identified": "стьобані чоботи",
+            "name_unidentified": "стьобані чоботи"
+        },
+        "loafers": {
+            "name_identified": "лофери",
+            "name_unidentified": "лофери"
+        },
+        "chain_boots": {
+            "name_identified": "кольчужні чоботи",
+            "name_unidentified": "кольчужні чоботи"
+        },
+        "scutum": {
+            "name_identified": "скутум",
+            "name_unidentified": "скутум"
+        },
+        "bone_shield": {
+            "name_identified": "кістяний щит",
+            "name_unidentified": "кістяний щит"
+        },
+        "blackiron_shield": {
+            "name_identified": "щит із чорного заліза",
+            "name_unidentified": "щит із чорного заліза"
+        },
+        "silver_shield": {
+            "name_identified": "срібний щит",
+            "name_unidentified": "срібний щит"
+        },
+        "cloak_dendrite": {
+            "name_identified": "дендритовий плащ",
+            "name_unidentified": "дендритовий плащ"
+        },
+        "bone_helm": {
+            "name_identified": "кістяний шолом",
+            "name_unidentified": "кістяний шолом"
+        },
+        "blackiron_helm": {
+            "name_identified": "шолом із чорного заліза",
+            "name_unidentified": "шолом із чорного заліза"
+        },
+        "silver_helm": {
+            "name_identified": "срібний шолом",
+            "name_unidentified": "срібний шолом"
+        },
+        "hat_felt": {
+            "name_identified": "фетровий капелюх",
+            "name_unidentified": "фетровий капелюх"
+        },
+        "quilted_cap": {
+            "name_identified": "стьобаний ковпак",
+            "name_unidentified": "стьобаний ковпак"
+        },
+        "hood_teal": {
+            "name_identified": "бірюзовий каптур",
+            "name_unidentified": "бірюзовий каптур"
+        },
+        "chain_coif": {
+            "name_identified": "кольчужний койф",
+            "name_unidentified": "кольчужний койф"
+        },
+        "food_shroom": {
+            "name_identified": "скибка гриба",
+            "name_unidentified": "скибка гриба"
+        },
+        "food_nut": {
+            "name_identified": "горіх",
+            "name_unidentified": "горіх"
+        },
+        "tool_foci_snow": {
+            "name_identified": "фокус снігу",
+            "name_unidentified": "фокус"
+        },
+        "tool_foci_needles": {
+            "name_identified": "фокус голок",
+            "name_unidentified": "фокус"
+        },
+        "tool_foci_arcs": {
+            "name_identified": "фокус дуг",
+            "name_unidentified": "фокус"
+        },
+        "tool_foci_sand": {
+            "name_identified": "фокус піщаного вибуху",
+            "name_unidentified": "фокус"
+        },
+        "tool_foci_dark_life": {
+            "name_identified": "ікона привласнення життя",
+            "name_unidentified": "ікона"
+        },
+        "tool_foci_dark_rift": {
+            "name_identified": "ікона розлому порожнечі",
+            "name_unidentified": "ікона"
+        },
+        "tool_foci_dark_silence": {
+            "name_identified": "ікона тиші",
+            "name_unidentified": "ікона"
+        },
+        "tool_foci_dark_vengeance": {
+            "name_identified": "ікона помсти",
+            "name_unidentified": "ікона"
+        },
+        "tool_foci_dark_suppress": {
+            "name_identified": "ікона пригнічення",
+            "name_unidentified": "ікона"
+        },
+        "tool_foci_light_peace": {
+            "name_identified": "символ миру",
+            "name_unidentified": "символ"
+        },
+        "tool_foci_light_justice": {
+            "name_identified": "символ справедливості",
+            "name_unidentified": "символ"
+        },
+        "tool_foci_light_providence": {
+            "name_identified": "символ провидіння",
+            "name_unidentified": "символ"
+        },
+        "tool_foci_light_purity": {
+            "name_identified": "символ чистоти",
+            "name_unidentified": "символ"
+        },
+        "tool_foci_light_sanctuary": {
+            "name_identified": "символ святилища",
+            "name_unidentified": "символ"
+        },
+        "magicstaff_scepter": {
+            "name_identified": "скіпетр архонта",
+            "name_unidentified": "скіпетр"
+        },
+        "tome_sorcery": {
+            "name_identified": "табличка",
+            "name_unidentified": "табличка"
+        },
+        "tome_mysticism": {
+            "name_identified": "табличка",
+            "name_unidentified": "табличка"
+        },
+        "tome_thaumaturgy": {
+            "name_identified": "табличка",
+            "name_unidentified": "табличка"
+        },
+        "hat_circlet_sorcery": {
+            "name_identified": "вінець чаклунства",
+            "name_unidentified": "вінець"
+        },
+        "hat_circlet_thaumaturgy": {
+            "name_identified": "вінець тауматургії",
+            "name_unidentified": "вінець"
+        },
+        "tool_duck": {
+            "name_identified": "качка",
+            "name_unidentified": "качка"
+        },
+        "shillelagh_mace": {
+            "name_identified": "шиллела",
+            "name_unidentified": "шиллела"
+        },
+        "claymore_sword": {
+            "name_identified": "клеймор",
+            "name_unidentified": "клеймор"
+        },
+        "anelace_sword": {
+            "name_identified": "анелас",
+            "name_unidentified": "анелас"
+        },
+        "lance_spear": {
+            "name_identified": "ланс",
+            "name_unidentified": "ланс"
+        },
+        "steel_falshion": {
+            "name_identified": "сталевий фальшіон",
+            "name_unidentified": "сталевий фальшіон"
+        },
+        "steel_greataxe": {
+            "name_identified": "сталевий дворучний топір",
+            "name_unidentified": "сталевий дворучний топір"
+        },
+        "blackiron_axe": {
+            "name_identified": "сокира з чорного заліза",
+            "name_unidentified": "сокира з чорного заліза"
+        },
+        "blackiron_crossbow": {
+            "name_identified": "арбалет із чорного заліза",
+            "name_unidentified": "арбалет із чорного заліза"
+        },
+        "blackiron_dart": {
+            "name_identified": "дротик із чорного заліза",
+            "name_unidentified": "дротик із чорного заліза"
+        },
+        "blackiron_mace": {
+            "name_identified": "булава з чорного заліза",
+            "name_unidentified": "булава з чорного заліза"
+        },
+        "blackiron_sword": {
+            "name_identified": "меч із чорного заліза",
+            "name_unidentified": "меч із чорного заліза"
+        },
+        "blackiron_trident": {
+            "name_identified": "тризуб із чорного заліза",
+            "name_unidentified": "тризуб із чорного заліза"
+        },
+        "bone_axe": {
+            "name_identified": "кістяна сокира",
+            "name_unidentified": "кістяна сокира"
+        },
+        "bone_mace": {
+            "name_identified": "кістяна булава",
+            "name_unidentified": "кістяна булава"
+        },
+        "bone_shortbow": {
+            "name_identified": "кістяний короткий лук",
+            "name_unidentified": "кістяний короткий лук"
+        },
+        "bone_spear": {
+            "name_identified": "кістяний спис",
+            "name_unidentified": "кістяний спис"
+        },
+        "bone_sword": {
+            "name_identified": "кістяний меч",
+            "name_unidentified": "кістяний меч"
+        },
+        "bone_throwing": {
+            "name_identified": "кістка",
+            "name_unidentified": "кістка"
+        },
+        "silver_axe": {
+            "name_identified": "срібна сокира",
+            "name_unidentified": "срібна сокира"
+        },
+        "silver_glaive": {
+            "name_identified": "срібна глефа",
+            "name_unidentified": "срібна глефа"
+        },
+        "silver_mace": {
+            "name_identified": "срібна булава",
+            "name_unidentified": "срібна булава"
+        },
+        "silver_plumbata": {
+            "name_identified": "срібна плюмбата",
+            "name_unidentified": "срібна плюмбата"
+        },
+        "silver_sword": {
+            "name_identified": "срібний меч",
+            "name_unidentified": "срібний меч"
+        },
+        "quiver_bone": {
+            "name_identified": "сагайдак кістяних боєприпасів",
+            "name_unidentified": "сагайдак"
+        },
+        "quiver_blackiron": {
+            "name_identified": "сагайдак боєприпасів із чорного заліза",
+            "name_unidentified": "сагайдак"
+        },
+        "gem_jewel": {
+            "name_identified": "коштовність",
+            "name_unidentified": "коштовність"
+        },
+        "spellbook_meteor": {
+            "name_identified": "книга заклять метеору",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_ice_wave": {
+            "name_identified": "книга заклять крижаної хвилі",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_guard_body": {
+            "name_identified": "книга заклять захисту тіла",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_guard_spirit": {
+            "name_identified": "книга заклять захисту духу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_divine_guard": {
+            "name_identified": "книга заклять божественного захисту",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_prof_nimbleness": {
+            "name_identified": "книга заклять спритності",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_prof_greater_might": {
+            "name_identified": "книга заклять великої могутності",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_prof_counsel": {
+            "name_identified": "книга заклять настанови",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_prof_sturdiness": {
+            "name_identified": "книга заклять стійкості",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_bless_food": {
+            "name_identified": "книга заклять благословенних трапез",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_pinpoint": {
+            "name_identified": "книга заклять прицільності",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_donation": {
+            "name_identified": "книга заклять пожертви",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_scry_allies": {
+            "name_identified": "книга заклять видіння союзників",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_scry_traps": {
+            "name_identified": "книга заклять видіння пасток",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_scry_treasures": {
+            "name_identified": "книга заклять видіння скарбів",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_detect_enemy": {
+            "name_identified": "книга заклять пошуку ворога",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_turn_undead": {
+            "name_identified": "книга заклять екзорцизму",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_heal_other": {
+            "name_identified": "книга заклять малого зцілення іншого",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_blood_ward": {
+            "name_identified": "книга заклять кривавого оберегу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_divine_zeal": {
+            "name_identified": "книга заклять божественного запалу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_maximise": {
+            "name_identified": "книга заклять максимізації",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_minimise": {
+            "name_identified": "книга заклять мінімізації",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_incoherence": {
+            "name_identified": "книга заклять безладдя",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_overcharge": {
+            "name_identified": "книга заклять перезаряду",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_envenom_weapon": {
+            "name_identified": "книга заклять отруєння зброї",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_psychic_spear": {
+            "name_identified": "книга заклять психічного списа",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_defy_flesh": {
+            "name_identified": "книга заклять заперечення плоті",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_grease_spray": {
+            "name_identified": "книга заклять жирового розпилу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_blood_waves": {
+            "name_identified": "книга заклять кривавих хвиль",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_command": {
+            "name_identified": "книга заклять примусу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_metallurgy": {
+            "name_identified": "книга заклять металургії",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_forge_key": {
+            "name_identified": "книга заклять кування ключа",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_reshape_weapon": {
+            "name_identified": "книга заклять перекування зброї",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_alter_arrow": {
+            "name_identified": "книга заклять зміни стріли",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_void_chest": {
+            "name_identified": "книга заклять порожнечної скрині",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_lead_bolt": {
+            "name_identified": "книга заклять свинцевого болта",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_numbing_bolt": {
+            "name_identified": "книга заклять болта заціпеніння",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_curse_flesh": {
+            "name_identified": "книга заклять прокляття плоті",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_cowardice": {
+            "name_identified": "книга заклять боягузтва",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_seek_ally": {
+            "name_identified": "книга заклять пошуку союзника",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_deep_shade": {
+            "name_identified": "книга заклять глибокої тіні",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_spirit_weapon": {
+            "name_identified": "книга заклять духовної зброї",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_spores": {
+            "name_identified": "книга заклять спор",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_windgate": {
+            "name_identified": "книга заклять вітрових врат",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_telekinesis": {
+            "name_identified": "книга заклять телекінезу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_disarm": {
+            "name_identified": "книга заклять роззброєння",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_abundance": {
+            "name_identified": "книга заклять достатку",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_preserve": {
+            "name_identified": "книга заклять збереження",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_sabotage": {
+            "name_identified": "книга заклять саботажу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_mist_form": {
+            "name_identified": "книга заклять туманної форми",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_force_shield": {
+            "name_identified": "книга заклять кінетичного захисту",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_splinter_gear": {
+            "name_identified": "книга заклять осколкової броні",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_attract_items": {
+            "name_identified": "книга заклять притягання предметів",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_absorb_magic": {
+            "name_identified": "книга заклять поглинання магії",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_tunnel": {
+            "name_identified": "книга заклять порталу",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_null_area": {
+            "name_identified": "книга заклять нульової зони",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_fire_sprite": {
+            "name_identified": "книга заклять призову вогняного спрайта",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_spin": {
+            "name_identified": "книга заклять оберту",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_cleanse_food": {
+            "name_identified": "книга заклять очищення їжі",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_flame_cloak": {
+            "name_identified": "книга заклять вогняного плаща",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_lightning_bolt": {
+            "name_identified": "книга заклять блискавичного болта",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_disrupt_earth": {
+            "name_identified": "книга заклять розлому землі",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_fire_wall": {
+            "name_identified": "книга заклять стіни вогню",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_slam": {
+            "name_identified": "книга заклять підйому",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_ignite": {
+            "name_identified": "книга заклять займання",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_shatter_objects": {
+            "name_identified": "книга заклять руйнування предметів",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_kinetic_field": {
+            "name_identified": "книга заклять кінетичного поля",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_thorns": {
+            "name_identified": "книга заклять шипів",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_magicians_armor": {
+            "name_identified": "книга заклять міхура мага",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_heal_minor": {
+            "name_identified": "книга заклять малого зцілення",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_sigil": {
+            "name_identified": "книга заклять священної печаті",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_sanctuary": {
+            "name_identified": "книга заклять божественної фортеці",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_holy_beam": {
+            "name_identified": "книга заклять священного променя",
+            "name_unidentified": "книга заклять"
+        },
+        "spellbook_dominate": {
+            "name_identified": "книга заклять домінування",
+            "name_unidentified": "книга заклять"
+        }
+    },
+    "spell_names": {
+        "spell_forcebolt": {
+            "name": "Силовий Болт"
+        },
+        "spell_magicmissile": {
+            "name": "Магічна Стріла"
+        },
+        "spell_cold": {
+            "name": "Холод"
+        },
+        "spell_fireball": {
+            "name": "Вогняна Куля"
+        },
+        "spell_lightning": {
+            "name": "Блискавка"
+        },
+        "spell_removecurse": {
+            "name": "Зняття Прокляття"
+        },
+        "spell_light": {
+            "name": "Світло"
+        },
+        "spell_identify": {
+            "name": "Розпізнавання"
+        },
+        "spell_magicmapping": {
+            "name": "Магічне Картографування"
+        },
+        "spell_sleep": {
+            "name": "Сон"
+        },
+        "spell_confuse": {
+            "name": "Сплутаність"
+        },
+        "spell_slow": {
+            "name": "Уповільнення"
+        },
+        "spell_opening": {
+            "name": "Відкривання"
+        },
+        "spell_locking": {
+            "name": "Замикання"
+        },
+        "spell_levitation": {
+            "name": "Левітація"
+        },
+        "spell_invisibility": {
+            "name": "Невидимість"
+        },
+        "spell_teleportation": {
+            "name": "Телепортація"
+        },
+        "spell_healing": {
+            "name": "Зцілення"
+        },
+        "spell_extrahealing": {
+            "name": "Додаткове Зцілення"
+        },
+        "spell_cureailment": {
+            "name": "Зцілення Недуги"
+        },
+        "spell_dig": {
+            "name": "Копання"
+        },
+        "spell_summon": {
+            "name": "Призов Скелета"
+        },
+        "spell_stoneblood": {
+            "name": "Кам'яна Кров"
+        },
+        "spell_bleed": {
+            "name": "Кровопускання"
+        },
+        "spell_dominate": {
+            "name": "Домінування"
+        },
+        "spell_reflect_magic": {
+            "name": "Відбиття Магії"
+        },
+        "spell_acid_spray": {
+            "name": "Кислотний Розпил"
+        },
+        "spell_steal_weapon": {
+            "name": "Викрадення Зброї"
+        },
+        "spell_drain_soul": {
+            "name": "Висмоктування Душі"
+        },
+        "spell_vampiric_aura": {
+            "name": "Вампірська Аура"
+        },
+        "spell_charm": {
+            "name": "Зачарування Монстра"
+        },
+        "spell_revert_form": {
+            "name": "Повернення Форми"
+        },
+        "spell_rat_form": {
+            "name": "Форма Щура"
+        },
+        "spell_spider_form": {
+            "name": "Форма Членистоногого"
+        },
+        "spell_troll_form": {
+            "name": "Форма Троля"
+        },
+        "spell_imp_form": {
+            "name": "Форма Імпа"
+        },
+        "spell_spray_web": {
+            "name": "Павутинний Розпил"
+        },
+        "spell_poison": {
+            "name": "Отрута"
+        },
+        "spell_speed": {
+            "name": "Швидкість"
+        },
+        "spell_fear": {
+            "name": "Страх"
+        },
+        "spell_strike": {
+            "name": "Силовий Удар"
+        },
+        "spell_detect_food": {
+            "name": "Пошук Їжі"
+        },
+        "spell_weakness": {
+            "name": "Слабкість"
+        },
+        "spell_amplify_magic": {
+            "name": "Стихійний Фокус"
+        },
+        "spell_shadow_tag": {
+            "name": "Таємна Мітка"
+        },
+        "spell_telepull": {
+            "name": "Телепортація Іншого"
+        },
+        "spell_demon_illu": {
+            "name": "Внутрішній Демон"
+        },
+        "spell_trolls_blood": {
+            "name": "Кров Троля"
+        },
+        "spell_salvage": {
+            "name": "Розбирання"
+        },
+        "spell_flutter": {
+            "name": "Пурхання"
+        },
+        "spell_dash": {
+            "name": "Ривок"
+        },
+        "spell_self_polymorph": {
+            "name": "Поліморфія"
+        },
+        "spell_crab_form": {
+            "name": "Форма Членистоногого"
+        },
+        "spell_crab_web": {
+            "name": "Павутинний Розпил"
+        },
+        "spell_ghost_bolt": {
+            "name": "Примарний Болт"
+        },
+        "spell_slime_acid": {
+            "name": "Слизовий Розпил (Кислота)"
+        },
+        "spell_slime_water": {
+            "name": "Слизовий Розпил (Вода)"
+        },
+        "spell_slime_fire": {
+            "name": "Слизовий Розпил (Магма)"
+        },
+        "spell_slime_tar": {
+            "name": "Слизовий Розпил (Дьоготь)"
+        },
+        "spell_slime_metal": {
+            "name": "Слизовий Розпил (Метал)"
+        },
+        "spell_foci_fire": {
+            "name": "Фокус Полум'я"
+        },
+        "spell_foci_snow": {
+            "name": "Фокус Снігу"
+        },
+        "spell_foci_needles": {
+            "name": "Фокус Голок"
+        },
+        "spell_foci_arcs": {
+            "name": "Фокус Дуг"
+        },
+        "spell_foci_sandblast": {
+            "name": "Фокус Піщаного Вибуху"
+        },
+        "spell_meteor": {
+            "name": "Метеор"
+        },
+        "spell_flames": {
+            "name": "Полум'я"
+        },
+        "spell_ice_wave": {
+            "name": "Крижана Хвиля"
+        },
+        "spell_earth_elemental": {
+            "name": "Призов Земляного Спрайта"
+        },
+        "spell_bless_food": {
+            "name": "Благословенні Трапези"
+        },
+        "spell_shrub": {
+            "name": "Проростання"
+        },
+        "spell_conjure_food": {
+            "name": "Призов Їжі"
+        },
+        "spell_guard_body": {
+            "name": "Охорона Тіла"
+        },
+        "spell_guard_spirit": {
+            "name": "Охорона Духа"
+        },
+        "spell_divine_guard": {
+            "name": "Божественна Охорона"
+        },
+        "spell_prof_nimbleness": {
+            "name": "Спритність Рухів"
+        },
+        "spell_prof_greater_might": {
+            "name": "Велика Міць"
+        },
+        "spell_prof_counsel": {
+            "name": "Настанова"
+        },
+        "spell_prof_sturdiness": {
+            "name": "Міцність"
+        },
+        "spell_pinpoint": {
+            "name": "Прицільність"
+        },
+        "spell_donation": {
+            "name": "Пожертва"
+        },
+        "spell_scry_allies": {
+            "name": "Видіння Союзників"
+        },
+        "spell_scry_shrines": {
+            "name": "Видіння Святинь"
+        },
+        "spell_scry_traps": {
+            "name": "Видіння Пасток"
+        },
+        "spell_scry_treasures": {
+            "name": "Видіння Скарбів"
+        },
+        "spell_penance": {
+            "name": "Каяття"
+        },
+        "spell_call_allies": {
+            "name": "Поклик Союзників"
+        },
+        "spell_sacred_path": {
+            "name": "Священний Шлях"
+        },
+        "spell_manifest_destiny": {
+            "name": "Явлене Призначення"
+        },
+        "spell_detect_enemy": {
+            "name": "Виявлення Ворога"
+        },
+        "spell_detect_enemies": {
+            "name": "Пошук Ворогів"
+        },
+        "spell_turn_undead": {
+            "name": "Екзорцизм"
+        },
+        "spell_heal_other": {
+            "name": "Мале Зцілення Іншого"
+        },
+        "spell_blood_ward": {
+            "name": "Кривавий Захист"
+        },
+        "spell_true_blood": {
+            "name": "Справжня Кров"
+        },
+        "spell_divine_zeal": {
+            "name": "Божественне Завзяття"
+        },
+        "spell_alter_instrument": {
+            "name": "Зміна Інструмента"
+        },
+        "spell_maximise": {
+            "name": "Максимізація"
+        },
+        "spell_minimise": {
+            "name": "Мінімізація"
+        },
+        "spell_jump": {
+            "name": "Стрибок"
+        },
+        "spell_incoherence": {
+            "name": "Безлад"
+        },
+        "spell_overcharge": {
+            "name": "Перезаряд"
+        },
+        "spell_envenom_weapon": {
+            "name": "Отруєння Зброї"
+        },
+        "spell_psychic_spear": {
+            "name": "Психічний Спис"
+        },
+        "spell_defy_flesh": {
+            "name": "Непокора Плоті"
+        },
+        "spell_grease_spray": {
+            "name": "Жировий Розпил"
+        },
+        "spell_blood_waves": {
+            "name": "Криваві Хвилі"
+        },
+        "spell_booby_trap": {
+            "name": "Підступна Пастка"
+        },
+        "spell_command": {
+            "name": "Примус"
+        },
+        "spell_metallurgy": {
+            "name": "Металургія"
+        },
+        "spell_geomancy": {
+            "name": "Геомантія"
+        },
+        "spell_forge_key": {
+            "name": "Кування Ключа"
+        },
+        "spell_forge_jewel": {
+            "name": "Кування Самоцвіту"
+        },
+        "spell_enhance_weapon": {
+            "name": "Посилення Зброї"
+        },
+        "spell_reshape_weapon": {
+            "name": "Перекування Зброї"
+        },
+        "spell_alter_arrow": {
+            "name": "Зміна Стріли"
+        },
+        "spell_void_chest": {
+            "name": "Порожнечна Скриня"
+        },
+        "spell_puncture_void": {
+            "name": "Прокол Порожнечі"
+        },
+        "spell_lead_bolt": {
+            "name": "Свинцевий Болт"
+        },
+        "spell_mercury_bolt": {
+            "name": "Ртутний Болт"
+        },
+        "spell_numbing_bolt": {
+            "name": "Болт Заціпеніння"
+        },
+        "spell_delay_pain": {
+            "name": "Відтермінування Болю"
+        },
+        "spell_curse_flesh": {
+            "name": "Прокляття Плоті"
+        },
+        "spell_revenant_curse": {
+            "name": "Прокляття Ревенанта"
+        },
+        "spell_cowardice": {
+            "name": "Боягузтво"
+        },
+        "spell_courage": {
+            "name": "Відвага"
+        },
+        "spell_seek_ally": {
+            "name": "Пошук Союзника"
+        },
+        "spell_seek_foe": {
+            "name": "Пошук Ворога"
+        },
+        "spell_deep_shade": {
+            "name": "Глибока Тінь"
+        },
+        "spell_shade_bolt": {
+            "name": "Тіньовий Болт"
+        },
+        "spell_spirit_weapon": {
+            "name": "Духовна Зброя"
+        },
+        "spell_adorcism": {
+            "name": "Адорцизм"
+        },
+        "spell_taboo": {
+            "name": "Цап-Відбувайло"
+        },
+        "spell_wonderlight": {
+            "name": "Дивосвітло"
+        },
+        "spell_spores": {
+            "name": "Спори"
+        },
+        "spell_spore_bomb": {
+            "name": "Спорова Бомба"
+        },
+        "spell_windgate": {
+            "name": "Вітрові Врата"
+        },
+        "spell_vortex": {
+            "name": "Вихор"
+        },
+        "spell_telekinesis": {
+            "name": "Телекінез"
+        },
+        "spell_kinetic_push": {
+            "name": "Кінетичний Поштовх"
+        },
+        "spell_disarm": {
+            "name": "Роззброєння"
+        },
+        "spell_strip": {
+            "name": "Зняття"
+        },
+        "spell_abundance": {
+            "name": "Достаток"
+        },
+        "spell_greater_abundance": {
+            "name": "Великий Достаток"
+        },
+        "spell_preserve": {
+            "name": "Збереження"
+        },
+        "spell_restore": {
+            "name": "Відновлення"
+        },
+        "spell_sabotage": {
+            "name": "Саботаж"
+        },
+        "spell_harvest_trap": {
+            "name": "Збирання Пастки"
+        },
+        "spell_mist_form": {
+            "name": "Туманна Форма"
+        },
+        "spell_hologram": {
+            "name": "Голограма"
+        },
+        "spell_force_shield": {
+            "name": "Кінетичний Захист"
+        },
+        "spell_reflector": {
+            "name": "Відбивач"
+        },
+        "spell_splinter_gear": {
+            "name": "Осколкова Броня"
+        },
+        "spell_lighten_load": {
+            "name": "Полегшення Тягаря"
+        },
+        "spell_attract_items": {
+            "name": "Притягання Предметів"
+        },
+        "spell_return_items": {
+            "name": "Повернення Предметів"
+        },
+        "spell_absorb_magic": {
+            "name": "Поглинання Магії"
+        },
+        "spell_seize_magic": {
+            "name": "Захоплення Магії"
+        },
+        "spell_deface": {
+            "name": "Плюндрування"
+        },
+        "spell_sunder_monument": {
+            "name": "Руйнування Монумента"
+        },
+        "spell_demesne_door": {
+            "name": "Брама Володіння"
+        },
+        "spell_tunnel": {
+            "name": "Портал"
+        },
+        "spell_null_area": {
+            "name": "Нульова Зона"
+        },
+        "spell_sphere_silence": {
+            "name": "Сфера Тиші"
+        },
+        "spell_forge_metal_scrap": {
+            "name": "Кування Металу"
+        },
+        "spell_forge_magic_scrap": {
+            "name": "Кування Магії"
+        },
+        "spell_fire_sprite": {
+            "name": "Призов Вогняного Спрайта"
+        },
+        "spell_flame_elemental": {
+            "name": "Полум'яний Елементаль"
+        },
+        "spell_spin": {
+            "name": "Обертання"
+        },
+        "spell_dizzy": {
+            "name": "Запаморочення"
+        },
+        "spell_vandalise": {
+            "name": "Вандалізм"
+        },
+        "spell_desecrate": {
+            "name": "Осквернення"
+        },
+        "spell_sanctify": {
+            "name": "Освячення"
+        },
+        "spell_sanctify_water": {
+            "name": "Освячення Води"
+        },
+        "spell_cleanse_food": {
+            "name": "Очищення Їжі"
+        },
+        "spell_adorcise_instrument": {
+            "name": "Адорцизм Інструмента"
+        },
+        "spell_flame_cloak": {
+            "name": "Вогняний Плащ"
+        },
+        "spell_critical_spell": {
+            "name": "Критичне Закляття"
+        },
+        "spell_magic_well": {
+            "name": "Магічна Криниця"
+        },
+        "spell_flame_shield": {
+            "name": "Вогняний Щит"
+        },
+        "spell_lightning_bolt": {
+            "name": "Блискавичний Болт"
+        },
+        "spell_disrupt_earth": {
+            "name": "Розлом Землі"
+        },
+        "spell_earth_spines": {
+            "name": "Земляні Шипи"
+        },
+        "spell_lightning_nexus": {
+            "name": "Блискавичний Вузол"
+        },
+        "spell_fire_wall": {
+            "name": "Стіна Вогню"
+        },
+        "spell_lift": {
+            "name": "Підйом"
+        },
+        "spell_slam": {
+            "name": "Підйом"
+        },
+        "spell_ignite": {
+            "name": "Займання"
+        },
+        "spell_shatter_objects": {
+            "name": "Руйнування Предметів"
+        },
+        "spell_kinetic_field": {
+            "name": "Кінетичне Поле"
+        },
+        "spell_ice_block": {
+            "name": "Крижаний Блок"
+        },
+        "spell_meteor_shower": {
+            "name": "Метеорний Дощ"
+        },
+        "spell_chronomic_field": {
+            "name": "Хрономічне Поле"
+        },
+        "spell_eternals_gaze": {
+            "name": "Погляд Вічних"
+        },
+        "spell_shatter_earth": {
+            "name": "Руйнування Землі"
+        },
+        "spell_roots": {
+            "name": "Корені"
+        },
+        "spell_mushroom": {
+            "name": "Проростання"
+        },
+        "spell_mycelium": {
+            "name": "Міцелій"
+        },
+        "spell_mycelium_spores": {
+            "name": "Спори Міцелію"
+        },
+        "spell_heal_pulse": {
+            "name": "Імпульс Зцілення"
+        },
+        "spell_thorns": {
+            "name": "Шипи"
+        },
+        "spell_bladevines": {
+            "name": "Клинкові Лози"
+        },
+        "spell_bastion_mushroom": {
+            "name": "Бастіон"
+        },
+        "spell_bastion_roots": {
+            "name": "Бастіон"
+        },
+        "spell_magicians_armor": {
+            "name": "Бульбашка Магів"
+        },
+        "spell_project_spirit": {
+            "name": "Проєкція Духа"
+        },
+        "spell_breathe_fire": {
+            "name": "Вогняне Дихання"
+        },
+        "spell_heal_minor": {
+            "name": "Мале Зцілення"
+        },
+        "spell_holy_fire": {
+            "name": "Святий Вогонь"
+        },
+        "spell_sigil": {
+            "name": "Священна Печатка"
+        },
+        "spell_sanctuary": {
+            "name": "Божественна Фортеця"
+        },
+        "spell_holy_beam": {
+            "name": "Священний Промінь"
+        }
+    }
+}

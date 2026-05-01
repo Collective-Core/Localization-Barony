@@ -1,0 +1,765 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial6a": {
+            "sign": [
+                "Поки ви невидимі,",
+				"вороги все ще",
+				"можуть помітити вас,",
+				"якщо ви дуже близько,",
+				"особливо якщо атакуєте.",
+				"",
+				"$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0,1],
+					[],
+					[2]
+				],
+                "word_highlights2": [
+					[1]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#items/images/spells/invisible.png",
+					"sizex": 0,
+					"sizey": 0
+				}			
+			]
+        },
+        "tutorial6b": {
+            "sign": [
+                "Знищіть скелетів",
+				"у внутрішньому дворі",
+				"праворуч від вас.",
+				"",
+				"Тоді брама",
+				"ліворуч від вас",
+				"відчиниться."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[],
+					[],
+					[0],
+					[]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6c": {
+            "sign": [
+                "Пам'ятайте про",
+				"слабкості типів зброї",
+				"під час атаки зі скритності.",
+				"$",
+                "Будьте готові вдарити знову",
+				"після свого",
+				"першого удару!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[],
+					[3,4],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/swordmace.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial6/sign_ironmace.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial6d": {
+            "sign": [
+                "Стежте, куди",
+				"дивляться вороги, і",
+				"підбирайте час атаки,",
+				"щоб гарантовано вдарити в спину.",
+                "",
+                "Вам не потрібно",
+				"крастися, коли ворог",
+				"повернувся спиною!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/backturned.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial6do": {
+            "sign": [
+                "Кришталеві уламки",
+				"це тьмяні смолоскипи,",
+				"які ніколи не згасають,",
+				"але дуже крихкі.",
+                "",
+                "Штраф до видимості",
+				"від кришталевих смолоскипів",
+				"удвічі менший, ніж",
+				"від звичайних смолоскипів."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[2,3],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [
+					[0,1],
+					[1],
+					[2,3],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial6e": {
+            "sign": [
+                "Авантюристам може",
+				"знадобитися скритність,",
+				"щоб використати її",
+				"для виживання в підземеллі."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[3],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6f": {
+            "sign": [
+                "Коли ворог зайнятий",
+				"іншим противником, ви",
+				"можете збільшити шкоду",
+				"фланговими ударами.",
+				"",
+                "Не підходьте надто близько,",
+				"інакше вони звернуть",
+                "увагу на вас!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2,3],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[4],
+					[],
+					[1,2],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/flanking.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial6g": {
+            "sign": [
+                "Знати, як битися,",
+				"добре, але підходити",
+                "до бою з перевагою",
+				"може гарантувати перемогу."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6h": {
+            "sign": [
+				"$",
+                "Ворогам важче",
+				"виявити вас",
+				"у темряві.",
+                "Коли ви тримаєте смолоскип,",
+				"вас значно легше побачити."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2,3,4]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/sneaklight.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#data/scripts/tutorial1/sign_torch.png",
+					"sizex": 0,
+					"sizey": 0
+				}			
+			]
+        },
+        "tutorial6i": {
+            "sign": [
+                "$",
+				"",
+				"Якщо в другій руці",
+				"немає предмета,",
+                "утримуйте$, щоб крастися."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2],
+					[]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#images/ui/SkillSheet/Icons/Stealth02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Захист"
+				}				
+			]
+        },
+        "tutorial6j": {
+            "sign": [
+                "Як і захист,",
+				"скрадання змушує вас",
+				"рухатися повільніше.",
+				"",
+                "Воно також робить вас",
+				"важчими для виявлення і",
+                "дозволяє краще бачити",
+				"у темряві."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[2],
+					[],
+					[],
+					[0,1,2],
+					[3,4],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6k": {
+            "sign": [
+                "Вороги, які",
+				"не знають про вас,",
+                "отримують бонусну шкоду",
+				"від удару в спину,",
+				"коли їх атакують ззаду."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6l": {
+            "sign": [
+                "Утримуйте$, щоб зарядити",
+				"критичний удар і",
+                "максимізувати шкоду",
+				"першої атаки під час",
+				"удару в спину ворогам."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[2,3],
+					[],
+					[],
+					[],
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/followstrike.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Атака"
+				}					
+			]
+        },
+        "tutorial6m": {
+            "sign": [
+                "Вашу навичку скритності",
+				"тепер буде перевірено.",
+                "",
+				"Убийте ватажка гоблінів",
+				"і врятуйтеся живими.",
+                "Уникайте або вбийте решту!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6n": {
+            "sign": [
+                "Флангові удари, скрадання,",
+				"удари в спину та контроль",
+				"світла допоможуть авантюристам",
+                "для виживання в підземеллі."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial6no": {
+            "sign": [
+                "Вітаємо!",
+				"Це останнє",
+				"з шести базових випробувань.",
+				"Герої чинять великі подвиги",
+				"завдяки цим урокам.",
+				"",
+				"Випробування 7 - 10 дають",
+				"спеціалізовані уроки.",
+				"Опануйте їх, якщо",
+				"прагнете більшої майстерності."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color":
+					{
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2,3],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+					
+				]
+            },
+            "variables": []
+        },		
+        "tutorial6o": {
+            "sign": [
+                "Ця брама відчиняється лише",
+				"коли ватажка гоблінів",
+				"буде вбито."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[2,3],
+					[]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6p": {
+            "sign": [
+                "Збирайте смолоскипи, щоб",
+				"затемнювати місця й робити",
+				"скрадання легшим."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/darken.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial6pa": {
+            "sign": [
+                "Після виявлення",
+				"скритні авантюристи можуть",
+				"утекти й спробувати",
+				"знову підкрастися",
+				"до цілі."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0],
+					[],
+					[]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial6q": {
+            "sign": [
+                "Тролі майже сліпі.",
+				"Більш спостережливі вороги",
+                "можуть помітити вас",
+				"з більшої відстані.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0],
+					[1],
+					[1],
+					[]
+				]
+            },
+            "variables": [
+				{
+					"type": "зображення",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+					"sizex": 48,
+					"sizey": 48
+				}			
+			]
+        }
+    }
+}
