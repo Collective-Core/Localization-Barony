@@ -1,0 +1,5 @@
+﻿sourceText;translatedText;occurrencesForSource;distinctTranslations;relativeFilePath;locator;details
+DUMMYBOT;МАНЕКЕН-БОТ;4;2;lang/compendium_lang/contents_items.json;root.contents[82].DUMMYBOT.@key;МАНЕКЕН-БОТ => 2 | DUMMYBOT => 2
+DUMMYBOT;МАНЕКЕН-БОТ;4;2;lang/compendium_lang/contents_items.json;root.contents_alphabetical[24].DUMMYBOT.@key;МАНЕКЕН-БОТ => 2 | DUMMYBOT => 2
+DUMMYBOT;DUMMYBOT;4;2;lang/compendium_lang/contents_monsters.json;root.contents[60].DUMMYBOT.@key;МАНЕКЕН-БОТ => 2 | DUMMYBOT => 2
+DUMMYBOT;DUMMYBOT;4;2;lang/compendium_lang/contents_monsters.json;root.contents_alphabetical[16].DUMMYBOT.@key;МАНЕКЕН-БОТ => 2 | DUMMYBOT => 2

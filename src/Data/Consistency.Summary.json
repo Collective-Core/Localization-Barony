@@ -1,0 +1,7 @@
+{
+  "translatedSourceGroups": 18413,
+  "inconsistentSourceGroups": 1,
+  "issueRows": 4,
+  "exceptionsFile": "Consistency.Exceptions.csv",
+  "reportCsv": "Consistency.Report.csv"
+}

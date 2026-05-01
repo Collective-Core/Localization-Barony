@@ -1,0 +1,7 @@
+sourceText;allowedTranslations;notes
+Unarmed;Без Зброї | Беззбройний Бій;Allowed context split: attack mode label vs skill/proficiency name.
+skill.;навичку. | майстерністю.;Allowed context split from segmented sentence fragments in codex vs monster flavor text.
+starve to death.;помрете з голоду. | вмирають від голоду.;Allowed context split: direct tutorial warning vs general world-lore statement.
+the dungeons.;підземелля. | підземеллях.;Allowed context split: sentence fragment uses accusative in one tutorial and locative in another.
+thou makest use of them.#\r\n;коли ти користуватимешся ними.#\r\n | користуватися ними.#\r\n;Allowed context split: one segmented sentence completes "as", the other completes "before".
+the Baron!#\r\n;Барон!#\r\n | Барону!#\r\n | Бароном!#\r\n;Allowed context split: epitaph fragments require nominative, dative, and instrumental case.
