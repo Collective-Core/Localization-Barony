@@ -1,31 +1,31 @@
 {
     "version": 1,
-	"default_attributes": {
-		"font_color": {
-			"r": 239,
-			"g": 237,
-			"b": 235,
-			"a": 255
-		},
-		"font_outline_color": {
-			"r": 50,
-			"g": 29,
-			"b": 25,
-			"a": 255
-		},
-		"font_highlight_color": {
-			"r": 18,
-			"g": 196,
-			"b": 131,
-			"a": 255
-		},
-		"font_highlight2_color": {
-			"r": 64,
-			"g": 192,
-			"b": 255,
-			"a": 255
-		}
-	},
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
     "script_entries": {
         "tutorial_huba": {
             "sign": [
@@ -46,7 +46,7 @@
         "tutorial_hubb": {
             "sign": [
                 "Магія",
-				"Предмети"
+                "Предмети"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -63,7 +63,7 @@
         "tutorial_hubc": {
             "sign": [
                 "Стрільба",
-				"Зброя"
+                "Зброя"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -96,7 +96,7 @@
         "tutorial_hube": {
             "sign": [
                 "Ближній Бій",
-				"Зброя"
+                "Зброя"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -113,8 +113,8 @@
         "tutorial_hubf": {
             "sign": [
                 "Ласкаво Просимо",
-				"до",
-				"Крила Майстра"
+                "до",
+                "Крила Майстра"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -131,9 +131,9 @@
         "tutorial_hubg": {
             "sign": [
                 "Випробування 2:",
-				"",
-				"Луки, Стріли та",
-				"Метальна Зброя"
+                "",
+                "Луки, Стріли та",
+                "Метальна Зброя"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -150,9 +150,9 @@
         "tutorial_hubh": {
             "sign": [
                 "Випробування 3:",
-				"",
-				"Пастки Підземелля,",
-				"Шипи та Валуни"
+                "",
+                "Пастки Підземелля,",
+                "Шипи та Валуни"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -169,9 +169,9 @@
         "tutorial_hubi": {
             "sign": [
                 "Випробування 4:",
-				"",
-				"Їжа, Оцінювання",
-				"та Прокляття"
+                "",
+                "Їжа, Оцінювання",
+                "Та Прокляття"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -188,11 +188,11 @@
         "tutorial_hubj": {
             "sign": [
                 "Випробування 1:",
-				"",
-				"Основи Підземелля",
-				"та Ближній Бій",
-				"",
-				"ВСТУПНИЙ УРОК"
+                "",
+                "Основи Підземелля",
+                "Та Ближній Бій",
+                "",
+                "ВСТУПНИЙ УРОК"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -203,23 +203,30 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-				[],
-				[],
-				[],
-				[],
-				[],
-				[0,1,2,3,4,5]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial_hubk": {
             "sign": [
                 "Ви в Західній Залі",
-				"перед Дворищем",
-				"",
+                "перед Дворищем",
+                "",
                 "У Дворищі розташовані",
-				"Випробування 5 - 8"
+                "Випробування 5 - 8"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -236,9 +243,9 @@
         "tutorial_hubl": {
             "sign": [
                 "Вхід до Західної Зали",
-				"",
+                "",
                 "У Західній Залі розміщені",
-				"Випробування 1 - 4"
+                "Випробування 1 - 4"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -255,10 +262,10 @@
         "tutorial_hubm": {
             "sign": [
                 "Ви можете пропустити або пройти",
-				"будь-яке Випробування за бажанням.",
-				"",
+                "будь-яке Випробування за бажанням.",
+                "",
                 "Деякі герої опановують",
-				"усі Випробування."
+                "усі Випробування."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -275,10 +282,10 @@
         "tutorial_hubn": {
             "sign": [
                 "Ласкаво Просимо до",
-				"Зал Випробувань",
-				"",
-				"Тут вас",
-				"навчатимуть і випробовуватимуть"
+                "Зал Випробувань",
+                "",
+                "Тут вас",
+                "навчатимуть і випробовуватимуть"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -295,9 +302,9 @@
         "tutorial_hubo": {
             "sign": [
                 "Випробування 5:",
-				"",
-				"Магія, Книги Заклять",
-				"та Чаклування"
+                "",
+                "Магія, Книги Заклять",
+                "Та Чаклування"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -314,9 +321,9 @@
         "tutorial_hubp": {
             "sign": [
                 "Випробування 6:",
-				"",
-				"Скритність та",
-				"Несподівані Атаки"
+                "",
+                "Скритність та",
+                "Несподівані Атаки"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -333,33 +340,38 @@
         "tutorial_hubq": {
             "sign": [
                 "Випробування 7:",
-				"",
-				"Вербування Супутників",
-				"та Команди",
-				"",
-				"ПОГЛИБЛЕНИЙ УРОК"
+                "",
+                "Вербування Супутників",
+                "Та Команди",
+                "",
+                "ПОГЛИБЛЕНИЙ УРОК"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},					
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2,3]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": []
@@ -367,31 +379,36 @@
         "tutorial_hubr": {
             "sign": [
                 "Випробування 8:",
-				"",
-				"Зілля та Алхімія",
-				"",
+                "",
+                "Зілля та Алхімія",
+                "",
                 "ПОГЛИБЛЕНИЙ УРОК"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},							
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[0,1,2,3]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": []
@@ -399,9 +416,9 @@
         "tutorial_hubs": {
             "sign": [
                 "Підхід до Східної Зали",
-				"",
+                "",
                 "У Східній Залі розташовані",
-				"Випробування 9 і 10"
+                "Випробування 9 і 10"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -418,29 +435,34 @@
         "tutorial_hubt": {
             "sign": [
                 "Випробування 9:",
-				"Майстрування",
-				"",
+                "Майстрування",
+                "",
                 "ПОГЛИБЛЕНИЙ УРОК"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},						
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[0,1,2,3]
-				],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": []
@@ -448,31 +470,37 @@
         "tutorial_hubu": {
             "sign": [
                 "Випробування 10:",
-				"",
-				"Купці та Крамниці",
-				"",
+                "",
+                "Купці та Крамниці",
+                "",
                 "ПОГЛИБЛЕНИЙ УРОК"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},						
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[0,1,2,3,4]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": []
@@ -480,30 +508,32 @@
         "tutorial_hubv": {
             "sign": [
                 "Потягніть Важіль, Щоб Викликати",
-				"Випадкового Монстра",
-				"",
+                "випадкового Монстра",
+                "",
                 "УВАГА:",
-				"Використовуйте на власний ризик."
+                "Використовуйте на власний ризик."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},						
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-				[],
-				[],
-				[],
-				[0]
-				],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": []
@@ -511,7 +541,7 @@
         "tutorial_hubw": {
             "sign": [
                 "Майстрування",
-				"Запаси"
+                "Запаси"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -528,7 +558,7 @@
         "tutorial_hubx": {
             "sign": [
                 "Алхімія",
-				"Запаси"
+                "Запаси"
             ],
             "attributes": {
                 "font": "fonts/kongtext.ttf#16#2",
@@ -561,13 +591,13 @@
         "tutorial_hubz": {
             "sign": [
                 "Шукачі пригод, що наважуються на",
-				"підземелля, обирають клас,",
-				"який визначає початкові",
-				"здібності та спорядження.",
-				"",
+                "підземелля, обирають клас,",
+                "який визначає початкові",
+                "здібності та спорядження.",
+                "",
                 "$ $ $",
-				"Усі Класи можуть скористатися",
-				"наукою Випробувань."
+                "Усі Класи можуть скористатися",
+                "наукою Випробувань."
             ],
             "attributes": {
                 "font": "fonts/pixel_maz_multiline.ttf#16#2",
@@ -578,41 +608,45 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[3],
-					[],
-					[0,2]
-					
-				]
+                    [],
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ]
             },
             "variables": [
-							{
-					"type": "зображення",
-					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Warrior_00.png",
-					"sizex": 0,
-					"sizey": 0
-				},				
-				{
-					"type": "зображення",
-					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Rogue_00.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Wizard_00.png",
-					"sizex": 0,
-					"sizey": 0
-				}
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Warrior_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Rogue_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/Main Menus/Play/PlayerCreation/ClassSelection/ClassSelect_Icon_Wizard_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial_hubab": {
             "sign": [
                 "Ваші характеристики слугують основою для",
                 "багатьох дій і можливостей.",
-				"",
-				"$$$$$$",
-				"",
+                "",
+                "$$$$$$",
+                "",
                 "Класи шукачів пригод починають із",
                 "різних значень характеристик, і вони",
                 "зростають із різною швидкістю."
@@ -626,65 +660,78 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[1],
-					[1,3],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2],
-					[0,2,3]
-				]
+                    [
+                        1
+                    ],
+                    [
+                        1,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#images/ui/CharSheet/HUD_CharSheet_STR_00.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#images/ui/CharSheet/HUD_CharSheet_CON_00.png",
-					"sizex": 0,
-					"sizey": 0
-				},				
-				{
-					"type": "зображення",
-					"value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
-					"sizex": 0,
-					"sizey": 0
-				}
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial_hubac": {
             "sign": [
                 "У підземеллях шукачі пригод",
-				"отримують бали досвіду (XP) за",
-				"свої вчинки.",
-				"",
-				"Після отримання 100 XP герої",
-				"підвищують рівень, отримуючи",
-				"вищі характеристики, очки здоров'я (HP),",
-				"та очки магії (MP)."
+                "отримують бали досвіду (XP) за",
+                "свої вчинки.",
+                "",
+                "Після отримання 100 XP герої",
+                "підвищують рівень, отримуючи",
+                "вищі характеристики, очки здоров'я (HP),",
+                "та очки магії (MP)."
             ],
             "attributes": {
                 "font": "fonts/pixel_maz_multiline.ttf#16#2",
@@ -695,15 +742,33 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[1,2,3],
-					[],
-					[],
-					[2,3],
-					[2],
-					[1,2,3,4],
-					[1,2,3]
-				]
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": []
         },
@@ -712,10 +777,10 @@
                 "Коли в підземеллях підвищується рівень,",
                 "шукачі пригод отримують",
                 "+1 до 3 різних характеристик.",
-				"",
-				"Ще одне +1 надається",
-				"четвертій характеристиці, якщо шукач пригод",
-				"зосереджувався на тренуванні навичок."
+                "",
+                "Ще одне +1 надається",
+                "четвертій характеристиці, якщо шукач пригод",
+                "зосереджувався на тренуванні навичок."
             ],
             "attributes": {
                 "font": "fonts/pixel_maz_multiline.ttf#16#2",
@@ -726,28 +791,45 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[2],
-					[],
-					[0,1,3,4,5],
-					[],
-					[1,2],
-					[1,2],
-					[1,3]
-				]
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        3,
+                        4,
+                        5
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        3
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial_class": {
             "sign": [
-				"Успішні учні часто",
-				"об'єднуються з іншими випускниками,",
-				"обираючи класи, чиї таланти",
-				"доповнюють один одного.",
-				"",
-				"Це підвищує їхні шанси",
-				"на успіх, коли вони нарешті",
-				"наберуться сміливості шукати",
-				"пригод у підземеллях." 
+                "Успішні учні часто",
+                "об'єднуються з іншими випускниками,",
+                "обираючи класи, чиї таланти",
+                "доповнюють один одного.",
+                "",
+                "Це підвищує їхні шанси",
+                "на успіх, коли вони нарешті",
+                "наберуться сміливості шукати",
+                "пригод у підземеллях."
             ],
             "attributes": {
                 "font": "fonts/pixel_maz_multiline.ttf#16#2",
@@ -758,28 +840,40 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0,1],
-					[],
-					[0,1,2],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2,3]
-				]
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial_garden": {
             "sign": [
-				"Сад Шукачів Пригод",
-				"",
-				"Далі випробувань",
-				"немає."
+                "Сад Шукачів Пригод",
+                "",
+                "Далі випробувань",
+                "немає."
             ],
             "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",		
+                "font": "fonts/pixelmix.ttf#16#2",
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
@@ -787,20 +881,23 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[0,1]
-				]
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial_cy": {
             "sign": [
-				"Класове Дворище",
-				"",
-				"Шукайте мудрість",
-				"героїв усередині."
+                "Класове Дворище",
+                "",
+                "Шукайте мудрість",
+                "героїв усередині."
             ],
             "attributes": {
-                "font": "fonts/pixelmix.ttf#16#2",		
+                "font": "fonts/pixelmix.ttf#16#2",
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
@@ -808,69 +905,81 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[0,1]
-				]
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": []
-        },								
+        },
         "tutorial_pupil": {
             "sign": [
-				"Учням у Залі Випробувань",
-				"заборонено обирати",
-				"пригодницький клас під час навчання.",
-				"Їхні вчинки тут",
-				"буде забуто.",
-				"",
-				"Шукаючи пригод, випускники",
-				"можуть носити титул класу й",
-				"прославити себе в",
-				"Архівах Пригод."
+                "Учням у Залі Випробувань",
+                "заборонено обирати",
+                "пригодницький клас під час навчання.",
+                "Їхні вчинки тут",
+                "буде забуто.",
+                "",
+                "Шукаючи пригод, випускники",
+                "можуть носити титул класу й",
+                "прославити себе в",
+                "архівах Пригод."
             ],
             "attributes": {
                 "font": "fonts/pixel_maz_multiline.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},							
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[1],
-					[],
-					[],
-					[0,1,2]
-				],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-				[],
-				[],
-				[],
-				[],
-				[],
-				[],
-				[],
-				[],
-				[],
-				[1,2]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": []
-        },				
+        },
         "tutorial_quit": {
             "sign": [
                 "Ви завжди можете повернутися",
-				"до Зали Випробувань",
-				"щоб продовжити навчання.",
-				"",
-				"Натисніть$ і",
-				"[ Вийти до Головного Меню ]",
-				"якщо хочете вирушити",
-				"на пригоди."
+                "до Зали Випробувань",
+                "щоб продовжити навчання.",
+                "",
+                "Натисніть$ і",
+                "[ Вийти до Головного Меню ]",
+                "якщо хочете вирушити",
+                "на пригоди."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -880,30 +989,41 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-				[],
-				[],
-				[],
-				[],
-				[0],
-				[1,2,3,4]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ],
                 "word_highlights2": [
-					[3],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0]
-				]
+                    [
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Пауза Гри"
-				}					
-			]
-        }		
+                {
+                    "type": "input_glyph",
+                    "value": "Пауза Гри"
+                }
+            ]
+        }
     }
 }

@@ -1,12 +1,12 @@
 {
-	"version": 1,
-	"adjectives": {
-		"food_status": {
-			"broken": "Гнилий",
-			"decrepit": "Торішній",
-			"worn": "Залишковий",
-			"serviceable": "Передарований",
-			"excellent": "Свіжий"
-		}
-	}
+    "version": 1,
+    "adjectives": {
+        "food_status": {
+            "broken": "Гнила",
+            "decrepit": "Торішня",
+            "worn": "Залишена",
+            "serviceable": "Передарована",
+            "excellent": "Свіжа"
+        }
+    }
 }

@@ -31,4 +31,20 @@ swamp00 - Poltergeist by Myuu
 swamp01 - Abyss by Myuu
 swamp02 - Danger by Myuu
 swamp03 - Growing Shadows
+temple - Extinction by Myuumines01 - Haunted House by Myuu
+mines02 - Nebula by Myuu
+mines03 - Strange Vision by Myuu
+mines04 - The Crypt by Myuu
+minetown - Haunted By Screams by Myuu
+minotaur00 - Run! by Myuu
+minotaur01 - Cornered by Myuu
+ruins00 - You're Next by Myuu
+ruins01 - Into the Depths by Myuu
+ruins02 - The Backrooms by Myuu
+sanctum - Metamorphosis by Myuu
+shop - Carnival Freaks by Myuu
+swamp00 - Poltergeist by Myuu
+swamp01 - Abyss by Myuu
+swamp02 - Danger by Myuu
+swamp03 - Growing Shadows
 temple - Extinction by Myuu

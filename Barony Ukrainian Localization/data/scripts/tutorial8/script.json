@@ -1,150 +1,166 @@
 {
     "version": 1,
-	"default_attributes": {
-		"font_color": {
-			"r": 239,
-			"g": 237,
-			"b": 235,
-			"a": 255
-		},
-		"font_outline_color": {
-			"r": 50,
-			"g": 29,
-			"b": 25,
-			"a": 255
-		},
-		"font_highlight_color": {
-			"r": 18,
-			"g": 196,
-			"b": 131,
-			"a": 255
-		},
-		"font_highlight2_color": {
-			"r": 64,
-			"g": 192,
-			"b": 255,
-			"a": 255
-		}
-	},	
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
     "script_entries": {
         "tutorial8a": {
             "sign": [
-				"$ ",
-				"",
+                "$ ",
+                "",
                 "У вас мало HP",
-				"через отруєння.",
+                "через отруєння.",
                 "Зілля Екстра Зцілення",
-				"допоможе."
+                "допоможе."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},				
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[3],
-					[3]
-				],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[1],
-					[],
-					[],
-					[1]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/extrahealing_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/extrahealing_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/extrahealing.png",
-				"sizex": 32,
-				"sizey": 32
-				}			
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/extrahealing.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8a_gamepad": {
             "sign": [
-				"$ ",
-				"",
+                "$ ",
+                "",
                 "У вас мало HP",
-				"через отруєння.",
+                "через отруєння.",
                 "Зілля Екстра Зцілення",
-				"допоможе."
+                "допоможе."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},				
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[3],
-					[3]
-				],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[1],
-					[],
-					[],
-					[1]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/extrahealing_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/extrahealing_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/extrahealing.png",
-				"sizex": 32,
-				"sizey": 32
-				}			
-			]
-        },		
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/extrahealing.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
         "tutorial8b": {
             "sign": [
                 "Щоб змішувати зілля, використайте",
-				"аламбік за допомогою$ , а потім",
+                "Аламбік за допомогою$ , а потім",
                 "виберіть два різні",
-				"зілля за допомогою$ .",
-				"",
-				"Потім виберіть результат",
+                "зілля за допомогою$ .",
+                "",
+                "Потім виберіть результат",
                 "з нижнього слота",
                 "за допомогою$, щоб зварити його."
             ],
@@ -156,42 +172,57 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[0,1,2],
-					[],
-					[1],
-					[],
-					[],
-					[2,3],
-					[2,3]
-				],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[1,2]
-				]
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				},				
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				}				
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
         },
         "tutorial8b_gamepad": {
             "sign": [
                 "Щоб змішувати зілля, використайте",
-				"аламбік за допомогою$ , а потім",
+                "Аламбік за допомогою$ , а потім",
                 "виберіть два різні",
-				"зілля за допомогою$ .",
-				"",
-				"Потім виберіть Варити за допомогою$",
+                "зілля за допомогою$ .",
+                "",
+                "Потім виберіть Варити за допомогою$",
                 "або заберіть результат",
                 "з нижнього слота."
             ],
@@ -203,45 +234,59 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[0,1,2],
-					[],
-					[1],
-					[],
-					[2],
-					[],
-					[2,3]
-				],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[1,2]
-				]
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				},				
-				{
-					"type": "input_glyph",
-					"value": "MenuAlt2"
-				}				
-			]
-        },		
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuAlt2"
+                }
+            ]
+        },
         "tutorial8c": {
             "sign": [
                 "Зілля можна",
-				"цінною допомогою для",
-				"авантюристів і",
-				"могутньою зброєю",
-				"проти їхніх ворогів.",
-				"",
+                "цінною допомогою для",
+                "авантюристів і",
+                "могутньою зброєю",
+                "проти їхніх ворогів.",
+                "",
                 "Ті, хто опанує",
-				"їх використання, можуть перемагати",
-				"підземелля."
+                "їх використання, можуть перемагати",
+                "підземелля."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -252,19 +297,25 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0,1],
-					[],
-					[0,1]
-				]
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial8d": {
             "sign": [
                 "Благословенні аламбіки можуть",
-				"давати благословенні напої.",
-				"$",
+                "давати благословенні напої.",
+                "$",
                 "Благословенні вода й сік",
                 "мають велику лікувальну цінність."
             ],
@@ -277,81 +328,98 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[0,1],
-					[1,2],
-					[],
-					[],
-					[2]
-				]
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial8/sign_blessedalembic.png",
-				"sizex": 0,
-				"sizey": 0
-				}			
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial8/sign_blessedalembic.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8e": {
             "sign": [
                 "Прокляті аламбіки можуть",
-				"давати прокляті напої.",
-				"$",
+                "давати прокляті напої.",
+                "$",
                 "Це псує їх і",
-				"може завдати більше шкоди.",
+                "може завдати більше шкоди.",
                 "Проклята вода може",
-				"проклясти предмет."
+                "проклясти предмет."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0,1],
-					[],
-					[],
-					[],
-					[],
-					[0,1]
-				],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[2,3]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial8/sign_cursedalembic.png",
-				"sizex": 0,
-				"sizey": 0
-				}		
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial8/sign_cursedalembic.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8f": {
             "sign": [
                 "Ви маєте використати те,",
-				"чого навчилися, і",
-				"свій запас зілля,",
-				"щоб досягти успіху. Переконайтеся,",
-				"що ви готові.",
-				"",
+                "чого навчилися, і",
+                "свій запас зілля,",
+                "щоб досягти успіху. Переконайтеся,",
+                "що ви готові.",
+                "",
                 "Тепер вас буде випробувано.",
-				"Очистьте місцевість від",
-				"нежиті."
+                "Очистьте місцевість від",
+                "нежиті."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -362,56 +430,67 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[1,2,3]
-				]
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial8g": {
             "sign": [
                 "Умілі алхіміки мають",
-				"кращий шанс",
-				"дублювати з водою.",
-				"",
+                "кращий шанс",
+                "дублювати з водою.",
+                "",
                 "Невдача призведе до",
-				"втрати зілля."
+                "втрати зілля."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},					
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2,3]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[0]
-				]
+                    [
+                        0
+                    ]
+                ]
             },
             "variables": []
-        },		
+        },
         "tutorial8h": {
             "sign": [
                 "Щоб переглянути шанси",
-				"дублювання, наведіть на",
-				"нижній слот аламбіка, коли",
-				"ваше зілля й вода",
-				"готові до варіння."
+                "дублювання, наведіть на",
+                "нижній слот аламбіка, коли",
+                "ваше зілля й вода",
+                "готові до варіння."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -421,26 +500,34 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[1],
-					[],
-					[],
-					[0,1,2]
-				],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[1]
-				]
+                    [
+                        1
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial8i": {
             "sign": [
                 "Ви можете покращити",
-				"свою Навичку Алхімії,",
-				"випиваючи зілля",
-				"вперше.",
-				"",
-				"$"
+                "свою Навичку Алхімії,",
+                "випиваючи зілля",
+                "вперше.",
+                "",
+                "$"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -451,28 +538,31 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1]
-				]
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/ui/SkillSheet/Icons/Alchemy02_32.png",
-				"sizex": 32,
-				"sizey": 32
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/SkillSheet/Icons/Alchemy02_32.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8j": {
             "sign": [
                 "Перед вами стоїть",
-				"аламбік, який можна",
-				"використати для варіння зілля.",
-				"$",
+                "Аламбік, який можна",
+                "використати для варіння зілля.",
+                "$",
                 "Змішуйте нові зілля з",
-				"двох різних пляшок."
+                "двох різних пляшок."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -483,62 +573,72 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0],
-					[],
-					[],
-					[],
-					[0,1]
-				]
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial8/sign_alembic.png",
-				"sizex": 0,
-				"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial8/sign_alembic.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8k": {
             "sign": [
                 "Стережіться смертельного ворога",
-				"за цими дверима.",
-				"",
+                "за цими дверима.",
+                "",
                 "Було б мудро",
-				"тримати цю браму зачиненою."
+                "тримати цю браму зачиненою."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},					
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[2,3]
-				],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[3]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial8l": {
             "sign": [
                 "Важіль до цієї брами",
-				"розташований за павуком",
-				"в іншій кімнаті."
+                "розташований за павуком",
+                "в іншій кімнаті."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -549,31 +649,35 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[1,2,3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/spiderlever.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/spiderlever.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial8m": {
             "sign": [
                 "Зілля Паралічу",
-				"",
-				"$ ",
-				"",
-				"Спричиняє Параліч,",
-				"зупиняючи рух і",
-				"атаки. Ви можете пити",
-				"зілля, поки паралізовані."
+                "",
+                "$ ",
+                "",
+                "Спричиняє Параліч,",
+                "зупиняючи рух і",
+                "атаки. Ви можете пити",
+                "зілля, поки паралізовані."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -584,29 +688,32 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/ui/HUD/statusfx/paralyze.png",
-				"sizex": 32,
-				"sizey": 32
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/HUD/statusfx/paralyze.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8n": {
             "sign": [
                 "Іноді кинути",
-				"корисне зілля це",
-				"найкращий спосіб",
-				"допомогти союзникам."
+                "корисне зілля це",
+                "найкращий спосіб",
+                "допомогти союзникам."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -617,21 +724,26 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0],
-					[],
-					[0,1]
-				]
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial8o": {
             "sign": [
                 "Зілля Лікування Недуг",
-				"$",
+                "$",
                 "Випивання цього знімає",
-				"більшість статусних ефектів,",
-				"включно з позитивними."
+                "більшість статусних ефектів,",
+                "включно з позитивними."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -642,29 +754,32 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[1,2]
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial8/sign_cure.png",
-				"sizex": 0,
-				"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial8/sign_cure.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8p": {
             "sign": [
                 "Зілля з корисними",
-				"ефектами споживаються як",
+                "ефектами споживаються як",
                 "стандартна дія, тоді як",
-				"шкідливі зілля",
+                "шкідливі зілля",
                 "екіпіруються, щоб бути",
-				"кинутими за допомогою$ ."
+                "кинутими за допомогою$ ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -674,45 +789,54 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[1,2],
-					[],
-					[],
-					[1]
-				],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[2],
-					[],
-					[],
-					[0]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/potionoffense_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/potionoffense_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Атака"
-				}				
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "Атака"
+                }
+            ]
         },
         "tutorial8p_gamepad": {
             "sign": [
                 "Зілля з корисними",
-				"ефектами споживаються як",
+                "ефектами споживаються як",
                 "стандартна дія, тоді як",
-				"шкідливі зілля",
+                "шкідливі зілля",
                 "екіпіруються, щоб бути",
-				"кинутими за допомогою$ ."
+                "кинутими за допомогою$ ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -722,47 +846,56 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[1,2],
-					[],
-					[],
-					[1]
-				],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[2],
-					[],
-					[],
-					[0]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/potionoffense_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/potionoffense_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Атака"
-				}				
-			]
-        },		
+                {
+                    "type": "input_glyph",
+                    "value": "Атака"
+                }
+            ]
+        },
         "tutorial8q": {
             "sign": [
-				"Зілля можна",
-				"кидати або пити.",
-				"",
+                "Зілля можна",
+                "кидати або пити.",
+                "",
                 "Якщо зілля",
-				"ідентифіковане, його",
-				"стандартна$ і панель швидкого доступу",
-				"поведінка підходить",
-				"до його ефекту."
+                "ідентифіковане, його",
+                "стандартна$ і панель швидкого доступу",
+                "поведінка підходить",
+                "до його ефекту."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -772,41 +905,51 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[0,2],
-					[],
-					[],
-					[0],
-					[],
-					[],
-					[2]
-				]
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				}			
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
         },
-		"tutorial8q_gamepad": {
+        "tutorial8q_gamepad": {
             "sign": [
-				"Зілля можна",
-				"кидати або пити.",
-				"",
+                "Зілля можна",
+                "кидати або пити.",
+                "",
                 "Якщо зілля",
-				"ідентифіковане, його",
-				"стандартна$ і панель швидкого доступу",
-				"поведінка підходить",
-				"до його ефекту."
+                "ідентифіковане, його",
+                "стандартна$ і панель швидкого доступу",
+                "поведінка підходить",
+                "до його ефекту."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -816,132 +959,150 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[0,2],
-					[],
-					[],
-					[0],
-					[],
-					[],
-					[2]
-				]
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				}			
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
         },
         "tutorial8r": {
             "sign": [
                 "Ви Отруєні.",
-				"",
-				"$ ",
-				"",
+                "",
+                "$ ",
+                "",
                 "Випийте це зі своєї",
-				"інвентаря за допомогою$ ."
+                "інвентаря за допомогою$ ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight2_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[1]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[2]
-				]
+                    [
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/cureailment.png",
-				"sizex": 32,
-				"sizey": 32
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/cureailment.png",
+                    "sizex": 32,
+                    "sizey": 32
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
         },
-		"tutorial8r_gamepad": {
+        "tutorial8r_gamepad": {
             "sign": [
                 "Ви Отруєні.",
-				"",
-				"$ ",
-				"",
+                "",
+                "$ ",
+                "",
                 "Випийте це зі своєї",
-				"інвентаря за допомогою$ ."
+                "інвентаря за допомогою$ ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight2_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[1]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[2]
-				]
+                    [
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/cureailment.png",
-				"sizex": 32,
-				"sizey": 32
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/cureailment.png",
+                    "sizex": 32,
+                    "sizey": 32
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
         },
         "tutorial8s": {
             "sign": [
                 "Кожен тип зілля",
-				"має певний",
-				"діапазон кольорів,",
+                "має певний",
+                "діапазон кольорів,",
                 "і може бути корисним",
-				"або шкідливим."
+                "або шкідливим."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -952,20 +1113,24 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1,2]
-				]
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial8t": {
             "sign": [
                 "Щоб узяти неідентифіковані",
-				"або корисні зілля,",
-				"з панелі швидкого доступу,",
-				"утримуйте$, натискаючи",
-				"призначену клавішу панелі."
+                "або корисні зілля,",
+                "з панелі швидкого доступу,",
+                "Утримуйте$, натискаючи",
+                "призначену клавішу панелі."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -975,34 +1140,44 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[1],
-					[],
-					[],
-					[0,1,2]
-				],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-				[],
-				[],
-				[0,1,2]
-				]
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Alt_00.png",
-				"sizex": 0,
-				"sizey": 0
-				}	
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Alt_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8t_gamepad": {
             "sign": [
                 "Щоб узяти неідентифіковані",
-				"або корисні зілля,",
-				"натисніть$ на зіллі",
-				"у своєму інвентарі й",
-				"виберіть [Взяти] зі",
-				"спадного списку."
+                "або корисні зілля,",
+                "натисніть$ на зіллі",
+                "у своєму інвентарі й",
+                "виберіть [Взяти] зі",
+                "спадного списку."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1012,31 +1187,37 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[1],
-					[],
-					[0],
-					[],
-					[1]
-				],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				}				
-			]
-        },	
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
         "tutorial8u": {
             "sign": [
                 "Зілля Хвороби",
-				"",
-				"$ ",
-				"",
-				"Киньте у ворога,",
-				"щоб отруїти його.",
-				"Знищіть манекен",
-				"і пройдіть далі."
+                "",
+                "$ ",
+                "",
+                "Киньте у ворога,",
+                "щоб отруїти його.",
+                "Знищіть манекен",
+                "і пройдіть далі."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1046,202 +1227,239 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[0]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/potionthrow.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/potionthrow.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/ui/HUD/statusfx/poisoned.png",
-				"sizex": 32,
-				"sizey": 32
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/HUD/statusfx/poisoned.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8v": {
             "sign": [
                 "Використовуйте зілля, щоб",
-				"переконатися, що турель",
-				"переможе скелета.",
-				"Турель пошкоджена",
-				"і без допомоги",
-				"зазнає невдачі.",
-				"",
-				"Потягніть важіль,",
-				"щоб почати."
+                "переконатися, що турель",
+                "переможе скелета.",
+                "Турель пошкоджена",
+                "і без допомоги",
+                "зазнає невдачі.",
+                "",
+                "Потягніть важіль,",
+                "щоб почати."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},					
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[1,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1,2],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/healsentry.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/healsentry.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial8w": {
             "sign": [
                 "Усі добрі рецепти",
-				"мають базовий інгредієнт.",
-				"Погані суміші дають",
-				"зілля хвороби.",
-				"",
+                "мають базовий інгредієнт.",
+                "Погані суміші дають",
+                "зілля хвороби.",
+                "",
                 "Змішайте фруктовий сік і",
-				"випивку в аламбіку",
-				"для невдалого рецепта."
+                "випивку в аламбіку",
+                "для невдалого рецепта."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[1,2,3],
-					[],
-					[],
-					[],
-					[2,3]
-				],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[2,3]					
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/sickbrew_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/sickbrew_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial8w_gamepad": {
             "sign": [
                 "Усі добрі рецепти",
-				"мають базовий інгредієнт.",
-				"Погані суміші дають",
-				"зілля хвороби.",
-				"",
+                "мають базовий інгредієнт.",
+                "Погані суміші дають",
+                "зілля хвороби.",
+                "",
                 "Змішайте фруктовий сік і",
-				"випивку в аламбіку",
-				"для невдалого рецепта."
+                "випивку в аламбіку",
+                "для невдалого рецепта."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[1,2,3],
-					[],
-					[],
-					[],
-					[2,3]
-				],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[2,3]					
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/sickbrew_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/sickbrew_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
-        },		
+        },
         "tutorial8x": {
             "sign": [
                 "Кислота",
-				"$",
+                "$",
                 "Використовується для створення смертельних",
                 "Нестабільних Зіль, які",
-				"зростають у силі разом з",
-				"пивоваром."
+                "зростають у силі разом з",
+                "пивоваром."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1252,33 +1470,40 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[0,1],
-					[0,1,2]
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial8/sign_acid.png",
-				"sizex": 0,
-				"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial8/sign_acid.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8y": {
             "sign": [
                 "У наступній залі",
-				"ви знайдете",
-				"різноманітні зілля",
-				"для експериментів.",
-				"",
+                "ви знайдете",
+                "різноманітні зілля",
+                "для експериментів.",
+                "",
                 "Коли ви створите",
                 "успішну суміш, її",
-				"рецепт буде додано до",
-				"вкладки Рецептів Аламбіка."
+                "рецепт буде додано до",
+                "вкладки Рецептів Аламбіка."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1288,77 +1513,92 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[2,3]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[1],
-					[],
-					[],
-					[1,2]
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial8z": {
             "sign": [
                 "Прокляття й благословення,",
-				"які дарують фонтани,",
+                "які дарують фонтани,",
                 "занадто спокусливі,",
-				"щоб більшість авантюристів встояла.",
+                "щоб більшість авантюристів встояла.",
                 "Особливо для",
-				"тих, хто шукає зілля."
+                "тих, хто шукає зілля."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[1]
-				],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[3],
-					[],
-					[],
-					[],
-					[],
-					[1,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/fountains.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/fountains.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial8ab": {
             "sign": [
                 "Зілля Відновлення Магії",
-				"$",
+                "$",
                 "Корисне для заклиначів.",
                 "Змішайте з Фруктовим Соком, щоб",
                 "створити Зілля Зцілення."
@@ -1372,33 +1612,39 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[2],
-					[],
-					[1,2,3]
-				]
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial5/sign_restoremp.png",
-				"sizex": 0,
-				"sizey": 0
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_restoremp.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8ac": {
             "sign": [
                 "Зілля Сліпоти",
-				"",
-				"$",
-				"",
+                "",
+                "$",
+                "",
                 "Ураженим важко",
-				"бачити.",
+                "бачити.",
                 "Змішайте з Фруктовим Соком, щоб",
                 "завершити рецепт для",
-				"Лікування Недуг."
+                "Лікування Недуг."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1407,36 +1653,39 @@
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
-                "word_highlights": [],				
+                "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/ui/HUD/statusfx/blind.png",
-				"sizex": 32,
-				"sizey": 32
-				}	
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/HUD/statusfx/blind.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8ad": {
             "sign": [
                 "Зілля Спантеличення",
-				"$ ",
+                "$ ",
                 "Змішайте Випивку з",
-				"Зіллями Спантеличення,",
+                "Зіллями Спантеличення,",
                 "щоб отримати більше Кислоти.",
-				"",
+                "",
                 "Спантеличення також перетворює",
                 "Фруктовий Сік на Випивку",
                 "і Кислоту на Фруктовий Сік."
@@ -1450,36 +1699,45 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[0,1,2],
-					[],
-					[],
-					[],
-					[3],
-					[3,4]
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        3,
+                        4
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/confuse.png",
-				"sizex": 32,
-				"sizey": 32
-				}			
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/confuse.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8ae": {
             "sign": [
                 "Зілля Невидимості",
-				"",
-				"$",
-				"",
+                "",
+                "$",
+                "",
                 "Дарує Невидимість.",
                 "Змішайте з Відновленням Магії,",
-				"щоб створити потужні",
-				"зілля Екстра Зцілення."
+                "щоб створити потужні",
+                "зілля Екстра Зцілення."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1490,35 +1748,38 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[2,3]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/invisible.png",
-				"sizex": 32,
-				"sizey": 32
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/invisible.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8af": {
             "sign": [
                 "Алхімія може",
-				"бути вимогливою до",
-				"власним інвентарем.",
-				"",
+                "бути вимогливою до",
+                "власним інвентарем.",
+                "",
                 "Утримуйте$ і натисніть$",
-				"на предметах інвентарю, щоб",
-				"швидко скидати їх.",
-				"Автосортування через$."
+                "на предметах інвентарю, щоб",
+                "швидко скидати їх.",
+                "Автосортування через$."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1528,46 +1789,56 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[0,2],
-					[],
-					[0,1,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1]
-				]
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Shift_00.png",
-				"sizex": 0,
-				"sizey": 0
-				},
-				{
-					"type": "input_glyph",
-					"value": "Атака"
-				},
-				{
-					"type": "input_glyph",
-					"value": "Автосортувати Інвентар"
-				}						
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Shift_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Атака"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Автосортувати Інвентар"
+                }
+            ]
         },
         "tutorial8af_gamepad": {
             "sign": [
                 "Алхімія може",
-				"бути вимогливою до",
-				"власним інвентарем.",
-				"",
+                "бути вимогливою до",
+                "власним інвентарем.",
+                "",
                 "Регулярно прибирайте предмети,",
-				"які вам не потрібні, через$ ,",
-				"і автосортуйте через$ ."
+                "які вам не потрібні, через$ ,",
+                "і автосортуйте через$ ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1577,39 +1848,47 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[3],
-					[1,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1]
-				]
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuAlt2"
-				},
-				{
-					"type": "input_glyph",
-					"value": "Автосортувати Інвентар"
-				}						
-			]
-        },		
+                {
+                    "type": "input_glyph",
+                    "value": "MenuAlt2"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Автосортувати Інвентар"
+                }
+            ]
+        },
         "tutorial8ag": {
             "sign": [
-				"$",
+                "$",
                 "Випивання або",
-				"змішування зіль може",
-				"іноді давати",
-				"порожню пляшку, яку",
-				"алхіміки можуть використати повторно."
+                "змішування зіль може",
+                "іноді давати",
+                "порожню пляшку, яку",
+                "алхіміки можуть використати повторно."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1620,86 +1899,95 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[1,2]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial8/sign_bottle.png",
-				"sizex": 0,
-				"sizey": 0
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial8/sign_bottle.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8ah": {
             "sign": [
                 "Випивання або отримання",
-				"удару кинутою Випивкою",
-				"спричиняє сп'яніння.",
-				"",
-				"$",
-				"",
+                "удару кинутою Випивкою",
+                "спричиняє сп'яніння.",
+                "",
+                "$",
+                "",
                 "Сп'яніння впливає на ваші",
-				"характеристики й змушує ваш",
-				"приціл хитатися певний час."
+                "характеристики й змушує ваш",
+                "приціл хитатися певний час."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[1]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[1],
-					[],
-					[],
-					[],
-					[],
-					[0]
-				]
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/system/drunk.png",
-				"sizex": 0,
-				"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/system/drunk.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8ai": {
             "sign": [
                 "Пляшки Випивки",
-				"і Фруктового Соку",
-				"зазвичай лікують не",
+                "і Фруктового Соку",
+                "зазвичай лікують не",
                 "так сильно, як Зілля Зцілення,",
-				"але вони",
-				"поширеніші."
+                "але вони",
+                "поширеніші."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1710,25 +1998,33 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[2],
-					[1,2],
-					[],
-					[],
-					[],
-					[0,1]
-				]
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial8aj": {
             "sign": [
                 "Пляшкова Вода",
-				"$",
-				"Змішуйте воду з іншими",
-				"зіллями, щоб дублювати їх.",
-				"Може трохи зменшити голод.",
-				"Благословенна вода смертельна",
-				"для деяких монстрів."
+                "$",
+                "Змішуйте воду з іншими",
+                "зіллями, щоб дублювати їх.",
+                "Може трохи зменшити голод.",
+                "Благословенна вода смертельна",
+                "для деяких монстрів."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1739,42 +2035,47 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[2],
-					[],
-					[],
-					[1,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/duplicate_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/duplicate_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial8/sign_water.png",
-				"sizex": 0,
-				"sizey": 0
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial8/sign_water.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial8aj_gamepad": {
             "sign": [
                 "Пляшкова Вода",
-				"$",
-				"Змішуйте воду з іншими",
-				"зіллями, щоб дублювати їх.",
-				"Може трохи зменшити голод.",
-				"Благословенна вода смертельна",
-				"для деяких монстрів."
+                "$",
+                "Змішуйте воду з іншими",
+                "зіллями, щоб дублювати їх.",
+                "Може трохи зменшити голод.",
+                "Благословенна вода смертельна",
+                "для деяких монстрів."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1785,39 +2086,44 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[2],
-					[],
-					[],
-					[1,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/duplicate_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/duplicate_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial8/sign_water.png",
-				"sizex": 0,
-				"sizey": 0
-				}					
-			]
-        },		
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial8/sign_water.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
         "tutorial8ak": {
             "sign": [
-				"$",
+                "$",
                 "Зваріть Зілля Швидкості,",
                 "поєднавши Випивку з",
-				"Зіллям Лікування Недуг."
+                "зіллям Лікування Недуг."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1828,26 +2134,30 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[2,3,4]
-				]
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/speed.png",
-				"sizex": 32,
-				"sizey": 32
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/speed.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8al": {
             "sign": [
-				"$ ",
+                "$ ",
                 "Зваріть",
-				"Зілля Левітації,",
+                "Зілля Левітації,",
                 "змішавши Зілля Лікування Недуг",
-				"із Невидимістю."
+                "із Невидимістю."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1858,28 +2168,32 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1,2]
-				]
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/levitation.png",
-				"sizex": 32,
-				"sizey": 32
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/levitation.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8am": {
             "sign": [
-				"$ ",
-				"",
+                "$ ",
+                "",
                 "Зілля Грози",
                 "можна надійно зварити,",
-				"змішавши Кислоту й Швидкість",
-				"разом."
+                "змішавши Кислоту й Швидкість",
+                "разом."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1890,39 +2204,46 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1,2],
-					[],
-					[2,4]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/thunderstorm_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/thunderstorm_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/stoneblood.png",
-				"sizex": 32,
-				"sizey": 32
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/stoneblood.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8am_gamepad": {
             "sign": [
-				"$ ",
-				"",
+                "$ ",
+                "",
                 "Зілля Грози",
                 "можна надійно зварити,",
-				"змішавши Кислоту й Швидкість",
-				"разом."
+                "змішавши Кислоту й Швидкість",
+                "разом."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1933,213 +2254,256 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1,2],
-					[],
-					[2,4]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/thunderstorm_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/thunderstorm_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#items/images/spells/stoneblood.png",
-				"sizex": 32,
-				"sizey": 32
-				}					
-			]
-        },		
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/stoneblood.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
         "tutorial8pm": {
             "sign": [
                 "ОБЕРЕЖНО:",
-				"Неправильний рецепт",
-				"із використанням Кислоти призведе",
-				"до смертельного вибуху.",
-				"$ ",
-				"Якщо прагнете вивчити",
-				"потужніші рецепти",
-				"з кислотою, підготуйте",
-				"ліки й зцілення."
+                "Неправильний рецепт",
+                "із використанням Кислоти призведе",
+                "до смертельного вибуху.",
+                "$ ",
+                "Якщо прагнете вивчити",
+                "потужніші рецепти",
+                "з кислотою, підготуйте",
+                "ліки й зцілення."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0],
-					[],
-					[],
-					[2,3]
-				],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[1],
-					[],
-					[],
-					[],
-					[],
-					[1,2],
-					[],
-					[0,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/splode_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/splode_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/ui/HUD/statusfx/burning.png",
-				"sizex": 32,
-				"sizey": 32
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/HUD/statusfx/burning.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
         },
         "tutorial8pm_gamepad": {
             "sign": [
                 "ОБЕРЕЖНО:",
-				"Неправильний рецепт",
-				"із використанням Кислоти призведе",
-				"до смертельного вибуху.",
-				"$ ",
-				"Якщо прагнете вивчити",
-				"потужніші рецепти",
-				"з кислотою, підготуйте",
-				"ліки й зцілення."
+                "Неправильний рецепт",
+                "із використанням Кислоти призведе",
+                "до смертельного вибуху.",
+                "$ ",
+                "Якщо прагнете вивчити",
+                "потужніші рецепти",
+                "з кислотою, підготуйте",
+                "ліки й зцілення."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0],
-					[],
-					[],
-					[2,3]
-				],
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[1],
-					[],
-					[],
-					[],
-					[],
-					[1,2],
-					[],
-					[0,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/splode_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/splode_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/ui/HUD/statusfx/burning.png",
-				"sizex": 32,
-				"sizey": 32
-				}					
-			]
-        },			
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/HUD/statusfx/burning.png",
+                    "sizex": 32,
+                    "sizey": 32
+                }
+            ]
+        },
         "tutorial8an": {
             "sign": [
                 "ОБЕРЕЖНО:",
-				"Відомо, що монстри",
-				"заселяють водогін.",
-				"",
+                "Відомо, що монстри",
+                "заселяють водогін.",
+                "",
                 "Переконайтеся, що готові",
-				"захистити себе перед",
+                "захистити себе перед",
                 "спробою пити",
-				"або набирати воду з джерел."
+                "або набирати воду з джерел."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},					
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0],
-					[],
-					[1]
-				],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[3],
-					[],
-					[2],
-					[1]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/watermonsters.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/watermonsters.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial8ao": {
             "sign": [
                 "Екіпіруйте порожні пляшки,",
-				"щоб набирати з раковин або",
+                "щоб набирати з раковин або",
                 "фонтанів за допомогою$ .",
-				"",
+                "",
                 "Це наповнить вашу",
                 "пляшку водою",
-				"або іншими зіллями."
+                "або іншими зіллями."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -2149,43 +2513,51 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0],
-					[],
-					[1]
-				],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[1],
-					[],
-					[],
-					[2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/tap_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/tap_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Атака"
-				}			
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "Атака"
+                }
+            ]
         },
         "tutorial8ao_gamepad": {
             "sign": [
                 "Екіпіруйте порожні пляшки,",
-				"щоб набирати з раковин або",
+                "щоб набирати з раковин або",
                 "фонтанів за допомогою$ .",
-				"",
+                "",
                 "Це наповнить вашу",
                 "пляшку водою",
-				"або іншими зіллями."
+                "або іншими зіллями."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -2195,79 +2567,98 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0],
-					[],
-					[1]
-				],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[1],
-					[],
-					[],
-					[2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/tap_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/tap_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Атака"
-				}			
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "Атака"
+                }
+            ]
         },
         "tutorial8aw": {
             "sign": [
                 "Вода в підземеллі надто",
-				"нечиста для варіння.",
-				"Алхіміки мають покладатися на",
-				"помпи свіжої води, крамниці",
-				"або фонтани для запасів."
+                "нечиста для варіння.",
+                "Алхіміки мають покладатися на",
+                "помпи свіжої води, крамниці",
+                "або фонтани для запасів."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-					"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},	
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[0,1,2]
-				],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[0,1,2,3],
-					[1]
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ]
             },
             "variables": []
-        },		
+        },
         "tutorial8az": {
             "sign": [
-				"Декантація:",
-				"",
+                "Декантація:",
+                "",
                 "Змішування двох зіль",
-				"з однаковим ефектом",
-				"в один тип",
-				"пляшки, що дозволяє",
-				"організувати їх",
-				"разом."
+                "з однаковим ефектом",
+                "в один тип",
+                "пляшки, що дозволяє",
+                "організувати їх",
+                "разом."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -2277,40 +2668,44 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0]
-				],
+                    [
+                        0
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/decanting_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/decanting_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial8az_gamepad": {
             "sign": [
-				"Декантація:",
-				"",
+                "Декантація:",
+                "",
                 "Змішування двох зіль",
-				"з однаковим ефектом",
-				"в один тип",
-				"пляшки, що дозволяє",
-				"організувати їх",
-				"разом."
+                "з однаковим ефектом",
+                "в один тип",
+                "пляшки, що дозволяє",
+                "організувати їх",
+                "разом."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -2320,29 +2715,33 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0]
-				],
+                    [
+                        0
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial8/decanting_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial8/decanting_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
-        }				
+        }
     }
 }

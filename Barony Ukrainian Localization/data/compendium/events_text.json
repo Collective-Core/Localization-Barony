@@ -1,2716 +1,2714 @@
 {
-  "version": 1,
-  "tags": [
-    {
-      "BLOCKED_ATTACKS": {
-        "default": "Повністю заблоковані атаки:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "BROKEN_BY_BLOCKING": {
-        "default": "Зламається під час блокування:",
-		"format_crystal shard": "%d Уламків",
-		"format_torch and lantern": "%d Разів",
-		"format": "%d Щитів"
-      }
-    },
-    {
-      "BROKEN": {
-        "default": "Всього зламано:",
-		"magicstaffs": "Штафи згоріли:",
-		"format_mirrors": "%d Років Невдачі"
-      }
-    },
-    {
-      "BLESSED_MAX": {
-        "default": "Макс Блессінг:",
-		"format": "(%p)"
-      }
-    },
-    {
-      "ATTACKS": {
-        "default": "Атаки:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "THROWN": {
-        "default": "КИНУТИ ЧАСИ:",
-		"defensive potions": "Кинуті пляшки:",
-		"booze": "Кинуті пляшки:",
-		"offensive potions": "Кинуті пляшки:",
-		"water": "Кинуті пляшки:",
-		"cream pie": "Кинуті пироги:",
-		"rocks & gems": "Кинуті дорогоцінні камені:",
-		
-		"format_defensive potions": "%d Варок",
-		"format_booze": "%d Варок",
-		"format_offensive potions": "%d Варок",
-		"format_water": "%d Пляшок",
-		"format_cream pie": "%d Разів",
-		"format_rocks & gems": "%d Разів"
-      }
-    },
-    {
-      "SHOTS_FIRED": {
-        "default": "ПОСТРІЛИ:"
-      }
-    },
-    {
-      "AMMO_FIRED": {
-        "default": "БОЄЗНАЧЕННЯ:"
-      }
-    },
-    {
-      "CONSUMED": {
-        "default": "Витрачено:",
-        "scrolls": "Прочитаний сувій (ідентифікований):",
-		"defensive potions": "Пляшок Випито:",
-		"booze": "Пляшок Випито:",
-		"offensive potions": "Пляшок Випито:",
-		"blood vials": "Витрачена кров:",
-		"water": "Пляшок Випито:",
-		"food_tin": "З'їдені банки:",
-		"meat, fish, and bread": "Споживані страви:",
-		"tomalley": "Залишки з'їденого:",
-		"cheese and apples": "З'їдені шматочки:",
-		"rations": "З'їдені пайки:",
-		"cream pie": "З'їдено пирогів:",
-		
-		"format_tin and tin opener": "%d Разів",
-		"format_defensive potions": "%d Варок",
-		"format_booze": "%d Варок",
-		"format_offensive potions": "%d Варок",
-		"format_water": "%d Пляшок",
-		"format_blood vials": "%d Флаконів",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "TOWEL_USES": {
-        "default": "ВИКОРИСТАННЯ РУШНИКА:"
-      }
-    },
-    {
-      "PICKAXE_WALLS_DUG": {
-        "default": "Видобуті стіни:"
-      }
-    },
-    {
-      "SINKS_TAPPED": {
-        "default": "Мийки з краном:",
-		"format": "%d Напоїв"
-      }
-    },
-    {
-      "ALEMBIC_BREWED": {
-        "default": "ALEMBIC_BREWED:"
-      }
-    },
-    {
-      "TINKERKIT_CRAFTS": {
-        "default": "Загальна кількість створених предметів:",
-		"format": "%d Предметів"
-      }
-    },
-    {
-      "TORCH_WALLS": {
-        "default": "Зібрані зі стін:",
-		"format": "%d Смолоскипів",
-		"format_crystal shard": "%d Уламків"
-      }
-    },
-    {
-      "SHIELD_REFLECT": {
-        "default": "Заклинання, відображені щитом:"
-      }
-    },
-    {
-      "BLESSED_TOTAL": {
-        "default": "Благословенні часи:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "DMG_MAX": {
-        "default": "Максимальний збиток:",
-		"boomerang": "Максимальний збиток:",
-		"tomahawks & daggers": "Максимальний збиток:",
-		"chakrams and shurikens": "Максимальний збиток:",
-		"rocks & gems": "Максимальний кинутий збиток:",
-		"defensive potions": "Максимальний кинутий збиток:",
-		"booze": "Максимальний кинутий збиток:",
-		"offensive potions": "Максимальний кинутий збиток:",
-		"format": "%d DMG"
-      }
-    },
-    {
-      "TRADING_GOLD_EARNED": {
-        "default": "Золото, отримане від продажу:",
-		"format": "%dG"
-      }
-    },
-    {
-      "FOUNTAINS_TAPPED": {
-        "default": "Використані фонтани:",
-		"format": "%d Напоїв"
-      }
-    },
-    {
-      "ALEMBIC_DECANTED": {
-        "default": "Декантовані зілля:",
-		"format": "%d Переливань"
-      }
-    },
-    {
-      "TINKERKIT_REPAIRS": {
-        "default": "Загальна кількість відремонтованих елементів:",
-		"format": "%d Предметів"
-      }
-    },
-    {
-      "MIRROR_TELEPORTS": {
-        "default": "Дзеркальні телепортації:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "BLOCKED_HIGHEST_DMG": {
-        "default": "Найбільша шкода заблокована:",
-		"format": "%d DMG"
-      }
-    },
-    {
-      "TRADING_SOLD": {
-        "default": "Кількість, продана магазинам:",
-		"format": "%d Предметів"
-      }
-    },
-    {
-      "DMG_0": {
-        "default": "0 пошкоджень:",
-		"format": "%d *Дзиньків*"
-      }
-    },
-    {
-      "BOTTLE_FROM_BREWING": {
-        "default": "ПОРОЖНІ ПЛЯШКИ ВІДНОВЛЕНО:"
-      }
-    },
-    {
-      "ALEMBIC_DUPLICATED": {
-        "default": "ЗІЛЛЯ ДУБЛЮВАНО:"
-      }
-    },
-    {
-      "TINKERKIT_METAL_SCRAPPED": {
-        "default": "ВАРТИРОВАНИЙ МЕТАЛОЛОХ:"
-      }
-    },
-    {
-      "INSPIRATION_XP": {
-        "default": "НАТХНЕННЯ EXP ДЛЯ СОЮЗНИКІВ:"
-      }
-    },
-    {
-      "CLOAK_BURNED": {
-        "default": "ЗГОРІЛИ ПЛАЩІ:"
-      }
-    },
-    {
-      "BOTTLES_FROM_CONSUME": {
-        "default": "ПОРОЖНІ ПЛЯШКИ, ВИКОРИСТАНІ ВІД КВАФФУ:"
-      }
-    },
-    {
-      "ALEMBIC_BROKEN": {
-        "default": "АЛЕМБІКИ ЗЛАМАНІ:"
-      }
-    },
-    {
-      "TINKERKIT_MAGIC_SCRAPPED": {
-        "default": "ВРЯТОВАНИЙ МАГІЧНИЙ БРОМ:"
-      }
-    },
-    {
-      "TINKERKIT_SALVAGED": {
-        "default": "ВРЯТОВАНІ ПРЕДМЕТИ:"
-      }
-    },
-    {
-      "APPRAISED": {
-        "default": "Кількість оцінок:",
-		"rocks & gems": "Оцінено дорогоцінні камені:",
-		"format_rocks & gems": "%d Самоцвітів"
-      }
-    },
-    {
-      "TOWEL_BLEEDING": {
-        "default": "Статус кровотечі вилікувано:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "TOWEL_MESSY": {
-        "default": "Безладний статус вилікувано:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "TOWEL_GREASY": {
-        "default": "Жирний статус Вилікуваний:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "RUNS_COLLECTED": {
-        "default": "Зібрано:",
-		"spells": "Вивчене заклинання:",
-		"format": "%d Рун"
-      }
-    },
-    {
-      "ATTACKS_MISSES": {
-        "default": "ПРОПУЩЕНІ АТАКИ:"
-      }
-    },
-    {
-      "THROWN_HITS": {
-        "default": "Уражені кинуті цілі:",
-		"defensive potions": "Уражені кинуті цілі:",
-		"booze": "Уражені кинуті цілі:",
-		"offensive potions": "Уражені кинуті цілі:",
-		"water": "Уражені кинуті цілі:",
-		"cream pie": "Уражені кинуті цілі:",
-		"format": "%d Влучань",
-		"format_cream pie": "%d Клоунів"
-      }
-    },
-    {
-      "SHOTS_HIT": {
-        "default": "Уражені цілі:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "AMMO_HIT": {
-        "default": "Уражені цілі:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "MAGICSTAFF_RECHARGED": {
-        "default": "Magicstaffs перезаряджено:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "MAGICSTAFF_CASTS": {
-        "default": "Час використання:",
-		"format": "%d Зарядів"
-      }
-    },
-    {
-      "FEATHER_ENSCRIBED": {
-        "default": "Порожні сувої з підписом:",
-		"format": "%d Сувоїв"
-      }
-    },
-    {
-      "FEATHER_CHARGE_USED": {
-        "default": "Загальний використаний заряд:",
-		"format": "%d%"
-      }
-    },
-    {
-      "FEATHER_SPELLBOOKS": {
-        "default": "Відремонтовані книги заклинань:",
-		"format": "%d Книг Заклять"
-      }
-    },
-    {
-      "CONSUMED_UNIDENTIFIED": {
-        "default": "Прочитаний сувій (невідомий):",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "SPELL_CASTS": {
-        "default": "Загальна кількість акторів:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "SPELL_FAILURES": {
-        "default": "Зроблені касти:",
-		"format": "%d Провалів"
-      }
-    },
-    {
-      "SPELLBOOK_CASTS": {
-        "default": "Загальна кількість кастів книги заклинань:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "SPELLBOOK_LEARNT": {
-        "default": "Вивчено з книги заклинань:",
-		"format": "%d Заклять"
-      }
-    },
-    {
-      "KILLED_SOLO": {
-        "default": "Всього вбито:",
-		"format": "%d %s"
-      }
-    },
-    {
-      "KILLED_PARTY": {
-        "default": "Убитий (партія):"
-      }
-    },
-    {
-      "KILLED_BY": {
-        "default": "Убитий:"
-      }
-    },
-    {
-      "GHOST_SPAWNED": {
-        "default": "Привиди породжені як:"
-      }
-    },
-    {
-      "GHOST_TELEPORTS": {
-        "default": "Актори Teleports:"
-      }
-    },
-    {
-      "GHOST_PINGS": {
-        "default": "Виноски надіслано:"
-      }
-    },
-    {
-      "GHOST_PUSHES": {
-        "default": "Надіслані елементи:"
-      }
-    },
-    {
-      "MINEHEAD_ENTER": {
-        "default": "Експедиції в підземелля:"
-      }
-    },
-    {
-      "MINEHEAD_RETURN": {
-        "default": ""
-      }
-    },
-    {
-      "GATE_OPENED_SPELL": {
-        "default": "Відкрито за допомогою заклинання:"
-      }
-    },
-    {
-      "GATE_MINOTAUR": {
-        "default": "Розбитий мінотаврами:"
-      }
-    },
-    {
-      "LEVER_PULLED": {
-        "default": "Витягнуті важелі:"
-      }
-    },
-    {
-      "LEVER_FOLLOWER_PULLED": {
-        "default": "Важелі, які тягнуть послідовники:"
-      }
-    },
-    {
-      "DOOR_BROKEN": {
-        "default": "Зламані двері:"
-      }
-    },
-    {
-      "DOOR_OPENED": {
-        "default": "Двері відчинено:"
-      }
-    },
-    {
-      "DOOR_UNLOCKED": {
-        "default": "Двері незамкнені:"
-      }
-    },
-    {
-      "LEVELS_ENTERED": {
-        "default": "Досягнуто:",
-		"transition floor": "Досягнуті перехідні рівні:",
-		"format": "%d"
-      }
-    },
-    {
-      "LEVELS_EXITED": {
-        "default": "LEVELS_EXITED"
-      }
-    },
-    {
-      "LEVELS_MAX_LVL": {
-        "default": "Максимум LVL на виході:"
-      }
-    },
-    {
-      "LEVELS_MAX_GOLD": {
-        "default": "Максимальне золото при виході:"
-      }
-    },
-    {
-      "SINKS_USED": {
-        "default": "Раковини, що використовуються:"
-      }
-    },
-    {
-      "SINKS_RINGS": {
-        "default": "Кільця знайдено:"
-      }
-    },
-    {
-      "SINKS_SLIMES": {
-        "default": "Породжені слизи:"
-      }
-    },
-    {
-      "FOUNTAIN_FOOCUBI": {
-        "default": "Foocubi породив:"
-      }
-    },
-    {
-      "FOUNTAIN_DRUNK": {
-        "default": "Наслідки вживання алкоголю:"
-      }
-    },
-    {
-      "FOUNTAIN_BLESS": {
-        "default": "Обладнання Blessed (Single):"
-      }
-    },
-    {
-      "FOUNTAIN_BLESS_ALL": {
-        "default": "Благословення обладнання (все):"
-      }
-    },
-    {
-      "CHESTS_OPENED": {
-        "default": "Відкриті кришки:"
-      }
-    },
-    {
-      "CHESTS_MIMICS_AWAKENED": {
-        "default": "Міміки пробуджені:"
-      }
-    },
-    {
-      "CHESTS_UNLOCKED": {
-        "default": "Розблоковані скрині:"
-      }
-    },
-    {
-      "CHESTS_DESTROYED": {
-        "default": "Знищені скрині:"
-      }
-    },
-    {
-      "BARRIER_DESTROYED": {
-        "default": "Зруйновано бар'єри:"
-      }
-    },
-    {
-      "GRAVE_GHOULS": {
-        "default": "Ghouls Disturbed:"
-      }
-    },
-    {
-      "GRAVE_EPITAPHS_READ": {
-        "default": "Читання епітафій:"
-      }
-    },
-    {
-      "GRAVE_EPITAPHS_PERCENT": {
-        "default": "Прочитані епітафії (%):"
-      }
-    },
-    {
-      "GRAVE_GHOULS_ENSLAVED": {
-        "default": "Поневолені упирі Потривожені:"
-      }
-    },
-    {
-      "SHOP_BOUGHT": {
-        "default": "Куплені предмети:"
-      }
-    },
-    {
-      "SHOP_SOLD": {
-        "default": "Продано:"
-      }
-    },
-    {
-      "SHOP_GOLD_EARNED": {
-        "default": "Золото, отримане від продажу:",
-		"format": "%dG"
-      }
-    },
-    {
-      "TRAP_KILLED_BY": {
-        "default": "Смерті від пастки:",
-        "boulder trap": "Смерті від пасток для валунів:",
-        "arrow trap": "Смерть від пасток для стріл:",
-        "spike trap": "Смерті від Spike Traps:",
-        "magic trap": "Смерті від чарівних пасток:"
-      }
-    },
-    {
-      "TRAP_DAMAGE": {
-        "default": "Загальний збиток, завданий пасткою:"
-      }
-    },
-    {
-      "TRAP_FOLLOWERS_KILLED": {
-        "default": "Втрачені підписники:"
-      }
-    },
-    {
-      "BOULDERS_PUSHED": {
-        "default": "Штовхнуті валуни:"
-      }
-    },
-    {
-      "ARROWS_PILFERED": {
-        "default": "Times Arrows Pilfered:"
-      }
-    },
-    {
-      "SWIM_TIME": {
-        "default": "Час, витрачений на плескання:",
-		"format": "%t",
-		"format_time": "%02d:%02d:%02d"
-      }
-    },
-    {
-      "SWIM_KILLED_WHILE": {
-        "default": "Нещасні випадки під час плавання:",
-		"format": "%d Смертей"
-      }
-    },
-    {
-      "SWIM_BURN_CURED": {
-        "default": "Опіки лікуються за допомогою плавання:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "LAVA_DAMAGE": {
-        "default": "Пошкодження, отримані лавою:"
-      }
-    },
-    {
-      "LAVA_ITEMS_BURNT": {
-        "default": "Предмети, згорілі в лаві:"
-      }
-    },
-    {
-      "SOKOBAN_SOLVES": {
-        "default": "Кількість вирішених:"
-      }
-    },
-    {
-      "SOKOBAN_FASTEST_SOLVE": {
-        "default": "Найшвидше рішення:"
-      }
-    },
-    {
-      "TRAP_MAGIC_STATUSED": {
-        "default": "Кількість ефектів заклинання:"
-      }
-    },
-    {
-      "OBELISK_USES": {
-        "default": "Торкнулися обеліски:"
-      }
-    },
-    {
-      "OBELISK_FOLLOWER_USES": {
-        "default": "Обеліски торкнулися (послідовники):"
-      }
-    },
-    {
-      "TRIALS_ATTEMPTS": {
-        "default": "Спроба випробувань:"
-      }
-    },
-    {
-      "TRIALS_PASSED": {
-        "default": "Випробування пройдено:"
-      }
-    },
-    {
-      "TRIALS_DEATHS": {
-        "default": "TRIALS_DEATHS:"
-      }
-    },
-    {
-      "LEVELS_BIOME_CLEAR": {
-        "default": "LEVELS_BIOME_CLEAR:"
-      }
-    },
-    {
-      "DOOR_CLOSED": {
-        "default": "Двері закрито:"
-      }
-    },
-    {
-      "SINKS_HEALTH_RESTORED": {
-        "default": "Чистий стан здоров'я відновлено:",
-		"format": "%d HP"
-      }
-    },
-    {
-      "FOUNTAIN_USED": {
-        "default": "Використані фонтани:"
-      }
-    },
-    {
-      "CHESTS_MIMICS_AWAKENED1ST": {
-        "default": "Міміка порушена:"
-      }
-    },
-    {
-      "SHOP_SPENT": {
-        "default": "Золото, витрачене в магазині:",
-		"format": "%dG"
-      }
-    },
-    {
-      "SOKOBAN_PERFECT_SOLVES": {
-        "default": "Ідеальні рішення:"
-      }
-    },
-    {
-      "PITS_ITEMS_LOST": {
-        "default": "Предмети, загублені в глибинах:"
-      }
-    },
-    {
-      "PITS_LEVITATED": {
-        "default": "Час, що левітує над ямами:",
-		"format": "%t",
-		"format_time": "%02d:%02d:%02d"
-      }
-    },
-    {
-      "PITS_DEATHS": {
-        "default": "Смерті в ямах:"
-      }
-    },
-    {
-      "PITS_ITEMS_VALUE_LOST": {
-        "default": "Значення предмета, загубленого в глибинах:",
-		"format": "%dG"
-      }
-    },
-    {
-      "KILLED_MULTIPLAYER": {
-        "default": "Всього вбито:",
-		"format": "%d (мультиплеєр)"
-      }
-    },
-    {
-      "RECRUITED": {
-        "default": "Завербовано:"
-      }
-    },
-    {
-      "RACE_GAMES_STARTED": {
-        "default": "Улюблена раса:",
-		"format": "%s (%d Ігри)"
-      }
-    },
-    {
-      "RACE_RECRUITS": {
-        "default": "Найвпливовіші:",
-		"format": "%s (%d Новобранці)"
-      }
-    },
-    {
-      "RACE_GAMES_WON": {
-        "default": "Найбільше перемог:",
-		"format": "%s (%d Перемоги)"
-      }
-    },
-    {
-      "DISTANCE_TRAVELLED": {
-        "default": "Загальна пройдена відстань:",
-		"format": "%m"
-      }
-    },
-    {
-      "DISTANCE_MAX_RUN": {
-        "default": "Найдальша дистанція за 1 забіг:",
-		"format": "%m"
-      }
-    },
-    {
-      "XP_KILLS": {
-        "default": "XP Отримано від вбивств:",
-		"format": "%d XP"
-      }
-    },
-    {
-      "XP_SKILLS": {
-        "default": "XP Отримано завдяки навичкам:",
-		"format": "%d XP"
-      }
-    },
-    {
-      "XP_MAX_IN_FLOOR": {
-        "default": "Найвищий XP, отриманий на підлозі:",
-		"format": "%d XP"
-      }
-    },
-    {
-      "XP_MAX_INSTANCE": {
-        "default": "Найбільший XP за одне вбивство:",
-		"format": "%d XP"
-      }
-    },
-    {
-      "CLASS_LVL_MAX": {
-        "default": "Найвищий LVL:",
-		"format": "LVL %d (%s)"
-      }
-    },
-    {
-      "CLASS_LVL_GAINED": {
-        "default": "Найбільше отриманих рівнів:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_GAMES_STARTED": {
-        "default": "Найбільш використовувані:",
-		"classes list": "Часи гри:",
-		"format": "%s (%d Ігри)"
-      }
-    },
-    {
-      "CLASS_GAMES_WON": {
-        "default": "Найбільше перемог:",
-		"format": "%s (%d Перемоги)"
-      }
-    },
-    {
-      "CLASS_GAMES_SOLO": {
-        "default": "CLASS_GAMES_SOLO"
-      }
-    },
-    {
-      "CLASS_GAMES_MULTI": {
-        "default": "CLASS_GAMES_MULTI"
-      }
-    },
-    {
-      "STAT_MAX": {
-        "default": "STAT_MAX",
-		"str": "Макс. STR від спорядження/ефектів:",
-		"dex": "Макс. DEX від спорядження/ефектів:",
-		"con": "Макс. CON від спорядження/ефектів:",
-		"int": "Макс. INT від спорядження/ефектів:",
-		"per": "Макс. PER від спорядження/ефектів:",
-		"chr": "Макс. CHR від спорядження/ефектів:",
-		"format": "+%d %s"
-      }
-    },
-    {
-      "CLASS_STAT_STR_MAX": {
-        "default": "CLASS_STAT_STR_MAX",
-		"str": "Найвища база STR:",
-		"format": "%d STR (%s)"
-      }
-    },
-    {
-      "STAT_INCREASES": {
-        "default": "STAT_INCREASES",
-		"str": "Усього здобуто STR балів:",
-		"dex": "Усього здобуто DEX балів:",
-		"con": "Усього здобуто CON балів:",
-		"int": "Усього здобуто INT балів:",
-		"per": "Усього здобуто PER балів:",
-		"chr": "Усього здобуто CHR балів:",
-		"format": "%d Очок"
-      }
-    },
-    {
-      "STAT_DOUBLED": {
-        "default": "STAT_DOUBLED",
-		"str": "+2 STR Proficiency Rolls:",
-		"con": "+2 CON Proficiency Rolls:",
-		"dex": "+2 DEX Proficiency Rolls:",
-		"int": "+2 INT Proficiency Rolls:",
-		"per": "+2 PER Proficiency Rolls:",
-		"chr": "+2 CHR Proficiency Rolls:",
-		"format": "%d Бонусів"
-      }
-    },
-    {
-      "HP_MAX": {
-        "default": "Найвищий HP Усього:",
-		"format": "%d HP"
-      }
-    },
-    {
-      "CLASS_HP_MAX": {
-        "default": "Найвищий HP Усього:",
-		"format": "%d HP (%s)"
-      }
-    },
-    {
-      "MP_MAX": {
-        "default": "Найвищий MP Усього:",
-		"format": "%d MP"
-      }
-    },
-    {
-      "CLASS_MP_MAX": {
-        "default": "Найвищий MP Усього:",
-		"format": "%d MP (%s)"
-      }
-    },
-    {
-      "CLASS_SKILL_UPS": {
-        "default": "CLASS_SKILL_UPS"
-      }
-    },
-    {
-      "CLASS_SKILL_MAX": {
-        "default": "Найвища досягнута майстерність:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_SKILL_UPS_RUN_MAX": {
-        "default": "Найбільше підвищення навичок за 1 забіг:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_STAT_DEX_MAX": {
-        "default": "CLASS_STAT_DEX_MAX",
-		"dex": "Найвища база DEX:",
-		"format": "%d DEX (%s)"
-      }
-    },
-    {
-      "CLASS_STAT_CON_MAX": {
-        "default": "CLASS_STAT_CON_MAX",
-		"con": "Найвища база CON:",
-		"format": "%d CON (%s)"
-      }
-    },
-    {
-      "CLASS_STAT_INT_MAX": {
-        "default": "CLASS_STAT_INT_MAX",
-		"int": "Найвища база INT:",
-		"format": "%d INT (%s)"
-      }
-    },
-    {
-      "CLASS_STAT_PER_MAX": {
-        "default": "CLASS_STAT_PER_MAX",
-		"per": "Найвища база PER:",
-		"format": "%d PER (%s)"
-      }
-    },
-    {
-      "CLASS_STAT_CHR_MAX": {
-        "default": "CLASS_STAT_CHR_MAX",
-		"chr": "Найвища база CHR:",
-		"format": "%d CHR (%s)"
-      }
-    },
-    {
-      "RES_MAX": {
-        "default": "RES_MAX"
-      }
-    },
-    {
-      "CLASS_RES_MAX": {
-        "default": "Найвищий магічний опір:",
-		"format": "+%d%% RES"
-      }
-    },
-    {
-      "RES_DMG_RESISTED": {
-        "default": "Здоров'я, врятоване опором:",
-		"format": "+%d HP"
-      }
-    },
-    {
-      "RES_DMG_RESISTED_RUN": {
-        "default": "RES_DMG_RESISTED_RUN"
-      }
-    },
-    {
-      "AC_MAX": {
-        "default": "AC_MAX"
-      }
-    },
-    {
-      "CLASS_AC_MAX": {
-        "default": "Найвища сума AC:",
-		"format": "%d AC (%s)"
-      }
-    },
-    {
-      "AC_MAX_FROM_BLESS": {
-        "default": "Більшість благословень, які носять одночасно:",
-		"format": "+%d Благ."
-      }
-    },
-    {
-      "HP_LOST_RUN": {
-        "default": "Більшість HP програних за 1 заїзд:",
-		"format": "%d HP"
-      }
-    },
-    {
-      "MP_SPENT_RUN": {
-        "default": "Найбільше MP витрачено за 1 забіг:",
-		"format": "%d MP"
-      }
-    },
-    {
-      "MP_SPENT_TOTAL": {
-        "default": "Усього витрачено MP:",
-		"format": "%d MP"
-      }
-    },
-    {
-      "CLASS_LVL_WON_MAX": {
-        "default": "Найвища перемога LVL:",
-		"format": "LVL %d (%s)"
-      }
-    },
-    {
-      "CLASS_LVL_WON_MIN": {
-        "default": "Найнижча перемога LVL:",
-		"format": "LVL %d (%s)"
-      }
-    },
-    {
-      "CLASS_GAMES_WON_CLASSIC": {
-        "default": "CLASS_GAMES_WON_CLASSIC",
-		"format": "%s (%d класичні перемоги)"
-      }
-    },
-    {
-      "CLASS_GAMES_WON_HELL": {
-        "default": "CLASS_GAMES_WON_HELL",
-		"format": "%s (%d Перемог у Пеклі)"
-      }
-    },
-    {
-      "CLASS_LVL_WON_CLASSIC_MAX": {
-        "default": "CLASS_LVL_WON_CLASSIC_MAX"
-      }
-    },
-    {
-      "CLASS_LVL_WON_HELL_MIN": {
-        "default": "CLASS_LVL_WON_HELL_MIN"
-      }
-    },
-    {
-      "RACE_GAMES_WON_CLASSIC": {
-        "default": "RACE_GAMES_WON_CLASSIC",
-		"format": "%s (%d класичні перемоги)"
-      }
-    },
-    {
-      "RACE_GAMES_WON_HELL": {
-        "default": "RACE_GAMES_WON_HELL",
-		"format": "%s (%d Перемог у Пеклі)"
-      }
-    },
-    {
-      "DISTANCE_MAX_FLOOR": {
-        "default": "Найбільша відстань на 1 поверсі:",
-		"format": "%m"
-      }
-    },
-    {
-      "PWR_MAX": {
-        "default": "PWR_MAX"
-      }
-    },
-    {
-      "CLASS_PWR_MAX": {
-        "default": "Макс. PWR від INT:",
-		"format": "+%d%% (%s)"
-      }
-    },
-    {
-      "RGN_HP_SUM": {
-        "default": "RGN_HP_SUM"
-      }
-    },
-    {
-      "RGN_HP_RUN": {
-        "default": "RGN_HP_RUN"
-      }
-    },
-    {
-      "RGN_MP_SUM": {
-        "default": "RGN_MP_SUM"
-      }
-    },
-    {
-      "RGN_MP_RUN": {
-        "default": "RGN_MP_RUN"
-      }
-    },
-    {
-      "RGN_HP_RATE_MAX": {
-        "default": "Максимальна швидкість регенерації HP:",
-		"format": "%h%% HP RGN"
-      }
-    },
-    {
-      "RGN_MP_RATE_MAX": {
-        "default": "Максимальна швидкість регенерації MP:",
-		"format": "%e%% MP RGN"
-      }
-    },
-    {
-      "CLASS_WGT_MAX": {
-        "default": "Макс. WGT на борту:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_WGT_MAX_MOVE_100": {
-        "default": "Макс WGT на максимальній швидкості:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "MELEE_HITS": {
-        "default": "Загальна кількість ударів у ближньому бою:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "MELEE_DMG_TOTAL": {
-        "default": "Усього продано DMG:",
-		"melee": "Усього рукопашних DMG роздано:",
-		"format": "%d DMG"
-      }
-    },
-    {
-      "CLASS_MELEE_HITS_RUN": {
-        "default": "Найбільше хітів за 1 запуск:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "MELEE_KILLS": {
-        "default": "Вбивства в ближньому бою:",
-		"format": "%d Убивств"
-      }
-    },
-    {
-      "CRIT_HITS": {
-        "default": "Загальна кількість критичних ударів:",
-		"format": "%d Ударів"
-      }
-    },
-    {
-      "CRITS_DMG_TOTAL": {
-        "default": "Усього роздано критичних DMG:",
-		"format": "%d HP"
-      }
-    },
-    {
-      "CLASS_CRITS_HITS_RUN": {
-        "default": "Найбільше критичних моментів за 1 забіг:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CRIT_KILLS": {
-        "default": "Вбивства від критичного удару:",
-		"format": "%d Убивств"
-      }
-    },
-    {
-      "CLASS_WGT_SLOWEST": {
-        "default": "Більшість WGT на смерть:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_SKILL_LEGENDS": {
-        "default": "Досягнутий легендарний навик:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "SKILL_LEGENDARY_PROCS": {
-        "default": "SKILL_LEGENDARY_PROCS"
-      }
-    },
-    {
-      "DEGRADED": {
-        "default": "ДЕГРАДОВАНИЙ"
-      }
-    },
-    {
-      "REPAIRS": {
-        "default": "РЕМОНТ"
-      }
-    },
-    {
-      "RANGED_HITS": {
-        "default": "Загальна кількість влучень:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "RANGED_DMG_TOTAL": {
-        "missiles": "Усього роздано DMG:",
-		"default": "Загальний завданий збиток:",
-		"format": "%d DMG"
-      }
-    },
-    {
-      "CLASS_RANGED_HITS_RUN": {
-        "default": "Найбільше хітів за 1 запуск:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "RANGED_KILLS": {
-        "default": "Вбивства з дистанції:",
-		"format": "%d Убивств"
-      }
-    },
-    {
-      "THROWN_TOTAL_HITS": {
-        "default": "Загальна кількість ударів кинутої зброї:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "THROWN_DMG_TOTAL": {
-        "default": "Усього викинуто DMG Роздано:",
-		"gem_rock": "Загальний завданий збиток:",
-		"boomerang": "Загальний завданий збиток:",
-		"tomahawks & daggers": "Загальний завданий збиток:",
-		"chakrams and shurikens": "Загальний завданий збиток:",
-		"format": "%d DMG"
-      }
-    },
-    {
-      "CLASS_THROWN_HITS_RUN": {
-        "default": "Найбільше хітів за 1 запуск:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "THROWN_KILLS": {
-        "default": "Вбивства з кинутої зброї:",
-		"format": "%d Убивств"
-      }
-    },
-    {
-      "FLANK_HITS": {
-        "default": "Загальна кількість флангових ударів:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "FLANK_DMG": {
-        "default": "Загальний фланговий DMG Роздано:",
-		"format": "%d DMG"
-      }
-    },
-    {
-      "CLASS_FLANK_HITS_RUN": {
-        "default": "Найбільше флангів за 1 забіг:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_FLANK_DMG_RUN": {
-        "default": "Найбільше флангових DMG за 1 забіг:",
-		"format": "%d DMG"
-      }
-    },
-    {
-      "BACKSTAB_HITS": {
-        "default": "Усього ударів у спину:",
-		"format": "%d Влучань"
-      }
-    },
-    {
-      "CLASS_BACKSTAB_KILLS_RUN": {
-        "default": "Удар у спину вбиває за 1 забіг:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_BACKSTAB_HITS_RUN": {
-        "default": "Удари в спину в 1 пробіжці:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "BACKSTAB_KILLS": {
-        "default": "Удари в спину, що призводять до вбивств:",
-		"format": "%d"
-      }
-    },
-    {
-      "CLASS_BACKSTAB_DMG_RUN": {
-        "default": "CLASS_BACKSTAB_DMG_RUN"
-      }
-    },
-    {
-      "CLASS_BLOCK_DEFENDED": {
-        "default": "Найбільше захищених хітів:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_BLOCK_UNDEFENDED": {
-        "default": "Більшість незахищених хітів:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_BLOCK_DEFENDED_RUN": {
-        "default": "Найбільше ударів, захищених за 1 забіг:",
-		"format": "%d"
-      }
-    },
-    {
-      "CLASS_BLOCK_UNDEFENDED_RUN": {
-        "default": "Найбільше ударів без захисту за 1 захід:",
-		"format": "%d"
-      }
-    },
-    {
-      "CLASS_SPELL_CASTS_RUN": {
-        "default": "Найбільше кастів за 1 запуск:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_SPELL_FIZZLES_RUN": {
-        "default": "Найбільше помилок за 1 запуск:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_SNEAK_TIME": {
-        "default": "Найпідступніший клас:",
-		"format": "%s (%t)",
-		"format_time": "%02d:%02d:%02d"
-      }
-    },
-    {
-      "CLASS_SNEAK_SKILLUP_FLOOR": {
-        "default": "Максимальне підвищення навичок на 1 поверсі:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "WANTED_RUNS": {
-        "default": "Позначено як розшукувані забіги:",
-		"format": "%d Рун"
-      }
-    },
-    {
-      "WANTED_TIMES_RUN": {
-        "default": "Most Wanted In 1 Run:",
-		"format": "%d Ідентичностей"
-      }
-    },
-    {
-      "WANTED_INFLUENCE": {
-        "default": "Змусив союзників шукати:",
-		"format": "%d Разів"
-      }
-    },
-    {
-      "WANTED_CRIMES_RUN": {
-        "default": "Найбільше злочинів за 1 сеанс:",
-		"format": "%d Злочинів"
-      }
-    },
-	{
-		"CUSTOM_TAG": {
-			"default": "CUSTOM_TAG"
-		}
-	},
-	{
-		"SPELLBOOK_CAST_DEGRADES": {
-			"default": "Деградує з використанням:",
-			"format": "%d Разів"
-		}
-	},
-	{
-      "CLASS_SPELLBOOK_CASTS_RUN": {
-        "default": "Найбільше кастів за 1 запуск:",
-		"format": "%d (%s)"
-      }
-    },
-    {
-      "CLASS_SPELLBOOK_FIZZLES_RUN": {
-        "default": "Найбільше помилок за 1 запуск:",
-		"format": "%d (%s)"
-      }
-    },
-	{
-      "CLASS_MOVING_TIME": {
-        "default": "CLASS_MOVING_TIME:",
-		"format": "%d (%s)"
-      }
-    },
-	{
-      "CLASS_IDLING_TIME": {
-        "default": "CLASS_IDLING_TIME:",
-		"format": "%d (%s)"
-      }
-    },
-	{
-      "CLASS_SKILL_UPS_ALL_RUN": {
-        "default": "Найбільше підвищення навичок за 1 забіг:",
-		"format": "%d (%s)"
-      }
-    },
-	{
-      "CLASS_WGT_EQUIPPED_MAX": {
-        "default": "Найбільш оснащений WGT:",
-		"format": "%d (%s)"
-      }
-    },
-	{
-      "CLASS_PWR_MAX_CASTED": {
-        "default": "Макс PWR заклинання:",
-		"format": "%d%% (%s)"
-      }
-    },
-	{
-      "PWR_MAX_EQUIP": {
-        "default": "Макс PWR від спорядження/ефектів:",
-		"format": "+%d%%"
-      }
-    },
-	{
-      "PWR_MAX_SPELLBOOK": {
-        "default": "Макс PWR з книги заклинань:",
-		"format": "+%d%%"
-      }
-    },
-	{
-      "RES_DMG_TAKEN": {
-        "default": "Загальна кількість здоров’я, втраченого через заклинання:",
-		"format": "%d HP"
-      }
-    },
-	{
-      "RES_SPELLS_HIT": {
-        "default": "Заклинання загальної шкоди, нанесені:",
-		"format": "%d"
-      }
-    },
-	{
-	"HP_MOST_DMG_LOST_ONE_HIT": {
-        "default": "Найбільше HP втрачено від 1 атаки:",
-		"format": "%d HP"
-      }
-	},
-	{
-	"HP_LOST_TOTAL": {
-        "default": "Всього HP втрачено:",
-		"format": "%d HP"
-      }
-	},
-	{
-	"AC_EFFECTIVENESS_MAX": {
-        "default": "Найвищий AC % Block з благословень:",
-		"format": "%d%%"
-      }
-	},
-	{
-	"AC_EQUIPMENT_MAX": {
-        "default": "Найвищий AC з обладнання:",
-		"format": "+%d AC"
-      }
-	},
-	{
-	"LEVELS_MIN_COMPLETION": {
-        "default": "LEVELS_MIN_COMPLETION:"
-      }
-	},
-	{
-	"LEVELS_MAX_COMPLETION": {
-        "default": "LEVELS_MAX_COMPLETION:"
-      }
-	},
-	{
-	"LEVELS_DEATHS": {
-        "default": "РІВНІ_СМЕРТІ:"
-      }
-	},
-	{
-	"LEVELS_DEATHS_FASTEST": {
-        "default": "РІВНІ_СМЕРТІ_НАЙШВИДШИЙ:"
-      }
-	},
-	{
-	"LEVELS_DEATHS_SLOWEST": {
-        "default": "РІВЕНЬ_СМЕРТІ_НАЙПОВІЛЬНІШИЙ:"
-      }
-	},
-	{
-	"LEVELS_MIN_LVL": {
-        "default": "LEVELS_MIN_LVL:"
-      }
-	},
-	{
-	"BIOMES_MIN_COMPLETION": {
-        "default": "BIOMES_MIN_COMPLETION:"
-      }
-	},
-	{
-	"BIOMES_MAX_COMPLETION": {
-        "default": "BIOMES_MAX_COMPLETION:"
-      }
-	},
-	{
-	"LEVELS_TIME_SPENT": {
-        "default": "LEVELS_TIME_SPENT:"
-      }
-	},
-	{
-	"MINEHEAD_ENTER_SOLO": {
-        "default": "MINEHEAD_ENTER_SOLO:"
-      }
-	},
-	{
-	"MINEHEAD_ENTER_ONLINE_MP": {
-        "default": "MINEHEAD_ENTER_ONLINE_MP:"
-      }
-	},
-	{
-	"MINEHEAD_ENTER_LAN_MP": {
-        "default": "MINEHEAD_ENTER_LAN_MP:"
-      }
-	},
-	{
-	"MINEHEAD_TOTAL_PLAYTIME": {
-        "default": "MINEHEAD_TOTAL_PLAYTIME:"
-      }
-	},
-	{
-	"MINEHEAD_ENTER_SPLIT_MP": {
-        "default": "MINEHEAD_ENTER_SPLIT_MP:"
-      }
-	},
-	{
-	"TOTAL_TIME_SPENT": {
-        "default": "TOTAL_TIME_SPENT:"
-      }
-	},
-	{
-	"TRAP_SUMMONED_MONSTERS": {
-        "default": "Породжені монстри:"
-      }
-	},
-	{
-	"LORE_READ": {
-		"default": "LORE_READ:",
-        "scroll_mail": "Пошта відкрита:",
-		"readable_book": "Прочитані книги:"
-      }
-	},
-	{
-	"LORE_BURNT": {
-		"default": "LORE_BURNT:",
-        "scroll_mail": "Подається в автоматичні котли:",
-		"readable_book": "Подається в автоматичні котли:"
-      }
-	},
-	{
-	"LORE_PERCENT_READ": {
-        "default": "LORE_PERCENT_READ:",
-		"format": "%d%%",
-        "scroll_mail": "Знайдено повідомлень (%):",
-		"readable_book": "Завершення читання (%):"
-      }
-	},
-	{
-	"LORE_PERCENT_READ_2": {
-        "default": "LORE_PERCENT_READ_2:",
-		"format": "%d%%",
-        "scroll_mail": "Знайдено повідомлень (%):",
-		"readable_book": "Завершення читання (%):"
-      }
-	},
-	{
-	"MERCHANT_ORBS": {
-		"default": "Дано містичні кулі:",
-		"format": "%d Кулі"
-	  }
-	},
-	{
-	"SPELL_DMG": {
-		"default": "Заподіяна шкода:",
-		"format": "%d DMG"
-	  }
-	},
-	{
-	"SPELL_HEAL": {
-		"default": "Здоров'я відновлено:",
-		"format": "%d HP"
-	  }
-	},
-	{
-	"TIME_WORN": {
-		"default": "Час носіння:",
-		"format": "%t",
-		"format_time": "%02d:%02d:%02d"
-	  }
-	},
-	{
-	"LOCKPICK_DOOR_UNLOCK": {
-		"default": "LOCKPICK_DOOR_UNLOCK:",
-		"format": "%d"
-	  }
-	},
-	{
-	"LOCKPICK_DOOR_LOCK": {
-		"default": "LOCKPICK_DOOR_LOCK:",
-		"format": "%d"
-	  }
-	},
-	{
-	"LOCKPICK_ARROWTRAPS": {
-		"default": "Пастки для стріл роззброєні:",
-		"format": "%d Знято з охорони"
-	  }
-	},
-	{
-	"LOCKPICK_TINKERTRAPS": {
-		"default": "Створені пастки перемикаються:",
-		"format": "%d Перемикає"
-	  }
-	},
-	{
-	"LOCKPICK_CHESTS_UNLOCK": {
-		"default": "LOCKPICK_CHESTS_UNLOCK:",
-		"format": "%d"
-	  }
-	},
-	{
-	"LOCKPICK_MIMICS_LOCKED": {
-		"default": "Міміка приголомшена:",
-		"format": "%d Міміки"
-	  }
-	},
-	{
-	"LOCKPICK_CHESTS_LOCK": {
-		"default": "LOCKPICK_CHESTS_LOCK:",
-		"format": "%d"
-	  }
-	},
-	{
-	"ALEMBIC_DUPLICATION_FAIL": {
-		"default": "ALEMBIC_DUPLICATION_FAIL:",
-		"format": "%d"
-	  }
-	},
-	{
-	"ALEMBIC_EXPLOSIONS": {
-		"default": "ALEMBIC_EXPLOSIONS:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BEARTRAP_DEPLOYED": {
-		"default": "Розгорнуто:",
-		"format": "%d Разів"
-	  }
-	},
-	{
-	"BEARTRAP_TRAPPED": {
-		"default": "Вороги в пастці:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BEARTRAP_DMG": {
-		"default": "Заподіяна шкода:",
-		"format": "%d DMG"
-	  }
-	},
-	{
-	"GADGET_CRAFTED": {
-		"default": "Створено:",
-		"format": "%d Разів"
-	  }
-	},
-	{
-	"GADGET_DEPLOYED": {
-		"default": "Розгорнуто:",
-		"format": "%d Разів"
-	  }
-	},
-	{
-	"NOISEMAKER_LURED": {
-		"default": "Заманені вороги:",
-		"format": "%d"
-	  }
-	},
-	{
-	"NOISEMAKER_MOST_LURED": {
-		"default": "Більшість ворогів, заманених одразу:",
-		"format": "%d"
-	  }
-	},
-	{
-	"DUMMY_HITS_TAKEN": {
-		"default": "Загальна кількість влучань:",
-		"format": "%d Влучань"
-	  }
-	},
-	{
-	"DUMMY_DMG_TAKEN": {
-		"default": "Всього DMG взято:",
-		"format": "%d DMG"
-	  }
-	},
-	{
-	"SENTRY_DEPLOY_KILLS": {
-		"default": "Ворогів, убитих за допомогою:",
-		"format": "%d"
-	  }
-	},
-	{
-	"SENTRY_DEPLOY_DMG": {
-		"default": "Заподіяна шкода:",
-		"format": "%d DMG"
-	  }
-	},
-	{
-	"GYROBOT_BOULDERS": {
-		"default": "Програли в Боулдерс:",
-		"format": "%d Гіроботи"
-	  }
-	},
-	{
-	"GYROBOT_TIME_SPENT": {
-		"default": "Якісний час, проведений разом:",
-		"duck": "Час обіймів:",
-		"format": "%t",
-	    "format_time": "%02d:%02d:%02d"
-	  }
-	},
-	{
-	"BOMB_DMG": {
-		"default": "Заподіяна шкода:",
-		"format": "%d DMG"
-	  }
-	},
-	{
-	"BOMB_DETONATED": {
-		"default": "Попадання ворогів:",
-		"format": "%d Разів"
-	  }
-	},
-	{
-	"BOMB_DETONATED_ALLY": {
-		"default": "Удар по собі/союзникам:",
-		"format": "%d Разів"
-	  }
-	},
-	{
-	"DETONATOR_SCRAPPED": {
-		"default": "Врятовані детонатори:",
-		"format": "%d шт"
-	  }
-	},
-	{
-	"DETONATOR_SCRAPPED_METAL": {
-		"default": "Металобрухт із утилізованих матеріалів:",
-		"format": "%d"
-	  }
-	},
-	{
-	"DETONATOR_SCRAPPED_MAGIC": {
-		"default": "Чарівний брухт із залишків:",
-		"format": "%d"
-	  }
-	},
-	{
-	"DEATHBOX_OPEN_OWN": {
-		"default": "Власні ящики відкрито:",
-		"format": "%d Відкривань"
-	  }
-	},
-	{
-	"DEATHBOX_OPEN_OTHERS": {
-		"default": "Інші ящики відкрито:",
-		"format": "%d Відкривань"
-	  }
-	},
-	{
-	"DEATHBOX_TO_EXIT": {
-		"default": "Усього до виходів:",
-		"format": "%d Ящиків"
-	  }
-	},
-	{
-	"DEATHBOX_MOST_CARRIED": {
-		"default": "Більшість переноситься відразу:",
-		"format": "%d Ящиків"
-	  }
-	},
-	{
-	"PICKAXE_BOULDERS_DUG": {
-		"default": "Зруйновані валуни:",
-		"format": "%d"
-	  }
-	},
-	{
-	"TIN_GREASY": {
-		"default": "Жирні руки:",
-		"format": "%d Разів"
-	  }
-	},
-	{
-	"TIN_REGEN_HP": {
-		"default": "TIN_REGEN_HP:",
-		"format": "%d"
-	  }
-	},
-	{
-	"TIN_REGEN_MP": {
-		"default": "TIN_REGEN_MP:",
-		"format": "%d"
-	  }
-	},
-	{
-	"SPELL_TARGETS": {
-		"default": "Зазначені цілі:",
-		"dark_icons": "Цілі прокляті:",
-		"duck": "Знущання над ворогами:",
-		"format": "%d Влучань",
-		"format_duck": "%d Разів"
-	  }
-	},
-	{
-	"GYROBOT_FLIPS": {
-		"default": "Allied Cool Flips:",
-		"format": "%d Перевертає"
-	  }
-	},
-	{
-	"KILL_XP": {
-		"default": "Убити XP Зароблено:",
-		"format": "%d XP"
-	  }
-	},
-	{
-	"CONTAINER_BROKEN": {
-		"default": "Розбиті контейнери:",
-		"format": "%d"
-	  }
-	},
-	{
-	"CONTAINER_ITEMS": {
-		"default": "Знайдено предметів:",
-		"format": "%d"
-	  }
-	},
-	{
-	"CONTAINER_GOLD": {
-		"default": "Золото знайдено:",
-		"format": "%dG"
-	  }
-	},
-	{
-	"CONTAINER_MONSTERS": {
-		"default": "Знайдені монстри:",
-		"format": "%d"
-	  }
-	},
-	{
-	"DAED_USES": {
-		"default": "Святині, яких торкалися:",
-		"format": "%d"
-	  }
-	},
-	{
-	"DAED_EXIT_REVEALS": {
-		"default": "Розкрито виходи:",
-		"format": "%d"
-	  }
-	},
-	{
-	"DAED_SPEED_BUFFS": {
-		"default": "Благословення швидкості:",
-		"format": "%d"
-	  }
-	},
-	{
-	"DAED_KILLED_MINO": {
-		"default": "DAED_KILLED_MINO:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_RUNG_TIMES": {
-		"default": "дзвони:",
-		"format": "%d Разів"
-	  }
-	},
-	{
-	"BELL_LOOT_ITEMS": {
-		"default": "BELL_LOOT_ITEMS:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_BROKEN": {
-		"default": "BELL_BROKEN:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_BUFFS_AGILITY": {
-		"default": "BELL_BUFFS_СПРЕТНІСТЬ:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_BUFFS_STAMINA": {
-		"default": "BELL_BUFFS_STAMINA:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_BUFFS_STRENGTH": {
-		"default": "BELL_BUFFS_STRENGTH:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_BUFFS_MENTALITY": {
-		"default": "BELL_BUFFS_MENTALITY:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_BUFFS_HEALS": {
-		"default": "BELL_BUFFS_HEALS:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_LOOT_GOLD": {
-		"default": "BELL_LOOT_GOLD:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_LOOT_BATS": {
-		"default": "BELL_LOOT_BATS:",
-		"format": "%d"
-	  }
-	},
-	{
-	"BELL_CLAPPER_BROKEN": {
-		"default": "BELL_CLAPPER_BROKEN:"
-	  }
-	},
-	{
-	"SKILL_NOVICES": {
-		"default": "SKILL_NOVICES:"
-	  }
-	},
-	{
-	"FOLLOWER_KILLS": {
-		"default": "Вбивства підписниками:",
-		"format": "%d Убивств"
-	  }
-	},
-	{
-	"COMBAT_MASONRY_BOULDERS": {
-		"default": "БОЙОВА_МУДАР_ВАЛУНИ:",
-		"format": "%d"
-	  }
-	},
-	{
-	"MERLINS": {
-		"default": "Мерлін подружився:",
-		"format": "%d Разів"
-	  }
-	},
-	{
-	"RITUALS_COMPLETED": {
-		"default": "Виконані ритуали:",
-		"format": "%d Сфери активовані"
-	  }
-	},
-	{
-	"HUMANS_SAVED": {
-		"default": "Врятовані люди:",
-		"format": "%d Повернення Гамлета"
-	  }
-	},
-	{
-	"SPELLS_LEARNED": {
-		"default": "Загальна кількість вивчених заклинань:",
-		"format": "%d Заклять"
-	  }
-	},
-	{
-	"ALLIES_FED": {
-		"default": "Нужденний Фед:",
-		"format": "%d Їжа союзників"
-	  }
-	},
-	{
-	"COMBAT_MASONRY_GEMS": {
-		"default": "COMBAT_MASONRY_GEMS:",
-		"format": "%d"
-	  }
-	},
-	{
-	"COMBAT_MASONRY_ROCKS": {
-		"default": "COMBAT_MASONRY_ROCKS:",
-		"format": "%d"
-	  }
-	},
-	{
-	"GOLD_LEFT_BEHIND": {
-		"default": "Неотримане золото:",
-		"format": "%dG"
-	  }
-	},
-	{
-	"MONSTERS_LEFT_BEHIND": {
-		"default": "Врятовані вороги:",
-		"format": "%d Залишився живим"
-	  }
-	},
-	{
-	"ITEMS_LEFT_BEHIND": {
-		"default": "Незібрані предмети:",
-		"format": "%d"
-	  }
-	},
-	{
-	"ITEM_VALUE_LEFT_BEHIND": {
-		"default": "Неотримана вартість товару:",
-		"format": "%dG"
-	  }
-	},
-	{
-	"OFFHAND_CASTING_MP": {
-		"default": "Усього MP Витрачений кастинг:",
-		"format": "%d MP"
-	  }
-	},
-	{
-	"OFFHAND_CHARGING_TIME": {
-		"default": "Час, витрачений на кастинг:",
-		"format": "%t",
-	    "format_time": "%02d:%02d:%02d"
-	  }
-	},
-	{
-	"OFFHAND_CHARGING_TIME_RUN": {
-		"default": "Найбільший час кастингу за 1 захід:",
-		"format": "%t",
-	    "format_time": "%02d:%02d:%02d"
-	  }
-	},
-	{
-	"OFFHAND_CHR_MAX": {
-		"default": "Більшість CHR з акторами:",
-		"format": "%d CHR"
-	  }
-	},
-	{
-	"GOLD_COLLECTED": {
-		"default": "Загальна кількість зібраного золота:",
-		"format": "%dG"
-	  }
-	},
-	{
-	"GOLD_COLLECTED_RUN": {
-		"default": "Найбільше золота, отриманого за 1 заїзд:",
-		"format": "%dG"
-	  }
-	},
-	{
-	"GOLD_CASTED": {
-		"default": "Золото, спожите магією:",
-		"format": "%dG"
-	  }
-	},
-	{
-	"GOLD_CASTED_RUN": {
-		"default": "Найбільше золота, спожитого за 1 захід:",
-		"format": "%dG"
-	  }
-	},
-	{
-      "BUTTON_PRESSED": {
-        "default": "Натиснуті кнопки:"
-      }
-    },
-    {
-      "BUTTON_FOLLOWER_PRESSED": {
-        "default": "Кнопки, які натискають підписники:"
-      }
-    },
-	{
-      "BUTTON_SHOT": {
-        "default": "Кнопки, які натискаються снарядами:"
-      }
-    },
-	{
-      "KEYLOCK_UNLOCKED_KEY": {
-        "default": "Використані ключі:"
-      }
-    },
-	{
-      "KEYLOCK_PICKED": {
-        "default": "Розблоковано зі зломом:"
-      }
-    },
-	{
-      "KEYLOCK_SKELETON_KEY": {
-        "default": "Розблоковано за допомогою Skeleton Keys:"
-      }
-    },
-	{
-      "ASSIST_MASKS": {
-        "default": "Заявлені аксесуари:",
-		"format": "%d Предметів"
-      }
-    },
-	{
-      "ASSIST_CLOAKS": {
-        "default": "Заявлені плащі:",
-		"format": "%d Предметів"
-      }
-    },
-	{
-      "ASSIST_AMULETS": {
-        "default": "Заявлені амулети:",
-		"format": "%d Предметів"
-      }
-    },
-	{
-      "ASSIST_RINGS": {
-        "default": "Заявлені кільця:",
-		"format": "%d Предметів"
-      }
-    },
-	{
-      "CAULDRON_INTERACTS": {
-        "default": "CAULDRON_INTERACTS"
-      }
-    },
-	{
-      "WORKBENCH_INTERACTS": {
-        "default": "WORKBENCH_INTERACTS"
-      }
-    },
-	{
-      "WORKBENCH_SALVAGE": {
-        "default": "Загальна кількість врятованих елементів:",
-		"format": "%d Предметів"
-      }
-    },
-	{
-      "WORKBENCH_CRAFTS": {
-        "default": "Загальна кількість створених предметів:",
-		"format": "%d Предметів"
-      }
-    },
-	{
-      "WORKBENCH_REPAIRED": {
-        "default": "Загальна кількість відремонтованих елементів:",
-		"format": "%d Предметів"
-      }
-    },
-	{
-      "WORKBENCH_SKILLUPS": {
-        "default": "Майстерність підвищується:",
-		"format": "%d Очок"
-      }
-    },
-	{
-      "COOK_MEALS": {
-        "default": "Формовані раціони:",
-		"format_rations": "%d Порції"
-      }
-    },
-	{
-      "COOK_FLAVORED_MEALS": {
-        "default": "COOK_FLAVORED_MEALS"
-      }
-    },
-	{
-      "CAULDRON_SKILLUPS": {
-        "default": "Збільшення навичок алхімії:",
-		"format": "%d Очок"
-      }
-    },
-	{
-      "COOK_SLOP_BALLS": {
-        "default": "COOK_SLOP_BALLS:"
-      }
-    },
-	{
-      "COOK_GREASE_BALLS": {
-        "default": "COOK_GREASE_BALLS:"
-      }
-    },
-	{
-      "PARRIES": {
-        "default": "ПАРІЇ:"
-      }
-    },
-	{
-      "PARRIES_DMG": {
-        "default": "PARRIES_DMG:"
-      }
-    },
-	{
-      "ARCHON_SPELLS_FORGOTTEN": {
-        "default": "Забуті заклинання:",
-		"format": "%d Заклять"
-      }
-    },
-	{
-      "MULTI_HITS": {
-        "default": "Кілька ударів ворогів:",
-		"format": "%d Разів"
-      }
-    },
-	{
-      "MAGIC_KILLS": {
-        "default": "MAGIC_KILLS:"
-      }
-    },
-	{
-      "EFFECT_DURATION": {
-        "default": "EFFECT_DURATION:",
-		"holy_symbols": "Загальний час захисту:",
-		"instruments": "Загальний час натхнення:",
-		"bolas": "Загальний час захоплення:",
-		"format": "%t",
-	    "format_time": "%02d:%02d:%02d"
-      }
-    },
-	{
-      "JEWEL_RECRUIT_DECREPIT": {
-        "default": "JEWEL_RECRUIT_DECREPIT:"
-      }
-    },
-	{
-      "JEWEL_RECRUIT_WORN": {
-        "default": "ДОРОГОЦІННОСТІ_РЕКРУТИ:"
-      }
-    },
-	{
-      "JEWEL_RECRUIT_SERVICABLE": {
-        "default": "JEWEL_RECRUIT_SERVICABLE:"
-      }
-    },
-	{
-      "JEWEL_RECRUIT_EXCELLENT": {
-        "default": "JEWEL_RECRUIT_EXCELLENT:"
-      }
-    },
-	{
-      "FORGED": {
-        "default": "Ковані коштовності:",
-		"format_jewels": "%d Разів"
-      }
-    },
-	{
-      "UPGRADED": {
-        "default": "Покращено коштовності:",
-		"format_jewels": "%d Разів"
-      }
-    },
-	{
-      "SHILLELAGH_DEBUFFS_MAX": {
-        "default": "SHILLELAGH_DEBUFFS_MAX:"
-      }
-    },
-	{
-      "DUCK_DODGE": {
-        "default": "Уникнення небезпек:",
-		"format": "%d Небезпеки"
-      }
-    },
-	{
-      "DUCK_CAUGHT": {
-        "default": "Спіймана риба:",
-		"format": "%d Рибин"
-      }
+    "version": 1,
+    "tags": [
+        {
+            "BLOCKED_ATTACKS": {
+                "default": "Повністю заблоковані атаки:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "BROKEN_BY_BLOCKING": {
+                "default": "Зламається під час блокування:",
+                "format_crystal shard": "%d Уламків",
+                "format_torch and lantern": "%d Разів",
+                "format": "%d Щитів"
+            }
+        },
+        {
+            "BROKEN": {
+                "default": "Всього зламано:",
+                "magicstaffs": "Штафи згоріли:",
+                "format_mirrors": "%d Років Невдачі"
+            }
+        },
+        {
+            "BLESSED_MAX": {
+                "default": "Макс Блессінг:",
+                "format": "(%p)"
+            }
+        },
+        {
+            "ATTACKS": {
+                "default": "Атаки:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "THROWN": {
+                "default": "КИНУТИ ЧАСИ:",
+                "defensive potions": "Кинуті пляшки:",
+                "booze": "Кинуті пляшки:",
+                "offensive potions": "Кинуті пляшки:",
+                "water": "Кинуті пляшки:",
+                "cream pie": "Кинуті пироги:",
+                "rocks & gems": "Кинуті дорогоцінні камені:",
+                "format_defensive potions": "%d Варок",
+                "format_booze": "%d Варок",
+                "format_offensive potions": "%d Варок",
+                "format_water": "%d Пляшок",
+                "format_cream pie": "%d Разів",
+                "format_rocks & gems": "%d Разів"
+            }
+        },
+        {
+            "SHOTS_FIRED": {
+                "default": "ПОСТРІЛИ:"
+            }
+        },
+        {
+            "AMMO_FIRED": {
+                "default": "БОЄЗНАЧЕННЯ:"
+            }
+        },
+        {
+            "CONSUMED": {
+                "default": "Витрачено:",
+                "scrolls": "Прочитаний сувій (ідентифікований):",
+                "defensive potions": "Пляшок Випито:",
+                "booze": "Пляшок Випито:",
+                "offensive potions": "Пляшок Випито:",
+                "blood vials": "Витрачена кров:",
+                "water": "Пляшок Випито:",
+                "food_tin": "З'їдені банки:",
+                "meat, fish, and bread": "Споживані страви:",
+                "tomalley": "Залишки з'їденого:",
+                "cheese and apples": "З'їдені шматочки:",
+                "rations": "З'їдені пайки:",
+                "cream pie": "З'їдено пирогів:",
+                "format_tin and tin opener": "%d Разів",
+                "format_defensive potions": "%d Варок",
+                "format_booze": "%d Варок",
+                "format_offensive potions": "%d Варок",
+                "format_water": "%d Пляшок",
+                "format_blood vials": "%d Флаконів",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "TOWEL_USES": {
+                "default": "ВИКОРИСТАННЯ РУШНИКА:"
+            }
+        },
+        {
+            "PICKAXE_WALLS_DUG": {
+                "default": "Видобуті стіни:"
+            }
+        },
+        {
+            "SINKS_TAPPED": {
+                "default": "Мийки з краном:",
+                "format": "%d Напоїв"
+            }
+        },
+        {
+            "ALEMBIC_BREWED": {
+                "default": "ALEMBIC_BREWED:"
+            }
+        },
+        {
+            "TINKERKIT_CRAFTS": {
+                "default": "Загальна кількість створених предметів:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "TORCH_WALLS": {
+                "default": "Зібрані зі стін:",
+                "format": "%d Смолоскипів",
+                "format_crystal shard": "%d Уламків"
+            }
+        },
+        {
+            "SHIELD_REFLECT": {
+                "default": "Заклинання, відображені щитом:"
+            }
+        },
+        {
+            "BLESSED_TOTAL": {
+                "default": "Благословенні часи:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "DMG_MAX": {
+                "default": "Максимальний збиток:",
+                "boomerang": "Максимальний збиток:",
+                "tomahawks & daggers": "Максимальний збиток:",
+                "chakrams and shurikens": "Максимальний збиток:",
+                "rocks & gems": "Максимальний кинутий збиток:",
+                "defensive potions": "Максимальний кинутий збиток:",
+                "booze": "Максимальний кинутий збиток:",
+                "offensive potions": "Максимальний кинутий збиток:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "TRADING_GOLD_EARNED": {
+                "default": "Золото, отримане від продажу:",
+                "format": "%dG"
+            }
+        },
+        {
+            "FOUNTAINS_TAPPED": {
+                "default": "Використані фонтани:",
+                "format": "%d Напоїв"
+            }
+        },
+        {
+            "ALEMBIC_DECANTED": {
+                "default": "Декантовані зілля:",
+                "format": "%d Переливань"
+            }
+        },
+        {
+            "TINKERKIT_REPAIRS": {
+                "default": "Загальна кількість відремонтованих елементів:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "MIRROR_TELEPORTS": {
+                "default": "Дзеркальні телепортації:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "BLOCKED_HIGHEST_DMG": {
+                "default": "Найбільша шкода заблокована:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "TRADING_SOLD": {
+                "default": "Кількість, продана магазинам:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "DMG_0": {
+                "default": "0 Пошкоджень:",
+                "format": "%d *Дзиньків*"
+            }
+        },
+        {
+            "BOTTLE_FROM_BREWING": {
+                "default": "ПОРОЖНІ ПЛЯШКИ ВІДНОВЛЕНО:"
+            }
+        },
+        {
+            "ALEMBIC_DUPLICATED": {
+                "default": "ЗІЛЛЯ ДУБЛЮВАНО:"
+            }
+        },
+        {
+            "TINKERKIT_METAL_SCRAPPED": {
+                "default": "ВАРТИРОВАНИЙ МЕТАЛОЛОХ:"
+            }
+        },
+        {
+            "INSPIRATION_XP": {
+                "default": "НАТХНЕННЯ EXP ДЛЯ СОЮЗНИКІВ:"
+            }
+        },
+        {
+            "CLOAK_BURNED": {
+                "default": "ЗГОРІЛИ ПЛАЩІ:"
+            }
+        },
+        {
+            "BOTTLES_FROM_CONSUME": {
+                "default": "ПОРОЖНІ ПЛЯШКИ, ВИКОРИСТАНІ ВІД КВАФФУ:"
+            }
+        },
+        {
+            "ALEMBIC_BROKEN": {
+                "default": "АЛЕМБІКИ ЗЛАМАНІ:"
+            }
+        },
+        {
+            "TINKERKIT_MAGIC_SCRAPPED": {
+                "default": "ВРЯТОВАНИЙ МАГІЧНИЙ БРОМ:"
+            }
+        },
+        {
+            "TINKERKIT_SALVAGED": {
+                "default": "ВРЯТОВАНІ ПРЕДМЕТИ:"
+            }
+        },
+        {
+            "APPRAISED": {
+                "default": "Кількість оцінок:",
+                "rocks & gems": "Оцінено дорогоцінні камені:",
+                "format_rocks & gems": "%d Самоцвітів"
+            }
+        },
+        {
+            "TOWEL_BLEEDING": {
+                "default": "Статус кровотечі вилікувано:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "TOWEL_MESSY": {
+                "default": "Безладний статус вилікувано:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "TOWEL_GREASY": {
+                "default": "Жирний статус Вилікуваний:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "RUNS_COLLECTED": {
+                "default": "Зібрано:",
+                "spells": "Вивчене заклинання:",
+                "format": "%d Рун"
+            }
+        },
+        {
+            "ATTACKS_MISSES": {
+                "default": "ПРОПУЩЕНІ АТАКИ:"
+            }
+        },
+        {
+            "THROWN_HITS": {
+                "default": "Уражені кинуті цілі:",
+                "defensive potions": "Уражені кинуті цілі:",
+                "booze": "Уражені кинуті цілі:",
+                "offensive potions": "Уражені кинуті цілі:",
+                "water": "Уражені кинуті цілі:",
+                "cream pie": "Уражені кинуті цілі:",
+                "format": "%d Влучань",
+                "format_cream pie": "%d Клоунів"
+            }
+        },
+        {
+            "SHOTS_HIT": {
+                "default": "Уражені цілі:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "AMMO_HIT": {
+                "default": "Уражені цілі:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "MAGICSTAFF_RECHARGED": {
+                "default": "Magicstaffs перезаряджено:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "MAGICSTAFF_CASTS": {
+                "default": "Час використання:",
+                "format": "%d Зарядів"
+            }
+        },
+        {
+            "FEATHER_ENSCRIBED": {
+                "default": "Порожні сувої з підписом:",
+                "format": "%d Сувоїв"
+            }
+        },
+        {
+            "FEATHER_CHARGE_USED": {
+                "default": "Загальний використаний заряд:",
+                "format": "%d%"
+            }
+        },
+        {
+            "FEATHER_SPELLBOOKS": {
+                "default": "Відремонтовані книги заклинань:",
+                "format": "%d Книг Заклять"
+            }
+        },
+        {
+            "CONSUMED_UNIDENTIFIED": {
+                "default": "Прочитаний сувій (невідомий):",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "SPELL_CASTS": {
+                "default": "Загальна кількість акторів:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "SPELL_FAILURES": {
+                "default": "Зроблені касти:",
+                "format": "%d Провалів"
+            }
+        },
+        {
+            "SPELLBOOK_CASTS": {
+                "default": "Загальна кількість кастів книги заклинань:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "SPELLBOOK_LEARNT": {
+                "default": "Вивчено з книги заклинань:",
+                "format": "%d Заклять"
+            }
+        },
+        {
+            "KILLED_SOLO": {
+                "default": "Всього вбито:",
+                "format": "%d %s"
+            }
+        },
+        {
+            "KILLED_PARTY": {
+                "default": "Убитий (партія):"
+            }
+        },
+        {
+            "KILLED_BY": {
+                "default": "Убитий:"
+            }
+        },
+        {
+            "GHOST_SPAWNED": {
+                "default": "Привиди породжені як:"
+            }
+        },
+        {
+            "GHOST_TELEPORTS": {
+                "default": "Актори Teleports:"
+            }
+        },
+        {
+            "GHOST_PINGS": {
+                "default": "Виноски надіслано:"
+            }
+        },
+        {
+            "GHOST_PUSHES": {
+                "default": "Надіслані елементи:"
+            }
+        },
+        {
+            "MINEHEAD_ENTER": {
+                "default": "Експедиції в підземелля:"
+            }
+        },
+        {
+            "MINEHEAD_RETURN": {
+                "default": ""
+            }
+        },
+        {
+            "GATE_OPENED_SPELL": {
+                "default": "Відкрито за допомогою заклинання:"
+            }
+        },
+        {
+            "GATE_MINOTAUR": {
+                "default": "Розбитий мінотаврами:"
+            }
+        },
+        {
+            "LEVER_PULLED": {
+                "default": "Витягнуті важелі:"
+            }
+        },
+        {
+            "LEVER_FOLLOWER_PULLED": {
+                "default": "Важелі, які тягнуть послідовники:"
+            }
+        },
+        {
+            "DOOR_BROKEN": {
+                "default": "Зламані двері:"
+            }
+        },
+        {
+            "DOOR_OPENED": {
+                "default": "Двері відчинено:"
+            }
+        },
+        {
+            "DOOR_UNLOCKED": {
+                "default": "Двері незамкнені:"
+            }
+        },
+        {
+            "LEVELS_ENTERED": {
+                "default": "Досягнуто:",
+                "transition floor": "Досягнуті перехідні рівні:",
+                "format": "%d"
+            }
+        },
+        {
+            "LEVELS_EXITED": {
+                "default": "LEVELS_EXITED"
+            }
+        },
+        {
+            "LEVELS_MAX_LVL": {
+                "default": "Максимум LVL на виході:"
+            }
+        },
+        {
+            "LEVELS_MAX_GOLD": {
+                "default": "Максимальне золото при виході:"
+            }
+        },
+        {
+            "SINKS_USED": {
+                "default": "Раковини, що використовуються:"
+            }
+        },
+        {
+            "SINKS_RINGS": {
+                "default": "Кільця знайдено:"
+            }
+        },
+        {
+            "SINKS_SLIMES": {
+                "default": "Породжені слизи:"
+            }
+        },
+        {
+            "FOUNTAIN_FOOCUBI": {
+                "default": "Foocubi породив:"
+            }
+        },
+        {
+            "FOUNTAIN_DRUNK": {
+                "default": "Наслідки вживання алкоголю:"
+            }
+        },
+        {
+            "FOUNTAIN_BLESS": {
+                "default": "Обладнання Blessed (Single):"
+            }
+        },
+        {
+            "FOUNTAIN_BLESS_ALL": {
+                "default": "Благословення обладнання (все):"
+            }
+        },
+        {
+            "CHESTS_OPENED": {
+                "default": "Відкриті кришки:"
+            }
+        },
+        {
+            "CHESTS_MIMICS_AWAKENED": {
+                "default": "Міміки пробуджені:"
+            }
+        },
+        {
+            "CHESTS_UNLOCKED": {
+                "default": "Розблоковані скрині:"
+            }
+        },
+        {
+            "CHESTS_DESTROYED": {
+                "default": "Знищені скрині:"
+            }
+        },
+        {
+            "BARRIER_DESTROYED": {
+                "default": "Зруйновано бар'єри:"
+            }
+        },
+        {
+            "GRAVE_GHOULS": {
+                "default": "Ghouls Disturbed:"
+            }
+        },
+        {
+            "GRAVE_EPITAPHS_READ": {
+                "default": "Читання епітафій:"
+            }
+        },
+        {
+            "GRAVE_EPITAPHS_PERCENT": {
+                "default": "Прочитані епітафії (%):"
+            }
+        },
+        {
+            "GRAVE_GHOULS_ENSLAVED": {
+                "default": "Поневолені упирі Потривожені:"
+            }
+        },
+        {
+            "SHOP_BOUGHT": {
+                "default": "Куплені предмети:"
+            }
+        },
+        {
+            "SHOP_SOLD": {
+                "default": "Продано:"
+            }
+        },
+        {
+            "SHOP_GOLD_EARNED": {
+                "default": "Золото, отримане від продажу:",
+                "format": "%dG"
+            }
+        },
+        {
+            "TRAP_KILLED_BY": {
+                "default": "Смерті від пастки:",
+                "boulder trap": "Смерті від пасток для валунів:",
+                "arrow trap": "Смерть від пасток для стріл:",
+                "spike trap": "Смерті від Spike Traps:",
+                "magic trap": "Смерті від чарівних пасток:"
+            }
+        },
+        {
+            "TRAP_DAMAGE": {
+                "default": "Загальний збиток, завданий пасткою:"
+            }
+        },
+        {
+            "TRAP_FOLLOWERS_KILLED": {
+                "default": "Втрачені підписники:"
+            }
+        },
+        {
+            "BOULDERS_PUSHED": {
+                "default": "Штовхнуті валуни:"
+            }
+        },
+        {
+            "ARROWS_PILFERED": {
+                "default": "Times Arrows Pilfered:"
+            }
+        },
+        {
+            "SWIM_TIME": {
+                "default": "Час, витрачений на плескання:",
+                "format": "%t",
+                "format_time": "%02d:%02d:%02d"
+            }
+        },
+        {
+            "SWIM_KILLED_WHILE": {
+                "default": "Нещасні випадки під час плавання:",
+                "format": "%d Смертей"
+            }
+        },
+        {
+            "SWIM_BURN_CURED": {
+                "default": "Опіки лікуються за допомогою плавання:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "LAVA_DAMAGE": {
+                "default": "Пошкодження, отримані лавою:"
+            }
+        },
+        {
+            "LAVA_ITEMS_BURNT": {
+                "default": "Предмети, згорілі в лаві:"
+            }
+        },
+        {
+            "SOKOBAN_SOLVES": {
+                "default": "Кількість вирішених:"
+            }
+        },
+        {
+            "SOKOBAN_FASTEST_SOLVE": {
+                "default": "Найшвидше рішення:"
+            }
+        },
+        {
+            "TRAP_MAGIC_STATUSED": {
+                "default": "Кількість ефектів заклинання:"
+            }
+        },
+        {
+            "OBELISK_USES": {
+                "default": "Торкнулися обеліски:"
+            }
+        },
+        {
+            "OBELISK_FOLLOWER_USES": {
+                "default": "Обеліски торкнулися (послідовники):"
+            }
+        },
+        {
+            "TRIALS_ATTEMPTS": {
+                "default": "Спроба випробувань:"
+            }
+        },
+        {
+            "TRIALS_PASSED": {
+                "default": "Випробування пройдено:"
+            }
+        },
+        {
+            "TRIALS_DEATHS": {
+                "default": "TRIALS_DEATHS:"
+            }
+        },
+        {
+            "LEVELS_BIOME_CLEAR": {
+                "default": "LEVELS_BIOME_CLEAR:"
+            }
+        },
+        {
+            "DOOR_CLOSED": {
+                "default": "Двері закрито:"
+            }
+        },
+        {
+            "SINKS_HEALTH_RESTORED": {
+                "default": "Чистий стан здоров'я відновлено:",
+                "format": "%d HP"
+            }
+        },
+        {
+            "FOUNTAIN_USED": {
+                "default": "Використані фонтани:"
+            }
+        },
+        {
+            "CHESTS_MIMICS_AWAKENED1ST": {
+                "default": "Міміка порушена:"
+            }
+        },
+        {
+            "SHOP_SPENT": {
+                "default": "Золото, витрачене в магазині:",
+                "format": "%dG"
+            }
+        },
+        {
+            "SOKOBAN_PERFECT_SOLVES": {
+                "default": "Ідеальні рішення:"
+            }
+        },
+        {
+            "PITS_ITEMS_LOST": {
+                "default": "Предмети, загублені в глибинах:"
+            }
+        },
+        {
+            "PITS_LEVITATED": {
+                "default": "Час, що левітує над ямами:",
+                "format": "%t",
+                "format_time": "%02d:%02d:%02d"
+            }
+        },
+        {
+            "PITS_DEATHS": {
+                "default": "Смерті в ямах:"
+            }
+        },
+        {
+            "PITS_ITEMS_VALUE_LOST": {
+                "default": "Значення предмета, загубленого в глибинах:",
+                "format": "%dG"
+            }
+        },
+        {
+            "KILLED_MULTIPLAYER": {
+                "default": "Всього вбито:",
+                "format": "%d (Мультиплеєр)"
+            }
+        },
+        {
+            "RECRUITED": {
+                "default": "Завербовано:"
+            }
+        },
+        {
+            "RACE_GAMES_STARTED": {
+                "default": "Улюблена раса:",
+                "format": "%s (%d Ігри)"
+            }
+        },
+        {
+            "RACE_RECRUITS": {
+                "default": "Найвпливовіші:",
+                "format": "%s (%d Новобранці)"
+            }
+        },
+        {
+            "RACE_GAMES_WON": {
+                "default": "Найбільше перемог:",
+                "format": "%s (%d Перемоги)"
+            }
+        },
+        {
+            "DISTANCE_TRAVELLED": {
+                "default": "Загальна пройдена відстань:",
+                "format": "%m"
+            }
+        },
+        {
+            "DISTANCE_MAX_RUN": {
+                "default": "Найдальша дистанція за 1 забіг:",
+                "format": "%m"
+            }
+        },
+        {
+            "XP_KILLS": {
+                "default": "XP Отримано від вбивств:",
+                "format": "%d XP"
+            }
+        },
+        {
+            "XP_SKILLS": {
+                "default": "XP Отримано завдяки навичкам:",
+                "format": "%d XP"
+            }
+        },
+        {
+            "XP_MAX_IN_FLOOR": {
+                "default": "Найвищий XP, отриманий на підлозі:",
+                "format": "%d XP"
+            }
+        },
+        {
+            "XP_MAX_INSTANCE": {
+                "default": "Найбільший XP за одне вбивство:",
+                "format": "%d XP"
+            }
+        },
+        {
+            "CLASS_LVL_MAX": {
+                "default": "Найвищий LVL:",
+                "format": "LVL %d (%s)"
+            }
+        },
+        {
+            "CLASS_LVL_GAINED": {
+                "default": "Найбільше отриманих рівнів:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_GAMES_STARTED": {
+                "default": "Найбільш використовувані:",
+                "classes list": "Часи гри:",
+                "format": "%s (%d Ігри)"
+            }
+        },
+        {
+            "CLASS_GAMES_WON": {
+                "default": "Найбільше перемог:",
+                "format": "%s (%d Перемоги)"
+            }
+        },
+        {
+            "CLASS_GAMES_SOLO": {
+                "default": "CLASS_GAMES_SOLO"
+            }
+        },
+        {
+            "CLASS_GAMES_MULTI": {
+                "default": "CLASS_GAMES_MULTI"
+            }
+        },
+        {
+            "STAT_MAX": {
+                "default": "STAT_MAX",
+                "str": "Макс. СИЛ від спорядження/ефектів:",
+                "dex": "Макс. СПР від спорядження/ефектів:",
+                "con": "Макс. СТА від спорядження/ефектів:",
+                "int": "Макс. ІНТ від спорядження/ефектів:",
+                "per": "Макс. СПРИЙ від спорядження/ефектів:",
+                "chr": "Макс. ХАР від спорядження/ефектів:",
+                "format": "+%d %s"
+            }
+        },
+        {
+            "CLASS_STAT_STR_MAX": {
+                "default": "CLASS_STAT_STR_MAX",
+                "str": "Найвища база СИЛ:",
+                "format": "%d СИЛ (%s)"
+            }
+        },
+        {
+            "STAT_INCREASES": {
+                "default": "STAT_INCREASES",
+                "str": "Усього здобуто СИЛ балів:",
+                "dex": "Усього здобуто СПР балів:",
+                "con": "Усього здобуто СТА балів:",
+                "int": "Усього здобуто ІНТ балів:",
+                "per": "Усього здобуто СПРИЙ балів:",
+                "chr": "Усього здобуто ХАР балів:",
+                "format": "%d Очок"
+            }
+        },
+        {
+            "STAT_DOUBLED": {
+                "default": "STAT_DOUBLED",
+                "str": "+2 До кидків майстерності СИЛ:",
+                "con": "+2 До кидків майстерності СТА:",
+                "dex": "+2 До кидків майстерності СПР:",
+                "int": "+2 До кидків майстерності ІНТ:",
+                "per": "+2 До кидків майстерності СПРИЙ:",
+                "chr": "+2 До кидків майстерності ХАР:",
+                "format": "%d Бонусів"
+            }
+        },
+        {
+            "HP_MAX": {
+                "default": "Найвищий HP Усього:",
+                "format": "%d HP"
+            }
+        },
+        {
+            "CLASS_HP_MAX": {
+                "default": "Найвищий HP Усього:",
+                "format": "%d HP (%s)"
+            }
+        },
+        {
+            "MP_MAX": {
+                "default": "Найвищий MP Усього:",
+                "format": "%d MP"
+            }
+        },
+        {
+            "CLASS_MP_MAX": {
+                "default": "Найвищий MP Усього:",
+                "format": "%d MP (%s)"
+            }
+        },
+        {
+            "CLASS_SKILL_UPS": {
+                "default": "CLASS_SKILL_UPS"
+            }
+        },
+        {
+            "CLASS_SKILL_MAX": {
+                "default": "Найвища досягнута майстерність:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_SKILL_UPS_RUN_MAX": {
+                "default": "Найбільше підвищення навичок за 1 забіг:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_STAT_DEX_MAX": {
+                "default": "CLASS_STAT_DEX_MAX",
+                "dex": "Найвища база СПР:",
+                "format": "%d СПР (%s)"
+            }
+        },
+        {
+            "CLASS_STAT_CON_MAX": {
+                "default": "CLASS_STAT_CON_MAX",
+                "con": "Найвища база СТА:",
+                "format": "%d СТА (%s)"
+            }
+        },
+        {
+            "CLASS_STAT_INT_MAX": {
+                "default": "CLASS_STAT_INT_MAX",
+                "int": "Найвища база ІНТ:",
+                "format": "%d ІНТ (%s)"
+            }
+        },
+        {
+            "CLASS_STAT_PER_MAX": {
+                "default": "CLASS_STAT_PER_MAX",
+                "per": "Найвища база СПРИЙ:",
+                "format": "%d СПРИЙ (%s)"
+            }
+        },
+        {
+            "CLASS_STAT_CHR_MAX": {
+                "default": "CLASS_STAT_CHR_MAX",
+                "chr": "Найвища база ХАР:",
+                "format": "%d ХАР (%s)"
+            }
+        },
+        {
+            "RES_MAX": {
+                "default": "RES_MAX"
+            }
+        },
+        {
+            "CLASS_RES_MAX": {
+                "default": "Найвищий магічний опір:",
+                "format": "+%d%% ОМ"
+            }
+        },
+        {
+            "RES_DMG_RESISTED": {
+                "default": "Здоров'я, врятоване опором:",
+                "format": "+%d HP"
+            }
+        },
+        {
+            "RES_DMG_RESISTED_RUN": {
+                "default": "RES_DMG_RESISTED_RUN"
+            }
+        },
+        {
+            "AC_MAX": {
+                "default": "AC_MAX"
+            }
+        },
+        {
+            "CLASS_AC_MAX": {
+                "default": "Найвища сума КЗ:",
+                "format": "%d КЗ (%s)"
+            }
+        },
+        {
+            "AC_MAX_FROM_BLESS": {
+                "default": "Більшість благословень, які носять одночасно:",
+                "format": "+%d Благ."
+            }
+        },
+        {
+            "HP_LOST_RUN": {
+                "default": "Більшість HP програних за 1 заїзд:",
+                "format": "%d HP"
+            }
+        },
+        {
+            "MP_SPENT_RUN": {
+                "default": "Найбільше MP витрачено за 1 забіг:",
+                "format": "%d MP"
+            }
+        },
+        {
+            "MP_SPENT_TOTAL": {
+                "default": "Усього витрачено MP:",
+                "format": "%d MP"
+            }
+        },
+        {
+            "CLASS_LVL_WON_MAX": {
+                "default": "Найвища перемога LVL:",
+                "format": "LVL %d (%s)"
+            }
+        },
+        {
+            "CLASS_LVL_WON_MIN": {
+                "default": "Найнижча перемога LVL:",
+                "format": "LVL %d (%s)"
+            }
+        },
+        {
+            "CLASS_GAMES_WON_CLASSIC": {
+                "default": "CLASS_GAMES_WON_CLASSIC",
+                "format": "%s (%d Класичні перемоги)"
+            }
+        },
+        {
+            "CLASS_GAMES_WON_HELL": {
+                "default": "CLASS_GAMES_WON_HELL",
+                "format": "%s (%d Перемог у Пеклі)"
+            }
+        },
+        {
+            "CLASS_LVL_WON_CLASSIC_MAX": {
+                "default": "CLASS_LVL_WON_CLASSIC_MAX"
+            }
+        },
+        {
+            "CLASS_LVL_WON_HELL_MIN": {
+                "default": "CLASS_LVL_WON_HELL_MIN"
+            }
+        },
+        {
+            "RACE_GAMES_WON_CLASSIC": {
+                "default": "RACE_GAMES_WON_CLASSIC",
+                "format": "%s (%d Класичні перемоги)"
+            }
+        },
+        {
+            "RACE_GAMES_WON_HELL": {
+                "default": "RACE_GAMES_WON_HELL",
+                "format": "%s (%d Перемог у Пеклі)"
+            }
+        },
+        {
+            "DISTANCE_MAX_FLOOR": {
+                "default": "Найбільша відстань на 1 поверсі:",
+                "format": "%m"
+            }
+        },
+        {
+            "PWR_MAX": {
+                "default": "PWR_MAX"
+            }
+        },
+        {
+            "CLASS_PWR_MAX": {
+                "default": "Макс. СЗ від ІНТ:",
+                "format": "+%d%% (%s)"
+            }
+        },
+        {
+            "RGN_HP_SUM": {
+                "default": "RGN_HP_SUM"
+            }
+        },
+        {
+            "RGN_HP_RUN": {
+                "default": "RGN_HP_RUN"
+            }
+        },
+        {
+            "RGN_MP_SUM": {
+                "default": "RGN_MP_SUM"
+            }
+        },
+        {
+            "RGN_MP_RUN": {
+                "default": "RGN_MP_RUN"
+            }
+        },
+        {
+            "RGN_HP_RATE_MAX": {
+                "default": "Максимальна швидкість регенерації HP:",
+                "format": "%h%% HP РГН"
+            }
+        },
+        {
+            "RGN_MP_RATE_MAX": {
+                "default": "Максимальна швидкість регенерації MP:",
+                "format": "%e%% MP РГН"
+            }
+        },
+        {
+            "CLASS_WGT_MAX": {
+                "default": "Макс. ВАГ на борту:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_WGT_MAX_MOVE_100": {
+                "default": "Макс ВАГ на максимальній швидкості:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "MELEE_HITS": {
+                "default": "Загальна кількість ударів у ближньому бою:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "MELEE_DMG_TOTAL": {
+                "default": "Усього продано DMG:",
+                "melee": "Усього рукопашних DMG роздано:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "CLASS_MELEE_HITS_RUN": {
+                "default": "Найбільше хітів за 1 запуск:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "MELEE_KILLS": {
+                "default": "Вбивства в ближньому бою:",
+                "format": "%d Убивств"
+            }
+        },
+        {
+            "CRIT_HITS": {
+                "default": "Загальна кількість критичних ударів:",
+                "format": "%d Ударів"
+            }
+        },
+        {
+            "CRITS_DMG_TOTAL": {
+                "default": "Усього роздано критичних DMG:",
+                "format": "%d HP"
+            }
+        },
+        {
+            "CLASS_CRITS_HITS_RUN": {
+                "default": "Найбільше критичних моментів за 1 забіг:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CRIT_KILLS": {
+                "default": "Вбивства від критичного удару:",
+                "format": "%d Убивств"
+            }
+        },
+        {
+            "CLASS_WGT_SLOWEST": {
+                "default": "Більшість ВАГ на смерть:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_SKILL_LEGENDS": {
+                "default": "Досягнутий легендарний навик:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "SKILL_LEGENDARY_PROCS": {
+                "default": "SKILL_LEGENDARY_PROCS"
+            }
+        },
+        {
+            "DEGRADED": {
+                "default": "ДЕГРАДОВАНИЙ"
+            }
+        },
+        {
+            "REPAIRS": {
+                "default": "РЕМОНТ"
+            }
+        },
+        {
+            "RANGED_HITS": {
+                "default": "Загальна кількість влучень:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "RANGED_DMG_TOTAL": {
+                "missiles": "Усього роздано DMG:",
+                "default": "Загальний завданий збиток:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "CLASS_RANGED_HITS_RUN": {
+                "default": "Найбільше хітів за 1 запуск:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "RANGED_KILLS": {
+                "default": "Вбивства з дистанції:",
+                "format": "%d Убивств"
+            }
+        },
+        {
+            "THROWN_TOTAL_HITS": {
+                "default": "Загальна кількість ударів кинутої зброї:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "THROWN_DMG_TOTAL": {
+                "default": "Усього викинуто DMG Роздано:",
+                "gem_rock": "Загальний завданий збиток:",
+                "boomerang": "Загальний завданий збиток:",
+                "tomahawks & daggers": "Загальний завданий збиток:",
+                "chakrams and shurikens": "Загальний завданий збиток:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "CLASS_THROWN_HITS_RUN": {
+                "default": "Найбільше хітів за 1 запуск:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "THROWN_KILLS": {
+                "default": "Вбивства з кинутої зброї:",
+                "format": "%d Убивств"
+            }
+        },
+        {
+            "FLANK_HITS": {
+                "default": "Загальна кількість флангових ударів:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "FLANK_DMG": {
+                "default": "Загальний фланговий DMG Роздано:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "CLASS_FLANK_HITS_RUN": {
+                "default": "Найбільше флангів за 1 забіг:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_FLANK_DMG_RUN": {
+                "default": "Найбільше флангових DMG за 1 забіг:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "BACKSTAB_HITS": {
+                "default": "Усього ударів у спину:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "CLASS_BACKSTAB_KILLS_RUN": {
+                "default": "Удар у спину вбиває за 1 забіг:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_BACKSTAB_HITS_RUN": {
+                "default": "Удари в спину в 1 пробіжці:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "BACKSTAB_KILLS": {
+                "default": "Удари в спину, що призводять до вбивств:",
+                "format": "%d"
+            }
+        },
+        {
+            "CLASS_BACKSTAB_DMG_RUN": {
+                "default": "CLASS_BACKSTAB_DMG_RUN"
+            }
+        },
+        {
+            "CLASS_BLOCK_DEFENDED": {
+                "default": "Найбільше захищених хітів:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_BLOCK_UNDEFENDED": {
+                "default": "Більшість незахищених хітів:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_BLOCK_DEFENDED_RUN": {
+                "default": "Найбільше ударів, захищених за 1 забіг:",
+                "format": "%d"
+            }
+        },
+        {
+            "CLASS_BLOCK_UNDEFENDED_RUN": {
+                "default": "Найбільше ударів без захисту за 1 захід:",
+                "format": "%d"
+            }
+        },
+        {
+            "CLASS_SPELL_CASTS_RUN": {
+                "default": "Найбільше кастів за 1 запуск:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_SPELL_FIZZLES_RUN": {
+                "default": "Найбільше помилок за 1 запуск:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_SNEAK_TIME": {
+                "default": "Найпідступніший клас:",
+                "format": "%s (%t)",
+                "format_time": "%02d:%02d:%02d"
+            }
+        },
+        {
+            "CLASS_SNEAK_SKILLUP_FLOOR": {
+                "default": "Максимальне підвищення навичок на 1 поверсі:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "WANTED_RUNS": {
+                "default": "Позначено як розшукувані забіги:",
+                "format": "%d Рун"
+            }
+        },
+        {
+            "WANTED_TIMES_RUN": {
+                "default": "Most Wanted In 1 Run:",
+                "format": "%d Ідентичностей"
+            }
+        },
+        {
+            "WANTED_INFLUENCE": {
+                "default": "Змусив союзників шукати:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "WANTED_CRIMES_RUN": {
+                "default": "Найбільше злочинів за 1 сеанс:",
+                "format": "%d Злочинів"
+            }
+        },
+        {
+            "CUSTOM_TAG": {
+                "default": "CUSTOM_TAG"
+            }
+        },
+        {
+            "SPELLBOOK_CAST_DEGRADES": {
+                "default": "Деградує з використанням:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "CLASS_SPELLBOOK_CASTS_RUN": {
+                "default": "Найбільше кастів за 1 запуск:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_SPELLBOOK_FIZZLES_RUN": {
+                "default": "Найбільше помилок за 1 запуск:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_MOVING_TIME": {
+                "default": "CLASS_MOVING_TIME:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_IDLING_TIME": {
+                "default": "CLASS_IDLING_TIME:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_SKILL_UPS_ALL_RUN": {
+                "default": "Найбільше підвищення навичок за 1 забіг:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_WGT_EQUIPPED_MAX": {
+                "default": "Найбільш оснащений ВАГ:",
+                "format": "%d (%s)"
+            }
+        },
+        {
+            "CLASS_PWR_MAX_CASTED": {
+                "default": "Макс СЗ заклинання:",
+                "format": "%d%% (%s)"
+            }
+        },
+        {
+            "PWR_MAX_EQUIP": {
+                "default": "Макс СЗ від спорядження/ефектів:",
+                "format": "+%d%%"
+            }
+        },
+        {
+            "PWR_MAX_SPELLBOOK": {
+                "default": "Макс СЗ з книги заклинань:",
+                "format": "+%d%%"
+            }
+        },
+        {
+            "RES_DMG_TAKEN": {
+                "default": "Загальна кількість здоров’я, втраченого через заклинання:",
+                "format": "%d HP"
+            }
+        },
+        {
+            "RES_SPELLS_HIT": {
+                "default": "Заклинання загальної шкоди, нанесені:",
+                "format": "%d"
+            }
+        },
+        {
+            "HP_MOST_DMG_LOST_ONE_HIT": {
+                "default": "Найбільше HP втрачено від 1 атаки:",
+                "format": "%d HP"
+            }
+        },
+        {
+            "HP_LOST_TOTAL": {
+                "default": "Всього HP втрачено:",
+                "format": "%d HP"
+            }
+        },
+        {
+            "AC_EFFECTIVENESS_MAX": {
+                "default": "Найвищий КЗ % Block з благословень:",
+                "format": "%d%%"
+            }
+        },
+        {
+            "AC_EQUIPMENT_MAX": {
+                "default": "Найвищий КЗ з обладнання:",
+                "format": "+%d КЗ"
+            }
+        },
+        {
+            "LEVELS_MIN_COMPLETION": {
+                "default": "LEVELS_MIN_COMPLETION:"
+            }
+        },
+        {
+            "LEVELS_MAX_COMPLETION": {
+                "default": "LEVELS_MAX_COMPLETION:"
+            }
+        },
+        {
+            "LEVELS_DEATHS": {
+                "default": "РІВНІ_СМЕРТІ:"
+            }
+        },
+        {
+            "LEVELS_DEATHS_FASTEST": {
+                "default": "РІВНІ_СМЕРТІ_НАЙШВИДШИЙ:"
+            }
+        },
+        {
+            "LEVELS_DEATHS_SLOWEST": {
+                "default": "РІВЕНЬ_СМЕРТІ_НАЙПОВІЛЬНІШИЙ:"
+            }
+        },
+        {
+            "LEVELS_MIN_LVL": {
+                "default": "LEVELS_MIN_LVL:"
+            }
+        },
+        {
+            "BIOMES_MIN_COMPLETION": {
+                "default": "BIOMES_MIN_COMPLETION:"
+            }
+        },
+        {
+            "BIOMES_MAX_COMPLETION": {
+                "default": "BIOMES_MAX_COMPLETION:"
+            }
+        },
+        {
+            "LEVELS_TIME_SPENT": {
+                "default": "LEVELS_TIME_SPENT:"
+            }
+        },
+        {
+            "MINEHEAD_ENTER_SOLO": {
+                "default": "MINEHEAD_ENTER_SOLO:"
+            }
+        },
+        {
+            "MINEHEAD_ENTER_ONLINE_MP": {
+                "default": "MINEHEAD_ENTER_ONLINE_MP:"
+            }
+        },
+        {
+            "MINEHEAD_ENTER_LAN_MP": {
+                "default": "MINEHEAD_ENTER_LAN_MP:"
+            }
+        },
+        {
+            "MINEHEAD_TOTAL_PLAYTIME": {
+                "default": "MINEHEAD_TOTAL_PLAYTIME:"
+            }
+        },
+        {
+            "MINEHEAD_ENTER_SPLIT_MP": {
+                "default": "MINEHEAD_ENTER_SPLIT_MP:"
+            }
+        },
+        {
+            "TOTAL_TIME_SPENT": {
+                "default": "TOTAL_TIME_SPENT:"
+            }
+        },
+        {
+            "TRAP_SUMMONED_MONSTERS": {
+                "default": "Породжені монстри:"
+            }
+        },
+        {
+            "LORE_READ": {
+                "default": "LORE_READ:",
+                "scroll_mail": "Пошта відкрита:",
+                "readable_book": "Прочитані книги:"
+            }
+        },
+        {
+            "LORE_BURNT": {
+                "default": "LORE_BURNT:",
+                "scroll_mail": "Подається в автоматичні котли:",
+                "readable_book": "Подається в автоматичні котли:"
+            }
+        },
+        {
+            "LORE_PERCENT_READ": {
+                "default": "LORE_PERCENT_READ:",
+                "format": "%d%%",
+                "scroll_mail": "Знайдено повідомлень (%):",
+                "readable_book": "Завершення читання (%):"
+            }
+        },
+        {
+            "LORE_PERCENT_READ_2": {
+                "default": "LORE_PERCENT_READ_2:",
+                "format": "%d%%",
+                "scroll_mail": "Знайдено повідомлень (%):",
+                "readable_book": "Завершення читання (%):"
+            }
+        },
+        {
+            "MERCHANT_ORBS": {
+                "default": "Дано містичні кулі:",
+                "format": "%d Кулі"
+            }
+        },
+        {
+            "SPELL_DMG": {
+                "default": "Заподіяна шкода:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "SPELL_HEAL": {
+                "default": "Здоров'я відновлено:",
+                "format": "%d HP"
+            }
+        },
+        {
+            "TIME_WORN": {
+                "default": "Час носіння:",
+                "format": "%t",
+                "format_time": "%02d:%02d:%02d"
+            }
+        },
+        {
+            "LOCKPICK_DOOR_UNLOCK": {
+                "default": "LOCKPICK_DOOR_UNLOCK:",
+                "format": "%d"
+            }
+        },
+        {
+            "LOCKPICK_DOOR_LOCK": {
+                "default": "LOCKPICK_DOOR_LOCK:",
+                "format": "%d"
+            }
+        },
+        {
+            "LOCKPICK_ARROWTRAPS": {
+                "default": "Пастки для стріл роззброєні:",
+                "format": "%d Знято з охорони"
+            }
+        },
+        {
+            "LOCKPICK_TINKERTRAPS": {
+                "default": "Створені пастки перемикаються:",
+                "format": "%d Перемикає"
+            }
+        },
+        {
+            "LOCKPICK_CHESTS_UNLOCK": {
+                "default": "LOCKPICK_CHESTS_UNLOCK:",
+                "format": "%d"
+            }
+        },
+        {
+            "LOCKPICK_MIMICS_LOCKED": {
+                "default": "Міміка приголомшена:",
+                "format": "%d Міміки"
+            }
+        },
+        {
+            "LOCKPICK_CHESTS_LOCK": {
+                "default": "LOCKPICK_CHESTS_LOCK:",
+                "format": "%d"
+            }
+        },
+        {
+            "ALEMBIC_DUPLICATION_FAIL": {
+                "default": "ALEMBIC_DUPLICATION_FAIL:",
+                "format": "%d"
+            }
+        },
+        {
+            "ALEMBIC_EXPLOSIONS": {
+                "default": "ALEMBIC_EXPLOSIONS:",
+                "format": "%d"
+            }
+        },
+        {
+            "BEARTRAP_DEPLOYED": {
+                "default": "Розгорнуто:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "BEARTRAP_TRAPPED": {
+                "default": "Вороги в пастці:",
+                "format": "%d"
+            }
+        },
+        {
+            "BEARTRAP_DMG": {
+                "default": "Заподіяна шкода:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "GADGET_CRAFTED": {
+                "default": "Створено:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "GADGET_DEPLOYED": {
+                "default": "Розгорнуто:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "NOISEMAKER_LURED": {
+                "default": "Заманені вороги:",
+                "format": "%d"
+            }
+        },
+        {
+            "NOISEMAKER_MOST_LURED": {
+                "default": "Більшість ворогів, заманених одразу:",
+                "format": "%d"
+            }
+        },
+        {
+            "DUMMY_HITS_TAKEN": {
+                "default": "Загальна кількість влучань:",
+                "format": "%d Влучань"
+            }
+        },
+        {
+            "DUMMY_DMG_TAKEN": {
+                "default": "Всього DMG взято:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "SENTRY_DEPLOY_KILLS": {
+                "default": "Ворогів, убитих за допомогою:",
+                "format": "%d"
+            }
+        },
+        {
+            "SENTRY_DEPLOY_DMG": {
+                "default": "Заподіяна шкода:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "GYROBOT_BOULDERS": {
+                "default": "Програли в Боулдерс:",
+                "format": "%d Гіроботи"
+            }
+        },
+        {
+            "GYROBOT_TIME_SPENT": {
+                "default": "Якісний час, проведений разом:",
+                "duck": "Час обіймів:",
+                "format": "%t",
+                "format_time": "%02d:%02d:%02d"
+            }
+        },
+        {
+            "BOMB_DMG": {
+                "default": "Заподіяна шкода:",
+                "format": "%d DMG"
+            }
+        },
+        {
+            "BOMB_DETONATED": {
+                "default": "Попадання ворогів:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "BOMB_DETONATED_ALLY": {
+                "default": "Удар по собі/союзникам:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "DETONATOR_SCRAPPED": {
+                "default": "Врятовані детонатори:",
+                "format": "%d Шт"
+            }
+        },
+        {
+            "DETONATOR_SCRAPPED_METAL": {
+                "default": "Металобрухт із утилізованих матеріалів:",
+                "format": "%d"
+            }
+        },
+        {
+            "DETONATOR_SCRAPPED_MAGIC": {
+                "default": "Чарівний брухт із залишків:",
+                "format": "%d"
+            }
+        },
+        {
+            "DEATHBOX_OPEN_OWN": {
+                "default": "Власні ящики відкрито:",
+                "format": "%d Відкривань"
+            }
+        },
+        {
+            "DEATHBOX_OPEN_OTHERS": {
+                "default": "Інші ящики відкрито:",
+                "format": "%d Відкривань"
+            }
+        },
+        {
+            "DEATHBOX_TO_EXIT": {
+                "default": "Усього до виходів:",
+                "format": "%d Ящиків"
+            }
+        },
+        {
+            "DEATHBOX_MOST_CARRIED": {
+                "default": "Більшість переноситься відразу:",
+                "format": "%d Ящиків"
+            }
+        },
+        {
+            "PICKAXE_BOULDERS_DUG": {
+                "default": "Зруйновані валуни:",
+                "format": "%d"
+            }
+        },
+        {
+            "TIN_GREASY": {
+                "default": "Жирні руки:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "TIN_REGEN_HP": {
+                "default": "TIN_REGEN_HP:",
+                "format": "%d"
+            }
+        },
+        {
+            "TIN_REGEN_MP": {
+                "default": "TIN_REGEN_MP:",
+                "format": "%d"
+            }
+        },
+        {
+            "SPELL_TARGETS": {
+                "default": "Зазначені цілі:",
+                "dark_icons": "Цілі прокляті:",
+                "duck": "Знущання над ворогами:",
+                "format": "%d Влучань",
+                "format_duck": "%d Разів"
+            }
+        },
+        {
+            "GYROBOT_FLIPS": {
+                "default": "Allied Cool Flips:",
+                "format": "%d Перевертає"
+            }
+        },
+        {
+            "KILL_XP": {
+                "default": "Убити XP Зароблено:",
+                "format": "%d XP"
+            }
+        },
+        {
+            "CONTAINER_BROKEN": {
+                "default": "Розбиті контейнери:",
+                "format": "%d"
+            }
+        },
+        {
+            "CONTAINER_ITEMS": {
+                "default": "Знайдено предметів:",
+                "format": "%d"
+            }
+        },
+        {
+            "CONTAINER_GOLD": {
+                "default": "Золото знайдено:",
+                "format": "%dG"
+            }
+        },
+        {
+            "CONTAINER_MONSTERS": {
+                "default": "Знайдені монстри:",
+                "format": "%d"
+            }
+        },
+        {
+            "DAED_USES": {
+                "default": "Святині, яких торкалися:",
+                "format": "%d"
+            }
+        },
+        {
+            "DAED_EXIT_REVEALS": {
+                "default": "Розкрито виходи:",
+                "format": "%d"
+            }
+        },
+        {
+            "DAED_SPEED_BUFFS": {
+                "default": "Благословення швидкості:",
+                "format": "%d"
+            }
+        },
+        {
+            "DAED_KILLED_MINO": {
+                "default": "DAED_KILLED_MINO:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_RUNG_TIMES": {
+                "default": "Дзвони:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "BELL_LOOT_ITEMS": {
+                "default": "BELL_LOOT_ITEMS:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_BROKEN": {
+                "default": "BELL_BROKEN:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_BUFFS_AGILITY": {
+                "default": "BELL_BUFFS_СПРЕТНІСТЬ:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_BUFFS_STAMINA": {
+                "default": "BELL_BUFFS_STAMINA:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_BUFFS_STRENGTH": {
+                "default": "BELL_BUFFS_STRENGTH:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_BUFFS_MENTALITY": {
+                "default": "BELL_BUFFS_MENTALITY:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_BUFFS_HEALS": {
+                "default": "BELL_BUFFS_HEALS:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_LOOT_GOLD": {
+                "default": "BELL_LOOT_GOLD:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_LOOT_BATS": {
+                "default": "BELL_LOOT_BATS:",
+                "format": "%d"
+            }
+        },
+        {
+            "BELL_CLAPPER_BROKEN": {
+                "default": "BELL_CLAPPER_BROKEN:"
+            }
+        },
+        {
+            "SKILL_NOVICES": {
+                "default": "SKILL_NOVICES:"
+            }
+        },
+        {
+            "FOLLOWER_KILLS": {
+                "default": "Вбивства підписниками:",
+                "format": "%d Убивств"
+            }
+        },
+        {
+            "COMBAT_MASONRY_BOULDERS": {
+                "default": "БОЙОВА_МУДАР_ВАЛУНИ:",
+                "format": "%d"
+            }
+        },
+        {
+            "MERLINS": {
+                "default": "Мерлін подружився:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "RITUALS_COMPLETED": {
+                "default": "Виконані ритуали:",
+                "format": "%d Сфери активовані"
+            }
+        },
+        {
+            "HUMANS_SAVED": {
+                "default": "Врятовані люди:",
+                "format": "%d Повернення Гамлета"
+            }
+        },
+        {
+            "SPELLS_LEARNED": {
+                "default": "Загальна кількість вивчених заклинань:",
+                "format": "%d Заклять"
+            }
+        },
+        {
+            "ALLIES_FED": {
+                "default": "Нужденний Фед:",
+                "format": "%d Їжа союзників"
+            }
+        },
+        {
+            "COMBAT_MASONRY_GEMS": {
+                "default": "COMBAT_MASONRY_GEMS:",
+                "format": "%d"
+            }
+        },
+        {
+            "COMBAT_MASONRY_ROCKS": {
+                "default": "COMBAT_MASONRY_ROCKS:",
+                "format": "%d"
+            }
+        },
+        {
+            "GOLD_LEFT_BEHIND": {
+                "default": "Неотримане золото:",
+                "format": "%dG"
+            }
+        },
+        {
+            "MONSTERS_LEFT_BEHIND": {
+                "default": "Врятовані вороги:",
+                "format": "%d Залишився живим"
+            }
+        },
+        {
+            "ITEMS_LEFT_BEHIND": {
+                "default": "Незібрані предмети:",
+                "format": "%d"
+            }
+        },
+        {
+            "ITEM_VALUE_LEFT_BEHIND": {
+                "default": "Неотримана вартість товару:",
+                "format": "%dG"
+            }
+        },
+        {
+            "OFFHAND_CASTING_MP": {
+                "default": "Усього MP Витрачений кастинг:",
+                "format": "%d MP"
+            }
+        },
+        {
+            "OFFHAND_CHARGING_TIME": {
+                "default": "Час, витрачений на кастинг:",
+                "format": "%t",
+                "format_time": "%02d:%02d:%02d"
+            }
+        },
+        {
+            "OFFHAND_CHARGING_TIME_RUN": {
+                "default": "Найбільший час кастингу за 1 захід:",
+                "format": "%t",
+                "format_time": "%02d:%02d:%02d"
+            }
+        },
+        {
+            "OFFHAND_CHR_MAX": {
+                "default": "Більшість ХАР з акторами:",
+                "format": "%d ХАР"
+            }
+        },
+        {
+            "GOLD_COLLECTED": {
+                "default": "Загальна кількість зібраного золота:",
+                "format": "%dG"
+            }
+        },
+        {
+            "GOLD_COLLECTED_RUN": {
+                "default": "Найбільше золота, отриманого за 1 заїзд:",
+                "format": "%dG"
+            }
+        },
+        {
+            "GOLD_CASTED": {
+                "default": "Золото, спожите магією:",
+                "format": "%dG"
+            }
+        },
+        {
+            "GOLD_CASTED_RUN": {
+                "default": "Найбільше золота, спожитого за 1 захід:",
+                "format": "%dG"
+            }
+        },
+        {
+            "BUTTON_PRESSED": {
+                "default": "Натиснуті кнопки:"
+            }
+        },
+        {
+            "BUTTON_FOLLOWER_PRESSED": {
+                "default": "Кнопки, які натискають підписники:"
+            }
+        },
+        {
+            "BUTTON_SHOT": {
+                "default": "Кнопки, які натискаються снарядами:"
+            }
+        },
+        {
+            "KEYLOCK_UNLOCKED_KEY": {
+                "default": "Використані ключі:"
+            }
+        },
+        {
+            "KEYLOCK_PICKED": {
+                "default": "Розблоковано зі зломом:"
+            }
+        },
+        {
+            "KEYLOCK_SKELETON_KEY": {
+                "default": "Розблоковано за допомогою Skeleton Keys:"
+            }
+        },
+        {
+            "ASSIST_MASKS": {
+                "default": "Заявлені аксесуари:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "ASSIST_CLOAKS": {
+                "default": "Заявлені плащі:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "ASSIST_AMULETS": {
+                "default": "Заявлені амулети:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "ASSIST_RINGS": {
+                "default": "Заявлені кільця:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "CAULDRON_INTERACTS": {
+                "default": "CAULDRON_INTERACTS"
+            }
+        },
+        {
+            "WORKBENCH_INTERACTS": {
+                "default": "WORKBENCH_INTERACTS"
+            }
+        },
+        {
+            "WORKBENCH_SALVAGE": {
+                "default": "Загальна кількість врятованих елементів:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "WORKBENCH_CRAFTS": {
+                "default": "Загальна кількість створених предметів:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "WORKBENCH_REPAIRED": {
+                "default": "Загальна кількість відремонтованих елементів:",
+                "format": "%d Предметів"
+            }
+        },
+        {
+            "WORKBENCH_SKILLUPS": {
+                "default": "Майстерність підвищується:",
+                "format": "%d Очок"
+            }
+        },
+        {
+            "COOK_MEALS": {
+                "default": "Формовані раціони:",
+                "format_rations": "%d Порції"
+            }
+        },
+        {
+            "COOK_FLAVORED_MEALS": {
+                "default": "COOK_FLAVORED_MEALS"
+            }
+        },
+        {
+            "CAULDRON_SKILLUPS": {
+                "default": "Збільшення навичок алхімії:",
+                "format": "%d Очок"
+            }
+        },
+        {
+            "COOK_SLOP_BALLS": {
+                "default": "COOK_SLOP_BALLS:"
+            }
+        },
+        {
+            "COOK_GREASE_BALLS": {
+                "default": "COOK_GREASE_BALLS:"
+            }
+        },
+        {
+            "PARRIES": {
+                "default": "ПАРІЇ:"
+            }
+        },
+        {
+            "PARRIES_DMG": {
+                "default": "PARRIES_DMG:"
+            }
+        },
+        {
+            "ARCHON_SPELLS_FORGOTTEN": {
+                "default": "Забуті заклинання:",
+                "format": "%d Заклять"
+            }
+        },
+        {
+            "MULTI_HITS": {
+                "default": "Кілька ударів ворогів:",
+                "format": "%d Разів"
+            }
+        },
+        {
+            "MAGIC_KILLS": {
+                "default": "MAGIC_KILLS:"
+            }
+        },
+        {
+            "EFFECT_DURATION": {
+                "default": "EFFECT_DURATION:",
+                "holy_symbols": "Загальний час захисту:",
+                "instruments": "Загальний час натхнення:",
+                "bolas": "Загальний час захоплення:",
+                "format": "%t",
+                "format_time": "%02d:%02d:%02d"
+            }
+        },
+        {
+            "JEWEL_RECRUIT_DECREPIT": {
+                "default": "JEWEL_RECRUIT_DECREPIT:"
+            }
+        },
+        {
+            "JEWEL_RECRUIT_WORN": {
+                "default": "ДОРОГОЦІННОСТІ_РЕКРУТИ:"
+            }
+        },
+        {
+            "JEWEL_RECRUIT_SERVICABLE": {
+                "default": "JEWEL_RECRUIT_SERVICABLE:"
+            }
+        },
+        {
+            "JEWEL_RECRUIT_EXCELLENT": {
+                "default": "JEWEL_RECRUIT_EXCELLENT:"
+            }
+        },
+        {
+            "FORGED": {
+                "default": "Ковані коштовності:",
+                "format_jewels": "%d Разів"
+            }
+        },
+        {
+            "UPGRADED": {
+                "default": "Покращено коштовності:",
+                "format_jewels": "%d Разів"
+            }
+        },
+        {
+            "SHILLELAGH_DEBUFFS_MAX": {
+                "default": "SHILLELAGH_DEBUFFS_MAX:"
+            }
+        },
+        {
+            "DUCK_DODGE": {
+                "default": "Уникнення небезпек:",
+                "format": "%d Небезпеки"
+            }
+        },
+        {
+            "DUCK_CAUGHT": {
+                "default": "Спіймана риба:",
+                "format": "%d Рибин"
+            }
+        }
+    ],
+    "custom_tags": {
+        "CUSTOM_MOST_STAT_GAINS": {
+            "default": "Найбільше збільшення статистики:",
+            "format": "%d %s"
+        },
+        "CUSTOM_LEAST_STAT_GAINS": {
+            "default": "Найменший приріст характеристик:",
+            "format": "%d %s"
+        },
+        "CUSTOM_HIGHEST_STAT": {
+            "default": "Найвища статистика:",
+            "format": "%d %s"
+        },
+        "CUSTOM_STAT_TOTAL_INCREASES": {
+            "default": "Загальний приріст статистики:",
+            "format": "%d"
+        },
+        "CUSTOM_CLASS_LEAST_GAMES": {
+            "default": "Найменше використовувані:",
+            "format": "%s (%d Ігри)"
+        },
+        "CUSTOM_CLASS_LEAST_GAMES_WON": {
+            "default": "Найменше перемог:",
+            "format": "%s (%d Перемоги)"
+        },
+        "CUSTOM_CLASS_LEAST_GAMES_WON_CLASSIC": {
+            "default": "Найменше перемог:",
+            "format": "%s (%d Класичні перемоги)"
+        },
+        "CUSTOM_CLASS_LEAST_GAMES_WON_HELL": {
+            "default": "Найменше перемог:",
+            "format": "%s (%d Перемог у Пеклі)"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_SWORD": {
+            "default": "Отримані бали навичок меча:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_AXE": {
+            "default": "Отримані очки навичок сокири:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_POLEARM": {
+            "default": "Отримані очки навичок древкової зброї:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_MACE": {
+            "default": "Отримані бали навичок булави:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_UNARMED": {
+            "default": "Отримані очки навичок без зброї:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_STEALTH": {
+            "default": "Отримані очки навичок скритності:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_BLOCKING": {
+            "default": "Отримані очки навичок блокування:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_RANGED": {
+            "default": "Отримані бали навичок дальньої дії:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_MAGIC": {
+            "default": "Отримані очки магічних навичок:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_CASTING": {
+            "default": "Отримані очки навичок кастингу:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_SORCERY": {
+            "default": "Отримані бали магічних навичок:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_MYSTICISM": {
+            "default": "Отримані очки навичок містицизму:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_THAUMATURGY": {
+            "default": "Отримані очки навичок Thauma:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_APPRAISAL": {
+            "default": "Отримані очки навичок знання:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_SWIMMING": {
+            "default": "Отримані бали навичок плавання:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_LEADERSHIP": {
+            "default": "Отримані очки лідерських навичок:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_TRADING": {
+            "default": "Отримані очки навичок торгівлі:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_ALCHEMY": {
+            "default": "Отримані очки навичок алхімії:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_SKILL_TOTAL_LVLS_TINKERING": {
+            "default": "Отримані бали майстерності:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_LEGEND_SKILL_MELEE_100": {
+            "default": "Найпопулярніший навик легенди:",
+            "format": "%s (%d)"
+        },
+        "CUSTOM_LEGEND_TOTAL_PROCS": {
+            "default": "Загальна кількість легендарних ударів:",
+            "format": "%d Влучань"
+        },
+        "CUSTOM_LEGEND_MOST_SKILL_PROCS": {
+            "default": "Найбільша майстерність ударів:",
+            "format": "%s (%d)"
+        },
+        "CUSTOM_CLASS_MOST_LEGEND_MELEES": {
+            "default": "Найбільш ударний клас:",
+            "format": "%s (%d)"
+        },
+        "CUSTOM_SPELL_ITEM_CASTS": {
+            "default": "Загальна кількість запам'ятованих акторів:",
+            "format": "%d"
+        },
+        "CUSTOM_SPELL_ITEM_FIZZLES": {
+            "default": "Загальна кількість запам'ятованих фізлів:",
+            "format": "%d"
+        },
+        "CUSTOM_SPELLBOOK_ITEM_CASTS": {
+            "default": "Загальна кількість кастів книги заклинань:",
+            "format": "%d"
+        },
+        "CUSTOM_SPELLBOOK_ITEM_FIZZLES": {
+            "default": "Загальна кількість книг заклинань:",
+            "format": "%d"
+        },
+        "CUSTOM_SPELLBOOK_CAST_DEGRADES": {
+            "default": "Книги заклинань деградували:",
+            "format": "%d"
+        },
+        "CUSTOM_SNEAK_TOTAL_TIME": {
+            "default": "Загальний час, витрачений на підкрадання:",
+            "format": "%t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_LVL_GAINED_FOR_CLASS": {
+            "default": "Загальна кількість отриманих рівнів:",
+            "format": "%d Рівнів"
+        },
+        "CUSTOM_CLASS_GAMES_STARTED": {
+            "default": "Усього розпочато:",
+            "format": "%d Ігор"
+        },
+        "CUSTOM_CLASS_GAMES_WON": {
+            "default": "Загальна кількість перемог:",
+            "format": "%d Перемог"
+        },
+        "CUSTOM_CLASS_GAMES_WON_CLASSIC": {
+            "default": "Загальна кількість перемог:",
+            "format": "%d Класичних Перемог"
+        },
+        "CUSTOM_CLASS_GAMES_WON_HELL": {
+            "default": "Загальна кількість перемог:",
+            "format": "%d Перемог у Пеклі"
+        },
+        "CUSTOM_SKILLS_GAINED_FOR_CLASS": {
+            "default": "Загальна кількість очок навичок:",
+            "format": "%d Очок"
+        },
+        "CUSTOM_CLASS_PLAYTIME": {
+            "default": "Час відтворення:",
+            "format": "Рейтинг: #"
+        },
+        "CUSTOM_ITEMS_DEGRADED": {
+            "default": "Пошкоджене обладнання:",
+            "format": "%d"
+        },
+        "CUSTOM_ITEMS_REPAIRED": {
+            "default": "Відремонтоване обладнання:",
+            "format": "%d"
+        },
+        "CUSTOM_ITEMS_BROKEN": {
+            "default": "Зламана зброя:",
+            "format": "%d"
+        },
+        "CUSTOM_ITEMS_BROKEN_ARMOR": {
+            "default": "Розбита броня:",
+            "format": "%d"
+        },
+        "CUSTOM_MOST_SKILL_GAINS": {
+            "default": "Улюблений навик:",
+            "format": "%s (%d Балів)"
+        },
+        "CUSTOM_LEAST_SKILL_GAINS": {
+            "default": "Занедбаний навик:",
+            "format": "%s (%d Балів)"
+        },
+        "CUSTOM_LEGEND_SKILL_SUM": {
+            "default": "Досягнутий легендарний навик:",
+            "format": "%d Разів"
+        },
+        "CUSTOM_HP_MP_RGN": {
+            "default": "Загальна регенерація:",
+            "format": "%s HP / %s MP"
+        },
+        "CUSTOM_HP_MP_RGN_RUN": {
+            "default": "Найбільше відновлення за 1 запуск:",
+            "format": "%s HP / %s MP"
+        },
+        "CUSTOM_BIOME_COMPLETIONS": {
+            "default": "ЗОНА:",
+            "format0": "Довершення біома: %d",
+            "format1": "Найшвидше очищення: %t",
+            "format2": "Найповільніше очищення: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_LEVEL_COMPLETIONS": {
+            "default": "ЗОНА:",
+            "format0": "Довершення: %d",
+            "format1": "Найшвидший вихід: %t",
+            "format2": "Найповільніший вихід: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_MINEHEAD_COMPLETIONS": {
+            "default": "ЗОНА:",
+            "format0": "Найшвидший вихід: %t",
+            "format1": "Найшвидший вихід: %t",
+            "format2": "Найповільніший вихід: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_LEVEL_DEATHS": {
+            "default": "Смерті:",
+            "minehead": "Фальстарти:",
+            "format0": "Загальна кількість смертей: %d",
+            "format1": "Найшвидша смерть: %t",
+            "format2": "Найповільніша смерть: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_LEVEL_PLAYTIME": {
+            "default": "Час відтворення:",
+            "format0": "Кількість відвідувань: %d",
+            "format1": "Витрачений час: %t",
+            "format2": "Витрачений час: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_MINEHEAD_PLAYTIME": {
+            "default": "Препарати:",
+            "format0": "Витрачений час: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_BIOME_PLAYTIME": {
+            "default": "Час відтворення:",
+            "format0": "Введено поверхів: %d",
+            "format1": "Здано поверхів: %d",
+            "format2": "Витрачений час: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_LEVEL_STATS": {
+            "default": "Персонаж:",
+            "format0": "Найвищий рівень: LVL %d",
+            "format1": "Найнижчий рівень: LVL %d",
+            "format2": "Найбільше золота: %dG"
+        },
+        "CUSTOM_SOKOBAN": {
+            "default": "Головоломка Сокобан:",
+            "format0": "Загальна кількість розв’язаних завдань: %d",
+            "format2": "Ідеальні рішення: %d",
+            "format1": "Найшвидше рішення: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_HALLOFTRIALS_TIME": {
+            "default": "Час відтворення:",
+            "format0": "Витрачений час: %t",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_MINEHEAD_GAMES": {
+            "default": "Dungeon Runs:",
+            "format0": "Ігри розпочато: %d",
+            "format1": "Час відтворення: %t",
+            "format2": "Індивідуальні пробіжки: %d",
+            "format3": "Онлайн-запуски: %d",
+            "format4": "LAN Запуски: %d",
+            "format5": "Розділений екран: %d",
+            "format_time": "%02d:%02d:%02d"
+        },
+        "CUSTOM_RACE_LEAST_GAMES_WON": {
+            "default": "Найменше перемог:",
+            "format": "%s (%d Перемоги)"
+        },
+        "CUSTOM_RACE_LEAST_GAMES_WON_CLASSIC": {
+            "default": "Найменше перемог:",
+            "format": "%s (%d Класичні перемоги)"
+        },
+        "CUSTOM_RACE_LEAST_GAMES_WON_HELL": {
+            "default": "Найменше перемог:",
+            "format": "%s (%d Перемог у Пеклі)"
+        },
+        "CUSTOM_TINKERKIT_SCRAPS": {
+            "default": "Врятований брухт:",
+            "format0": "%d Металобрухту",
+            "format1": "%d Магобрухту"
+        },
+        "CUSTOM_LOCKPICK_UNLOCKS": {
+            "default": "Розблоковані об'єкти:",
+            "format0": "%d Дверей",
+            "format1": "%d Скринь"
+        },
+        "CUSTOM_LOCKPICK_LOCKS": {
+            "default": "Заблоковані об'єкти:",
+            "format0": "%d Дверей",
+            "format1": "%d Скринь"
+        },
+        "CUSTOM_ALEMBIC_DUPLICATED": {
+            "default": "Дубльовані зілля:",
+            "format0": "%d Успіхів",
+            "format1": "%d Провалів"
+        },
+        "CUSTOM_ALEMBIC_BREWED": {
+            "default": "Зварені зілля:",
+            "format0": "%d Змішувань",
+            "format1": "%d Вибухів"
+        },
+        "CUSTOM_BOTTLE_RECOVERY": {
+            "default": "Вилучено пляшки:",
+            "format0": "%d (Пивоваріння)",
+            "format1": "%d (Quaffing)"
+        },
+        "CUSTOM_TIN_REGEN": {
+            "default": "Отримано регенерацію:",
+            "format0": "%d Разів (Реген HP)",
+            "format1": "%d Разів (Реген MP)"
+        },
+        "CUSTOM_BELL_LOOT": {
+            "default": "Знайдено здобич:",
+            "format0": "%d Предметів",
+            "format1": "%d Золота",
+            "format2": "%d Кажанів"
+        },
+        "CUSTOM_BELL_BUFFS": {
+            "default": "Отримані баффи:",
+            "format0": "%d Разів (Спритність)",
+            "format1": "%d Разів (Витривалість)",
+            "format2": "%d Разів (Сила)",
+            "format3": "%d Разів (Ментальність)",
+            "format4": "%d Разів (Відновлення)"
+        },
+        "CUSTOM_BELL_BROKEN": {
+            "default": "Вандали:",
+            "format1": "%d Розбитих Язиків Дзвона",
+            "format0": "%d Скинутих Дзвонів"
+        },
+        "CUSTOM_LEADER_NOVICES": {
+            "default": "Підготовлені капітани:",
+            "format": "%d %s Новачків"
+        },
+        "CUSTOM_COMBAT_NOVICES": {
+            "default": "Навчені солдати:",
+            "format": "%d %s Новачків"
+        },
+        "CUSTOM_STEALTH_NOVICES": {
+            "default": "Навчені вбивці:",
+            "format": "%d %s Новачків"
+        },
+        "CUSTOM_RANGED_NOVICES": {
+            "default": "Навчені стрільці:",
+            "format": "%d %s Новачків"
+        },
+        "CUSTOM_MAGIC_NOVICES": {
+            "default": "Підготовлені учні:",
+            "format": "%d %s Новачків"
+        },
+        "CUSTOM_CRAFTSMEN_NOVICES": {
+            "default": "Навчені майстри:",
+            "format": "%d %s Новачків"
+        },
+        "CUSTOM_SALESMEN_NOVICES": {
+            "default": "Навчені продавці:",
+            "format": "%d %s Новачків"
+        },
+        "CUSTOM_COMBAT_MASONRY": {
+            "default": "Бойове масонство:",
+            "format0": "%d Убивств Валунами",
+            "format1": "%d Убивств Самоцвітами",
+            "format2": "%d Убивств Камінням"
+        },
+        "CUSTOM_UNDEAD_KILLED": {
+            "default": "Убита нежить:",
+            "format": "%d Убивств"
+        },
+        "CUSTOM_BEASTS_KILLED": {
+            "default": "Вбиті звірі:",
+            "format": "%d Убивств"
+        },
+        "CUSTOM_DEMONS_KILLED": {
+            "default": "Демони вигнані:",
+            "format": "%d Убивств"
+        },
+        "CUSTOM_KEYLOCK_ALLKEYS": {
+            "default": "Використані ключі:",
+            "format0": "%d Ключів Загалом",
+            "format1": "%d Залізних Ключів",
+            "format2": "%d Бронзових Ключів",
+            "format3": "%d Срібних Ключів",
+            "format4": "%d Золотих Ключів"
+        },
+        "CUSTOM_COOK_MEALS": {
+            "default": "Кулінарні твори:",
+            "format0": "%d Пайки",
+            "format1": "%d Ароматизовані раціони",
+            "format2": "%d Жирні кульки",
+            "format3": "%d Slop Balls"
+        },
+        "CUSTOM_ATTACKS_PARRIES": {
+            "default": "Атаки:",
+            "format0": "%d Влучань",
+            "format1": "%d Парії"
+        },
+        "CUSTOM_DMG_PARRIES": {
+            "default": "Усього продано DMG:",
+            "format0": "%d Хіт DMG",
+            "format1": "%d Паррі DMG"
+        },
+        "CUSTOM_JEWEL_RECRUITS": {
+            "default": "Плата за працевлаштування:",
+            "format0": "%d Самоцвітів Усього",
+            "format1": "%d Тріснутих Самоцвітів",
+            "format2": "%d Необроблених Самоцвітів",
+            "format3": "%d Самоцвітів з Дефектом",
+            "format4": "%d Бездоганних Самоцвітів"
+        }
     }
-  ],
-  "custom_tags": {
-	  "CUSTOM_MOST_STAT_GAINS": {
-		"default": "Найбільше збільшення статистики:",
-		"format": "%d %s"
-	  },
-	  "CUSTOM_LEAST_STAT_GAINS": {
-		  "default": "Найменший приріст характеристик:",
-		  "format": "%d %s"
-	  },
-	  "CUSTOM_HIGHEST_STAT": {
-		  "default": "Найвища статистика:",
-		  "format": "%d %s"
-	  },
-	  "CUSTOM_STAT_TOTAL_INCREASES" : {
-		  "default": "Загальний приріст статистики:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_CLASS_LEAST_GAMES": {
-		  "default": "Найменше використовувані:",
-		  "format": "%s (%d Ігри)"
-	  },
-	  "CUSTOM_CLASS_LEAST_GAMES_WON": {
-		  "default": "Найменше перемог:",
-		  "format": "%s (%d Перемоги)"
-	  },
-	  "CUSTOM_CLASS_LEAST_GAMES_WON_CLASSIC": {
-		  "default": "Найменше перемог:",
-		  "format": "%s (%d класичні перемоги)"
-	  },
-	  "CUSTOM_CLASS_LEAST_GAMES_WON_HELL": {
-		  "default": "Найменше перемог:",
-		  "format": "%s (%d Перемог у Пеклі)"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_SWORD": {
-		  "default": "Отримані бали навичок меча:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_AXE": {
-		  "default": "Отримані очки навичок сокири:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_POLEARM": {
-		  "default": "Отримані очки навичок древкової зброї:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_MACE": {
-		  "default": "Отримані бали навичок булави:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_UNARMED": {
-		  "default": "Отримані очки навичок без зброї:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_STEALTH": {
-		  "default": "Отримані очки навичок скритності:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_BLOCKING": {
-		  "default": "Отримані очки навичок блокування:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_RANGED": {
-		  "default": "Отримані бали навичок дальньої дії:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_MAGIC": {
-		  "default": "Отримані очки магічних навичок:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_CASTING": {
-		  "default": "Отримані очки навичок кастингу:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_SORCERY": {
-		  "default": "Отримані бали магічних навичок:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_MYSTICISM": {
-		  "default": "Отримані очки навичок містицизму:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_THAUMATURGY": {
-		  "default": "Отримані очки навичок Thauma:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_APPRAISAL": {
-		  "default": "Отримані очки навичок знання:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_SWIMMING": {
-		  "default": "Отримані бали навичок плавання:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_LEADERSHIP": {
-		  "default": "Отримані очки лідерських навичок:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_TRADING": {
-		  "default": "Отримані очки навичок торгівлі:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_ALCHEMY": {
-		  "default": "Отримані очки навичок алхімії:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_SKILL_TOTAL_LVLS_TINKERING": {
-		  "default": "Отримані бали майстерності:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_LEGEND_SKILL_MELEE_100": {
-		  "default": "Найпопулярніший навик легенди:",
-		  "format": "%s (%d)"
-	  },
-	  "CUSTOM_LEGEND_TOTAL_PROCS": {
-		  "default": "Загальна кількість легендарних ударів:",
-		  "format": "%d Влучань"
-	  },
-	  "CUSTOM_LEGEND_MOST_SKILL_PROCS": {
-		  "default": "Найбільша майстерність ударів:",
-		  "format": "%s (%d)"
-	  },
-	  "CUSTOM_CLASS_MOST_LEGEND_MELEES": {
-		  "default": "Найбільш ударний клас:",
-		  "format": "%s (%d)"
-	  },
-	  "CUSTOM_SPELL_ITEM_CASTS": {
-		  "default": "Загальна кількість запам'ятованих акторів:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_SPELL_ITEM_FIZZLES": {
-		  "default": "Загальна кількість запам'ятованих фізлів:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_SPELLBOOK_ITEM_CASTS": {
-		  "default": "Загальна кількість кастів книги заклинань:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_SPELLBOOK_ITEM_FIZZLES": {
-		  "default": "Загальна кількість книг заклинань:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_SPELLBOOK_CAST_DEGRADES": {
-		  "default": "Книги заклинань деградували:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_SNEAK_TOTAL_TIME": {
-		  "default": "Загальний час, витрачений на підкрадання:",
-		  "format": "%t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_LVL_GAINED_FOR_CLASS": {
-		  "default": "Загальна кількість отриманих рівнів:",
-		  "format": "%d Рівнів"
-	  },
-	  "CUSTOM_CLASS_GAMES_STARTED": {
-		  "default": "Усього розпочато:",
-		  "format": "%d Ігор"
-	  },
-	  "CUSTOM_CLASS_GAMES_WON": {
-		  "default": "Загальна кількість перемог:",
-		  "format": "%d Перемог"
-	  },
-	  "CUSTOM_CLASS_GAMES_WON_CLASSIC": {
-		  "default": "Загальна кількість перемог:",
-		  "format": "%d Класичних Перемог"
-	  },
-	  "CUSTOM_CLASS_GAMES_WON_HELL": {
-		  "default": "Загальна кількість перемог:",
-		  "format": "%d Перемог у Пеклі"
-	  },
-	  "CUSTOM_SKILLS_GAINED_FOR_CLASS": {
-		  "default": "Загальна кількість очок навичок:",
-		  "format": "%d Очок"
-	  },
-	  "CUSTOM_CLASS_PLAYTIME": {
-		  "default": "Час відтворення:",
-		  "format": "Рейтинг: #"
-	  },
-	  "CUSTOM_ITEMS_DEGRADED": {
-		  "default": "Пошкоджене обладнання:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_ITEMS_REPAIRED": {
-		  "default": "Відремонтоване обладнання:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_ITEMS_BROKEN": {
-		  "default": "зламана зброя:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_ITEMS_BROKEN_ARMOR": {
-		  "default": "Розбита броня:",
-		  "format": "%d"
-	  },
-	  "CUSTOM_MOST_SKILL_GAINS": {
-		"default": "Улюблений навик:",
-		"format": "%s (%d балів)"
-	  },
-	  "CUSTOM_LEAST_SKILL_GAINS": {
-		"default": "Занедбаний навик:",
-		"format": "%s (%d балів)"
-	  },
-	  "CUSTOM_LEGEND_SKILL_SUM": {
-		"default": "Досягнутий легендарний навик:",
-		"format": "%d Разів"
-	  },
-	  "CUSTOM_HP_MP_RGN": {
-		"default": "Загальна регенерація:",
-		"format": "%s HP / %s MP"
-	  },
-	  "CUSTOM_HP_MP_RGN_RUN": {
-		"default": "Найбільше відновлення за 1 запуск:",
-		"format": "%s HP / %s MP"
-	  },
-	  "CUSTOM_BIOME_COMPLETIONS": {
-		  "default": "ЗОНА:",
-		  "format0": "Довершення біома: %d",
-		  "format1": "Найшвидше очищення: %t",
-		  "format2": "Найповільніше очищення: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_LEVEL_COMPLETIONS": {
-		  "default": "ЗОНА:",
-		  "format0": "Довершення: %d",
-		  "format1": "Найшвидший вихід: %t",
-		  "format2": "Найповільніший вихід: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_MINEHEAD_COMPLETIONS": {
-		  "default": "ЗОНА:",
-		  "format0": "Найшвидший вихід: %t",
-		  "format1": "Найшвидший вихід: %t",
-		  "format2": "Найповільніший вихід: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_LEVEL_DEATHS": {
-		  "default": "Смерті:",
-		  "minehead": "Фальстарти:",
-		  "format0": "Загальна кількість смертей: %d",
-		  "format1": "Найшвидша смерть: %t",
-		  "format2": "Найповільніша смерть: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_LEVEL_PLAYTIME": {
-		  "default": "Час відтворення:",
-		  "format0": "Кількість відвідувань: %d",
-		  "format1": "Витрачений час: %t",
-		  "format2": "Витрачений час: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_MINEHEAD_PLAYTIME": {
-		  "default": "препарати:",
-		  "format0": "Витрачений час: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_BIOME_PLAYTIME": {
-		  "default": "Час відтворення:",
-		  "format0": "Введено поверхів: %d",
-		  "format1": "Здано поверхів: %d",
-		  "format2": "Витрачений час: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_LEVEL_STATS": {
-		  "default": "Персонаж:",
-		  "format0": "Найвищий рівень: LVL %d",
-		  "format1": "Найнижчий рівень: LVL %d",
-		  "format2": "Найбільше золота: %dG"
-	  },
-	  "CUSTOM_SOKOBAN": {
-		  "default": "Головоломка Сокобан:",
-		  "format0": "Загальна кількість розв’язаних завдань: %d",
-		  "format2": "Ідеальні рішення: %d",
-		  "format1": "Найшвидше рішення: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_HALLOFTRIALS_TIME": {
-		  "default": "Час відтворення:",
-		  "format0": "Витрачений час: %t",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_MINEHEAD_GAMES": {
-		  "default": "Dungeon Runs:",
-		  "format0": "Ігри розпочато: %d",
-		  "format1": "Час відтворення: %t",
-		  "format2": "Індивідуальні пробіжки: %d",
-		  "format3": "Онлайн-запуски: %d",
-		  "format4": "LAN Запуски: %d",
-		  "format5": "Розділений екран: %d",
-		  "format_time": "%02d:%02d:%02d"
-	  },
-	  "CUSTOM_RACE_LEAST_GAMES_WON": {
-		  "default": "Найменше перемог:",
-		  "format": "%s (%d Перемоги)"
-	  },
-	  "CUSTOM_RACE_LEAST_GAMES_WON_CLASSIC": {
-		  "default": "Найменше перемог:",
-		  "format": "%s (%d класичні перемоги)"
-	  },
-	  "CUSTOM_RACE_LEAST_GAMES_WON_HELL": {
-		  "default": "Найменше перемог:",
-		  "format": "%s (%d Перемог у Пеклі)"
-	  },
-	  "CUSTOM_TINKERKIT_SCRAPS": {
-		  "default": "Врятований брухт:",
-		  "format0": "%d Металобрухту",
-		  "format1": "%d Магобрухту"
-	  },
-	  "CUSTOM_LOCKPICK_UNLOCKS": {
-		  "default": "Розблоковані об'єкти:",
-		  "format0": "%d Дверей",
-		  "format1": "%d Скринь"
-	  },
-	  "CUSTOM_LOCKPICK_LOCKS": {
-		  "default": "Заблоковані об'єкти:",
-		  "format0": "%d Дверей",
-		  "format1": "%d Скринь"
-	  },
-	  "CUSTOM_ALEMBIC_DUPLICATED": {
-		  "default": "Дубльовані зілля:",
-		  "format0": "%d Успіхів",
-		  "format1": "%d Провалів"
-	  },
-	  "CUSTOM_ALEMBIC_BREWED": {
-		  "default": "Зварені зілля:",
-		  "format0": "%d Змішувань",
-		  "format1": "%d Вибухів"
-	  },
-	  "CUSTOM_BOTTLE_RECOVERY": {
-		  "default": "Вилучено пляшки:",
-		  "format0": "%d (Пивоваріння)",
-		  "format1": "%d (Quaffing)"
-	  },
-	  "CUSTOM_TIN_REGEN": {
-		  "default": "Отримано регенерацію:",
-		  "format0": "%d Разів (Реген HP)",
-		  "format1": "%d Разів (Реген MP)"
-	  },
-	  "CUSTOM_BELL_LOOT": {
-		  "default": "Знайдено здобич:",
-		  "format0": "%d Предметів",
-		  "format1": "%d Золота",
-		  "format2": "%d Кажанів"
-	  },
-	  "CUSTOM_BELL_BUFFS": {
-		  "default": "Отримані баффи:",
-		  "format0": "%d Разів (Спритність)",
-		  "format1": "%d Разів (Витривалість)",
-		  "format2": "%d Разів (Сила)",
-		  "format3": "%d Разів (Ментальність)",
-		  "format4": "%d Разів (Відновлення)"
-	  },
-	  "CUSTOM_BELL_BROKEN": {
-		  "default": "Вандали:",
-		  "format1": "%d Розбитих Язиків Дзвона",
-		  "format0": "%d Скинутих Дзвонів"
-	  },
-	  "CUSTOM_LEADER_NOVICES": {
-		  "default": "Підготовлені капітани:",
-		  "format": "%d %s Новачків"
-	  },
-	  "CUSTOM_COMBAT_NOVICES": {
-		  "default": "Навчені солдати:",
-		  "format": "%d %s Новачків"
-	  },
-	  "CUSTOM_STEALTH_NOVICES": {
-		  "default": "Навчені вбивці:",
-		  "format": "%d %s Новачків"
-	  },
-	  "CUSTOM_RANGED_NOVICES": {
-		  "default": "Навчені стрільці:",
-		  "format": "%d %s Новачків"
-	  },
-	  "CUSTOM_MAGIC_NOVICES": {
-		  "default": "Підготовлені учні:",
-		  "format": "%d %s Новачків"
-	  },
-	  "CUSTOM_CRAFTSMEN_NOVICES": {
-		  "default": "Навчені майстри:",
-		  "format": "%d %s Новачків"
-	  },
-	  "CUSTOM_SALESMEN_NOVICES": {
-		  "default": "Навчені продавці:",
-		  "format": "%d %s Новачків"
-	  },
-	  "CUSTOM_COMBAT_MASONRY": {
-		  "default": "Бойове масонство:",
-		  "format0": "%d Убивств Валунами",
-		  "format1": "%d Убивств Самоцвітами",
-		  "format2": "%d Убивств Камінням"
-	  },
-	  "CUSTOM_UNDEAD_KILLED": {
-		  "default": "Убита нежить:",
-		  "format": "%d Убивств"
-	  },
-	  "CUSTOM_BEASTS_KILLED": {
-		  "default": "Вбиті звірі:",
-		  "format": "%d Убивств"
-	  },
-	  "CUSTOM_DEMONS_KILLED": {
-		  "default": "Демони вигнані:",
-		  "format": "%d Убивств"
-	  },
-	  "CUSTOM_KEYLOCK_ALLKEYS": {
-		  "default": "Використані ключі:",
-		  "format0": "%d Ключів Загалом",
-		  "format1": "%d Залізних Ключів",
-		  "format2": "%d Бронзових Ключів",
-		  "format3": "%d Срібних Ключів",
-		  "format4": "%d Золотих Ключів"
-	  },
-	  "CUSTOM_COOK_MEALS": {
-		  "default": "Кулінарні твори:",
-		  "format0": "%d Пайки",
-		  "format1": "%d Ароматизовані раціони",
-		  "format2": "%d Жирні кульки",
-		  "format3": "%d Slop Balls"
-	  },
-	  "CUSTOM_ATTACKS_PARRIES": {
-		  "default": "Атаки:",
-		  "format0": "%d Влучань",
-		  "format1": "%d Парії"
-	  },
-	  "CUSTOM_DMG_PARRIES": {
-		  "default": "Усього продано DMG:",
-		  "format0": "%d Хіт DMG",
-		  "format1": "%d Паррі DMG"
-	  },
-	  "CUSTOM_JEWEL_RECRUITS": {
-		  "default": "Плата за працевлаштування:",
-		  "format0": "%d Самоцвітів Усього",
-		  "format1": "%d Тріснутих Самоцвітів",
-		  "format2": "%d Необроблених Самоцвітів",
-		  "format3": "%d Самоцвітів з Дефектом",
-		  "format4": "%d Бездоганних Самоцвітів"
-	  }
-	}
 }

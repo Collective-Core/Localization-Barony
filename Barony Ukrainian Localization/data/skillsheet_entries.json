@@ -1,865 +1,868 @@
 {
-	"version": 1,
-	"colors": {
-		"default": {
-			"r": 201,
-			"g": 162,
-			"b": 100,
-			"a": 255
-		},
-		"novice": {
-			"r": 74,
-			"g": 196,
-			"b": 20,
-			"a": 255
-		},
-		"expert": {
-			"r": 55,
-			"g": 149,
-			"b": 215,
-			"a": 255
-		},
-		"legend": {
-			"r": 230,
-			"g": 183,
-			"b": 20,
-			"a": 255
-		}
-	},
-	"skill_background_icons" : {
-		"default": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00_00.png",
-		"default_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00Select_00.png",
-		"novice": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20_00.png",
-		"novice_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20Select_00.png",
-		"expert": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60_00.png",
-		"expert_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60Select_00.png",
-		"legend": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100_00.png",
-		"legend_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100Select_00.png"
-	},
-	"skill_select_images": {
-		"highlight_left": "#*images/ui/SkillSheet/UI_Skills_SkillSelector_01.png",
-		"selected_left": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100_01.png",
-		"highlight_right": "#*images/ui/SkillSheet/UI_Skills_SkillSelectorR_01.png",
-		"selected_right": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100R_01.png"
-	},
-	"window_scaling": {
-		"standard_scale_modifier_x": 2.0,
-		"standard_scale_modifier_y": 1.2,
-		"compact_scale_modifier_x": 0.5,
-		"compact_scale_modifier_y": 0.0
-	},
-	"alchemy_potion_names_to_filter": ["зілля ", "пляшка "],
-	"skills": [
-		{
-			"name": "Скритність",
-			"id": 1,
-			"sfx": 549,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Stealth01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
-			"description": "Зменшує вашу помітність для ворогів, дає бонусну шкоду прихованої ближньої атаки та додатковий огляд під час скритності. Щоб крастися, використовуйте команду Захист без щита в руці.",
-			"legend_text": "Скритність дає невидимість. Бонусна шкода удару в спину подвоюється.",
-			"effects_position": {
-				"effect_start_offset_x": 80,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 88
-			},
-			"effects": [
-				{
-					"tag": "STEALTH_VIS_REDUCTION",
-					"title": "Зменшення помітності:",
-					"value": "%+d%%"
-				},
-				{
-					"tag": "STEALTH_SNEAK_VIS",
-					"title": "Бонус до видимості у скритності:",
-					"value": "%+d Світла"
-				},
-				{
-					"tag": "STEALTH_BACKSTAB",
-					"title": "Бонусна шкода удару в спину:",
-					"value": "%+d ATK",
-					"realtime_update": true
-				},
-				{
-					"tag": "STEALTH_CURRENT_VIS",
-					"title": "Поточна видимість:",
-					"value": "%d Клітин",
-					"realtime_update": true
-				}
-			]
-		},
-		{
-			"name": "Блокування",
-			"id": 13,
-			"sfx": 599,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Blocking01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Blocking01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
-			"description": "Збільшує бонус до класу броні під час захисту.\n Дає пасивний бонус до класу броні для щитів у руці. Покращує міцність предметів у другій руці під час бою.",
-			"legend_text": "Щити ніколи не ламаються від ударів.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "BLOCK_AC_INCREASE",
-					"title": "Приріст AC під час захисту:\n(Щити)",
-					"value": "%+d AC"
-				},
-				{
-					"tag": "BLOCK_AC_INCREASE_OFFHAND",
-					"title": "Приріст AC під час захисту:\n(Не щити)",
-					"value": "%+d AC"
-				},
-				{
-					"tag": "PASSIVE_AC_INCREASE",
-					"title": "Пасивний приріст AC:\n(Щити)",
-					"value": "%+d AC"
-				},
-				{
-					"tag": "BLOCK_DEGRADE_NORMAL_CHANCE",
-					"title": "Шанс зносу щита:\n (При отриманні шкоди)",
-					"value": "%.2f%%"
-				},
-				{
-					"tag": "BLOCK_DEGRADE_DEFENDING_CHANCE",
-					"title": "Шанс зносу щита:\n (Під час захисту)",
-					"value": "%.2f%%"
-				}
-			]
-		},
-		{
-			"name": "Стрільба",
-			"id": 8,
-			"sfx": 600,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Ranged01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
-			"description": "Збільшує шкоду дальньої та метальної зброї й покращує міцність дальньої зброї.",
-			"legend_text": "Дальня зброя ніколи не ламається при використанні.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "WEAPON_DMG_EFFECTIVENESS",
-					"title": "Розкид шкоди\nдальньої ATK:",
-					"value": "%d%% - %d%%",
-					"custom_value_width_offset": 32
-				},
-				{
-					"tag": "RANGED_DEGRADE_CHANCE",
-					"title": "Шанс зносу\nдальної зброї:",
-					"value": "%.2f%%"
-				},
-				{
-					"tag": "RANGED_PIERCE_CHANCE",
-					"title": "Шанс стріли\nпробити броню:\n (Використовує PER)",
-					"value": "%+d%%"
-				},
-				{
-					"tag": "RANGED_THROWN_DMG",
-					"title": "ATK метальної зброї:",
-					"value": "%+d%%"
-				}
-			]
-		},
-		{
-			"name": "Беззбройний Бій",
-			"id": 14,
-			"sfx": 594,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Unarmed01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
-			"description": "Збільшує шкоду без зброї голими кулаками або кулачною зброєю. Покращує міцність кулачної зброї та додає відкидання при повністю заряджених ударах.",
-			"legend_text": "+5 ATK і накладає статус Параліч на 1 секунду при повністю зарядженому прихованому ударі в спину.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "WEAPON_DMG_EFFECTIVENESS",
-					"title": "Розкид шкоди\nбез зброї:",
-					"value": "%d%% - %d%%",
-					"custom_value_width_offset": 32
-				},
-				{
-					"tag": "UNARMED_BONUS_DMG",
-					"title": "Бонусна ATK без зброї:",
-					"value": "%+d ATK"
-				},
-				{
-					"tag": "GLOVE_DEGRADE_CHANCE",
-					"title": "Шанс зносу\nкулачної зброї:\n (Звичайні удари)",
-					"value": "%.2f%%"
-				},
-				{
-					"tag": "GLOVE_DEGRADE0_CHANCE",
-					"title": "Шанс зносу\nкулачної зброї:\n (При 0 завданої шкоди)",
-					"value": "%.2f%%"
-				},
-				{
-					"tag": "UNARMED_KNOCKBACK_DIST",
-					"title": "Дальність\nвідкидання:",
-					"value": "%+d%%"
-				}
-			]
-		},
-		{
-			"name": "Мечі",
-			"id": 9,
-			"sfx": 588,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swords01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swords01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
-			"description": "Збільшує шкоду та покращує міцність мечів.",
-			"legend_text": "+5 ATK і накладає статус Кровотеча на 5 секунд при повністю зарядженому ударі.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "WEAPON_DMG_EFFECTIVENESS",
-					"title": "Розкид шкоди\nмеча:",
-					"value": "%d%% - %d%%",
-					"custom_value_width_offset": 32
-				},
-				{
-					"tag": "SWORD_DEGRADE_CHANCE",
-					"title": "Шанс зносу\nзброї:\n (Звичайні удари)",
-					"value": "%.2f%%"
-				},
-				{
-					"tag": "SWORD_DEGRADE0_CHANCE",
-					"title": "Шанс зносу\nзброї:\n (При 0 завданої шкоди)",
-					"value": "%.2f%%"
-				}
-			]
-		},
-		{
-			"name": "Древкова Зброя",
-			"id": 12,
-			"sfx": 578,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Polearms01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Polearms01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
-			"description": "Збільшує шкоду та покращує міцність древкової зброї.",
-			"legend_text": "+5 ATK і накладає статус Відкидання при повністю зарядженому ударі.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "WEAPON_DMG_EFFECTIVENESS",
-					"title": "Розкид шкоди\nдревкової зброї:",
-					"value": "%d%% - %d%%",
-					"custom_value_width_offset": 32
-				},
-				{
-					"tag": "POLEARM_DEGRADE_CHANCE",
-					"title": "Шанс зносу\nзброї:\n (Звичайні удари)",
-					"value": "%.2f%%"
-				},
-				{
-					"tag": "POLEARM_DEGRADE0_CHANCE",
-					"title": "Шанс зносу\nзброї:\n (При 0 завданої шкоди)",
-					"value": "%.2f%%"
-				}
-			]
-		},
-		{
-			"name": "Сокири",
-			"id": 11,
-			"sfx": 570,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Axes01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Axes01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
-			"description": "Збільшує шкоду та покращує міцність сокир.",
-			"legend_text": "+10 ATK і накладає статус Уповільнення на 3 секунди при повністю зарядженому ударі.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "WEAPON_DMG_EFFECTIVENESS",
-					"title": "Розкид шкоди\nсокири:",
-					"value": "%d%% - %d%%",
-					"custom_value_width_offset": 32
-				},
-				{
-					"tag": "AXE_DEGRADE_CHANCE",
-					"title": "Шанс зносу\nзброї:\n (Звичайні удари)",
-					"value": "%.2f%%"
-				},
-				{
-					"tag": "AXE_DEGRADE0_CHANCE",
-					"title": "Шанс зносу\nзброї:\n (При 0 завданої шкоди)",
-					"value": "%.2f%%"
-				}
-			]
-		},
-		{
-			"name": "Булави",
-			"id": 10,
-			"sfx": 575,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Maces01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Maces01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
-			"description": "Збільшує шкоду та покращує міцність булав.",
-			"legend_text": "+5 ATK і 25% шанс накласти статус Параліч на 1.5 секунди при повністю зарядженому ударі.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "WEAPON_DMG_EFFECTIVENESS",
-					"title": "Розкид шкоди\nбулави:",
-					"value": "%d%% - %d%%",
-					"custom_value_width_offset": 32
-				},
-				{
-					"tag": "MACE_DEGRADE_CHANCE",
-					"title": "Шанс зносу\nзброї:\n (Звичайні удари)",
-					"value": "%.2f%%"
-				},
-				{
-					"tag": "MACE_DEGRADE0_CHANCE",
-					"title": "Шанс зносу\nзброї:\n (При 0 завданої шкоди)",
-					"value": "%.2f%%"
-				}
-			]
-		},
-		{
-			"name": "Лідерство",
-			"id": 5,
-			"sfx": 603,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Leadership01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Leadership01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
-			"description": "Збільшує кількість NPC-союзників, яких можна завербувати одночасно, і відкриває більше команд для послідовників під час взаємодії.",
-			"legend_text": "Дозволяє вербувати гоблінів, козлолюдів та інсектоїдів на додачу до стандартних расових прихильностей.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "LEADER_MAX_FOLLOWERS",
-					"title": "Максимум послідовників:",
-					"value": "%d"
-				},
-				{
-					"tag": "LEADER_FOLLOWER_SPEED",
-					"title": "Бонус до швидкості руху\nпослідовників:",
-					"value": "+%d DEX"
-				},
-				{
-					"tag": "LEADER_CHARM_MONSTER",
-					"title": "Базовий шанс\nзакляття Charm Monster:\n (Використовує навичку + CHR)",
-					"value": "+%d%%"
-				},
-				{
-					"tag": "LIST_LEADER_AVAILABLE_FOLLOWERS",
-					"title": "Союзні раси,\nдоступні для вербування:",
-					"value": "%s",
-					"auto_resize_value": true
-				}
-			]
-		},
-		{
-			"name": "Торгівля",
-			"id": 2,
-			"sfx": 552,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Trading01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Trading01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
-			"description": "Зменшує ціни купівлі та покращує ціни продажу під час торгівлі з крамарями.",
-			"legend_text": "Відкриває можливість продавати будь-які предмети будь-якому крамарю.",
-			"effects_position": {
-				"effect_start_offset_x": 102,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 110
-			},
-			"effects": [
-				{
-					"tag": "TRADING_BUY_PRICE",
-					"title": "Націнка при\nкупівлі в крамниці:",
-					"value": "%+.f%% Золота"
-				},
-				{
-					"tag": "TRADING_SELL_PRICE",
-					"title": "Штраф перепродажу\nпри продажі в крамницю:\n (Використовує навичку + CHR)",
-					"value": "%.f%% Золота"
-				}
-			]
-		},
-		{
-			"name": "Знання",
-			"id": 3,
-			"sfx": 568,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Lore01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Lore01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Lore02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Lore02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
-			"description": "Підвищує швидкість оцінювання й дозволяє оцінювати предмети з вищою вартістю в золоті. Вища характеристика PER покращує оцінювання.",
-			"legend_text": "+25% до швидкості оцінювання всіх предметів. Для невизначених предметів відкривається їхня вартість у золоті.",
-			"effects_position": {
-				"effect_start_offset_x": 88,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 96
-			},
-			"effects": [
-				{
-					"tag": "APPRAISE_GOLD_FAST",
-					"title": "Максимальна вартість у золоті,\nяку можна оцінити швидко:",
-					"value": "%d Золота"
-				},
-				{
-					"tag": "APPRAISE_MAX_GOLD_VALUE",
-					"title": "Максимальна вартість у золоті,\nяку можна оцінити повільно:",
-					"value": "%d Золота"
-				},
-				{
-					"tag": "APPRAISE_SPEEDUP_CONSUMABLES",
-					"title": "Скорочення часу оцінювання\nїжі/сувоїв/зіль:",
-					"value": "%.f%%"
-				},
-				{
-					"tag": "APPRAISE_SPEEDUP",
-					"title": "Скорочення часу оцінювання\nвсіх інших предметів:\n (За загальної навички понад 50)",
-					"value": "%.f%%"
-				},
-				{
-					"tag": "APPRAISE_FLOOR_BONUS",
-					"title": "Скорочення часу оцінювання всього\nінвентаря при переході\nна наступний поверх: ",
-					"value": "%.f%%"
-				},
-				{
-					"tag": "APPRAISE_WORTHLESS_GLASS",
-					"title": "Можна оцінити\nWorthless Glass:",
-					"value": "%s"
-				}
-			]
-		},
-		{
-			"name": "Майстрування",
-			"id": 0,
-			"sfx": 552,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Tinkering01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
-			"description": "Покращує роботу з наборами майстрування, збільшуючи кількість предметів для створення й розгортання механізмів. Підвищує шанси відмикати об'єкти у світі.",
-			"legend_text": "Дозволяє ремонтувати більшість зброї й броні набором майстрування та знаходити бонусні предмети або золото під час зламу скринь.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "TINKERING_LOCKPICK_CHESTS_DOORS",
-					"title": "Шанс зламати\nскрині та двері:",
-					"value": "%d%%"
-				},
-				{
-					"tag": "TINKERING_SCRAP_CHESTS",
-					"title": "Шанс брухту при\nзламі скринь:",
-					"value": "%d%%"
-				},
-				{
-					"tag": "TINKERING_SCRAP_AUTOMATONS",
-					"title": "Шанс брухту при\nзламі Автоматонів:",
-					"value": "%d%%"
-				},
-				{
-					"tag": "TINKERING_DISARM_ARROWS",
-					"title": "Шанс знешкодити\nпастки зі стрілами:",
-					"value": "%d%%"
-				},
-				{
-					"tag": "TINKERING_KIT_SCRAP_BONUS",
-					"title": "Бонусний брухт\nпід час розбирання:\n (Використовує навичку + PER)",
-					"value": "+%d%%"
-				},
-				{
-					"tag": "TINKERING_KIT_REPAIR_ITEM",
-					"title": "Найвищий металевий/магічний предмет,\nякий можна полагодити:\n (Використовує навичку + PER)",
-					"value": "%s",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "TINKERING_MAX_ALLIES",
-					"title": "Максимум розгорнутих\nсоюзників майстрування:",
-					"value": "%d"
-				}
-			]
-		},
-		{
-			"name": "Алхімія",
-			"id": 15,
-			"sfx": 552,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Alchemy01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
-			"description": "Покращує вміння варити зілля за допомогою алембіків і збільшує шкоду від кинутих наступальних зіль.\nПийте або варіть зілля, щоб вивчати корисні інгредієнти в Алхімії.",
-			"legend_text": "Алембіки ніколи не ламаються.\nЗварені зілля мають +2 благословення.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "ALCHEMY_POTION_EFFECT_DMG",
-					"title": "Шкода від ефектів зілля:",
-					"value": "+%d%%"
-				},
-				{
-					"tag": "ALCHEMY_THROWN_IMPACT_DMG",
-					"title": "Шкода від удару\nкинутого зілля:",
-					"value": "+%d%%"
-				},
-				{
-					"tag": "ALCHEMY_DUPLICATION_CHANCE",
-					"title": "Шанс дублювання\nзілля з водою:",
-					"value": "%d%%"
-				},
-				{
-					"tag": "ALCHEMY_EMPTY_BOTTLE_CONSUME",
-					"title": "Повернення порожньої пляшки\nпісля вживання зілля:",
-					"value": "%d%%"
-				},
-				{
-					"tag": "ALCHEMY_EMPTY_BOTTLE_BREW",
-					"title": "Повернення порожньої пляшки\nпісля варіння зілля:",
-					"value": "%d%%"
-				},
-				{
-					"tag": "ALCHEMY_LEARNT_INGREDIENTS_BASE",
-					"title": "Вивчені інгредієнти\nАлхімії:\n (Основні)",
-					"value": "%s",
-					"custom_value_width_offset": 0,
-					"auto_resize_value": true,
-					"realtime_update": true
-				},
-				{
-					"tag": "ALCHEMY_LEARNT_INGREDIENTS_SECONDARY",
-					"title": "Вивчені інгредієнти\nАлхімії:\n (Додаткові)",
-					"value": "%s",
-					"custom_value_width_offset": 0,
-					"auto_resize_value": true,
-					"realtime_update": true
-				}
-			]
-		},
-		{
-			"name": "Чаклунство",
-			"id": 7,
-			"sfx": 597,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Sorcery01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Sorcery01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Sorcery02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Sorcery02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-			"description": "Дозволяє вивчати з книг заклять закляття Чаклунства вищого рівня. Додатково підсилює бонуси сили заклять Чаклунства від INT після рівня навички Експерт (60).",
-			"legend_text": "Закляття Чаклунства мають +40% бонусу сили від INT і +100% зменшення часу чаклування від DEX.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "MAGIC_SPELLPOWER_INT",
-					"title": "Базовий бонус сили заклять:\n (Використовує 2x INT)",
-					"value": "%+d%%"
-				},
-				{
-					"tag": "MAGIC_CURRENT_TIER",
-					"title": "Найвищий рівень\nЧаклунства для вивчення:\n (Використовує навичку + INT)",
-					"value": "%s"
-				},
-				{
-					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
-					"title": "Вивчені закляття,\nщо найкраще підвищують поточний\nрівень Чаклунства:",
-					"title_short": "Вивчені закляття,\nщо найкраще\nпідвищують поточний\nрівень Чаклунства:",
-					"value": "%s",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "MAGIC_CURRENT_TIER_SPELLS",
-					"title": "Закляття поточного\nрівня Чаклунства:",
-					"value": "%s",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "CASTING_BEGINNER",
-					"title": "Ризик збою при застосуванні\nвивчених заклять:",
-					"value": "%s"
-				},
-				{
-					"tag": "CASTING_SPELLBOOK_FUMBLE",
-					"title": "Найвищий рівень\nЧаклунства для читання\nз книги без збою:\n (Використовує навичку + INT)",
-					"value": "%s"
-				}
-			]
-		},
-		{
-			"name": "Містицизм",
-			"id": 6,
-			"sfx": 596,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Mysticism01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Mysticism01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Mysticism02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Mysticism02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-			"description": "Дозволяє вивчати з книг заклять закляття Містицизму вищого рівня. Додатково підсилює бонуси сили заклять Містицизму від INT + CHR після рівня навички Експерт (60).",
-			"legend_text": "Закляття Містицизму мають +40% бонусу сили від INT/CHR і +100% зменшення часу чаклування від DEX.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "MAGIC_SPELLPOWER_INT",
-					"title": "Базовий бонус сили заклять:\n (Використовує INT + CHR)",
-					"value": "%+d%%"
-				},
-				{
-					"tag": "MAGIC_CURRENT_TIER",
-					"title": "Найвищий рівень\nМістицизму для вивчення:\n (Використовує навичку + INT)",
-					"value": "%s"
-				},
-				{
-					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
-					"title": "Вивчені закляття,\nщо найкраще підвищують поточний\nрівень Містицизму:",
-					"title_short": "Вивчені закляття,\nщо найкраще\nпідвищують поточний\nрівень\nМістицизму:",
-					"value": "%s",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "MAGIC_CURRENT_TIER_SPELLS",
-					"title": "Закляття поточного\nрівня Містицизму:",
-					"value": "%s",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "CASTING_BEGINNER",
-					"title": "Ризик збою при застосуванні\nвивчених заклять:",
-					"value": "%s"
-				},
-				{
-					"tag": "CASTING_SPELLBOOK_FUMBLE",
-					"title": "Найвищий рівень\nМістицизму для читання\nз книги без збою:\n (Використовує навичку + INT)",
-					"value": "%s"
-				}
-			]
-		},
-		{
-			"name": "Тауматургія",
-			"shortname": "Таума",
-			"id": 4,
-			"sfx": 552,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Thaumaturgy01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Thaumaturgy01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Thaumaturgy02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Thaumaturgy02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
-			"description": "Дозволяє вивчати з книг заклять закляття Тауматургії вищого рівня. Додатково підсилює бонуси сили заклять Тауматургії від INT + CON після рівня навички Експерт (60).",
-			"legend_text": "Закляття Тауматургії мають +40% бонусу сили від INT/CON і +100% зменшення часу чаклування від DEX.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "MAGIC_SPELLPOWER_INT",
-					"title": "Базовий бонус сили заклять:\n (Використовує INT + CON)",
-					"value": "%+d%%"
-				},
-				{
-					"tag": "MAGIC_CURRENT_TIER",
-					"title": "Найвищий рівень\nТауматургії для вивчення:\n (Використовує навичку + INT)",
-					"value": "%s"
-				},
-				{
-					"tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
-					"title": "Вивчені закляття,\nщо найкраще підвищують поточний\nрівень Тауматургії:",
-					"title_short": "Вивчені закляття,\nщо найкраще\nпідвищують поточний\nрівень\nТауматургії:",
-					"value": "%s",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "MAGIC_CURRENT_TIER_SPELLS",
-					"title": "Закляття поточного\nрівня Тауматургії:",
-					"title_short": "Закляття в\nпоточному рівні\nТауматургії:",
-					"value": "%s",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "CASTING_BEGINNER",
-					"title": "Ризик збою при застосуванні\nвивчених заклять:",
-					"value": "%s"
-				},
-				{
-					"tag": "CASTING_SPELLBOOK_FUMBLE",
-					"title": "Найвищий рівень\nТауматургії для читання\nз книги без збою:\n (Використовує навичку + INT)",
-					"value": "%s"
-				}
-			]
-		},
-		{
-			"name": "Магія",
-			"id": 33,
-			"sfx": 597,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Magic01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Magic01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-			"description": "Дозволяє вивчати з книг заклять магічні закляття вищого рівня. Споряджайте закляття через меню Магії та використовуйте команду Чаклувати, або тримайте книги заклять і використовуйте команду Захист для застосування магії.",
-			"legend_text": "Автоматично вивчає закляття Dominate.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "MAGIC_SPELLPOWER_INT",
-					"title": "Базовий бонус сили заклять:\n (Використовує INT)",
-					"value": "%+d%%"
-				},
-				{
-					"tag": "MAGIC_CURRENT_TIER",
-					"title": "Найвищий рівень\nМагії для вивчення:\n (Використовує навичку + INT)",
-					"value": "%s"
-				},
-				{
-					"tag": "MAGIC_CURRENT_TIER_SPELLS",
-					"title": "Закляття поточного\nрівня Магії:",
-					"value": "%s",
-					"auto_resize_value": true
-				}
-			]
-		},
-		{
-			"name": "Чаклування",
-			"id": 34,
-			"sfx": 596,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Casting01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-			"description": "Покращує надійність Чаклування та читання заклять із книги, зменшуючи шанс осічки або зайвої витрати мани. Підвищує пасивне відновлення MP.",
-			"legend_text": "Автоматично вивчає закляття Forcebolt з вартістю (0) MP.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "CASTING_MP_REGEN_SKILL_MULTIPLIER",
-					"title": "Множник INT для\nвідновлення MP від навички:",
-					"value": "%dx INT",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "CASTING_MP_REGEN",
-					"title": "Базова швидкість відновлення MP:\n (До модифікаторів\nпредметів/раси)",
-					"value": "1 MP кожні\n%.2f сек.",
-					"auto_resize_value": true
-				},
-				{
-					"tag": "CASTING_BEGINNER",
-					"title": "Ризик збою при застосуванні\nвивчених заклять:",
-					"value": "%s"
-				},
-				{
-					"tag": "CASTING_SPELLBOOK_FUMBLE",
-					"title": "Найвищий рівень\nМагії для читання\nз книги без збою:\n (Використовує навичку + INT)",
-					"value": "%s"
-				}
-			]
-		},
-		{
-			"name": "Плавання",
-			"id": 32,
-			"sfx": 552,
-			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swimming01.png",
-			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swimming01_Gold.png",
-			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32.png",
-			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32Gold.png",
-			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
-			"description": "Збільшує швидкість руху під час плавання в рідинах.",
-			"legend_text": "Постійна можливість ходити по воді й лаві.",
-			"effects_position": {
-				"effect_start_offset_x": 72,
-				"effect_background_offset_x": 8,
-				"effect_background_width": 80
-			},
-			"effects": [
-				{
-					"tag": "SWIM_SPEED_TOTAL",
-					"title": "Швидкість руху\nпід час плавання:",
-					"value": "%d%%"
-				},
-				{
-					"tag": "SWIM_SPEED_BASE",
-					"title": "Базовий штраф до множника\nшвидкості в рідинах:",
-					"value": "%+d%%"
-				},
-				{
-					"tag": "SWIM_SPEED_BONUS",
-					"title": "Бонусний множник швидкості\nвід навички Плавання:",
-					"value": "+%d%%"
-				}
-			]
-		}
-	]
+    "version": 1,
+    "colors": {
+        "default": {
+            "r": 201,
+            "g": 162,
+            "b": 100,
+            "a": 255
+        },
+        "novice": {
+            "r": 74,
+            "g": 196,
+            "b": 20,
+            "a": 255
+        },
+        "expert": {
+            "r": 55,
+            "g": 149,
+            "b": 215,
+            "a": 255
+        },
+        "legend": {
+            "r": 230,
+            "g": 183,
+            "b": 20,
+            "a": 255
+        }
+    },
+    "skill_background_icons": {
+        "default": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00_00.png",
+        "default_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00Select_00.png",
+        "novice": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20_00.png",
+        "novice_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20Select_00.png",
+        "expert": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60_00.png",
+        "expert_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60Select_00.png",
+        "legend": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100_00.png",
+        "legend_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100Select_00.png"
+    },
+    "skill_select_images": {
+        "highlight_left": "#*images/ui/SkillSheet/UI_Skills_SkillSelector_01.png",
+        "selected_left": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100_01.png",
+        "highlight_right": "#*images/ui/SkillSheet/UI_Skills_SkillSelectorR_01.png",
+        "selected_right": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100R_01.png"
+    },
+    "window_scaling": {
+        "standard_scale_modifier_x": 2.0,
+        "standard_scale_modifier_y": 1.2,
+        "compact_scale_modifier_x": 0.5,
+        "compact_scale_modifier_y": 0.0
+    },
+    "alchemy_potion_names_to_filter": [
+        "зілля ",
+        "пляшка "
+    ],
+    "skills": [
+        {
+            "name": "Скритність",
+            "id": 1,
+            "sfx": 549,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Stealth01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+            "description": "Зменшує вашу помітність для ворогів, дає бонусну шкоду прихованої ближньої атаки та додатковий огляд під час скритності. Щоб крастися, використовуйте команду Захист без щита в руці.",
+            "legend_text": "Скритність дає невидимість. Бонусна шкода удару в спину подвоюється.",
+            "effects_position": {
+                "effect_start_offset_x": 80,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 88
+            },
+            "effects": [
+                {
+                    "tag": "STEALTH_VIS_REDUCTION",
+                    "title": "Зменшення помітності:",
+                    "value": "%+d%%"
+                },
+                {
+                    "tag": "STEALTH_SNEAK_VIS",
+                    "title": "Бонус до видимості у скритності:",
+                    "value": "%+d Світла"
+                },
+                {
+                    "tag": "STEALTH_BACKSTAB",
+                    "title": "Бонусна шкода удару в спину:",
+                    "value": "%+d АТК",
+                    "realtime_update": true
+                },
+                {
+                    "tag": "STEALTH_CURRENT_VIS",
+                    "title": "Поточна видимість:",
+                    "value": "%d Клітин",
+                    "realtime_update": true
+                }
+            ]
+        },
+        {
+            "name": "Блокування",
+            "id": 13,
+            "sfx": 599,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Blocking01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Blocking01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+            "description": "Збільшує бонус до класу броні під час захисту.\n Дає пасивний бонус до класу броні для щитів у руці. Покращує міцність предметів у другій руці під час бою.",
+            "legend_text": "Щити ніколи не ламаються від ударів.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "BLOCK_AC_INCREASE",
+                    "title": "Приріст КЗ під час захисту:\n(Щити)",
+                    "value": "%+d КЗ"
+                },
+                {
+                    "tag": "BLOCK_AC_INCREASE_OFFHAND",
+                    "title": "Приріст КЗ під час захисту:\n(Не щити)",
+                    "value": "%+d КЗ"
+                },
+                {
+                    "tag": "PASSIVE_AC_INCREASE",
+                    "title": "Пасивний приріст КЗ:\n(Щити)",
+                    "value": "%+d КЗ"
+                },
+                {
+                    "tag": "BLOCK_DEGRADE_NORMAL_CHANCE",
+                    "title": "Шанс зносу щита:\n (При отриманні шкоди)",
+                    "value": "%.2f%%"
+                },
+                {
+                    "tag": "BLOCK_DEGRADE_DEFENDING_CHANCE",
+                    "title": "Шанс зносу щита:\n (Під час захисту)",
+                    "value": "%.2f%%"
+                }
+            ]
+        },
+        {
+            "name": "Стрільба",
+            "id": 8,
+            "sfx": 600,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Ranged01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+            "description": "Збільшує шкоду дальньої та метальної зброї й покращує міцність дальньої зброї.",
+            "legend_text": "Дальня зброя ніколи не ламається при використанні.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "WEAPON_DMG_EFFECTIVENESS",
+                    "title": "Розкид шкоди\nдальньої АТК:",
+                    "value": "%d%% - %d%%",
+                    "custom_value_width_offset": 32
+                },
+                {
+                    "tag": "RANGED_DEGRADE_CHANCE",
+                    "title": "Шанс зносу\nдальної зброї:",
+                    "value": "%.2f%%"
+                },
+                {
+                    "tag": "RANGED_PIERCE_CHANCE",
+                    "title": "Шанс стріли\nпробити броню:\n (Використовує СПРИЙ)",
+                    "value": "%+d%%"
+                },
+                {
+                    "tag": "RANGED_THROWN_DMG",
+                    "title": "АТК метальної зброї:",
+                    "value": "%+d%%"
+                }
+            ]
+        },
+        {
+            "name": "Беззбройний Бій",
+            "id": 14,
+            "sfx": 594,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Unarmed01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+            "description": "Збільшує шкоду без зброї голими кулаками або кулачною зброєю. Покращує міцність кулачної зброї та додає відкидання при повністю заряджених ударах.",
+            "legend_text": "+5 АТК і накладає статус Параліч на 1 секунду при повністю зарядженому прихованому ударі в спину.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "WEAPON_DMG_EFFECTIVENESS",
+                    "title": "Розкид шкоди\nбез зброї:",
+                    "value": "%d%% - %d%%",
+                    "custom_value_width_offset": 32
+                },
+                {
+                    "tag": "UNARMED_BONUS_DMG",
+                    "title": "Бонусна АТК без зброї:",
+                    "value": "%+d АТК"
+                },
+                {
+                    "tag": "GLOVE_DEGRADE_CHANCE",
+                    "title": "Шанс зносу\nкулачної зброї:\n (Звичайні удари)",
+                    "value": "%.2f%%"
+                },
+                {
+                    "tag": "GLOVE_DEGRADE0_CHANCE",
+                    "title": "Шанс зносу\nкулачної зброї:\n (При 0 завданої шкоди)",
+                    "value": "%.2f%%"
+                },
+                {
+                    "tag": "UNARMED_KNOCKBACK_DIST",
+                    "title": "Дальність\nвідкидання:",
+                    "value": "%+d%%"
+                }
+            ]
+        },
+        {
+            "name": "Мечі",
+            "id": 9,
+            "sfx": 588,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Swords01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Swords01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+            "description": "Збільшує шкоду та покращує міцність мечів.",
+            "legend_text": "+5 АТК і накладає статус Кровотеча на 5 секунд при повністю зарядженому ударі.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "WEAPON_DMG_EFFECTIVENESS",
+                    "title": "Розкид шкоди\nмеча:",
+                    "value": "%d%% - %d%%",
+                    "custom_value_width_offset": 32
+                },
+                {
+                    "tag": "SWORD_DEGRADE_CHANCE",
+                    "title": "Шанс зносу\nзброї:\n (Звичайні удари)",
+                    "value": "%.2f%%"
+                },
+                {
+                    "tag": "SWORD_DEGRADE0_CHANCE",
+                    "title": "Шанс зносу\nзброї:\n (При 0 завданої шкоди)",
+                    "value": "%.2f%%"
+                }
+            ]
+        },
+        {
+            "name": "Древкова Зброя",
+            "id": 12,
+            "sfx": 578,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Polearms01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Polearms01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+            "description": "Збільшує шкоду та покращує міцність древкової зброї.",
+            "legend_text": "+5 АТК і накладає статус Відкидання при повністю зарядженому ударі.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "WEAPON_DMG_EFFECTIVENESS",
+                    "title": "Розкид шкоди\nдревкової зброї:",
+                    "value": "%d%% - %d%%",
+                    "custom_value_width_offset": 32
+                },
+                {
+                    "tag": "POLEARM_DEGRADE_CHANCE",
+                    "title": "Шанс зносу\nзброї:\n (Звичайні удари)",
+                    "value": "%.2f%%"
+                },
+                {
+                    "tag": "POLEARM_DEGRADE0_CHANCE",
+                    "title": "Шанс зносу\nзброї:\n (При 0 завданої шкоди)",
+                    "value": "%.2f%%"
+                }
+            ]
+        },
+        {
+            "name": "Сокири",
+            "id": 11,
+            "sfx": 570,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Axes01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Axes01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+            "description": "Збільшує шкоду та покращує міцність сокир.",
+            "legend_text": "+10 АТК і накладає статус Уповільнення на 3 секунди при повністю зарядженому ударі.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "WEAPON_DMG_EFFECTIVENESS",
+                    "title": "Розкид шкоди\nсокири:",
+                    "value": "%d%% - %d%%",
+                    "custom_value_width_offset": 32
+                },
+                {
+                    "tag": "AXE_DEGRADE_CHANCE",
+                    "title": "Шанс зносу\nзброї:\n (Звичайні удари)",
+                    "value": "%.2f%%"
+                },
+                {
+                    "tag": "AXE_DEGRADE0_CHANCE",
+                    "title": "Шанс зносу\nзброї:\n (При 0 завданої шкоди)",
+                    "value": "%.2f%%"
+                }
+            ]
+        },
+        {
+            "name": "Булави",
+            "id": 10,
+            "sfx": 575,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Maces01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Maces01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+            "description": "Збільшує шкоду та покращує міцність булав.",
+            "legend_text": "+5 АТК і 25% шанс накласти статус Параліч на 1.5 секунди при повністю зарядженому ударі.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "WEAPON_DMG_EFFECTIVENESS",
+                    "title": "Розкид шкоди\nбулави:",
+                    "value": "%d%% - %d%%",
+                    "custom_value_width_offset": 32
+                },
+                {
+                    "tag": "MACE_DEGRADE_CHANCE",
+                    "title": "Шанс зносу\nзброї:\n (Звичайні удари)",
+                    "value": "%.2f%%"
+                },
+                {
+                    "tag": "MACE_DEGRADE0_CHANCE",
+                    "title": "Шанс зносу\nзброї:\n (При 0 завданої шкоди)",
+                    "value": "%.2f%%"
+                }
+            ]
+        },
+        {
+            "name": "Лідерство",
+            "id": 5,
+            "sfx": 603,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Leadership01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Leadership01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+            "description": "Збільшує кількість NPC-союзників, яких можна завербувати одночасно, і відкриває більше команд для послідовників під час взаємодії.",
+            "legend_text": "Дозволяє вербувати гоблінів, козлолюдів та інсектоїдів на додачу до стандартних расових прихильностей.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "LEADER_MAX_FOLLOWERS",
+                    "title": "Максимум послідовників:",
+                    "value": "%d"
+                },
+                {
+                    "tag": "LEADER_FOLLOWER_SPEED",
+                    "title": "Бонус до швидкості руху\nпослідовників:",
+                    "value": "+%d СПР"
+                },
+                {
+                    "tag": "LEADER_CHARM_MONSTER",
+                    "title": "Базовий шанс\nзакляття Charm Monster:\n (Використовує навичку + ХАР)",
+                    "value": "+%d%%"
+                },
+                {
+                    "tag": "LIST_LEADER_AVAILABLE_FOLLOWERS",
+                    "title": "Союзні раси,\nдоступні для вербування:",
+                    "value": "%s",
+                    "auto_resize_value": true
+                }
+            ]
+        },
+        {
+            "name": "Торгівля",
+            "id": 2,
+            "sfx": 552,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Trading01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Trading01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+            "description": "Зменшує ціни купівлі та покращує ціни продажу під час торгівлі з крамарями.",
+            "legend_text": "Відкриває можливість продавати будь-які предмети будь-якому крамарю.",
+            "effects_position": {
+                "effect_start_offset_x": 102,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 110
+            },
+            "effects": [
+                {
+                    "tag": "TRADING_BUY_PRICE",
+                    "title": "Націнка при\nкупівлі в крамниці:",
+                    "value": "%+.f%% Золота"
+                },
+                {
+                    "tag": "TRADING_SELL_PRICE",
+                    "title": "Штраф перепродажу\nпри продажі в крамницю:\n (Використовує навичку + ХАР)",
+                    "value": "%.f%% Золота"
+                }
+            ]
+        },
+        {
+            "name": "Знання",
+            "id": 3,
+            "sfx": 568,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Lore01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Lore01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Lore02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Lore02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+            "description": "Підвищує швидкість оцінювання й дозволяє оцінювати предмети з вищою вартістю в золоті. Вища характеристика СПРИЙ покращує оцінювання.",
+            "legend_text": "+25% До швидкості оцінювання всіх предметів. Для невизначених предметів відкривається їхня вартість у золоті.",
+            "effects_position": {
+                "effect_start_offset_x": 88,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 96
+            },
+            "effects": [
+                {
+                    "tag": "APPRAISE_GOLD_FAST",
+                    "title": "Максимальна вартість у золоті,\nяку можна оцінити швидко:",
+                    "value": "%d Золота"
+                },
+                {
+                    "tag": "APPRAISE_MAX_GOLD_VALUE",
+                    "title": "Максимальна вартість у золоті,\nяку можна оцінити повільно:",
+                    "value": "%d Золота"
+                },
+                {
+                    "tag": "APPRAISE_SPEEDUP_CONSUMABLES",
+                    "title": "Скорочення часу оцінювання\nїжі/сувоїв/зіль:",
+                    "value": "%.f%%"
+                },
+                {
+                    "tag": "APPRAISE_SPEEDUP",
+                    "title": "Скорочення часу оцінювання\nвсіх інших предметів:\n (За загальної навички понад 50)",
+                    "value": "%.f%%"
+                },
+                {
+                    "tag": "APPRAISE_FLOOR_BONUS",
+                    "title": "Скорочення часу оцінювання всього\nінвентаря при переході\nна наступний поверх: ",
+                    "value": "%.f%%"
+                },
+                {
+                    "tag": "APPRAISE_WORTHLESS_GLASS",
+                    "title": "Можна оцінити\nWorthless Glass:",
+                    "value": "%s"
+                }
+            ]
+        },
+        {
+            "name": "Майстрування",
+            "id": 0,
+            "sfx": 552,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Tinkering01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+            "description": "Покращує роботу з наборами майстрування, збільшуючи кількість предметів для створення й розгортання механізмів. Підвищує шанси відмикати об'єкти у світі.",
+            "legend_text": "Дозволяє ремонтувати більшість зброї й броні набором майстрування та знаходити бонусні предмети або золото під час зламу скринь.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "TINKERING_LOCKPICK_CHESTS_DOORS",
+                    "title": "Шанс зламати\nскрині та двері:",
+                    "value": "%d%%"
+                },
+                {
+                    "tag": "TINKERING_SCRAP_CHESTS",
+                    "title": "Шанс брухту при\nзламі скринь:",
+                    "value": "%d%%"
+                },
+                {
+                    "tag": "TINKERING_SCRAP_AUTOMATONS",
+                    "title": "Шанс брухту при\nзламі Автоматонів:",
+                    "value": "%d%%"
+                },
+                {
+                    "tag": "TINKERING_DISARM_ARROWS",
+                    "title": "Шанс знешкодити\nпастки зі стрілами:",
+                    "value": "%d%%"
+                },
+                {
+                    "tag": "TINKERING_KIT_SCRAP_BONUS",
+                    "title": "Бонусний брухт\nпід час розбирання:\n (Використовує навичку + СПРИЙ)",
+                    "value": "+%d%%"
+                },
+                {
+                    "tag": "TINKERING_KIT_REPAIR_ITEM",
+                    "title": "Найвищий металевий/магічний предмет,\nякий можна полагодити:\n (Використовує навичку + СПРИЙ)",
+                    "value": "%s",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "TINKERING_MAX_ALLIES",
+                    "title": "Максимум розгорнутих\nсоюзників майстрування:",
+                    "value": "%d"
+                }
+            ]
+        },
+        {
+            "name": "Алхімія",
+            "id": 15,
+            "sfx": 552,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Alchemy01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+            "description": "Покращує вміння варити зілля за допомогою алембіків і збільшує шкоду від кинутих наступальних зіль.\nПийте або варіть зілля, щоб вивчати корисні інгредієнти в Алхімії.",
+            "legend_text": "Алембіки ніколи не ламаються.\nЗварені зілля мають +2 благословення.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "ALCHEMY_POTION_EFFECT_DMG",
+                    "title": "Шкода від ефектів зілля:",
+                    "value": "+%d%%"
+                },
+                {
+                    "tag": "ALCHEMY_THROWN_IMPACT_DMG",
+                    "title": "Шкода від удару\nкинутого зілля:",
+                    "value": "+%d%%"
+                },
+                {
+                    "tag": "ALCHEMY_DUPLICATION_CHANCE",
+                    "title": "Шанс дублювання\nзілля з водою:",
+                    "value": "%d%%"
+                },
+                {
+                    "tag": "ALCHEMY_EMPTY_BOTTLE_CONSUME",
+                    "title": "Повернення порожньої пляшки\nпісля вживання зілля:",
+                    "value": "%d%%"
+                },
+                {
+                    "tag": "ALCHEMY_EMPTY_BOTTLE_BREW",
+                    "title": "Повернення порожньої пляшки\nпісля варіння зілля:",
+                    "value": "%d%%"
+                },
+                {
+                    "tag": "ALCHEMY_LEARNT_INGREDIENTS_BASE",
+                    "title": "Вивчені інгредієнти\nАлхімії:\n (Основні)",
+                    "value": "%s",
+                    "custom_value_width_offset": 0,
+                    "auto_resize_value": true,
+                    "realtime_update": true
+                },
+                {
+                    "tag": "ALCHEMY_LEARNT_INGREDIENTS_SECONDARY",
+                    "title": "Вивчені інгредієнти\nАлхімії:\n (Додаткові)",
+                    "value": "%s",
+                    "custom_value_width_offset": 0,
+                    "auto_resize_value": true,
+                    "realtime_update": true
+                }
+            ]
+        },
+        {
+            "name": "Чаклунство",
+            "id": 7,
+            "sfx": 597,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Sorcery01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Sorcery01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Sorcery02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Sorcery02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+            "description": "Дозволяє вивчати з книг заклять закляття Чаклунства вищого рівня. Додатково підсилює бонуси сили заклять Чаклунства від ІНТ після рівня навички Експерт (60).",
+            "legend_text": "Закляття Чаклунства мають +40% бонусу сили від ІНТ і +100% зменшення часу чаклування від СПР.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "MAGIC_SPELLPOWER_INT",
+                    "title": "Базовий бонус сили заклять:\n (Використовує 2x ІНТ)",
+                    "value": "%+d%%"
+                },
+                {
+                    "tag": "MAGIC_CURRENT_TIER",
+                    "title": "Найвищий рівень\nЧаклунства для вивчення:\n (Використовує навичку + ІНТ)",
+                    "value": "%s"
+                },
+                {
+                    "tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+                    "title": "Вивчені закляття,\nщо найкраще підвищують поточний\nрівень Чаклунства:",
+                    "title_short": "Вивчені закляття,\nщо найкраще\nпідвищують поточний\nрівень Чаклунства:",
+                    "value": "%s",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "MAGIC_CURRENT_TIER_SPELLS",
+                    "title": "Закляття поточного\nрівня Чаклунства:",
+                    "value": "%s",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "CASTING_BEGINNER",
+                    "title": "Ризик збою при застосуванні\nвивчених заклять:",
+                    "value": "%s"
+                },
+                {
+                    "tag": "CASTING_SPELLBOOK_FUMBLE",
+                    "title": "Найвищий рівень\nЧаклунства для читання\nз книги без збою:\n (Використовує навичку + ІНТ)",
+                    "value": "%s"
+                }
+            ]
+        },
+        {
+            "name": "Містицизм",
+            "id": 6,
+            "sfx": 596,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Mysticism01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Mysticism01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Mysticism02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Mysticism02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+            "description": "Дозволяє вивчати з книг заклять закляття Містицизму вищого рівня. Додатково підсилює бонуси сили заклять Містицизму від ІНТ + ХАР після рівня навички Експерт (60).",
+            "legend_text": "Закляття Містицизму мають +40% бонусу сили від ІНТ/ХАР і +100% зменшення часу чаклування від СПР.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "MAGIC_SPELLPOWER_INT",
+                    "title": "Базовий бонус сили заклять:\n (Використовує ІНТ + ХАР)",
+                    "value": "%+d%%"
+                },
+                {
+                    "tag": "MAGIC_CURRENT_TIER",
+                    "title": "Найвищий рівень\nМістицизму для вивчення:\n (Використовує навичку + ІНТ)",
+                    "value": "%s"
+                },
+                {
+                    "tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+                    "title": "Вивчені закляття,\nщо найкраще підвищують поточний\nрівень Містицизму:",
+                    "title_short": "Вивчені закляття,\nщо найкраще\nпідвищують поточний\nрівень\nМістицизму:",
+                    "value": "%s",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "MAGIC_CURRENT_TIER_SPELLS",
+                    "title": "Закляття поточного\nрівня Містицизму:",
+                    "value": "%s",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "CASTING_BEGINNER",
+                    "title": "Ризик збою при застосуванні\nвивчених заклять:",
+                    "value": "%s"
+                },
+                {
+                    "tag": "CASTING_SPELLBOOK_FUMBLE",
+                    "title": "Найвищий рівень\nМістицизму для читання\nз книги без збою:\n (Використовує навичку + ІНТ)",
+                    "value": "%s"
+                }
+            ]
+        },
+        {
+            "name": "Тауматургія",
+            "shortname": "Таума",
+            "id": 4,
+            "sfx": 552,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Thaumaturgy01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Thaumaturgy01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Thaumaturgy02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Thaumaturgy02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+            "description": "Дозволяє вивчати з книг заклять закляття Тауматургії вищого рівня. Додатково підсилює бонуси сили заклять Тауматургії від ІНТ + СТА після рівня навички Експерт (60).",
+            "legend_text": "Закляття Тауматургії мають +40% бонусу сили від ІНТ/СТА і +100% зменшення часу чаклування від СПР.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "MAGIC_SPELLPOWER_INT",
+                    "title": "Базовий бонус сили заклять:\n (Використовує ІНТ + СТА)",
+                    "value": "%+d%%"
+                },
+                {
+                    "tag": "MAGIC_CURRENT_TIER",
+                    "title": "Найвищий рівень\nТауматургії для вивчення:\n (Використовує навичку + ІНТ)",
+                    "value": "%s"
+                },
+                {
+                    "tag": "MAGIC_MEMORIZED_LEVEL_SPELLS",
+                    "title": "Вивчені закляття,\nщо найкраще підвищують поточний\nрівень Тауматургії:",
+                    "title_short": "Вивчені закляття,\nщо найкраще\nпідвищують поточний\nрівень\nТауматургії:",
+                    "value": "%s",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "MAGIC_CURRENT_TIER_SPELLS",
+                    "title": "Закляття поточного\nрівня Тауматургії:",
+                    "title_short": "Закляття в\nпоточному рівні\nТауматургії:",
+                    "value": "%s",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "CASTING_BEGINNER",
+                    "title": "Ризик збою при застосуванні\nвивчених заклять:",
+                    "value": "%s"
+                },
+                {
+                    "tag": "CASTING_SPELLBOOK_FUMBLE",
+                    "title": "Найвищий рівень\nТауматургії для читання\nз книги без збою:\n (Використовує навичку + ІНТ)",
+                    "value": "%s"
+                }
+            ]
+        },
+        {
+            "name": "Магія",
+            "id": 33,
+            "sfx": 597,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Magic01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Magic01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+            "description": "Дозволяє вивчати з книг заклять магічні закляття вищого рівня. Споряджайте закляття через меню Магії та використовуйте команду Чаклувати, або тримайте книги заклять і використовуйте команду Захист для застосування магії.",
+            "legend_text": "Автоматично вивчає закляття Dominate.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "MAGIC_SPELLPOWER_INT",
+                    "title": "Базовий бонус сили заклять:\n (Використовує ІНТ)",
+                    "value": "%+d%%"
+                },
+                {
+                    "tag": "MAGIC_CURRENT_TIER",
+                    "title": "Найвищий рівень\nМагії для вивчення:\n (Використовує навичку + ІНТ)",
+                    "value": "%s"
+                },
+                {
+                    "tag": "MAGIC_CURRENT_TIER_SPELLS",
+                    "title": "Закляття поточного\nрівня Магії:",
+                    "value": "%s",
+                    "auto_resize_value": true
+                }
+            ]
+        },
+        {
+            "name": "Чаклування",
+            "id": 34,
+            "sfx": 596,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Casting01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+            "description": "Покращує надійність Чаклування та читання заклять із книги, зменшуючи шанс осічки або зайвої витрати мани. Підвищує пасивне відновлення MP.",
+            "legend_text": "Автоматично вивчає закляття Forcebolt з вартістю (0) MP.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "CASTING_MP_REGEN_SKILL_MULTIPLIER",
+                    "title": "Множник ІНТ для\nвідновлення MP від навички:",
+                    "value": "%dx ІНТ",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "CASTING_MP_REGEN",
+                    "title": "Базова швидкість відновлення MP:\n (До модифікаторів\nпредметів/раси)",
+                    "value": "1 MP кожні\n%.2f сек.",
+                    "auto_resize_value": true
+                },
+                {
+                    "tag": "CASTING_BEGINNER",
+                    "title": "Ризик збою при застосуванні\nвивчених заклять:",
+                    "value": "%s"
+                },
+                {
+                    "tag": "CASTING_SPELLBOOK_FUMBLE",
+                    "title": "Найвищий рівень\nМагії для читання\nз книги без збою:\n (Використовує навичку + ІНТ)",
+                    "value": "%s"
+                }
+            ]
+        },
+        {
+            "name": "Плавання",
+            "id": 32,
+            "sfx": 552,
+            "icon_base_path": "#*images/ui/SkillSheet/Icons/Swimming01.png",
+            "icon_legend_path": "#*images/ui/SkillSheet/Icons/Swimming01_Gold.png",
+            "icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32.png",
+            "icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32Gold.png",
+            "icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+            "description": "Збільшує швидкість руху під час плавання в рідинах.",
+            "legend_text": "Постійна можливість ходити по воді й лаві.",
+            "effects_position": {
+                "effect_start_offset_x": 72,
+                "effect_background_offset_x": 8,
+                "effect_background_width": 80
+            },
+            "effects": [
+                {
+                    "tag": "SWIM_SPEED_TOTAL",
+                    "title": "Швидкість руху\nпід час плавання:",
+                    "value": "%d%%"
+                },
+                {
+                    "tag": "SWIM_SPEED_BASE",
+                    "title": "Базовий штраф до множника\nшвидкості в рідинах:",
+                    "value": "%+d%%"
+                },
+                {
+                    "tag": "SWIM_SPEED_BONUS",
+                    "title": "Бонусний множник швидкості\nвід навички Плавання:",
+                    "value": "+%d%%"
+                }
+            ]
+        }
+    ]
 }

@@ -1,92 +1,100 @@
 {
     "version": 1,
-	"default_attributes": {
-		"font_color": {
-			"r": 239,
-			"g": 237,
-			"b": 235,
-			"a": 255
-		},
-		"font_outline_color": {
-			"r": 50,
-			"g": 29,
-			"b": 25,
-			"a": 255
-		},
-		"font_highlight_color": {
-			"r": 18,
-			"g": 196,
-			"b": 131,
-			"a": 255
-		},
-		"font_highlight2_color": {
-			"r": 64,
-			"g": 192,
-			"b": 255,
-			"a": 255
-		}
-	},
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
     "script_entries": {
         "tutorial10a": {
             "sign": [
                 "Ворог у наступній",
-				"кімнаті здатен",
-				"отруїти вас",
-				"своїми атаками.",
-				"",
-				"Деякі авантюристи тримають",
-				"ліки під рукою. Інші",
-				"просто терплять це",
-				"або уникають ударів."
+                "кімнаті здатен",
+                "отруїти вас",
+                "своїми атаками.",
+                "",
+                "Деякі авантюристи тримають",
+                "ліки під рукою. Інші",
+                "просто терплять це",
+                "або уникають ударів."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},					
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[0]
-				],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0],
-					[],
-					[1,2,3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/blockcrab.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/blockcrab.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial10b": {
             "sign": [
-				"$",
+                "$",
                 "Предмети, які ви",
-				"знайдете й віднесете на ринок,",
-				"можуть підвищити ваші",
-				"шанси на успіх."
+                "знайдете й віднесете на ринок,",
+                "можуть підвищити ваші",
+                "шанси на успіх."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -97,81 +105,97 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[1,2,3,4]
-				]
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#images/system/shopkeeper.png",
-				"sizex": 74,
-				"sizey": 74
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/system/shopkeeper.png",
+                    "sizex": 74,
+                    "sizey": 74
+                }
+            ]
         },
         "tutorial10c": {
             "sign": [
                 "Крамарі ставитимуться",
-				"до вас інакше, якщо ви",
+                "до вас інакше, якщо ви",
                 "перебуваєте під дією",
-				"поліморфу.",
-				"",
+                "поліморфу.",
+                "",
                 "Більшість монстрів поводяться",
-				"зовсім інакше, якщо ви",
-				"кинете в них зілля",
-				"поліморфу."
+                "зовсім інакше, якщо ви",
+                "кинете в них зілля",
+                "поліморфу."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},		
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[1]
-				],
+                    [],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[1],
-					[],
-					[1],
-					[],
-					[0,1,2,3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/polythrow.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/polythrow.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial10d": {
             "sign": [
                 "Авантюристи всіх",
-				"класів мають бути",
-				"винахідливими з предметами.",
-				"",
+                "класів мають бути",
+                "винахідливими з предметами.",
+                "",
                 "Розумні покупки можуть",
-				"стати різницею",
-				"між готовністю",
-				"і смертю."
+                "стати різницею",
+                "між готовністю",
+                "і смертю."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -188,115 +212,136 @@
         "tutorial10e": {
             "sign": [
                 "Крамарі",
-				"не заплатять добре за",
-				"неоцінений самоцвіт, бо це",
-				"може бути нікчемне скло!",
-				"",
-				"Використайте сувій ідентифікації",
+                "не заплатять добре за",
+                "неоцінений самоцвіт, бо це",
+                "може бути нікчемне скло!",
+                "",
+                "Використайте сувій ідентифікації",
                 "коли ваша навичка оцінки",
-				"недостатньо висока."
+                "недостатньо висока."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},					
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[0,1,2],
-					[],
-					[2,3]
-				],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[2,3,4]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial10f": {
             "sign": [
                 "Якщо Крамаря вбито,",
-				"він скидає все,",
-				"що продає.",
-				"Але чутки ширяться швидко",
-				"у підземеллях.",
-				"",
+                "він скидає все,",
+                "що продає.",
+                "Але чутки ширяться швидко",
+                "у підземеллях.",
+                "",
                 "Ворогів",
-				"Гільдії Торговців",
-				"атакують одразу."
+                "Гільдії Торговців",
+                "атакують одразу."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},						
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[1,2]
-				]
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial10g": {
             "sign": [
                 "Крамарі мають чудову",
-				"підготовку до самозахисту",
-				"і спробують",
-				"знищити всіх нападників",
-				"з крайньою жорсткістю."
+                "підготовку до самозахисту",
+                "і спробують",
+                "знищити всіх нападників",
+                "з крайньою жорсткістю."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},					
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[1,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": []
@@ -304,128 +349,158 @@
         "tutorial10h": {
             "sign": [
                 "Кожен Крамар торгує",
-				"певною категорією",
-				"товарів.",
-				"",
+                "певною категорією",
+                "товарів.",
+                "",
                 "Цей торгує лише капелюхами,",
-				"тому не купить ваш самоцвіт.",
-				"",
+                "тому не купить ваш самоцвіт.",
+                "",
                 "Використайте цей важіль, щоб",
-				"відкрити шлях і знайти",
-				"інших покупців."
+                "відкрити шлях і знайти",
+                "інших покупців."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-				},				
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[2,3,4,5]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[2,3],
-					[],
-					[],
-					[2,3,4],
-					[],
-					[],
-					[],
-					[],
-					[0,1]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/nosale_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/nosale_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial10h_gamepad": {
             "sign": [
                 "Кожен Крамар торгує",
-				"певною категорією",
-				"товарів.",
-				"",
+                "певною категорією",
+                "товарів.",
+                "",
                 "Цей торгує лише капелюхами,",
-				"тому не купить ваш самоцвіт.",
-				"",
+                "тому не купить ваш самоцвіт.",
+                "",
                 "Використайте цей важіль, щоб",
-				"відкрити шлях і знайти",
-				"інших покупців."
+                "відкрити шлях і знайти",
+                "інших покупців."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-				},				
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[2,3,4,5]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[2,3],
-					[],
-					[],
-					[2,3,4],
-					[],
-					[],
-					[],
-					[],
-					[0,1]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/nosale_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3,
+                        4
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/nosale_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
-        },		
+        },
         "tutorial10i": {
             "sign": [
                 "Коли меню крамниці відкрите,",
-				"натисніть$ на своїх предметах,",
-				"щоб продати їх.",
-				"",
+                "натисніть$ на своїх предметах,",
+                "щоб продати їх.",
+                "",
                 "Натисніть$ на предметах в",
-				"інвентарі Крамаря,",
-				"щоб купити."
+                "Інвентарі Крамаря,",
+                "щоб купити."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -435,44 +510,56 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[0,1,2,3],
-					[],
-					[],
-					[0,1,2],
-					[0,1]
-				],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
                 "word_highlights2": [],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/buysell_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/buysell_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				}					
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
         },
         "tutorial10i_gamepad": {
             "sign": [
                 "Коли меню крамниці відкрите,",
-				"натисніть$ на своїх предметах,",
-				"щоб продати їх.",
-				"",
+                "натисніть$ на своїх предметах,",
+                "щоб продати їх.",
+                "",
                 "Натисніть$ на предметах в",
-				"інвентарі Крамаря,",
-				"щоб купити."
+                "Інвентарі Крамаря,",
+                "щоб купити."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -482,43 +569,55 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[0,1,2,3],
-					[],
-					[],
-					[0,1,2],
-					[0,1]
-				],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
                 "word_highlights2": [],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/buysell_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/buysell_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				}					
-			]
-        },		
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
         "tutorial10j": {
             "sign": [
                 "Ви можете почати торгівлю,",
-				"підійшовши до крамаря",
-				"і натиснувши$ .",
-				"",
+                "підійшовши до крамаря",
+                "і натиснувши$ .",
+                "",
                 "Щоб закрити меню",
-				"крамниці, натисніть$ ."
+                "крамниці, натисніть$ ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -528,34 +627,40 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[1],
-					[],
-					[1],
-					[1]
-				],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Використати"
-				},
-				{
-					"type": "input_glyph",
-					"value": "Стан Персонажа"
-				}	
-			]
-        },		
+                {
+                    "type": "input_glyph",
+                    "value": "Використати"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Стан Персонажа"
+                }
+            ]
+        },
         "tutorial10j_gamepad": {
             "sign": [
                 "Ви можете почати торгівлю,",
-				"підійшовши до крамаря",
-				"і натиснувши$ .",
-				"",
+                "підійшовши до крамаря",
+                "і натиснувши$ .",
+                "",
                 "Щоб закрити меню",
-				"крамниці, натисніть$ ."
+                "крамниці, натисніть$ ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -565,35 +670,41 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[1],
-					[],
-					[1],
-					[1]				
-				],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Використати"
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuCancel"
-				}				
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "Використати"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuCancel"
+                }
+            ]
         },
         "tutorial10k": {
             "sign": [
                 "Крамниці завжди виглядають",
-				"помітно, незалежно від того,",
-				"де їх знайдено.",
-				"$",
-				"Шукайте вивіски зовні",
-				"крамниць, щоб заздалегідь побачити,",
-				"що вони купують і продають."
+                "помітно, незалежно від того,",
+                "де їх знайдено.",
+                "$",
+                "Шукайте вивіски зовні",
+                "крамниць, щоб заздалегідь побачити,",
+                "що вони купують і продають."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -606,23 +717,23 @@
                 "word_highlights2": []
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial10/sign_shophat.png",
-				"sizex": 0,
-				"sizey": 0
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial10/sign_shophat.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial10l": {
             "sign": [
                 "Цей самоцвіт можна кинути",
-				"як будь-який камінь, але його",
+                "як будь-який камінь, але його",
                 "справжня цінність у тому, скільки",
-				"крамар заплатить за нього.",
-				"$",
+                "крамар заплатить за нього.",
+                "$",
                 "Збільшуйте торгову цінність",
-				"високою навичкою торгівлі."
+                "високою навичкою торгівлі."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -633,30 +744,36 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1],
-					[0,1]
-				]
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial10/sign_gem.png",
-				"sizex": 0,
-				"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial10/sign_gem.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial10m": {
             "sign": [
                 "Кожен предмет має",
-				"золоту вартість, що показується",
-				"коли ви наводите на нього",
-				"в інвентарі.",
-				"",
-				"Вартість предмета може змінитися",
-				"коли його оцінено."
+                "золоту вартість, що показується",
+                "коли ви наводите на нього",
+                "в інвентарі.",
+                "",
+                "Вартість предмета може змінитися",
+                "коли його оцінено."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -666,40 +783,50 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[2]
-				],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[0,1],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2,3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/value_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/value_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial10m_gamepad": {
             "sign": [
                 "Кожен предмет має",
-				"золоту вартість, що показується",
-				"коли ви наводите на нього",
-				"в інвентарі.",
-				"",
-				"Вартість предмета може змінитися",
-				"коли його оцінено."
+                "золоту вартість, що показується",
+                "коли ви наводите на нього",
+                "в інвентарі.",
+                "",
+                "Вартість предмета може змінитися",
+                "коли його оцінено."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -709,38 +836,48 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[2]
-				],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[0,1],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2,3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/value_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/value_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
-            "variables": []			
+            "variables": []
         },
         "tutorial10n": {
             "sign": [
                 "Золото не вбиває монстрів,",
-				"і не нагодує вас.",
-				"$",
+                "і не нагодує вас.",
+                "$",
                 "Втім, воно дозволяє",
-				"торгувати з крамарями."
+                "торгувати з крамарями."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -751,29 +888,35 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[0],
-					[],
-					[],
-					[],
-					[1,2,3]
-				]
+                    [
+                        0
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial10/sign_gold.png",
-				"sizex": 0,
-				"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial10/sign_gold.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial10o": {
             "sign": [
                 "Ювеліри купують і продають",
-				"амулети, персні та самоцвіти.",
-				"$",
+                "амулети, персні та самоцвіти.",
+                "$",
                 "Тут ви можете продати свій",
-				"самоцвіт за купу золота!"
+                "самоцвіт за купу золота!"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -784,31 +927,43 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[0,1,2,3,4],
-					[0,1,2,3,4,5]
-					
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial10/sign_jeweler.png",
-				"sizex": 0,
-				"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial10/sign_jeweler.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial10p": {
             "sign": [
                 "Якщо ви накопичуєте",
-				"багато речей на продаж,",
-				"Універсальна Крамниця буде",
-				"дуже щасливою знахідкою.",
-				"$",
-				"Вони куплять будь-що",
+                "багато речей на продаж,",
+                "Універсальна Крамниця буде",
+                "дуже щасливою знахідкою.",
+                "$",
+                "Вони куплять будь-що",
                 "і мають випадкові предмети."
             ],
             "attributes": {
@@ -820,28 +975,34 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[0,1],
-					[],
-					[],
-					[2,3]
-				]
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": [
-				{
-				"type": "зображення",
-				"value": "*#data/scripts/tutorial10/sign_general.png",
-				"sizex": 0,
-				"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial10/sign_general.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial10q": {
             "sign": [
                 "Подивіться, скільки золота",
-				"ви накопичили, на своєму",
-				"аркуші персонажа."
+                "ви накопичили, на своєму",
+                "аркуші персонажа."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -851,10 +1012,13 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[0,1]				
-				],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": []
@@ -862,146 +1026,187 @@
         "tutorial10r": {
             "sign": [
                 "Щоб скинути золото, наведіть на",
-				"лічильник золота, утримуйте$",
-				"і виберіть, скільки скинути.",
-				"",
+                "лічильник золота, утримуйте$",
+                "і виберіть, скільки скинути.",
+                "",
                 "Якщо ви несете багато",
-				"золота, його вага може",
-				"накопичитися й сповільнити вас."
+                "золота, його вага може",
+                "накопичитися й сповільнити вас."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight2_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-				},								
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[3],
-					[3],
-					[1,2,3,4,5]
-				],
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[3,4],
-					[3,4,5]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/dropgold_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        3,
+                        4,
+                        5
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/dropgold_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				}			
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
         },
         "tutorial10r_gamepad": {
             "sign": [
                 "Щоб скинути золото, наведіть на",
-				"лічильник золота, натисніть$",
-				"і виберіть, скільки скинути.",
-				"",
+                "лічильник золота, натисніть$",
+                "і виберіть, скільки скинути.",
+                "",
                 "Якщо ви несете багато",
-				"золота, його вага може",
-				"накопичитися й сповільнити вас."
+                "золота, його вага може",
+                "накопичитися й сповільнити вас."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight2_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-				},								
+                "font_highlight2_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[3],
-					[3],
-					[1,2,3,4,5]
-				],
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[3,4],
-					[3,4,5]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/dropgold_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3,
+                        4
+                    ],
+                    [
+                        3,
+                        4,
+                        5
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/dropgold_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				}			
-			]
-        },		
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
         "tutorial10s": {
             "sign": [
                 "У підземеллі вам",
-				"може не пощастити",
+                "може не пощастити",
                 "знайти покупця для",
-				"своїх товарів.",
-				"",
+                "своїх товарів.",
+                "",
                 "Вам доведеться вирішити,",
-				"чи розумно тримати",
-				"громіздкі предмети заради",
-				"їхньої торгової цінності."
+                "чи розумно тримати",
+                "громіздкі предмети заради",
+                "їхньої торгової цінності."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},							
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[1,2,3],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1]
-				],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": []
@@ -1009,14 +1214,14 @@
         "tutorial10t": {
             "sign": [
                 "Крамарі",
-				"на цьому ринку є",
-				"вашим єдиним способом",
-				"як слід спорядитися",
-				"для випробування цього уроку.",
-				"",
+                "на цьому ринку є",
+                "вашим єдиним способом",
+                "як слід спорядитися",
+                "для випробування цього уроку.",
+                "",
                 "Купуйте й продавайте, щоб",
-				"підготуватися",
-				"як вам зручно."
+                "підготуватися",
+                "як вам зручно."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1027,29 +1232,41 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[0,1,2],
-					[],
-					[],
-					[0,1,2],
-					[],
-					[0,1,2]
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial10u": {
             "sign": [
                 "За цим порталом лежить",
-				"серія дедалі",
-				"складніших боїв.",
-				"Купіть усе, що допоможе",
-				"вам досягти успіху.",
-				"",
+                "серія дедалі",
+                "складніших боїв.",
+                "Купіть усе, що допоможе",
+                "вам досягти успіху.",
+                "",
                 "Вашу винахідливість",
-				"буде перевірено."
+                "буде перевірено."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1066,13 +1283,13 @@
         "tutorial10v": {
             "sign": [
                 "Предмети, які ви знаходите в крамницях",
-				"і які лежать",
-				"на столах або в скринях,",
-				"можна забирати.",
-				"",
-				"Для крамарів мають значення",
-				"лише ті предмети,",
-				"що є в їхньому інвентарі."
+                "і які лежать",
+                "на столах або в скринях,",
+                "можна забирати.",
+                "",
+                "Для крамарів мають значення",
+                "лише ті предмети,",
+                "що є в їхньому інвентарі."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1083,27 +1300,31 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[1,2,3],
-					[],
-					[],
-					[]
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [],
+                    []
+                ]
             },
             "variables": []
         },
         "tutorial10w": {
             "sign": [
                 "Бій із двома ворогами",
-				"одночасно може дуже",
-				"ускладнити сутичку.",
-				"",
-				"Усі авантюристи мають",
-				"бути готовими протистояти",
-				"як дальнім, так і ближнім",
-				"нападникам."
+                "одночасно може дуже",
+                "ускладнити сутичку.",
+                "",
+                "Усі авантюристи мають",
+                "бути готовими протистояти",
+                "як дальнім, так і ближнім",
+                "нападникам."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1114,76 +1335,100 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[1,2],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/killtwo.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/killtwo.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial10x": {
             "sign": [
                 "Наступний ворог володіє",
-				"магічним посохом, який може",
-				"сповільнити й сильно",
-				"поранити вас, оминаючи КЗ.",
-				"",
-				"Предмети можуть зменшувати",
-				"магічні ефекти. Використовуйте",
-				"тактику засідки, щоб уникати",
-				"магічних снарядів."
+                "магічним посохом, який може",
+                "сповільнити й сильно",
+                "поранити вас, оминаючи КЗ.",
+                "",
+                "Предмети можуть зменшувати",
+                "магічні ефекти. Використовуйте",
+                "тактику засідки, щоб уникати",
+                "магічних снарядів."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-				"font_highlight_color": {
-					"r": 255,
-					"g": 64,
-					"b": 64,
-					"a": 255
-					},						
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[0,1,2,3],
-					[0,1,2]
-				],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1,2,3],
-					[],
-					[0,1]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial10/staffambush.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial10/staffambush.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         }

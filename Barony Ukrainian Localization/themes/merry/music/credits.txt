@@ -37,3 +37,22 @@ temple - Santa's Tricks by Myuu
 underworld00 - Ice Land (Part 1) by Myuu
 underworld01 - Deck the Halls by Myuu
 underworld02 - Winter Trouble by Myuu
+mines02 - Silent Night by Myuu
+mines03 - Carol of the Bells by Myuu
+mines04 - Angels We Have Heard on High by Myuu
+minetown - Underneath the Christmas Tree by Myuu
+minotaur00 - Krampus is Here by Myuu
+minotaur01 - Deck the Halls by Myuu
+ruins00 - Ice Land (Part 2) by Myuu
+ruins01 - Winter Trouble by Myuu
+ruins02 - Snow Wonders by Myuu
+sanctum - Krampus is Here by Myuu
+shop - Sleigh Bells by Myuu
+swamp00 - Jingle Bells by Myuu
+swamp01 - Rudolph the Red Nosed Reindeer by Myuu
+swamp02 - Dance of the Sugar Plum Fairy by Myuu
+swamp03 - What Child is This by Myuu
+temple - Santa's Tricks by Myuu
+underworld00 - Ice Land (Part 1) by Myuu
+underworld01 - Deck the Halls by Myuu
+underworld02 - Winter Trouble by Myuu

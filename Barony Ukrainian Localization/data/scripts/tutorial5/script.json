@@ -1,40 +1,40 @@
 {
     "version": 1,
-	"default_attributes": {
-		"font_color": {
-			"r": 239,
-			"g": 237,
-			"b": 235,
-			"a": 255
-		},
-		"font_outline_color": {
-			"r": 50,
-			"g": 29,
-			"b": 25,
-			"a": 255
-		},
-		"font_highlight_color": {
-			"r": 18,
-			"g": 196,
-			"b": 131,
-			"a": 255
-		},
-		"font_highlight2_color": {
-			"r": 64,
-			"g": 192,
-			"b": 255,
-			"a": 255
-		}
-	},
+    "default_attributes": {
+        "font_color": {
+            "r": 239,
+            "g": 237,
+            "b": 235,
+            "a": 255
+        },
+        "font_outline_color": {
+            "r": 50,
+            "g": 29,
+            "b": 25,
+            "a": 255
+        },
+        "font_highlight_color": {
+            "r": 18,
+            "g": 196,
+            "b": 131,
+            "a": 255
+        },
+        "font_highlight2_color": {
+            "r": 64,
+            "g": 192,
+            "b": 255,
+            "a": 255
+        }
+    },
     "script_entries": {
         "tutorial5a": {
             "sign": [
                 "Двері, меблі та",
-				"скрині можуть перегородити вам шлях.",
+                "скрині можуть перегородити вам шлях.",
                 "Атаки ближнього бою можуть знищити",
                 "їх так само добре, як і",
-				"вогняні кулі, вороги",
-				"та валуни."
+                "вогняні кулі, вороги",
+                "та валуни."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -45,33 +45,37 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[3],
-					[0],
-					[]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/furniture.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        0
+                    ],
+                    []
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/furniture.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": []
         },
         "tutorial5b": {
             "sign": [
                 "Маючи активні закляття,",
-				"екіпіровані книги заклять і",
-				"магічні посохи, ви можете",
-				"швидко отримати доступ до",
-				"різноманітних заклять.",
-				"",
-				"$ $ $"
+                "екіпіровані книги заклять і",
+                "магічні посохи, ви можете",
+                "швидко отримати доступ до",
+                "різноманітних заклять.",
+                "",
+                "$ $ $"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -82,39 +86,49 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[1,2],
-					[0,1],
-					[0],
-					[],
-					[1]
-				]
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#items/images/SpellbookGreen.png",
-					"sizex": 36,
-					"sizey": 36
-				},
-				{
-					"type": "зображення",
-					"value": "*#items/images/spells/forcebolt.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#items/images/RedMysticStaff.png",
-					"sizex": 36,
-					"sizey": 36
-				}						
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/SpellbookGreen.png",
+                    "sizex": 36,
+                    "sizey": 36
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/forcebolt.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/RedMysticStaff.png",
+                    "sizex": 36,
+                    "sizey": 36
+                }
+            ]
         },
         "tutorial5c": {
             "sign": [
                 "Скористайтеся своїми знаннями",
-				"магії, щоб очистити цю",
-				"кімнату від нежиті."
+                "магії, щоб очистити цю",
+                "кімнату від нежиті."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -125,24 +139,32 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[2,3],
-					[0,1,2,3]
-				]
+                    [],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial5d": {
             "sign": [
                 "Ви можете автоматично",
-				"екіпірувати складні книги заклять,",
+                "екіпірувати складні книги заклять,",
                 "використовуючи їх із",
-				"панелі швидкого доступу.",
-				"",
-				"Щоб екіпірувати книгу заклять",
-				"з панелі швидкого доступу без",
-				"спроби запам'ятати закляття,",
-				"утримуйте$ перед використанням."
+                "панелі швидкого доступу.",
+                "",
+                "Щоб екіпірувати книгу заклять",
+                "з панелі швидкого доступу без",
+                "спроби запам'ятати закляття,",
+                "утримуйте$ перед використанням."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -152,47 +174,59 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[0,1,2],
-					[],
-					[1],
-					[],
-					[],
-					[],
-					[],
-					[0]
-				],
+                    [],
+                    [
+                        0,
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[3],
-					[2]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Alt_00.png",
-					"sizex": 0,
-					"sizey": 0
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Alt_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5d_gamepad": {
             "sign": [
                 "Ви можете екіпірувати",
-				"складні книги заклять або",
-				"раніше запам'ятовані",
+                "складні книги заклять або",
+                "раніше запам'ятовані",
                 "книги, використовуючи їх",
-				"з вашої панелі швидкого доступу.",
-				"",
-				"Деякі закляття стають",
-				"сильнішими, якщо їх чаклувати з",
-				"екіпірованої книги заклять."
+                "з вашої панелі швидкого доступу.",
+                "",
+                "Деякі закляття стають",
+                "сильнішими, якщо їх чаклувати з",
+                "екіпірованої книги заклять."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -202,26 +236,36 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[2],
-					[],
-					[],
-					[2],
-					[1,2]
-				],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[0,1]
-				]
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": []
-        },		
+        },
         "tutorial5e": {
             "sign": [
                 "Ці сувої знімають",
-				"прокляття з предметів.",
+                "прокляття з предметів.",
                 "Користуйтеся ними зі свого",
-				"інвентаря за допомогою$ .",
-				"$"
+                "інвентаря за допомогою$ .",
+                "$"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -231,36 +275,45 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[0],
-					[0,1]
-				],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[2],
-					[0]
-				]
+                    [
+                        2
+                    ],
+                    [
+                        0
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				},
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_cursed.png",
-					"sizex": 0,
-					"sizey": 0
-				}						
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_cursed.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
-		"tutorial5e_gamepad": {
+        "tutorial5e_gamepad": {
             "sign": [
                 "Ці сувої знімають",
-				"прокляття з предметів.",
+                "прокляття з предметів.",
                 "Користуйтеся ними зі свого",
-				"інвентаря за допомогою$ .",
-				"$"
+                "інвентаря за допомогою$ .",
+                "$"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -270,91 +323,110 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[0],
-					[0,1]
-				],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[2],
-					[0]
-				]
+                    [
+                        2
+                    ],
+                    [
+                        0
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				},
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_cursed.png",
-					"sizex": 0,
-					"sizey": 0
-				}						
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_cursed.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5f": {
             "sign": [
                 "Низькі магічні Навички можуть",
-				"зіпсувати ваші закляття.",
-				"",
-				"$",
-				"",
+                "зіпсувати ваші закляття.",
+                "",
+                "$",
+                "",
                 "Просто спробуйте ще раз!",
-				"Практика веде до досконалості."
+                "Практика веде до досконалості."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
-					"font_highlight_color": {
-						"r": 255,
-						"g": 64,
-						"b": 64,
-						"a": 255
-					},							
+                "font_highlight_color": {
+                    "r": 255,
+                    "g": 64,
+                    "b": 64,
+                    "a": 255
+                },
                 "horizontal_justify": "center",
                 "vertical_justify": "center",
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[0]
-				],
+                    [],
+                    [
+                        0
+                    ]
+                ],
                 "word_highlights2": [
-					[1,2],
-					[2],
-					[],
-					[],
-					[],
-					[1,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/fizzle.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/fizzle.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#images/ui/SkillSheet/Icons/Casting02_32.png",
-					"sizex": 0,
-					"sizey": 0
-				}			
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/SkillSheet/Icons/Casting02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5g": {
             "sign": [
                 "Підземелля приховує багато",
-				"таємниць. Деякі вимагають",
-				"певних умінь, щоб до них дістатися.",
-				"",
-				"Часто в них ховаються",
-				"великі нагороди."
+                "таємниць. Деякі вимагають",
+                "певних умінь, щоб до них дістатися.",
+                "",
+                "Часто в них ховаються",
+                "великі нагороди."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -365,24 +437,32 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0,2],
-					[],
-					[2],
-					[],
-					[0,1]
-				]
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial5h": {
             "sign": [
                 "Книги заклять, запам'ятовані",
-				"закляття, сувої та",
+                "закляття, сувої та",
                 "магічні посохи дають багато",
-				"способів для чарівників",
-				"вижити й підкорити",
-				"підземелля."
+                "способів для чарівників",
+                "вижити й підкорити",
+                "підземелля."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -393,24 +473,26 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[2]
-				]
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial5i": {
             "sign": [
                 "Книги заклять дозволяють вам",
-				"запам'ятовувати закляття.",
-				"",
-				"$",
-				"",
+                "запам'ятовувати закляття.",
+                "",
+                "$",
+                "",
                 "Користуйтеся книгами заклять у своєму",
-				"інвентарі за допомогою$ та [Читати]",
-				"щоб запам'ятати закляття."
+                "інвентарі за допомогою$ та [Читати]",
+                "щоб запам'ятати закляття."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -420,43 +502,57 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1],
-					[0,1,3],
-					[1]					
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[0],
-					[1,2]
-				]
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
         },
-		"tutorial5i_gamepad": {
+        "tutorial5i_gamepad": {
             "sign": [
                 "Книги заклять дозволяють вам",
-				"запам'ятовувати закляття.",
-				"",
-				"$",
-				"",
+                "запам'ятовувати закляття.",
+                "",
+                "$",
+                "",
                 "Користуйтеся книгами заклять у своєму",
-				"інвентарі за допомогою$ та [Читати]",
-				"щоб запам'ятати закляття."
+                "інвентарі за допомогою$ та [Читати]",
+                "щоб запам'ятати закляття."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -466,41 +562,55 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,1],
-					[0,1,3],
-					[1]					
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[0],
-					[1,2]
-				]
+                    [
+                        0
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
         },
         "tutorial5j": {
             "sign": [
-				"$",
+                "$",
                 "Магічні посохи заряджені",
-				"одним-єдиним видом",
+                "одним-єдиним видом",
                 "закляття, яким будь-який шукач пригод",
-				"може скористатися. Екіпіруйте їх і",
-				"чаруйте з них за допомогою$ ."
+                "може скористатися. Екіпіруйте їх і",
+                "чаруйте з них за допомогою$ ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -510,40 +620,48 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0,3]
-					
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0,
+                        3
+                    ]
+                ],
                 "word_highlights2": [
-					[],
-					[0,2],
-					[],
-					[2,3]
-				]
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ]
             },
-            "variables": [			
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_firestaff.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "input_glyph",
-					"value": "Атака"
-				}				
-			]
+            "variables": [
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_firestaff.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Атака"
+                }
+            ]
         },
         "tutorial5k": {
             "sign": [
                 "Шукачам пригод потрібно",
-				"розуміти магію, щоб",
-				"вижити в",
-				"підземеллях."
+                "розуміти магію, щоб",
+                "вижити в",
+                "підземеллях."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -554,23 +672,25 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[1]
-				]
+                    [],
+                    [
+                        1
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial5l": {
             "sign": [
                 "Деякі закляття потребують",
-				"більшого INT або вищої магічної",
-				"Навички для запам'ятовування.",
-				"",
-				"$ $",
-				"",
-				"Ви все одно можете чаклувати ці",
+                "більшого ІНТ або вищої магічної",
+                "Навички для запам'ятовування.",
+                "",
+                "$ $",
+                "",
+                "Ви все одно можете чаклувати ці",
                 "закляття, екіпірувавши",
-				"книгу."
+                "книгу."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -580,48 +700,58 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[2],
-					[1],
-					[2],
-					[],
-					[],
-					[],
-					[3]
-				]
+                    [
+                        2
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        3
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#images/ui/SkillSheet/Icons/Magic01.png",
-					"sizex": 0,
-					"sizey": 0
-				}							
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/SkillSheet/Icons/Magic01.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5m": {
             "sign": [
                 "Запам'ятовані закляття з'являються",
-				"у вашому списку магії та можуть",
-				"бути розміщені на панелі швидкого доступу.",
-				"$",
+                "у вашому списку магії та можуть",
+                "бути розміщені на панелі швидкого доступу.",
+                "$",
                 "Швидко відкрийте",
-				"список за допомогою$ і підготуйте",
+                "список за допомогою$ і підготуйте",
                 "закляття за допомогою$ ."
             ],
             "attributes": {
@@ -632,56 +762,72 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[1],
-					[1,3],
-					[1,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[0,1],
-					[2,3],
-					[],
-					[3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/magiclist_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/magiclist_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_readyspell.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "input_glyph",
-					"value": "Список Заклять"
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_readyspell.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Список Заклять"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                }
+            ]
         },
         "tutorial5m_gamepad": {
             "sign": [
                 "Запам'ятовані закляття з'являються",
-				"у вашому списку магії та",
-				"можуть бути розміщені для швидкого",
-				"використання на панелі швидкого доступу.",
-				"$",
+                "у вашому списку магії та",
+                "можуть бути розміщені для швидкого",
+                "використання на панелі швидкого доступу.",
+                "$",
                 "Відкрийте список з",
-				"інвентаря за допомогою$ і підготуйте",
+                "інвентаря за допомогою$ і підготуйте",
                 "закляття за допомогою$ ."
             ],
             "attributes": {
@@ -692,55 +838,71 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[2],
-					[1,3],
-					[1,2]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
                 "word_highlights2": [
-					[0,1],
-					[2,3],
-					[],
-					[3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/magiclist_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [],
+                    [
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/magiclist_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_readyspell.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuPageLeftAlt"
-				},
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				}				
-			]
-        },		
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_readyspell.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuPageLeftAlt"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                }
+            ]
+        },
         "tutorial5n": {
             "sign": [
                 "Накладіть підготоване",
-				"закляття за допомогою$.",
+                "закляття за допомогою$.",
                 "",
-				"Чаклування витрачає MP,",
-				"залежно від закляття."
+                "Чаклування витрачає MP,",
+                "залежно від закляття."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -750,41 +912,50 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0],
-					[1]
-				],
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[2],
-					[],
-					[],
-					[1,2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/cast_memorized.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/cast_memorized.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Накласти Закляття"
-				}			
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "Накласти Закляття"
+                }
+            ]
         },
         "tutorial5o": {
             "sign": [
                 "Натисніть$ на книгах заклять",
-				"у своєму інвентарі",
+                "у своєму інвентарі",
                 "і виберіть [Екіпірувати], щоб",
-				"узяти їх у руки.",
-				"",
-				"Чаклуйте з триманих",
-				"книг за допомогою$."
+                "узяти їх у руки.",
+                "",
+                "Чаклуйте з триманих",
+                "книг за допомогою$."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -794,36 +965,49 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0,2],
-					[],
-					[1,2],
-					[0],
-					[],
-					[0,2],
-					[1]
-				],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuRightClick"
-				},
-				{
-					"type": "input_glyph",
-					"value": "Захист"
-				}				
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuRightClick"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Захист"
+                }
+            ]
         },
-		"tutorial5o_gamepad": {
+        "tutorial5o_gamepad": {
             "sign": [
                 "Натисніть$ на книгах заклять",
-				"у своєму інвентарі",
+                "у своєму інвентарі",
                 "і виберіть [Екіпірувати], щоб",
-				"узяти їх у руки.",
-				"",
-				"Чаклуйте з триманих",
-				"книг за допомогою$."
+                "узяти їх у руки.",
+                "",
+                "Чаклуйте з триманих",
+                "книг за допомогою$."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -833,34 +1017,47 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0,2],
-					[],
-					[1,2],
-					[0],
-					[],
-					[0,2],
-					[1]
-				],
+                    [
+                        0,
+                        2
+                    ],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "MenuConfirm"
-				},
-				{
-					"type": "input_glyph",
-					"value": "Захист"
-				}				
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "MenuConfirm"
+                },
+                {
+                    "type": "input_glyph",
+                    "value": "Захист"
+                }
+            ]
         },
         "tutorial5p": {
             "sign": [
-				"$",
+                "$",
                 "Сувої можуть містити",
-				"особливу магію, яку",
-				"можна використати лише",
-				"один раз."
+                "особливу магію, яку",
+                "можна використати лише",
+                "один раз."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -871,29 +1068,35 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0],
-					[],
-					[3],
-					[1]
-				]
+                    [],
+                    [
+                        0
+                    ],
+                    [],
+                    [
+                        3
+                    ],
+                    [
+                        1
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial4/sign_scroll.png",
-					"sizex": 0,
-					"sizey": 0
-				}			
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial4/sign_scroll.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5q": {
             "sign": [
                 "Цю браму можна",
-				"відкрити лише закляттям",
-				"з екіпірованої книги.",
-				"",
-				"$ $"
+                "відкрити лише закляттям",
+                "з екіпірованої книги.",
+                "",
+                "$ $"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -904,40 +1107,45 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[3],
-					[],
-					[2,3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/open_mk.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/open_mk.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Захист"
-				},
-				{
-					"type": "зображення",
-					"value": "*#items/images/spells/opening.png",
-					"sizex": 0,
-					"sizey": 0
-				}				
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "Захист"
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/opening.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5q_gamepad": {
             "sign": [
                 "Цю браму можна",
-				"відкрити лише закляттям",
-				"з екіпірованої книги.",
-				"",
-				"$ $"
+                "відкрити лише закляттям",
+                "з екіпірованої книги.",
+                "",
+                "$ $"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -948,41 +1156,46 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[3],
-					[],
-					[2,3]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/open_gamepad.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        3
+                    ],
+                    [],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/open_gamepad.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Захист"
-				},
-				{
-					"type": "зображення",
-					"value": "*#items/images/spells/opening.png",
-					"sizex": 0,
-					"sizey": 0
-				}				
-			]
-        },		
+                {
+                    "type": "input_glyph",
+                    "value": "Захист"
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/opening.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        },
         "tutorial5r": {
             "sign": [
                 "Вам доведеться",
-				"думати швидко, щоб отримати",
-				"найбільшу користь від",
-				"своєї магії.",
-				"",
-				"Переконайтеся, що ви готові."
+                "думати швидко, щоб отримати",
+                "найбільшу користь від",
+                "своєї магії.",
+                "",
+                "Переконайтеся, що ви готові."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -993,17 +1206,20 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0,1]
-				]
+                    [],
+                    [
+                        0,
+                        1
+                    ]
+                ]
             },
             "variables": []
         },
         "tutorial5s": {
             "sign": [
                 "Активуйте цей магічний",
-				"портал за допомогою$, коли",
-				"будете готові до випробування."
+                "портал за допомогою$, коли",
+                "будете готові до випробування."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1013,26 +1229,30 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[0],
-					[1]
-				],
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
                 "word_highlights2": []
             },
             "variables": [
-				{
-					"type": "input_glyph",
-					"value": "Використати"
-				}				
-			]
+                {
+                    "type": "input_glyph",
+                    "value": "Використати"
+                }
+            ]
         },
         "tutorial5t": {
             "sign": [
                 "Капелюхи чарівника можуть підвищити",
-				"ваш INT, що покращує",
-				"ваші магічні здібності.",
-				"$",
+                "ваш ІНТ, що покращує",
+                "ваші магічні здібності.",
+                "$",
                 "Благословенний капелюх чарівника",
-				"ще більше додасть до INT."
+                "ще більше додасть до ІНТ."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1043,32 +1263,42 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[1],
-					[1,2],
-					[],
-					[1],
-					[4,5]
-				]
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        1
+                    ],
+                    [
+                        4,
+                        5
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_wizardhat.png",
-					"sizex": 0,
-					"sizey": 0
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_wizardhat.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5u": {
             "sign": [
                 "Левітація",
-				"",
-				"$ ",
-				"",
-				"Дозволяє шукачам пригод",
-				"перетинати рідину",
-				"та ями без перешкод"
+                "",
+                "$ ",
+                "",
+                "Дозволяє шукачам пригод",
+                "перетинати рідину",
+                "та ями без перешкод"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1079,31 +1309,37 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[1,2],
-					[1,2]
-				]
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#items/images/spells/levitation.png",
-					"sizex": 0,
-					"sizey": 0
-				}			
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/levitation.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5v": {
             "sign": [
-				"Сувій Підзарядки",
-				"$ ",
+                "Сувій Підзарядки",
+                "$ ",
                 "Магічні посохи можна",
-				"підзарядити за допомогою",
-				"цього сувою."
+                "підзарядити за допомогою",
+                "цього сувою."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1114,32 +1350,36 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[0],
-					[1],
-					[]
-				]
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    []
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_recharge.png",
-					"sizex": 0,
-					"sizey": 0
-				}				
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_recharge.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5w": {
             "sign": [
                 "Підтримувані закляття лишаються",
-				"активними після накладання й",
-				"продовжують виснажувати MP.",
-				"",
-				"$",
-				"",
-				"Накладіть підтримувані закляття знову,",
-				"щоб вимкнути їх."
+                "активними після накладання й",
+                "продовжують виснажувати MP.",
+                "",
+                "$",
+                "",
+                "Накладіть підтримувані закляття знову,",
+                "щоб вимкнути їх."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1149,49 +1389,62 @@
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
                 "word_highlights": [
-					[],
-					[],
-					[],
-					[],
-					[],
-					[],
-					[0],
-					[0,1]
-				],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
                 "word_highlights2": [
-					[0,1],
-					[0],
-					[2,3]				
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/sustained.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0
+                    ],
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/sustained.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#items/images/spells/light.png",
-					"sizex": 0,
-					"sizey": 0
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/light.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5x": {
             "sign": [
                 "Сон",
-				"",
-				"$ ",
-				"",
-				"Присипляє ціль",
-				"на короткий сон.",
-				"Сплячі цілі",
-				"прокинуться, якщо їм зашкодити."
+                "",
+                "$ ",
+                "",
+                "Присипляє ціль",
+                "на короткий сон.",
+                "Сплячі цілі",
+                "прокинуться, якщо їм зашкодити."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1202,42 +1455,48 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[2],
-					[4],
-					[],
-					[2]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/sleep.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        4
+                    ],
+                    [],
+                    [
+                        2
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/sleep.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#items/images/spells/sleep.png",
-					"sizex": 0,
-					"sizey": 0
-				}			
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/sleep.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5y": {
             "sign": [
                 "$$",
-				"MP повільно відновлюються",
-				"з часом (RGN), або ж ви",
+                "MP повільно відновлюються",
+                "з часом (РГН), або ж ви",
                 "можете знайти зілля",
-				"відновлення магії, щоб",
-				"миттєво поповнити MP."
+                "відновлення магії, щоб",
+                "миттєво поповнити MP."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1248,37 +1507,49 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0,1],
-					[2],
-					[],
-					[0,1],
-					[0,1,2]
-				]
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_restoremp.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
-					"sizex": 0,
-					"sizey": 0
-				}		
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_restoremp.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5z": {
             "sign": [
                 "Холод",
-				"",
-				"$ ",
-				"",
-				"Завдає шкоди та",
-				"сповільнює цілі"
+                "",
+                "$ ",
+                "",
+                "Завдає шкоди та",
+                "сповільнює цілі"
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1289,43 +1560,47 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[],
-					[],
-					[],
-					[0],
-					[0]
-				],
-				"video": {
-					"background_img": "data/scripts/video_frame_half_noalpha.png",
-					"background_border": 8,
-					"path": "data/scripts/tutorial5/cold.ogv",
-					"x": 0,
-					"y": 0,
-					"w": 0,
-					"h": 0
-				}
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0
+                    ]
+                ],
+                "video": {
+                    "background_img": "data/scripts/video_frame_half_noalpha.png",
+                    "background_border": 8,
+                    "path": "data/scripts/tutorial5/cold.ogv",
+                    "x": 0,
+                    "y": 0,
+                    "w": 0,
+                    "h": 0
+                }
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#items/images/spells/cold.png",
-					"sizex": 0,
-					"sizey": 0
-				}					
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#items/images/spells/cold.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5aa": {
             "sign": [
                 "$ $ $",
-				"Чаклунство, Тауматургія",
-				"та Містицизм — це",
+                "Чаклунство, Тауматургія",
+                "та Містицизм — це",
                 "три школи, що",
-				"визначають магічну Навичку.",
-				"",
-				"Кожна має власний",
-				"набір Заклять",
-				"і Магічних Предметів."
+                "визначають магічну Навичку.",
+                "",
+                "Кожна має власний",
+                "набір Заклять",
+                "і Магічних Предметів."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1336,48 +1611,60 @@
                 "inline_img_adjust_x": 0,
                 "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[0,1],
-					[1],
-					[],
-					[2],
-					[],
-					[],
-					[2],
-					[1,2]
-				]
+                    [],
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1
+                    ],
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_sorcery.png",
-					"sizex": 0,
-					"sizey": 0
-				},
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_thaumaturgy.png",
-					"sizex": 0,
-					"sizey": 0
-				},				
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_mysticism.png",
-					"sizex": 0,
-					"sizey": 0
-				}		
-			]
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_sorcery.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_thaumaturgy.png",
+                    "sizex": 0,
+                    "sizey": 0
+                },
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_mysticism.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
         },
         "tutorial5ab": {
             "sign": [
                 "$",
-				"Закляття позначені так, щоб",
-				"було видно, чи може чаклун",
+                "Закляття позначені так, щоб",
+                "було видно, чи може чаклун",
                 "отримати з них Навичку.",
-				"",
-				"Накладайте практичні закляття,",
-				"які випробовують ваші",
-				"Навички, щоб розвиватися."
+                "",
+                "Накладайте практичні закляття,",
+                "які випробовують ваші",
+                "Навички, щоб розвиватися."
             ],
             "attributes": {
                 "font": "fonts/pixelmix.ttf#16#2",
@@ -1386,28 +1673,33 @@
                 "line_padding": 0,
                 "top_padding": 0,
                 "inline_img_adjust_x": 0,
-                "word_highlights": [
-			
-				],
+                "word_highlights": [],
                 "word_highlights2": [
-					[],
-					[2],
-					[],
-					[],
-					[],
-					[1,2],
-					[],
-					[2]
-				]
+                    [],
+                    [
+                        2
+                    ],
+                    [],
+                    [],
+                    [],
+                    [
+                        1,
+                        2
+                    ],
+                    [],
+                    [
+                        2
+                    ]
+                ]
             },
             "variables": [
-				{
-					"type": "зображення",
-					"value": "*#data/scripts/tutorial5/sign_spell_training.png",
-					"sizex": 0,
-					"sizey": 0
-				}	
-			]
-        }		
+                {
+                    "type": "зображення",
+                    "value": "*#data/scripts/tutorial5/sign_spell_training.png",
+                    "sizex": 0,
+                    "sizey": 0
+                }
+            ]
+        }
     }
 }

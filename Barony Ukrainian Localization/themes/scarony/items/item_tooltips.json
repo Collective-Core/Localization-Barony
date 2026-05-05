@@ -1,12 +1,12 @@
 {
-	"version": 1,
-	"adjectives": {
-		"food_status": {
-			"broken": "З лезами",
-			"decrepit": "Прострочений",
-			"worn": "Черствий",
-			"serviceable": "Трохи черствий",
-			"excellent": "Свіжий"
-		}
-	}
+    "version": 1,
+    "adjectives": {
+        "food_status": {
+            "broken": "З лезами",
+            "decrepit": "Прострочена",
+            "worn": "Черства",
+            "serviceable": "Трохи черства",
+            "excellent": "Свіжа"
+        }
+    }
 }

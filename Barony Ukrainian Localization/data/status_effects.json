@@ -1,1506 +1,1653 @@
 {
-	"version": 1,
-	"colors": {
-		"notification_text": {
-			"r": 255,
-			"g": 255,
-			"b": 255,
-			"a": 255
-		},
-		"tooltip_heading_text": {
-			"r": 67,
-			"g": 195,
-			"b": 157,
-			"a": 255
-		},
-		"tooltip_desc_text": {
-			"r": 188,
-			"g": 154,
-			"b": 114,
-			"a": 255
-		}
-	},
-	"notification_font": "fonts/pixelmix.ttf#16#2",
-	"default_tooltip_width": 200,
-	"sustained_effects": {
-		"SUSTAIN_LIGHT": {
-			"id": -1,
-			"spell_id": 7,
-			"internal_name": "SUSTAIN_LIGHT",
-			"name": "Світло",
-			"desc": "Підтримання магічного джерела світла",
-			"img_path": "",
-			"img_from_spell_id": 7
-		},
-		"SUSTAIN_SHADE": {
-			"id": -1,
-			"spell_id": 127,
-			"internal_name": "SUSTAIN_SHADE",
-			"name": "Глибока Тінь",
-			"desc": "Підтримання магічного джерела тіні",
-			"img_path": "",
-			"img_from_spell_id": 127
-		},
-		"EFF_SHADOW_TAGGED": {
-			"id": 34,
-			"spell_id": 45,
-			"internal_name": "EFF_SHADOW_TAGGED",
-			"name": ["Таємна Мітка\n(Активна на %s)", "Таємна Мітка (Активна на %s)", "Таємна Мітка (Невідома ціль)"],
-			"desc": "Нівелює расові опори/слабкості цілі до шкоди\nЗакляття телепортації переналаштовуються на ціль",
-			"img_path": "",
-			"img_from_spell_id": 45
-		}
-	},
-	"effects": {
-		"EFF_HUNGER": {
-			"id": -2,
-			"internal_name": "EFF_HUNGER",
-			"name": ["Переїдання!", "Голод", "Сильний Голод", "Виснаження!"],
-			"desc": [
-			"Наслідки переїдання:\n- Сила\n- Спритність", 
-			"Якщо не їсти, настануть негативні ефекти", 
-			"Наслідки нестачі їжі:\n- Сила\n- Спритність", 
-			"Наслідки нестачі їжі:\n- Відновлення HP вимкнено\n- Ви отримуєте % від макс. HP з часом\n- Сила\n- Спритність\n- Інтелект\n- Сприйняття"],
-			"img_path": ["*images/ui/HUD/HUD_Hunger_01A.png", "*images/ui/HUD/HUD_Hunger_01B.png", "*images/ui/HUD/HUD_Hunger_01C.png", "*images/ui/HUD/HUD_Hunger_01D.png"],
-			"img_from_spell_id": -1,
-			"tooltip_width": 250
-		},
-		"EFF_BLOOD_HUNGER": {
-			"id": -3,
-			"internal_name": "EFF_HUNGER",
-			"name": ["Переїдання!", "Голод", "Сильний Голод", "Виснаження!"],
-			"desc": ["Наслідки переїдання:\n- Сила\n- Спритність", "Якщо не їсти, настануть негативні ефекти", "Наслідки нестачі їжі:\n- Сила\n- Спритність", "Наслідки нестачі їжі, отримання шкоди з часом:\n- Сила\n- Спритність\n- Інтелект\n- Сприйняття"],
-			"img_path": ["*images/ui/HUD/HUD_Hunger_Blood_00A.png", "*images/ui/HUD/HUD_Hunger_Blood_00B.png", "*images/ui/HUD/HUD_Hunger_Blood_00C.png", "*images/ui/HUD/HUD_Hunger_Blood_00D.png"],
-			"img_from_spell_id": -1
-		},
-		"EFF_AUTOMATON_HUNGER": {
-			"id": -4,
-			"internal_name": "EFF_AUTOMATON_HUNGER",
-			"name": ["Стан Котла:\nПЕРЕГРІВ", "Стан Котла:\nНОРМА", "Стан Котла:\nКРИТИЧНО НИЗЬКИЙ", "Стан Котла: ПЕРЕГРІВ", "Стан Котла: НОРМА", "Стан Котла: КРИТИЧНО НИЗЬКИЙ"],
-			"desc": ["Виробляє HT на 200% від номінальної швидкості, до 400%, якщо HT нижче 50% місткості\nЗнижена Спритність, коли HT нижче 25% місткості", "Стабільно виробляє HT\nЗнижена Спритність, коли HT нижче 25% місткості", "Швидко втрачає HT через порожній котел, при 0 HT можливий збій модуля\nЗнижена Спритність, коли HT нижче 25% місткості\n- Сила\n- Сприйняття", "Швидко втрачає HT через порожній котел, при 0 HT можливий збій модуля\nЗнижена Спритність, коли HT нижче 25% місткості"],
-			"img_path": ["*images/system/Hunger_boiler.png", "*images/system/Hunger_boiler.png", "*images/system/Hunger_boiler.png"],
-			"img_from_spell_id": -1
-		},
-		"EFF_WANTED": {
-			"id": -5,
-			"internal_name": "EFF_WANTED",
-			"name": "Розшукується!",
-			"desc": ["Оголошено ворогом Гільдії Торговців за такі %s злочини:","Убивство", "Підбурювання до насильства", "Співучасть у насильстві", "Заборонене закриття обличчя"],
-			"img_path": "*images/ui/HUD/statusfx/redhanded.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 270
-		},
-		"EFF_WANTED_IN_SHOP": {
-			"id": -6,
-			"internal_name": "EFF_WANTED",
-			"name": "Розшукується!\n(Порушення меж)",
-			"desc": ["Оголошено ворогом Гільдії Торговців за такі %s злочини:","Убивство", "Підбурювання до насильства", "Співучасть у насильстві", "Заборонене закриття обличчя"],
-			"img_path": "*images/ui/HUD/statusfx/redhanded.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 270
-		},
-		"EFF_BURNING": {
-			"id": -7,
-			"internal_name": "EFF_BURNING",
-			"name": "Горіння",
-			"desc": "Отримання шкоди з часом",
-			"img_path": "*images/ui/HUD/statusfx/burning.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_FREEACTION": {
-			"id": -8,
-			"internal_name": "EFF_FREEACTION",
-			"name": "Вільна Дія",
-			"desc": "Лікує [Sleep], [Slow], [Paralyze]",
-			"img_path": "*images/ui/HUD/statusfx/freeaction.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 200
-		},
-		"EFF_LESSERWARNING": {
-			"id": -9,
-			"internal_name": "EFF_LESSERWARNING",
-			"name": "Слабке Попередження",
-			"desc": "Відкриває місцеположення рухомих монстрів на мапі",
-			"img_path": "*images/ui/HUD/statusfx/lesserwarning.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 240
-		},
-		"EFF_HPOFF": {
-			"id": -10,
-			"internal_name": "EFF_HPOFF",
-			"name": "Виродження",
-			"desc": [
-			"Базове відновлення HP вимкнено",
-			"Базове відновлення HP вимкнено, бо голод вимкнений у налаштуваннях гри\nВідновлюйте HP їжею та зіллями/закляттями"],
-			"img_path": "*images/ui/HUD/statusfx/regen_hpoff.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 260
-		},
-		"EFF_RESISTFIRE": {
-			"id": -11,
-			"internal_name": "EFF_RESISTFIRE",
-			"name": "Опір Горінню",
-			"desc": "Імунітет до [Burning]",
-			"img_path": "*images/ui/HUD/statusfx/resist_fire.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 200
-		},
-		"EFF_RESISTPOISON": {
-			"id": -12,
-			"internal_name": "EFF_RESISTPOISON",
-			"name": "Опір Отруті",
-			"desc": "Лікує [Poison]\nОпір закляттям Отрути й Кислоти",
-			"img_path": "*images/ui/HUD/statusfx/resist_poison.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 220
-		},
-		"EFF_SLOWDIGESTION": {
-			"id": -13,
-			"internal_name": "EFF_SLOWDIGESTION",
-			"name": "Повільне Травлення",
-			"desc": "Підвищене насичення від їжі та відкладене голодування",
-			"img_path": "*images/ui/HUD/statusfx/slowdigestion.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 230
-		},
-		"EFF_STRANGULATION": {
-			"id": -14,
-			"internal_name": "EFF_STRANGULATION",
-			"name": "Удушення!",
-			"desc": "Отримання шкоди з часом\nНеможливо пити чи їсти",
-			"img_path": "*images/ui/HUD/statusfx/strangulation.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 220
-		},
-		"EFF_WARNING": {
-			"id": -15,
-			"internal_name": "EFF_WARNING",
-			"name": "Попередження",
-			"desc": "Відкриває місцеположення монстрів на мапі",
-			"img_path": "*images/ui/HUD/statusfx/warning.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 200
-		},
-		"EFF_WATERBREATHING": {
-			"id": -16,
-			"internal_name": "EFF_WATERBREATHING",
-			"name": "Дихання Під Водою",
-			"desc": "Швидкість руху у воді не обмежується",
-			"img_path": "*images/ui/HUD/statusfx/waterbreathing.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 200
-		},
-		"EFF_CONFLICT": {
-			"id": -17,
-			"internal_name": "EFF_CONFLICT",
-			"name": "Конфлікт",
-			"desc": "Підбурює найближчих монстрів атакувати все, що вони бачать",
-			"img_path": "*images/ui/HUD/statusfx/conflict.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 240
-		},
-		"EFF_WATERWALKING": {
-			"id": -18,
-			"internal_name": "EFF_WATERWALKING",
-			"name": "Ходіння По Воді",
-			"desc": "Дозволяє парити над водою та лавою",
-			"img_path": "*images/ui/HUD/statusfx/waterwalking.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 200
-		},
-		"EFF_LIFESAVING": {
-			"id": -19,
-			"internal_name": "EFF_LIFESAVING",
-			"name": "Порятунок Життя",
-			"desc": "Воскресіння після смерті",
-			"img_path": "*images/ui/HUD/statusfx/lifesaving.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 160
-		},
-		"EFF_PUSH": {
-			"id": -20,
-			"internal_name": "EFF_PUSH",
-			"name": "Поштовх",
-			"desc": "Дає змогу рухати валуни",
-			"img_path": "*images/ui/HUD/statusfx/push.png",
-			"tooltip_width": 232,
-			"img_from_spell_id": -1
-		},
-		"EFF_SNEAK": {
-			"id": -21,
-			"internal_name": "EFF_SNEAK",
-			"name": "Скритність",
-			"desc": "Зменшена дальність виявлення",
-			"img_path": "*images/ui/HUD/statusfx/sneak.png",
-			"tooltip_width": 200,
-			"img_from_spell_id": -1
-		},
-		"EFF_DRUNK_GOATMAN": {
-			"id": -22,
-			"internal_name": "EFF_DRUNK_GOATMAN",
-			"name": "П'яний (Козлолюд)",
-			"desc": "+ Сила\n+ Витривалість\n+ 20% Опір Шкоді\n- Спритність\n- Інтелект",
-			"img_path": "*images/ui/HUD/statusfx/drunk.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 212
-		},
-		"EFF_BOUNTY_TARGET": {
-			"id": -23,
-			"internal_name": "EFF_BOUNTY_TARGET",
-			"name": ["Ціль Нагороди\n(Активна)", "Ціль Нагороди (Активна)"],
-			"desc": "Отримуйте бонусне золото, вбиваючи свою позначену ціль нагороди",
-			"img_path": "*images/ui/HUD/statusfx/targeting.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 212
-		},
-		"EFF_INSPIRATION": {
-			"id": -24,
-			"internal_name": "EFF_INSPIRATION",
-			"name": "Натхнення",
-			"desc": "Союзні гравці й послідовники отримують більше XP, коли їхній рівень нижчий за ваш",
-			"img_path": "*images/ui/HUD/statusfx/inspiration.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 250
-		},
-		"EFF_RELATIATION": {
-			"id": -25,
-			"internal_name": "EFF_RELATIATION",
-			"name": "Відплата",
-			"desc": "Завдає шкоди атакувальникам у ближньому бою при отриманні шкоди",
-			"img_path": "*images/ui/HUD/statusfx/thorns.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 260
-		},
-		"EFF_ASSISTANCE": {
-			"id": -26,
-			"internal_name": "EFF_ASSISTANCE",
-			"name": "Допомога",
-			"desc": [
-				"Заявлено один або більше предметів допомоги", 
-				"%d очк. допомоги (Особисто)",
-				"%d очк. допомоги (Усього для групи)",
-				"%d%% штрафу до рахунку"
-			],
-			"img_path": "*images/ui/HUD/statusfx/assistance.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 300
-		},
-		"EFF_STABILITY": {
-			"id": -27,
-			"internal_name": "EFF_STABILITY",
-			"name": "Стійкість",
-			"desc": "Зменшує ефекти відкидання та слизької поверхні",
-			"img_path": "*images/ui/HUD/statusfx/stability.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 260
-		},
-		"EFF_VANDALISE": {
-			"id": -28,
-			"internal_name": "EFF_VANDALISE",
-			"name": ["Вандал", "Вандал (Ранг I)", "Вандал (Ранг II)", "Вандал (Ранг III)", "Вандал (Ранг IV)"],
-			"desc": ["Ефекти посилюються, що більше об'єктів ви руйнуєте\nЕфекти скидаються на кожному поверсі\nОтримання нового рангу дає бонус MP",
-					 "%+d бонусу до шкоди в ближньому бою",
-					 "%+d%% швидкості руху",
-					 "%+d%% швидкості чаклування"],
-			"img_path": "*images/ui/HUD/statusfx/vandal.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 320
-		},
-		"EFF_OVERCHARGE_COUNT": {
-			"id": -29,
-			"internal_name": "EFF_OVERCHARGE_COUNT",
-			"name": "Перезаряд",
-			"desc": "Наступне застосоване запам'ятоване закляття залишатиметься зарядженим для кількох послідовних застосувань\nПослідовні застосування витрачатимуть HP, якщо MP закінчиться\nСкасування зарядженого закляття розвіює ефект",
-			"img_path": "",
-			"img_from_spell_id": 100,
-			"tooltip_width": 260
-		},
-		"EFF_WEALTH": {
-			"id": -30,
-			"internal_name": "EFF_WEALTH",
-			"name": ["Багатство", "Багатство (Ранг I)", "Багатство (Ранг II)", "Багатство (Ранг III)", "Багатство (Ранг IV)"],
-			"desc": [
-				"+%d%% шансу отримати +1 MP під час відновлення MP", 
-				"Ефект посилюється залежно від кількості золота, яке ви несете"],
-			"img_path": ["*images/ui/HUD/statusfx/wealth.png", "*images/ui/HUD/statusfx/wealth2.png", "*images/ui/HUD/statusfx/wealth3.png", "*images/ui/HUD/statusfx/wealth4.png"],
-			"img_from_spell_id": -1,
-			"tooltip_width": 240
-		},
-		"EFF_ASLEEP": {
-			"id": 0,
-			"internal_name": "EFF_ASLEEP",
-			"name": "Сон",
-			"desc": "Неможливо рухатись або бачити",
-			"img_path": "",
-			"img_from_spell_id": 10
-		},
-		"EFF_POISONED": {
-			"id": 1,
-			"internal_name": "EFF_POISONED",
-			"name": "Отруєння",
-			"desc": "Отримання шкоди з часом",
-			"img_path": "*images/ui/HUD/statusfx/poisoned.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_STUNNED": {
-			"id": 2,
-			"internal_name": "EFF_STUNNED",
-			"name": "",
-			"desc": "",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"never_display": true
-		},
-		"EFF_CONFUSED": {
-			"id": 3,
-			"internal_name": "EFF_CONFUSED",
-			"name": "Сплутаність",
-			"desc": "Рух інвертовано",
-			"img_path": "",
-			"img_from_spell_id": 11
-		},
-		"EFF_DRUNK": {
-			"id": 4,
-			"internal_name": "EFF_DRUNK",
-			"name": "П'яний",
-			"desc": "+ Сила\n- Спритність",
-			"img_path": "*images/ui/HUD/statusfx/drunk.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_INVISIBLE": {
-			"id": 5,
-			"internal_name": "EFF_INVISIBLE",
-			"name": "Невидимість",
-			"desc": "Вороги не можуть виявити вас поза межами ближнього бою",
-			"img_path": "",
-			"img_from_spell_id": 16,
-			"use_entry_for_sustained_spell": 16
-		},
-		"EFF_BLIND": {
-			"id": 6,
-			"internal_name": "EFF_BLIND",
-			"name": "Засліплення",
-			"desc": "Неможливо бачити",
-			"img_path": "*images/ui/HUD/statusfx/blind.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_GREASY": {
-			"id": 7,
-			"internal_name": "EFF_GREASY",
-			"name": "Жирність",
-			"desc": "Зброя в руках може вислизнути з хвату",
-			"img_path": "*images/ui/HUD/statusfx/grease.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_MESSY": {
-			"id": 8,
-			"internal_name": "EFF_MESSY",
-			"name": "Бруд",
-			"desc": "Неможливо бачити",
-			"img_path": "*images/ui/HUD/statusfx/messypie.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_FAST": {
-			"id": 9,
-			"internal_name": "EFF_FAST",
-			"name": "Швидкість",
-			"desc": "Підвищена Спритність і швидкість руху",
-			"img_path": "",
-			"img_from_spell_id": 39
-		},
-		"EFF_PARALYZED": {
-			"id": 10,
-			"internal_name": "EFF_PARALYZED",
-			"name": "Параліч",
-			"desc": "Неможливо рухатись або діяти",
-			"img_path": "*images/ui/HUD/statusfx/paralyze.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_LEVITATING": {
-			"id": 11,
-			"internal_name": "EFF_LEVITATING",
-			"name": "Левітація",
-			"desc": "Паріння над прірвами, водою та лавою",
-			"img_path": "",
-			"img_from_spell_id": 15,
-			"use_entry_for_sustained_spell": 15
-		},
-		"EFF_TELEPATH": {
-			"id": 12,
-			"internal_name": "EFF_TELEPATH",
-			"name": "Телепатія",
-			"desc": "Бачите монстрів крізь стіни",
-			"img_path": "*images/ui/HUD/statusfx/telepathy.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_VOMITING": {
-			"id": 13,
-			"internal_name": "EFF_VOMITING",
-			"name": "Блювання!",
-			"desc": "Наслідки розладу шлунка",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"never_display": true
-		},
-		"EFF_BLEEDING": {
-			"id": 14,
-			"internal_name": "EFF_BLEEDING",
-			"name": "Кровотеча",
-			"desc": "Отримання шкоди з часом",
-			"img_path": "*images/ui/HUD/statusfx/bleed.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_SLOW": {
-			"id": 15,
-			"internal_name": "EFF_SLOW",
-			"name": "Уповільнення",
-			"desc": "Знижена швидкість руху",
-			"img_path": "",
-			"img_from_spell_id": 12
-		},
-		"EFF_MAGICRESIST": {
-			"id": 16,
-			"internal_name": "EFF_MAGICRESIST",
-			"name": "Опір Магії",
-			"desc": "+1 до Опору Магії",
-			"img_path": "*images/ui/HUD/statusfx/resist_magic.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_MAGICREFLECT": {
-			"id": 17,
-			"internal_name": "EFF_MAGICREFLECT",
-			"name": "Відбиття Магії",
-			"desc": "Відбиває ворожі закляття",
-			"img_path": "",
-			"img_from_spell_id": 26,
-			"use_entry_for_sustained_spell": 26,
-			"tooltip_width": 220
-		},
-		"EFF_VAMPIRICAURA": {
-			"id": 18,
-			"internal_name": "EFF_VAMPIRICAURA",
-			"name": ["Вампірське Прокляття", "Вампірська Аура"],
-			"desc": ["+ Сила і Спритність\nПідвищена швидкість голодування\nПідвищений шанс накласти статус [bleed] без зброї\nШанс висмоктати життя при смертельних прихованих атаках без зброї", "+ Сила і Спритність\nПідвищена швидкість голодування\nПідвищений шанс накласти статус [bleed] без зброї\nШанс висмоктати життя при всіх атаках без зброї\nПриродне відновлення HP вимкнено"],
-			"img_path": "*images/ui/HUD/statusfx/bloodlust.png",
-			"img_from_spell_id": 30,
-			"use_entry_for_sustained_spell": 30,
-			"tooltip_width": 270
-		},
-		"EFF_SHRINE_RED_BUFF": {
-			"id": 19,
-			"internal_name": "EFF_SHRINE_RED_BUFF",
-			"name": "Баф Червоної Святині",
-			"desc": "+ Сила\n+ Витривалість",
-			"img_path": "*images/ui/HUD/statusfx/orb_red.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_SHRINE_GREEN_BUFF": {
-			"id": 20,
-			"internal_name": "EFF_SHRINE_GREEN_BUFF",
-			"name": "Баф Зеленої Святині",
-			"desc": "+ Спритність\n+ Сприйняття",
-			"img_path": "*images/ui/HUD/statusfx/orb_green.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_SHRINE_BLUE_BUFF": {
-			"id": 21,
-			"internal_name": "EFF_SHRINE_BLUE_BUFF",
-			"name": "Баф Синьої Святині",
-			"desc": "+ Інтелект\n+1 до Опору Магії",
-			"img_path": "*images/ui/HUD/statusfx/orb_blue.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_HP_REGEN": {
-			"id": 22,
-			"internal_name": "EFF_HP_REGEN",
-			"name": "Відновлення Здоров'я",
-			"desc": "+2 [HP Regen]",
-			"img_path": "*images/ui/HUD/statusfx/regen_hp.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_MP_REGEN": {
-			"id": 23,
-			"internal_name": "EFF_MP_REGEN",
-			"name": "Відновлення Мани",
-			"desc": "+2 [MP Regen]",
-			"img_path": "*images/ui/HUD/statusfx/regen_mp.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_PACIFY": {
-			"id": 24,
-			"internal_name": "EFF_PACIFY",
-			"name": "Умиротворення",
-			"desc": "Неможливо атакувати або добровільно рухатись",
-			"img_path": "",
-			"img_from_spell_id": 31
-		},
-		"EFF_POLYMORPH": {
-			"id": 25,
-			"internal_name": "EFF_POLYMORPH",
-			"name": "Поліморфія",
-			"desc": "Замаскований під іншого монстра",
-			"img_path": "",
-			"img_from_spell_id": 52
-		},
-		"EFF_KNOCKBACK": {
-			"id": 26,
-			"internal_name": "EFF_KNOCKBACK",
-			"name": "",
-			"desc": "",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"never_display": true
-		},
-		"EFF_WITHDRAWAL": {
-			"id": 27,
-			"internal_name": "EFF_WITHDRAWAL",
-			"name": "Похмілля",
-			"desc": "- Спритність\nЛікується сп'янінням",
-			"img_path": "*images/ui/HUD/statusfx/hungover.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_POTION_STR": {
-			"id": 28,
-			"internal_name": "EFF_POTION_STR",
-			"name": "Сила",
-			"desc": "+ Сила\n- Сприйняття",
-			"img_path": "*images/ui/HUD/statusfx/strengthbuff.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_SHAPESHIFT": {
-			"id": 29,
-			"internal_name": "EFF_SHAPESHIFT",
-			"name": ["Форма Щура", "Форма Членистоногого", "Форма Троля", "Форма Імпа"],
-			"desc": ["+ DEX/INT/PER\nШвидше плавання\nВищий шанс отримати DEX/INT при підвищенні рівня\n(Лише клас Шаман) Дає доступ до заклять [Detect Food] і [Speed]", "+ PER/STR/CON\nВищий шанс отримати PER/CON при підвищенні рівня\n(Лише клас Шаман) Дає доступ до заклять [Spray Web] і [Poison]", "+ STR/CON\n- DEX\nВищий шанс отримати STR/CON при підвищенні рівня\n(Лише клас Шаман) Дає доступ до заклять [Power Strike], [Fear] і [Troll's Blood]", "Дає левітацію\n+ INT/PER\nВищий шанс отримати CHR/INT при підвищенні рівня\n(Лише клас Шаман) Дає доступ до заклять [Lightning], [Confuse] і [Elemental Focus]"],
-			"img_path": "",
-			"img_from_spell_id": [33,34,35,36]
-		},
-		"EFF_WEBBED": {
-			"id": 30,
-			"internal_name": "EFF_WEBBED",
-			"name": "Обплутання Павутиною",
-			"desc": "Знижена швидкість руху\nВідкидає при отриманні ударів ближнього бою",
-			"img_path": "",
-			"img_from_spell_id": 37
-		},
-		"EFF_FEAR": {
-			"id": 31,
-			"internal_name": "EFF_FEAR",
-			"name": "Страх",
-			"desc": "Неможливо атакувати або добровільно рухатись",
-			"img_path": "",
-			"img_from_spell_id": 40
-		},
-		"EFF_MAGICAMPLIFY": {
-			"id": 32,
-			"internal_name": "EFF_MAGICAMPLIFY",
-			"name": "Стихійний Фокус",
-			"desc": "Підвищена шкода й менша дальність при застосуванні заклять [Fire], [Cold], [Lightning] або [Magic Missile]",
-			"img_path": "",
-			"img_from_spell_id": 44,
-			"tooltip_width": 300,
-			"use_entry_for_sustained_spell": 44
-		},
-		"EFF_DISORIENTED": {
-			"id": 33,
-			"internal_name": "EFF_DISORIENTED",
-			"name": "",
-			"desc": "",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"never_display": true
-		},
-		"EFF_SHADOW_TAGGED": {
-			"id": 34,
-			"internal_name": "EFF_SHADOW_TAGGED",
-			"name": "Позначений Таємною Міткою",
-			"desc": "Расові опори/слабкості до шкоди на вас нівельовано",
-			"img_path": "",
-			"img_from_spell_id": 45,
-			"tooltip_width": 210
-		},
-		"EFF_TROLLS_BLOOD": {
-			"id": 35,
-			"internal_name": "EFF_TROLLS_BLOOD",
-			"name": "Кров Троля",
-			"desc": "+1 [HP Regen]",
-			"img_path": "",
-			"img_from_spell_id": 48
-		},
-		"EFF_FLUTTER": {
-			"id": 36,
-			"internal_name": "EFF_FLUTTER",
-			"name": "Пурхання",
-			"desc": "Левітація на короткий час",
-			"img_path": "",
-			"img_from_spell_id": 50
-		},
-		"EFF_DASH": {
-			"id": 37,
-			"internal_name": "EFF_DASH",
-			"name": "",
-			"desc": "",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"never_display": true
-		},
-		"EFF_DISTRACTED_COOLDOWN": {
-			"id": 38,
-			"internal_name": "EFF_DISTRACTED_COOLDOWN",
-			"name": "",
-			"desc": "",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"never_display": true
-		},
-		"EFF_MIMIC_LOCKED": {
-			"id": 39,
-			"internal_name": "EFF_MIMIC_LOCKED",
-			"name": "",
-			"desc": "",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"never_display": true
-		},
-		"EFF_ROOTED": {
-			"id": 40,
-			"internal_name": "EFF_ROOTED",
-			"name": "Вкорінення",
-			"desc": "Неможливо рухатись",
-			"img_path": "*images/ui/HUD/statusfx/rooted.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_NAUSEA_PROTECTION": {
-			"id": 41,
-			"internal_name": "EFF_NAUSEA_PROTECTION",
-			"name": "Опір Нудоті",
-			"desc": "Імунітет до подій, що викликають блювання, як-от нетравлення, мисливські стріли або сп'яніння",
-			"img_path": "*images/ui/HUD/statusfx/resist_nausea.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 280
-		},
-		"EFF_CON_BONUS": {
-			"id": 42,
-			"internal_name": "EFF_CON_BONUS",
-			"name": "Стійкість",
-			"desc": "+ Витривалість\nЕфект посилюється, що менше у вас лишається HP",
-			"img_path": "*images/ui/HUD/statusfx/defensebuff.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_PWR": {
-			"id": 43,
-			"internal_name": "EFF_PWR",
-			"name": "Ментальність",
-			"desc": "+ Сила Заклять\nЕфект посилюється, що менше у вас лишається MP",
-			"img_path": "*images/ui/HUD/statusfx/powerbuff.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_AGILITY": {
-			"id": 44,
-			"internal_name": "EFF_AGILITY",
-			"name": "Спритність",
-			"desc": "+ Спритність\n+30% шансу ухилитися від фізичних і магічних атак",
-			"img_path": "*images/ui/HUD/statusfx/dexbuff.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_RALLY": {
-			"id": 45,
-			"internal_name": "EFF_RALLY",
-			"name": "Піднесення",
-			"desc": "+ Піднесений",
-			"img_path": "*images/ui/HUD/statusfx/rooted.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_MARIGOLD": {
-			"id": 46,
-			"internal_name": "EFF_MARIGOLD",
-			"name": "Нагідкове Зцілення",
-			"desc": "+ Відновлення HP з часом",
-			"img_path": "*images/ui/HUD/statusfx/growth.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 240
-		},
-		"EFF_ENSEMBLE_FLUTE": {
-			"id": 47,
-			"internal_name": "EFF_ENSEMBLE_FLUTE",
-			"name": ["Флейта (Ранг I)", "Флейта (Ранг II)", "Флейта (Ранг III)", "Флейта (Ранг IV)"],
-			"desc": [
-				"%+d DEX", 
-				"%+d%% швидкості критичного заряду"
-			],
-			"img_path": "*images/ui/HUD/statusfx/ensemble_flute.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 260
-		},
-		"EFF_ENSEMBLE_LYRE": {
-			"id": 48,
-			"internal_name": "EFF_ENSEMBLE_LYRE",
-			"name": ["Ліра (Ранг I)", "Ліра (Ранг II)", "Ліра (Ранг III)", "Ліра (Ранг IV)"],
-			"desc": [
-				"%+d PER", 
-				"%+d%% опору шкоді"
-			],
-			"img_path": "*images/ui/HUD/statusfx/ensemble_lyre.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 240
-		},
-		"EFF_ENSEMBLE_DRUM": {
-			"id": 49,
-			"internal_name": "EFF_ENSEMBLE_DRUM",
-			"name": ["Барабан (Ранг I)", "Барабан (Ранг II)", "Барабан (Ранг III)", "Барабан (Ранг IV)"],
-			"desc": [
-				"%+d STR", 
-				"%+d%% шансу пробити броню в ближньому бою"
-			],
-			"img_path": "*images/ui/HUD/statusfx/ensemble_drum.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 240
-		},
-		"EFF_ENSEMBLE_LUTE": {
-			"id": 50,
-			"internal_name": "EFF_ENSEMBLE_LUTE",
-			"name": ["Лютня (Ранг I)", "Лютня (Ранг II)", "Лютня (Ранг III)", "Лютня (Ранг IV)"],
-			"desc": [
-				"%+d%% PWR", 
-				"%+d%% ухилення"
-			],
-			"img_path": "*images/ui/HUD/statusfx/ensemble_lute.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 240
-		},
-		"EFF_ENSEMBLE_HORN": {
-			"id": 51,
-			"internal_name": "EFF_ENSEMBLE_HORN",
-			"name": ["Ріг (Ранг I)", "Ріг (Ранг II)", "Ріг (Ранг III)", "Ріг (Ранг IV)"],
-			"desc": [
-				"%+d CON", 
-				"%+d шкоди відплати по атакувальниках ближнього бою"
-			],
-			"img_path": "*images/ui/HUD/statusfx/ensemble_horn.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 240
-		},
-		"EFF_LIFT": {
-			"id": 52,
-			"internal_name": "EFF_LIFT",
-			"name": "Підіймання",
-			"desc": "Блокує рух.\nЗавдає шкоди після\nзавершення ефекту залежно від CON",
-			"img_path": "",
-			"img_from_spell_id": 185
-		},
-		"EFF_GUARD_SPIRIT": {
-			"id": 53,
-			"internal_name": "EFF_GUARD_SPIRIT",
-			"name": "Охорона Духа",
-			"desc": "+RES\nНакопичує заряди, доки активний.\nАтаки витрачають заряди.",
-			"img_path": "",
-			"img_from_spell_id": 71,
-			"use_entry_for_sustained_spell": 71
-		},
-		"EFF_GUARD_BODY": {
-			"id": 54,
-			"internal_name": "EFF_GUARD_BODY",
-			"name": "Охорона Тіла",
-			"desc": "+AC\nНакопичує заряди, доки активний\nАтаки витрачають заряди",
-			"img_path": "",
-			"img_from_spell_id": 70,
-			"use_entry_for_sustained_spell": 70
-		},
-		"EFF_DIVINE_GUARD": {
-			"id": 55,
-			"internal_name": "EFF_DIVINE_GUARD",
-			"name": "Божественна Охорона",
-			"desc": "+AC\n+RES\nНакопичує заряди, доки активний.\nАтаки витрачають заряди.",
-			"img_path": "",
-			"img_from_spell_id": 72,
-			"use_entry_for_sustained_spell": 72
-		},
-		"EFF_NIMBLENESS": {
-			"id": 56,
-			"internal_name": "EFF_NIMBLENESS",
-			"name": "Спритність Рухів",
-			"desc": "+DEX",
-			"img_path": "",
-			"img_from_spell_id": 73
-		},
-		"EFF_GREATER_MIGHT": {
-			"id": 57,
-			"internal_name": "EFF_GREATER_MIGHT",
-			"name": "Велика Міць",
-			"desc": "+STR\n+Натиснути",
-			"img_path": "",
-			"img_from_spell_id": 74
-		},
-		"EFF_COUNSEL": {
-			"id": 58,
-			"internal_name": "EFF_COUNSEL",
-			"name": "Настанова",
-			"desc": "+INT",
-			"img_path": "",
-			"img_from_spell_id": 75
-		},
-		"EFF_STURDINESS": {
-			"id": 59,
-			"internal_name": "EFF_STURDINESS",
-			"name": "Міцність",
-			"desc": "+CON",
-			"img_path": "",
-			"img_from_spell_id": 76
-		},
-		"EFF_BLESS_FOOD": {
-			"id": 60,
-			"internal_name": "EFF_BLESS_FOOD",
-			"name": "Благословенні Трапези",
-			"desc": "Надає [Nourished],\nколи їжа не зіпсована",
-			"img_path": "",
-			"img_from_spell_id": 77
-		},
-		"EFF_PINPOINT": {
-			"id": 61,
-			"internal_name": "EFF_PINPOINT",
-			"name": "Прицільність",
-			"desc": "Отримує додаткову шкоду, коли на ціль нападає заклинач.",
-			"img_path": "",
-			"img_from_spell_id": 78
-		},
-		"EFF_PENANCE": {
-			"id": 62,
-			"internal_name": "EFF_PENANCE",
-			"name": "Каяття",
-			"desc": "Дружній до заклинача.",
-			"img_path": "",
-			"img_from_spell_id": 84
-		},
-		"EFF_SACRED_PATH": {
-			"id": 63,
-			"internal_name": "EFF_SACRED_PATH",
-			"name": "Захист Від Пасток",
-			"desc": "Знижена шкода від пасток.",
-			"img_path": "",
-			"img_from_spell_id": 86
-		},
-		"EFF_DETECT_ENEMY": {
-			"id": 64,
-			"internal_name": "EFF_DETECT_ENEMY",
-			"name": "Виявлення Ворога",
-			"desc": "Виявлений ворожому заклиначеві.",
-			"img_path": "",
-			"img_from_spell_id": 88,
-			"never_display": true
-		},
-		"EFF_BLOOD_WARD": {
-			"id": 65,
-			"internal_name": "EFF_BLOOD_WARD",
-			"name": "Кривавий Захист",
-			"desc": "Отримує менше шкоди від отруйних\nстворінь і стихійних заклять\nІмунітет до [Poison / Bleed]",
-			"img_path": "",
-			"img_from_spell_id": 92,
-			"use_entry_for_sustained_spell": 92
-		},
-		"EFF_TRUE_BLOOD": {
-			"id": 66,
-			"internal_name": "EFF_TRUE_BLOOD",
-			"name": "Справжня Кров",
-			"desc": "Зменшує шкоду від жал.\nІмунітет до:n-Slow\n-Paralyze\n-Poison\n-Bleed",
-			"img_path": "",
-			"img_from_spell_id": 93
-		},
-		"EFF_DIVINE_ZEAL": {
-			"id": 67,
-			"internal_name": "EFF_DIVINE_ZEAL",
-			"name": "Божественне Завзяття",
-			"desc": "Фізичні атаки завдають додаткової шкоди Smite вразливим ворогам",
-			"img_path": "",
-			"img_from_spell_id": 94,
-			"use_entry_for_sustained_spell": 94
-		},
-		"EFF_MAXIMISE": {
-			"id": 68,
-			"internal_name": "EFF_MAXIMISE",
-			"name": "Максимізація",
-			"desc": "+STR\n+CON\n-DEX\nПідвищує отримуваний XP",
-			"img_path": "",
-			"img_from_spell_id": 96
-		},
-		"EFF_MINIMISE": {
-			"id": 69,
-			"internal_name": "EFF_MINIMISE",
-			"name": "Мінімізація",
-			"desc": "+DEX\n-STR\n-CON\nЗменшує отримуваний XP",
-			"img_path": "",
-			"img_from_spell_id": 97
-		},
-		"EFF_WEAKNESS": {
-			"id": 70,
-			"internal_name": "EFF_WEAKNESS",
-			"name": "Слабкість",
-			"desc": "Знижена ближня ATK",
-			"img_path": "",
-			"img_from_spell_id": 43
-		},
-		"EFF_INCOHERENCE": {
-			"id": 71,
-			"internal_name": "EFF_INCOHERENCE",
-			"name": "Безлад",
-			"desc": "Знижено PWR",
-			"img_path": "",
-			"img_from_spell_id": 99
-		},
-		"EFF_OVERCHARGE": {
-			"id": 72,
-			"internal_name": "EFF_OVERCHARGE",
-			"name": "Перезаряд",
-			"desc": "Накладає +PWR на:\n-Magicstaffs\n-Off-Hand Spellbooks\n-Magic Foci",
-			"img_path": "",
-			"img_from_spell_id": 100,
-			"use_entry_for_sustained_spell": 100
-		},
-		"EFF_ENVENOM_WEAPON": {
-			"id": 73,
-			"internal_name": "EFF_ENVENOM_WEAPON",
-			"name": "Отруєння Зброї",
-			"desc": "Атаки зброєю мають шанс\n завдати додаткової отруйної шкоди",
-			"img_path": "",
-			"img_from_spell_id": 101,
-			"use_entry_for_sustained_spell": 101
-		},
-		"EFF_MAGIC_GREASE": {
-			"id": 74,
-			"internal_name": "EFF_MAGIC_GREASE",
-			"name": "Слизькість",
-			"desc": "Знижений контроль над рухом",
-			"img_path": "",
-			"img_from_spell_id": 104
-		},
-		"EFF_COMMAND": {
-			"id": 75,
-			"internal_name": "EFF_COMMAND",
-			"name": "Примус",
-			"desc": "Змушує підкоритися одній команді",
-			"img_path": "",
-			"img_from_spell_id": 107
-		},
-		"EFF_MIMIC_VOID": {
-			"id": 76,
-			"internal_name": "EFF_MIMIC_VOID",
-			"name": "EFF_MIMIC_VOID",
-			"desc": "EFF_MIMIC_VOID",
-			"img_path": "",
-			"img_from_spell_id": 115
-		},
-		"EFF_CURSE_FLESH": {
-			"id": 77,
-			"internal_name": "EFF_CURSE_FLESH",
-			"name": "Проклята Плоть",
-			"desc": "При смерті породжує Череп Ревенанта.",
-			"img_path": "",
-			"img_from_spell_id": 121
-		},
-		"EFF_NUMBING_BOLT": {
-			"id": 78,
-			"internal_name": "EFF_NUMBING_BOLT",
-			"name": "Оніміння",
-			"desc": "Не відчуває наступного отриманого удару.",
-			"img_path": "",
-			"img_from_spell_id": 119
-		},
-		"EFF_DELAY_PAIN": {
-			"id": 79,
-			"internal_name": "EFF_DELAY_PAIN",
-			"name": "Невмирущість",
-			"desc": "Відтерміновує отриману шкоду",
-			"img_path": "",
-			"img_from_spell_id": 120
-		},
-		"EFF_SEEK_CREATURE": {
-			"id": 80,
-			"internal_name": "EFF_SEEK_CREATURE",
-			"name": "Шукати Іншого",
-			"desc": "Змушує шукати іншу істоту",
-			"img_path": "",
-			"img_from_spell_id": 126
-		},
-		"EFF_TABOO": {
-			"id": 81,
-			"internal_name": "EFF_TABOO",
-			"name": "Цап-Відбувайло",
-			"desc": "Робить усіх істот ворожими до вас",
-			"img_path": "",
-			"img_from_spell_id": 131
-		},
-		"EFF_COURAGE": {
-			"id": 82,
-			"internal_name": "EFF_COURAGE",
-			"name": "Відвага",
-			"desc": "+STR\n+CON",
-			"img_path": "",
-			"img_from_spell_id": 124
-		},
-		"EFF_COWARDICE": {
-			"id": 83,
-			"internal_name": "EFF_COWARDICE",
-			"name": "Боягузтво",
-			"desc": "-CON\n-STR",
-			"img_path": "",
-			"img_from_spell_id": 123
-		},
-		"EFF_SPORES": {
-			"id": 84,
-			"internal_name": "EFF_SPORES",
-			"name": "Спори",
-			"desc": "Випускає хмари спор при отриманні удару,\n-Накладає [Poison / Slow]",
-			"img_path": "",
-			"img_from_spell_id": 133,
-			"use_entry_for_sustained_spell": 133
-		},
-		"EFF_ABUNDANCE": {
-			"id": 85,
-			"internal_name": "EFF_ABUNDANCE",
-			"name": "Достаток",
-			"desc": "Їжа має шанс не витрачатися при споживанні",
-			"img_path": "",
-			"img_from_spell_id": 141,
-			"use_entry_for_sustained_spell": 141
-		},
-		"EFF_GREATER_ABUNDANCE": {
-			"id": 86,
-			"internal_name": "EFF_GREATER_ABUNDANCE",
-			"name": "Великий Достаток",
-			"desc": "Їжа та зілля мають шанс не витрачатися при споживанні",
-			"img_path": "",
-			"img_from_spell_id": 142,
-			"use_entry_for_sustained_spell": 142
-		},
-		"EFF_PRESERVE": {
-			"id": 87,
-			"internal_name": "EFF_PRESERVE",
-			"name": "Збереження",
-			"desc": "Запобігає зношенню спорядження ціною MP",
-			"img_path": "",
-			"img_from_spell_id": 143,
-			"use_entry_for_sustained_spell": 143
-		},
-		"EFF_MIST_FORM": {
-			"id": 88,
-			"internal_name": "EFF_MIST_FORM",
-			"name": "Туманна Форма",
-			"desc": "Дає змогу ухилятися від атак ціною MP.",
-			"img_path": "",
-			"img_from_spell_id": 147,
-			"use_entry_for_sustained_spell": 147
-		},
-		"EFF_FORCE_SHIELD": {
-			"id": 89,
-			"internal_name": "EFF_FORCE_SHIELD",
-			"name": "Кінетичний Щит",
-			"desc": "Додає AC предметам у другій руці",
-			"img_path": "",
-			"img_from_spell_id": 149,
-			"use_entry_for_sustained_spell": 149
-		},
-		"EFF_LIGHTEN_LOAD": {
-			"id": 90,
-			"internal_name": "EFF_LIGHTEN_LOAD",
-			"name": "Полегшення Тягаря",
-			"desc": "Зменшує штраф SPD від WGT інвентаря",
-			"img_path": "",
-			"img_from_spell_id": 152,
-			"use_entry_for_sustained_spell": 152
-		},
-		"EFF_ATTRACT_ITEMS": {
-			"id": 91,
-			"internal_name": "EFF_ATTRACT_ITEMS",
-			"name": "Притягання",
-			"desc": "Левітує і притягує найближчі предмети.",
-			"img_path": "",
-			"img_from_spell_id": 153,
-			"use_entry_for_sustained_spell": 153
-		},
-		"EFF_RETURN_ITEM": {
-			"id": 92,
-			"internal_name": "EFF_RETURN_ITEM",
-			"name": "Повернення",
-			"desc": "Метальна зброя повертається з підлоги ціною MP.",
-			"img_path": "",
-			"img_from_spell_id": 154,
-			"use_entry_for_sustained_spell": 154
-		},
-		"EFF_DEMESNE_DOOR": {
-			"id": 93,
-			"internal_name": "EFF_DEMESNE_DOOR",
-			"name": "Брама Володіння",
-			"desc": "+AC\n+ATK\n+PWR",
-			"img_path": "",
-			"img_from_spell_id": 159,
-			"use_entry_for_sustained_spell": 159
-		},
-		"EFF_REFLECTOR_SHIELD": {
-			"id": 94,
-			"internal_name": "EFF_REFLECTOR_SHIELD",
-			"name": "Відбивач",
-			"desc": "Предмети у другій руці відбивають магічні снаряди під час захисту.",
-			"img_path": "",
-			"img_from_spell_id": 150,
-			"use_entry_for_sustained_spell": 150
-		},
-		"EFF_DIZZY": {
-			"id": 95,
-			"internal_name": "EFF_DIZZY",
-			"name": "Запаморочення",
-			"desc": "Неконтрольовано крутить вас",
-			"img_path": "",
-			"img_from_spell_id": 150,
-			"use_entry_for_sustained_spell": 150
-		},
-		"EFF_SPIN": {
-			"id": 96,
-			"internal_name": "EFF_SPIN",
-			"name": "Обертання",
-			"desc": "Змушує вас повертатися у протилежний бік.",
-			"img_path": "",
-			"img_from_spell_id": 150,
-			"use_entry_for_sustained_spell": 150
-		},
-		"EFF_CRITICAL_SPELL": {
-			"id": 97,
-			"internal_name": "EFF_CRITICAL_SPELL",
-			"name": "Критичне Закляття",
-			"desc": "Наступне застосоване закляття залишається підготовленим зі зниженою вартістю MP",
-			"img_path": "",
-			"img_from_spell_id": 176,
-			"use_entry_for_sustained_spell": 176
-		},
-		"EFF_MAGIC_WELL": {
-			"id": 98,
-			"internal_name": "EFF_MAGIC_WELL",
-			"name": "Магічна Криниця",
-			"desc": "Збільшує PWR за кожну MP, витрачену під час дії ефекту.",
-			"img_path": "",
-			"img_from_spell_id": 177,
-			"use_entry_for_sustained_spell": 177
-		},
-		"EFF_STATIC": {
-			"id": 99,
-			"internal_name": "EFF_STATIC",
-			"name": "Статика",
-			"desc": "Отримує підвищену шкоду від стихійних заклять блискавки",
-			"img_path": "*images/ui/HUD/statusfx/static.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_ABSORB_MAGIC": {
-			"id": 100,
-			"internal_name": "EFF_ABSORB_MAGIC",
-			"name": "Поглинання Магії",
-			"desc": "Нівелює вхідні магічні снаряди\nКожне нівельоване закляття збільшує PWR наступного застосованого закляття",
-			"img_path": "",
-			"img_from_spell_id": 155,
-			"use_entry_for_sustained_spell": 155
-		},
-		"EFF_FLAME_CLOAK": {
-			"id": 101,
-			"internal_name": "EFF_FLAME_CLOAK",
-			"name": "Вогняний Плащ",
-			"desc": "Нівелює шкоду [Burning]\nСпалахує біля джерел вогню\nПідпалює ворогів при контакті",
-			"img_path": "",
-			"img_from_spell_id": 175,
-			"use_entry_for_sustained_spell": 175
-		},
-		"EFF_DUSTED": {
-			"id": 102,
-			"internal_name": "EFF_DUSTED",
-			"name": "Припорошений",
-			"desc": "Помітніший для ворогів\n- Сприйняття",
-			"img_path": "",
-			"img_from_spell_id": 198
-		},
-		"EFF_NOISE_VISIBILITY": {
-			"id": 103,
-			"internal_name": "EFF_NOISE_VISIBILITY",
-			"name": "",
-			"desc": "",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"never_display": true
-		},
-		"EFF_RATION_SPICY": {
-			"id": 104,
-			"internal_name": "EFF_RATION_SPICY",
-			"name": "Раціон (Пряний)",
-			"desc": "+4 Сила\n+4 Спритність",
-			"img_path": "*images/ui/HUD/statusfx/Ration_spicy.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_RATION_SOUR": {
-			"id": 105,
-			"internal_name": "EFF_RATION_SOUR",
-			"name": "Раціон (Кислий)",
-			"desc": "+4 Інтелект\n+25% Сили Заклять",
-			"img_path": "*images/ui/HUD/statusfx/Ration_sour.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_RATION_BITTER": {
-			"id": 106,
-			"internal_name": "EFF_RATION_BITTER",
-			"name": "Раціон (Гіркий)",
-			"desc": "+4 Витривалість\n+4 Сприйняття",
-			"img_path": "*images/ui/HUD/statusfx/Ration_bitter.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_RATION_HEARTY": {
-			"id": 107,
-			"internal_name": "EFF_RATION_HEARTY",
-			"name": "Раціон (Ситний)",
-			"desc": "+4 Сила\n+4 Витривалість",
-			"img_path": "*images/ui/HUD/statusfx/Ration_hearty.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_RATION_HERBAL": {
-			"id": 108,
-			"internal_name": "EFF_RATION_HERBAL",
-			"name": "Раціон (Трав'яний)",
-			"desc": "+4 Харизма\n+20% Опору Магії",
-			"img_path": "*images/ui/HUD/statusfx/Ration_herbal.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_RATION_SWEET": {
-			"id": 109,
-			"internal_name": "EFF_RATION_SWEET",
-			"name": "Раціон (Солодкий)",
-			"desc": "+1 [HP Regen]\n+1 [MP Regen]",
-			"img_path": "*images/ui/HUD/statusfx/Ration_sweet.png",
-			"img_from_spell_id": -1
-		},
-		"EFF_GROWTH": {
-			"id": 110,
-			"internal_name": "EFF_GROWTH",
-			"name": ["Ріст (Ранг I)", "Ріст (Ранг II)", "Ріст (Ранг III)"],
-			"desc": [
-				"Ріст розквітає при отриманні LVL і шансі % при поїданні гнилої їжі",
-				"Ріст розквітає при отриманні LVL і шансі % при питті води",
-				"Швидкість ефекту Спор підвищена",
-				"Спори також спрацьовують при отриманні магічної шкоди та дальніх атак",
-				"%+d AC / Шкода Отрути",
-				"%+d%% Фізичного Опору",
-				"%+d%% PWR",
-				"%+d%% MP RGN",
-				"%+d%% швидкості руху",
-				"%+d%% Швидкості накладеної Отрути",
-				"%+d%% Шкоди Проростання",
-				"%+d%% Отриманої Вогняної Шкоди"
-			],
-			"img_path": "*images/ui/HUD/statusfx/growth_dryad_green.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 320
-		},
-		"EFF_THORNS": {
-			"id": 111,
-			"internal_name": "EFF_THORNS",
-			"name": "Шипи",
-			"desc": "Відплачує атакувальникам ближнього бою",
-			"img_path": "",
-			"img_from_spell_id": 201,
-			"use_entry_for_sustained_spell": 201
-		},
-		"EFF_BLADEVINES": {
-			"id": 112,
-			"internal_name": "EFF_BLADEVINES",
-			"name": "Клинкові Лози",
-			"desc": "EFF_BLADEVINES",
-			"img_path": "",
-			"img_from_spell_id": 202,
-			"use_entry_for_sustained_spell": 202
-		},
-		"EFF_BASTION_MUSHROOM": {
-			"id": 113,
-			"internal_name": "EFF_BASTION_MUSHROOM",
-			"name": "Міцелій Бастіону",
-			"desc": "EFF_BASTION_MUSHROOM",
-			"img_path": "",
-			"img_from_spell_id": 203,
-			"use_entry_for_sustained_spell": 203
-		},
-		"EFF_BASTION_ROOTS": {
-			"id": 114,
-			"internal_name": "EFF_BASTION_ROOTS",
-			"name": "Корені Бастіону",
-			"desc": ["Уповільнення", "Корені успадковують Шипи й Клинкові Лози", "Приріст PWR +10 за кожен ріст"],
-			"img_path": "",
-			"img_from_spell_id": 204,
-			"use_entry_for_sustained_spell": 204
-		},
-		"EFF_FOCI_LIGHT_PEACE": {
-			"id": 115,
-			"internal_name": "EFF_FOCI_LIGHT_PEACE",
-			"name": "Мир",
-			"desc": "Відновлює HP з часом",
-			"img_path": "",
-			"img_from_spell_id": 210
-		},
-		"EFF_FOCI_LIGHT_JUSTICE": {
-			"id": 116,
-			"internal_name": "EFF_FOCI_LIGHT_JUSTICE",
-			"name": "Справедливість",
-			"desc": "Фізичні атаки завдають додаткової шкоди Smite.",
-			"img_path": "",
-			"img_from_spell_id": 211
-		},
-		"EFF_FOCI_LIGHT_PROVIDENCE": {
-			"id": 117,
-			"internal_name": "EFF_FOCI_LIGHT_PROVIDENCE",
-			"name": "Провидіння",
-			"desc": "Уповільнює голод",
-			"img_path": "",
-			"img_from_spell_id": 212
-		},
-		"EFF_FOCI_LIGHT_PURITY": {
-			"id": 118,
-			"internal_name": "EFF_FOCI_LIGHT_PURITY",
-			"name": "Чистота",
-			"desc": "Захищає від шкідливих статусних ефектів.",
-			"img_path": "",
-			"img_from_spell_id": 213
-		},
-		"EFF_FOCI_LIGHT_SANCTUARY": {
-			"id": 119,
-			"internal_name": "EFF_FOCI_LIGHT_SANCTUARY",
-			"name": "Святилище",
-			"desc": "Покращує AC",
-			"img_path": "",
-			"img_from_spell_id": 214
-		},
-		"EFF_STASIS": {
-			"id": 120,
-			"internal_name": "EFF_STASIS",
-			"name": "Стазис Порожнечі",
-			"desc": "Неможливо рухатись або діяти\nНеможливо отримувати шкоду",
-			"img_path": "",
-			"img_from_spell_id": 206
-		},
-		"EFF_HP_MP_REGEN": {
-			"id": 121,
-			"internal_name": "EFF_HP_MP_REGEN",
-			"name": "Нагодований",
-			"desc": "Відновлює HP/MP кожні 5с від споживання благословенної їжі\nЕфект зникає при нетравленні",
-			"img_path": "*images/ui/HUD/statusfx/nourished.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 260
-		},
-		"EFF_DISRUPTED": {
-			"id": 122,
-			"internal_name": "EFF_DISRUPTED",
-			"name": "Порушення",
-			"desc": "Знижені рух і AC",
-			"img_path": "",
-			"img_from_spell_id": 180
-		},
-		"EFF_FROST": {
-			"id": 123,
-			"internal_name": "EFF_FROST",
-			"name": "Обмороження",
-			"desc": "Знижений рух",
-			"img_path": "",
-			"img_from_spell_id": 68
-		},
-		"EFF_MAGICIANS_ARMOR": {
-			"id": 124,
-			"internal_name": "EFF_MAGICIANS_ARMOR",
-			"name": "Бульбашка Магів",
-			"desc": "Перехоплює всю шкоду від ворогів, доки залишаються заряди.",
-			"img_path": "",
-			"img_from_spell_id": 216
-		},
-		"EFF_PROJECT_SPIRIT": {
-			"id": 125,
-			"internal_name": "EFF_PROJECT_SPIRIT",
-			"name": "Пташиний Дух",
-			"desc": "Вселяється у форму примарної качки",
-			"img_path": "",
-			"img_from_spell_id": 217
-		},
-		"EFF_DEFY_FLESH": {
-			"id": 126,
-			"internal_name": "EFF_DEFY_FLESH",
-			"name": "Непокора Плоті",
-			"desc": "Отримує додаткову магічну шкоду при ударі",
-			"img_path": "",
-			"img_from_spell_id": 103
-		},
-		"EFF_PINPOINT_DAMAGE": {
-			"id": 127,
-			"internal_name": "EFF_PINPOINT_DAMAGE",
-			"name": "Прицільність",
-			"desc": "Отримує додаткову шкоду Smite при атаці заклинача.",
-			"img_path": "",
-			"img_from_spell_id": 78,
-			"never_display": true
-		},
-		"EFF_RADIANT_HEART": {
-			"id": 128,
-			"internal_name": "EFF_RADIANT_HEART",
-			"name": ["Сяйне Серце", "Сяйне Серце", "Кам'яне Серце", "Кам'яне Серце"],
-			"desc": [
-			"Розсіюється нижче 60% Завзяття (FR)\nЛевітація\n+PWR/-CON від CHR\n+25% Опору Вогню\nFR виснажується з часом", 
-			"Розсіюється нижче 60% Завзяття (FR)\nЗакляття за 0 MP\nПосилені ефекти Breathe Fire\nЛевітація\n+PWR/-CON від CHR\n+25% Опору Вогню\nFR виснажується з часом", 
-			"Розсіюється вище 40% Завзяття (FR)\n+STR/CON від CHR\n-DEX від CHR", 
-			"Розсіюється вище 40% Завзяття (FR)\nІмунітет до Шкоди\n+STR/CON від CHR\n-DEX від CHR"],
-			"img_path": ["*images/ui/HUD/statusfx/heart_radiant.png", "*images/ui/HUD/statusfx/heart_radiant_bonus.png", "*images/ui/HUD/statusfx/heart_stone.png", "*images/ui/HUD/statusfx/heart_stone_bonus.png"],
-			"img_from_spell_id": -1,
-			"tooltip_width": 300
-		},
-		"EFF_DIVINE_FIRE": {
-			"id": 129,
-			"internal_name": "EFF_DIVINE_FIRE",
-			"name": "Святий Вогонь",
-			"desc": "Отримувана шкода збільшена",
-			"img_path": "",
-			"img_from_spell_id": 219,
-			"tooltip_width": 260
-		},
-		"EFF_HEALING_WORD": {
-			"id": 130,
-			"internal_name": "EFF_HEALING_WORD",
-			"name": "Слово Зцілення",
-			"desc": "Молитва про зцілення\nЕфект втрачається при отриманні шкоди",
-			"img_path": "",
-			"img_from_spell_id": 220,
-			"tooltip_width": 260
-		},
-		"EFF_HOLY_FIRE": {
-			"id": 131,
-			"internal_name": "EFF_HOLY_FIRE",
-			"name": "Святий Вогонь",
-			"desc": "Горіння від надприродного джерела вогню",
-			"img_path": "",
-			"img_from_spell_id": -1,
-			"tooltip_width": 260,
-			"never_display": true
-		},
-		"EFF_SIGIL": {
-			"id": 132,
-			"internal_name": "EFF_SIGIL",
-			"name": "Сигіл",
-			"desc": "Отримує додаткове зцілення\nВороги отримують додаткову шкоду Smite",
-			"img_path": "",
-			"img_from_spell_id": 222,
-			"tooltip_width": 260
-		},
-		"EFF_SANCTUARY": {
-			"id": 133,
-			"internal_name": "EFF_SANCTUARY",
-			"name": "Святилище",
-			"desc": "Опір шкоді зростає з кожним рангом",
-			"img_path": "",
-			"img_from_spell_id": 223,
-			"tooltip_width": 260
-		},
-		"EFF_DUCKED": {
-			"id": 134,
-			"internal_name": "EFF_DUCKED",
-			"name": "EFF_DUCKED",
-			"desc": "EFF_DUCKED",
-			"img_path": "*images/ui/HUD/statusfx/ducked.png",
-			"img_from_spell_id": -1,
-			"tooltip_width": 260
-		}
-	}
+    "version": 1,
+    "colors": {
+        "notification_text": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+        },
+        "tooltip_heading_text": {
+            "r": 67,
+            "g": 195,
+            "b": 157,
+            "a": 255
+        },
+        "tooltip_desc_text": {
+            "r": 188,
+            "g": 154,
+            "b": 114,
+            "a": 255
+        }
+    },
+    "notification_font": "fonts/pixelmix.ttf#16#2",
+    "default_tooltip_width": 200,
+    "sustained_effects": {
+        "SUSTAIN_LIGHT": {
+            "id": -1,
+            "spell_id": 7,
+            "internal_name": "SUSTAIN_LIGHT",
+            "name": "Світло",
+            "desc": "Підтримання магічного джерела світла",
+            "img_path": "",
+            "img_from_spell_id": 7
+        },
+        "SUSTAIN_SHADE": {
+            "id": -1,
+            "spell_id": 127,
+            "internal_name": "SUSTAIN_SHADE",
+            "name": "Глибока Тінь",
+            "desc": "Підтримання магічного джерела тіні",
+            "img_path": "",
+            "img_from_spell_id": 127
+        },
+        "EFF_SHADOW_TAGGED": {
+            "id": 34,
+            "spell_id": 45,
+            "internal_name": "EFF_SHADOW_TAGGED",
+            "name": [
+                "Таємна Мітка\n(Активна на %s)",
+                "Таємна Мітка (Активна на %s)",
+                "Таємна Мітка (Невідома ціль)"
+            ],
+            "desc": "Нівелює расові опори/слабкості цілі до шкоди\nЗакляття телепортації переналаштовуються на ціль",
+            "img_path": "",
+            "img_from_spell_id": 45
+        }
+    },
+    "effects": {
+        "EFF_HUNGER": {
+            "id": -2,
+            "internal_name": "EFF_HUNGER",
+            "name": [
+                "Переїдання!",
+                "Голод",
+                "Сильний Голод",
+                "Виснаження!"
+            ],
+            "desc": [
+                "Наслідки переїдання:\n- Сила\n- Спритність",
+                "Якщо не їсти, настануть негативні ефекти",
+                "Наслідки нестачі їжі:\n- Сила\n- Спритність",
+                "Наслідки нестачі їжі:\n- Відновлення HP вимкнено\n- Ви отримуєте % від макс. HP з часом\n- Сила\n- Спритність\n- Інтелект\n- Сприйняття"
+            ],
+            "img_path": [
+                "*images/ui/HUD/HUD_Hunger_01A.png",
+                "*images/ui/HUD/HUD_Hunger_01B.png",
+                "*images/ui/HUD/HUD_Hunger_01C.png",
+                "*images/ui/HUD/HUD_Hunger_01D.png"
+            ],
+            "img_from_spell_id": -1,
+            "tooltip_width": 250
+        },
+        "EFF_BLOOD_HUNGER": {
+            "id": -3,
+            "internal_name": "EFF_HUNGER",
+            "name": [
+                "Переїдання!",
+                "Голод",
+                "Сильний Голод",
+                "Виснаження!"
+            ],
+            "desc": [
+                "Наслідки переїдання:\n- Сила\n- Спритність",
+                "Якщо не їсти, настануть негативні ефекти",
+                "Наслідки нестачі їжі:\n- Сила\n- Спритність",
+                "Наслідки нестачі їжі, отримання шкоди з часом:\n- Сила\n- Спритність\n- Інтелект\n- Сприйняття"
+            ],
+            "img_path": [
+                "*images/ui/HUD/HUD_Hunger_Blood_00A.png",
+                "*images/ui/HUD/HUD_Hunger_Blood_00B.png",
+                "*images/ui/HUD/HUD_Hunger_Blood_00C.png",
+                "*images/ui/HUD/HUD_Hunger_Blood_00D.png"
+            ],
+            "img_from_spell_id": -1
+        },
+        "EFF_AUTOMATON_HUNGER": {
+            "id": -4,
+            "internal_name": "EFF_AUTOMATON_HUNGER",
+            "name": [
+                "Стан Котла:\nПЕРЕГРІВ",
+                "Стан Котла:\nНОРМА",
+                "Стан Котла:\nКРИТИЧНО НИЗЬКИЙ",
+                "Стан Котла: ПЕРЕГРІВ",
+                "Стан Котла: НОРМА",
+                "Стан Котла: КРИТИЧНО НИЗЬКИЙ"
+            ],
+            "desc": [
+                "Виробляє HT на 200% від номінальної швидкості, до 400%, якщо HT нижче 50% місткості\nЗнижена Спритність, коли HT нижче 25% місткості",
+                "Стабільно виробляє HT\nЗнижена Спритність, коли HT нижче 25% місткості",
+                "Швидко втрачає HT через порожній котел, при 0 HT можливий збій модуля\nЗнижена Спритність, коли HT нижче 25% місткості\n- Сила\n- Сприйняття",
+                "Швидко втрачає HT через порожній котел, при 0 HT можливий збій модуля\nЗнижена Спритність, коли HT нижче 25% місткості"
+            ],
+            "img_path": [
+                "*images/system/Hunger_boiler.png",
+                "*images/system/Hunger_boiler.png",
+                "*images/system/Hunger_boiler.png"
+            ],
+            "img_from_spell_id": -1
+        },
+        "EFF_WANTED": {
+            "id": -5,
+            "internal_name": "EFF_WANTED",
+            "name": "Розшукується!",
+            "desc": [
+                "Оголошено ворогом Гільдії Торговців за такі %s злочини:",
+                "Убивство",
+                "Підбурювання до насильства",
+                "Співучасть у насильстві",
+                "Заборонене закриття обличчя"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/redhanded.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 270
+        },
+        "EFF_WANTED_IN_SHOP": {
+            "id": -6,
+            "internal_name": "EFF_WANTED",
+            "name": "Розшукується!\n(Порушення меж)",
+            "desc": [
+                "Оголошено ворогом Гільдії Торговців за такі %s злочини:",
+                "Убивство",
+                "Підбурювання до насильства",
+                "Співучасть у насильстві",
+                "Заборонене закриття обличчя"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/redhanded.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 270
+        },
+        "EFF_BURNING": {
+            "id": -7,
+            "internal_name": "EFF_BURNING",
+            "name": "Горіння",
+            "desc": "Отримання шкоди з часом",
+            "img_path": "*images/ui/HUD/statusfx/burning.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_FREEACTION": {
+            "id": -8,
+            "internal_name": "EFF_FREEACTION",
+            "name": "Вільна Дія",
+            "desc": "Лікує [Sleep], [Slow], [Paralyze]",
+            "img_path": "*images/ui/HUD/statusfx/freeaction.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 200
+        },
+        "EFF_LESSERWARNING": {
+            "id": -9,
+            "internal_name": "EFF_LESSERWARNING",
+            "name": "Слабке Попередження",
+            "desc": "Відкриває місцеположення рухомих монстрів на мапі",
+            "img_path": "*images/ui/HUD/statusfx/lesserwarning.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 240
+        },
+        "EFF_HPOFF": {
+            "id": -10,
+            "internal_name": "EFF_HPOFF",
+            "name": "Виродження",
+            "desc": [
+                "Базове відновлення HP вимкнено",
+                "Базове відновлення HP вимкнено, бо голод вимкнений у налаштуваннях гри\nВідновлюйте HP їжею та зіллями/закляттями"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/regen_hpoff.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 260
+        },
+        "EFF_RESISTFIRE": {
+            "id": -11,
+            "internal_name": "EFF_RESISTFIRE",
+            "name": "Опір Горінню",
+            "desc": "Імунітет до [Burning]",
+            "img_path": "*images/ui/HUD/statusfx/resist_fire.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 200
+        },
+        "EFF_RESISTPOISON": {
+            "id": -12,
+            "internal_name": "EFF_RESISTPOISON",
+            "name": "Опір Отруті",
+            "desc": "Лікує [Poison]\nОпір закляттям Отрути й Кислоти",
+            "img_path": "*images/ui/HUD/statusfx/resist_poison.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 220
+        },
+        "EFF_SLOWDIGESTION": {
+            "id": -13,
+            "internal_name": "EFF_SLOWDIGESTION",
+            "name": "Повільне Травлення",
+            "desc": "Підвищене насичення від їжі та відкладене голодування",
+            "img_path": "*images/ui/HUD/statusfx/slowdigestion.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 230
+        },
+        "EFF_STRANGULATION": {
+            "id": -14,
+            "internal_name": "EFF_STRANGULATION",
+            "name": "Удушення!",
+            "desc": "Отримання шкоди з часом\nНеможливо пити чи їсти",
+            "img_path": "*images/ui/HUD/statusfx/strangulation.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 220
+        },
+        "EFF_WARNING": {
+            "id": -15,
+            "internal_name": "EFF_WARNING",
+            "name": "Попередження",
+            "desc": "Відкриває місцеположення монстрів на мапі",
+            "img_path": "*images/ui/HUD/statusfx/warning.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 200
+        },
+        "EFF_WATERBREATHING": {
+            "id": -16,
+            "internal_name": "EFF_WATERBREATHING",
+            "name": "Дихання Під Водою",
+            "desc": "Швидкість руху у воді не обмежується",
+            "img_path": "*images/ui/HUD/statusfx/waterbreathing.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 200
+        },
+        "EFF_CONFLICT": {
+            "id": -17,
+            "internal_name": "EFF_CONFLICT",
+            "name": "Конфлікт",
+            "desc": "Підбурює найближчих монстрів атакувати все, що вони бачать",
+            "img_path": "*images/ui/HUD/statusfx/conflict.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 240
+        },
+        "EFF_WATERWALKING": {
+            "id": -18,
+            "internal_name": "EFF_WATERWALKING",
+            "name": "Ходіння По Воді",
+            "desc": "Дозволяє парити над водою та лавою",
+            "img_path": "*images/ui/HUD/statusfx/waterwalking.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 200
+        },
+        "EFF_LIFESAVING": {
+            "id": -19,
+            "internal_name": "EFF_LIFESAVING",
+            "name": "Порятунок Життя",
+            "desc": "Воскресіння після смерті",
+            "img_path": "*images/ui/HUD/statusfx/lifesaving.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 160
+        },
+        "EFF_PUSH": {
+            "id": -20,
+            "internal_name": "EFF_PUSH",
+            "name": "Поштовх",
+            "desc": "Дає змогу рухати валуни",
+            "img_path": "*images/ui/HUD/statusfx/push.png",
+            "tooltip_width": 232,
+            "img_from_spell_id": -1
+        },
+        "EFF_SNEAK": {
+            "id": -21,
+            "internal_name": "EFF_SNEAK",
+            "name": "Скритність",
+            "desc": "Зменшена дальність виявлення",
+            "img_path": "*images/ui/HUD/statusfx/sneak.png",
+            "tooltip_width": 200,
+            "img_from_spell_id": -1
+        },
+        "EFF_DRUNK_GOATMAN": {
+            "id": -22,
+            "internal_name": "EFF_DRUNK_GOATMAN",
+            "name": "П'яний (Козлолюд)",
+            "desc": "+ Сила\n+ Статура\n+ 20% Опір Шкоді\n- Спритність\n- Інтелект",
+            "img_path": "*images/ui/HUD/statusfx/drunk.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 212
+        },
+        "EFF_BOUNTY_TARGET": {
+            "id": -23,
+            "internal_name": "EFF_BOUNTY_TARGET",
+            "name": [
+                "Ціль Нагороди\n(Активна)",
+                "Ціль Нагороди (Активна)"
+            ],
+            "desc": "Отримуйте бонусне золото, вбиваючи свою позначену ціль нагороди",
+            "img_path": "*images/ui/HUD/statusfx/targeting.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 212
+        },
+        "EFF_INSPIRATION": {
+            "id": -24,
+            "internal_name": "EFF_INSPIRATION",
+            "name": "Натхнення",
+            "desc": "Союзні гравці й послідовники отримують більше XP, коли їхній рівень нижчий за ваш",
+            "img_path": "*images/ui/HUD/statusfx/inspiration.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 250
+        },
+        "EFF_RELATIATION": {
+            "id": -25,
+            "internal_name": "EFF_RELATIATION",
+            "name": "Відплата",
+            "desc": "Завдає шкоди атакувальникам у ближньому бою при отриманні шкоди",
+            "img_path": "*images/ui/HUD/statusfx/thorns.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 260
+        },
+        "EFF_ASSISTANCE": {
+            "id": -26,
+            "internal_name": "EFF_ASSISTANCE",
+            "name": "Допомога",
+            "desc": [
+                "Заявлено один або більше предметів допомоги",
+                "%d Очк. допомоги (Особисто)",
+                "%d Очк. допомоги (Усього для групи)",
+                "%d%% Штрафу до рахунку"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/assistance.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 300
+        },
+        "EFF_STABILITY": {
+            "id": -27,
+            "internal_name": "EFF_STABILITY",
+            "name": "Стійкість",
+            "desc": "Зменшує ефекти відкидання та слизької поверхні",
+            "img_path": "*images/ui/HUD/statusfx/stability.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 260
+        },
+        "EFF_VANDALISE": {
+            "id": -28,
+            "internal_name": "EFF_VANDALISE",
+            "name": [
+                "Вандал",
+                "Вандал (Ранг I)",
+                "Вандал (Ранг II)",
+                "Вандал (Ранг III)",
+                "Вандал (Ранг IV)"
+            ],
+            "desc": [
+                "Ефекти посилюються, що більше об'єктів ви руйнуєте\nЕфекти скидаються на кожному поверсі\nОтримання нового рангу дає бонус MP",
+                "%+d Бонусу до шкоди в ближньому бою",
+                "%+d%% Швидкості руху",
+                "%+d%% Швидкості чаклування"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/vandal.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 320
+        },
+        "EFF_OVERCHARGE_COUNT": {
+            "id": -29,
+            "internal_name": "EFF_OVERCHARGE_COUNT",
+            "name": "Перезаряд",
+            "desc": "Наступне застосоване запам'ятоване закляття залишатиметься зарядженим для кількох послідовних застосувань\nПослідовні застосування витрачатимуть HP, якщо MP закінчиться\nСкасування зарядженого закляття розвіює ефект",
+            "img_path": "",
+            "img_from_spell_id": 100,
+            "tooltip_width": 260
+        },
+        "EFF_WEALTH": {
+            "id": -30,
+            "internal_name": "EFF_WEALTH",
+            "name": [
+                "Багатство",
+                "Багатство (Ранг I)",
+                "Багатство (Ранг II)",
+                "Багатство (Ранг III)",
+                "Багатство (Ранг IV)"
+            ],
+            "desc": [
+                "+%d%% шансу отримати +1 MP під час відновлення MP",
+                "Ефект посилюється залежно від кількості золота, яке ви несете"
+            ],
+            "img_path": [
+                "*images/ui/HUD/statusfx/wealth.png",
+                "*images/ui/HUD/statusfx/wealth2.png",
+                "*images/ui/HUD/statusfx/wealth3.png",
+                "*images/ui/HUD/statusfx/wealth4.png"
+            ],
+            "img_from_spell_id": -1,
+            "tooltip_width": 240
+        },
+        "EFF_ASLEEP": {
+            "id": 0,
+            "internal_name": "EFF_ASLEEP",
+            "name": "Сон",
+            "desc": "Неможливо рухатись або бачити",
+            "img_path": "",
+            "img_from_spell_id": 10
+        },
+        "EFF_POISONED": {
+            "id": 1,
+            "internal_name": "EFF_POISONED",
+            "name": "Отруєння",
+            "desc": "Отримання шкоди з часом",
+            "img_path": "*images/ui/HUD/statusfx/poisoned.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_STUNNED": {
+            "id": 2,
+            "internal_name": "EFF_STUNNED",
+            "name": "",
+            "desc": "",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "never_display": true
+        },
+        "EFF_CONFUSED": {
+            "id": 3,
+            "internal_name": "EFF_CONFUSED",
+            "name": "Сплутаність",
+            "desc": "Рух інвертовано",
+            "img_path": "",
+            "img_from_spell_id": 11
+        },
+        "EFF_DRUNK": {
+            "id": 4,
+            "internal_name": "EFF_DRUNK",
+            "name": "П'яний",
+            "desc": "+ Сила\n- Спритність",
+            "img_path": "*images/ui/HUD/statusfx/drunk.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_INVISIBLE": {
+            "id": 5,
+            "internal_name": "EFF_INVISIBLE",
+            "name": "Невидимість",
+            "desc": "Вороги не можуть виявити вас поза межами ближнього бою",
+            "img_path": "",
+            "img_from_spell_id": 16,
+            "use_entry_for_sustained_spell": 16
+        },
+        "EFF_BLIND": {
+            "id": 6,
+            "internal_name": "EFF_BLIND",
+            "name": "Засліплення",
+            "desc": "Неможливо бачити",
+            "img_path": "*images/ui/HUD/statusfx/blind.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_GREASY": {
+            "id": 7,
+            "internal_name": "EFF_GREASY",
+            "name": "Жирність",
+            "desc": "Зброя в руках може вислизнути з хвату",
+            "img_path": "*images/ui/HUD/statusfx/grease.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_MESSY": {
+            "id": 8,
+            "internal_name": "EFF_MESSY",
+            "name": "Бруд",
+            "desc": "Неможливо бачити",
+            "img_path": "*images/ui/HUD/statusfx/messypie.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_FAST": {
+            "id": 9,
+            "internal_name": "EFF_FAST",
+            "name": "Швидкість",
+            "desc": "Підвищена Спритність і швидкість руху",
+            "img_path": "",
+            "img_from_spell_id": 39
+        },
+        "EFF_PARALYZED": {
+            "id": 10,
+            "internal_name": "EFF_PARALYZED",
+            "name": "Параліч",
+            "desc": "Неможливо рухатись або діяти",
+            "img_path": "*images/ui/HUD/statusfx/paralyze.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_LEVITATING": {
+            "id": 11,
+            "internal_name": "EFF_LEVITATING",
+            "name": "Левітація",
+            "desc": "Паріння над прірвами, водою та лавою",
+            "img_path": "",
+            "img_from_spell_id": 15,
+            "use_entry_for_sustained_spell": 15
+        },
+        "EFF_TELEPATH": {
+            "id": 12,
+            "internal_name": "EFF_TELEPATH",
+            "name": "Телепатія",
+            "desc": "Бачите монстрів крізь стіни",
+            "img_path": "*images/ui/HUD/statusfx/telepathy.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_VOMITING": {
+            "id": 13,
+            "internal_name": "EFF_VOMITING",
+            "name": "Блювання!",
+            "desc": "Наслідки розладу шлунка",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "never_display": true
+        },
+        "EFF_BLEEDING": {
+            "id": 14,
+            "internal_name": "EFF_BLEEDING",
+            "name": "Кровотеча",
+            "desc": "Отримання шкоди з часом",
+            "img_path": "*images/ui/HUD/statusfx/bleed.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_SLOW": {
+            "id": 15,
+            "internal_name": "EFF_SLOW",
+            "name": "Уповільнення",
+            "desc": "Знижена швидкість руху",
+            "img_path": "",
+            "img_from_spell_id": 12
+        },
+        "EFF_MAGICRESIST": {
+            "id": 16,
+            "internal_name": "EFF_MAGICRESIST",
+            "name": "Опір Магії",
+            "desc": "+1 До Опору Магії",
+            "img_path": "*images/ui/HUD/statusfx/resist_magic.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_MAGICREFLECT": {
+            "id": 17,
+            "internal_name": "EFF_MAGICREFLECT",
+            "name": "Відбиття Магії",
+            "desc": "Відбиває ворожі закляття",
+            "img_path": "",
+            "img_from_spell_id": 26,
+            "use_entry_for_sustained_spell": 26,
+            "tooltip_width": 220
+        },
+        "EFF_VAMPIRICAURA": {
+            "id": 18,
+            "internal_name": "EFF_VAMPIRICAURA",
+            "name": [
+                "Вампірське Прокляття",
+                "Вампірська Аура"
+            ],
+            "desc": [
+                "+ Сила і Спритність\nПідвищена швидкість голодування\nПідвищений шанс накласти статус [bleed] без зброї\nШанс висмоктати життя при смертельних прихованих атаках без зброї",
+                "+ Сила і Спритність\nПідвищена швидкість голодування\nПідвищений шанс накласти статус [bleed] без зброї\nШанс висмоктати життя при всіх атаках без зброї\nПриродне відновлення HP вимкнено"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/bloodlust.png",
+            "img_from_spell_id": 30,
+            "use_entry_for_sustained_spell": 30,
+            "tooltip_width": 270
+        },
+        "EFF_SHRINE_RED_BUFF": {
+            "id": 19,
+            "internal_name": "EFF_SHRINE_RED_BUFF",
+            "name": "Баф Червоної Святині",
+            "desc": "+ Сила\n+ Статура",
+            "img_path": "*images/ui/HUD/statusfx/orb_red.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_SHRINE_GREEN_BUFF": {
+            "id": 20,
+            "internal_name": "EFF_SHRINE_GREEN_BUFF",
+            "name": "Баф Зеленої Святині",
+            "desc": "+ Спритність\n+ Сприйняття",
+            "img_path": "*images/ui/HUD/statusfx/orb_green.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_SHRINE_BLUE_BUFF": {
+            "id": 21,
+            "internal_name": "EFF_SHRINE_BLUE_BUFF",
+            "name": "Баф Синьої Святині",
+            "desc": "+ Інтелект\n+1 до Опору Магії",
+            "img_path": "*images/ui/HUD/statusfx/orb_blue.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_HP_REGEN": {
+            "id": 22,
+            "internal_name": "EFF_HP_REGEN",
+            "name": "Відновлення Здоров'я",
+            "desc": "+2 [HP Regen]",
+            "img_path": "*images/ui/HUD/statusfx/regen_hp.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_MP_REGEN": {
+            "id": 23,
+            "internal_name": "EFF_MP_REGEN",
+            "name": "Відновлення Мани",
+            "desc": "+2 [MP Regen]",
+            "img_path": "*images/ui/HUD/statusfx/regen_mp.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_PACIFY": {
+            "id": 24,
+            "internal_name": "EFF_PACIFY",
+            "name": "Умиротворення",
+            "desc": "Неможливо атакувати або добровільно рухатись",
+            "img_path": "",
+            "img_from_spell_id": 31
+        },
+        "EFF_POLYMORPH": {
+            "id": 25,
+            "internal_name": "EFF_POLYMORPH",
+            "name": "Поліморфія",
+            "desc": "Замаскований під іншого монстра",
+            "img_path": "",
+            "img_from_spell_id": 52
+        },
+        "EFF_KNOCKBACK": {
+            "id": 26,
+            "internal_name": "EFF_KNOCKBACK",
+            "name": "",
+            "desc": "",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "never_display": true
+        },
+        "EFF_WITHDRAWAL": {
+            "id": 27,
+            "internal_name": "EFF_WITHDRAWAL",
+            "name": "Похмілля",
+            "desc": "- Спритність\nЛікується сп'янінням",
+            "img_path": "*images/ui/HUD/statusfx/hungover.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_POTION_STR": {
+            "id": 28,
+            "internal_name": "EFF_POTION_STR",
+            "name": "Сила",
+            "desc": "+ Сила\n- Сприйняття",
+            "img_path": "*images/ui/HUD/statusfx/strengthbuff.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_SHAPESHIFT": {
+            "id": 29,
+            "internal_name": "EFF_SHAPESHIFT",
+            "name": [
+                "Форма Щура",
+                "Форма Членистоногого",
+                "Форма Троля",
+                "Форма Імпа"
+            ],
+            "desc": [
+                "+ СПР/ІНТ/СПРИЙ\nШвидше плавання\nВищий шанс отримати СПР/ІНТ при підвищенні рівня\n(Лише клас Шаман) Дає доступ до заклять [Detect Food] і [Speed]",
+                "+ СПРИЙ/СИЛ/СТА\nВищий шанс отримати СПРИЙ/СТА при підвищенні рівня\n(Лише клас Шаман) Дає доступ до заклять [Spray Web] і [Poison]",
+                "+ СИЛ/СТА\n- СПР\nВищий шанс отримати СИЛ/СТА при підвищенні рівня\n(Лише клас Шаман) Дає доступ до заклять [Power Strike], [Fear] і [Troll's Blood]",
+                "Дає левітацію\n+ ІНТ/СПРИЙ\nВищий шанс отримати ХАР/ІНТ при підвищенні рівня\n(Лише клас Шаман) Дає доступ до заклять [Lightning], [Confuse] і [Elemental Focus]"
+            ],
+            "img_path": "",
+            "img_from_spell_id": [
+                33,
+                34,
+                35,
+                36
+            ]
+        },
+        "EFF_WEBBED": {
+            "id": 30,
+            "internal_name": "EFF_WEBBED",
+            "name": "Обплутання Павутиною",
+            "desc": "Знижена швидкість руху\nВідкидає при отриманні ударів ближнього бою",
+            "img_path": "",
+            "img_from_spell_id": 37
+        },
+        "EFF_FEAR": {
+            "id": 31,
+            "internal_name": "EFF_FEAR",
+            "name": "Страх",
+            "desc": "Неможливо атакувати або добровільно рухатись",
+            "img_path": "",
+            "img_from_spell_id": 40
+        },
+        "EFF_MAGICAMPLIFY": {
+            "id": 32,
+            "internal_name": "EFF_MAGICAMPLIFY",
+            "name": "Стихійний Фокус",
+            "desc": "Підвищена шкода й менша дальність при застосуванні заклять [Fire], [Cold], [Lightning] або [Magic Missile]",
+            "img_path": "",
+            "img_from_spell_id": 44,
+            "tooltip_width": 300,
+            "use_entry_for_sustained_spell": 44
+        },
+        "EFF_DISORIENTED": {
+            "id": 33,
+            "internal_name": "EFF_DISORIENTED",
+            "name": "",
+            "desc": "",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "never_display": true
+        },
+        "EFF_SHADOW_TAGGED": {
+            "id": 34,
+            "internal_name": "EFF_SHADOW_TAGGED",
+            "name": "Позначений Таємною Міткою",
+            "desc": "Расові опори/слабкості до шкоди на вас нівельовано",
+            "img_path": "",
+            "img_from_spell_id": 45,
+            "tooltip_width": 210
+        },
+        "EFF_TROLLS_BLOOD": {
+            "id": 35,
+            "internal_name": "EFF_TROLLS_BLOOD",
+            "name": "Кров Троля",
+            "desc": "+1 [HP Regen]",
+            "img_path": "",
+            "img_from_spell_id": 48
+        },
+        "EFF_FLUTTER": {
+            "id": 36,
+            "internal_name": "EFF_FLUTTER",
+            "name": "Пурхання",
+            "desc": "Левітація на короткий час",
+            "img_path": "",
+            "img_from_spell_id": 50
+        },
+        "EFF_DASH": {
+            "id": 37,
+            "internal_name": "EFF_DASH",
+            "name": "",
+            "desc": "",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "never_display": true
+        },
+        "EFF_DISTRACTED_COOLDOWN": {
+            "id": 38,
+            "internal_name": "EFF_DISTRACTED_COOLDOWN",
+            "name": "",
+            "desc": "",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "never_display": true
+        },
+        "EFF_MIMIC_LOCKED": {
+            "id": 39,
+            "internal_name": "EFF_MIMIC_LOCKED",
+            "name": "",
+            "desc": "",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "never_display": true
+        },
+        "EFF_ROOTED": {
+            "id": 40,
+            "internal_name": "EFF_ROOTED",
+            "name": "Вкорінення",
+            "desc": "Неможливо рухатись",
+            "img_path": "*images/ui/HUD/statusfx/rooted.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_NAUSEA_PROTECTION": {
+            "id": 41,
+            "internal_name": "EFF_NAUSEA_PROTECTION",
+            "name": "Опір Нудоті",
+            "desc": "Імунітет до подій, що викликають блювання, як-от нетравлення, мисливські стріли або сп'яніння",
+            "img_path": "*images/ui/HUD/statusfx/resist_nausea.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 280
+        },
+        "EFF_CON_BONUS": {
+            "id": 42,
+            "internal_name": "EFF_CON_BONUS",
+            "name": "Стійкість",
+            "desc": "+ Статура\nЕфект посилюється, що менше у вас лишається HP",
+            "img_path": "*images/ui/HUD/statusfx/defensebuff.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_PWR": {
+            "id": 43,
+            "internal_name": "EFF_PWR",
+            "name": "Ментальність",
+            "desc": "+ Сила Заклять\nЕфект посилюється, що менше у вас лишається MP",
+            "img_path": "*images/ui/HUD/statusfx/powerbuff.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_AGILITY": {
+            "id": 44,
+            "internal_name": "EFF_AGILITY",
+            "name": "Спритність",
+            "desc": "+ Спритність\n+30% шансу ухилитися від фізичних і магічних атак",
+            "img_path": "*images/ui/HUD/statusfx/dexbuff.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_RALLY": {
+            "id": 45,
+            "internal_name": "EFF_RALLY",
+            "name": "Піднесення",
+            "desc": "+ Піднесений",
+            "img_path": "*images/ui/HUD/statusfx/rooted.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_MARIGOLD": {
+            "id": 46,
+            "internal_name": "EFF_MARIGOLD",
+            "name": "Нагідкове Зцілення",
+            "desc": "+ Відновлення HP з часом",
+            "img_path": "*images/ui/HUD/statusfx/growth.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 240
+        },
+        "EFF_ENSEMBLE_FLUTE": {
+            "id": 47,
+            "internal_name": "EFF_ENSEMBLE_FLUTE",
+            "name": [
+                "Флейта (Ранг I)",
+                "Флейта (Ранг II)",
+                "Флейта (Ранг III)",
+                "Флейта (Ранг IV)"
+            ],
+            "desc": [
+                "%+d СПР",
+                "%+d%% Швидкості критичного заряду"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/ensemble_flute.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 260
+        },
+        "EFF_ENSEMBLE_LYRE": {
+            "id": 48,
+            "internal_name": "EFF_ENSEMBLE_LYRE",
+            "name": [
+                "Ліра (Ранг I)",
+                "Ліра (Ранг II)",
+                "Ліра (Ранг III)",
+                "Ліра (Ранг IV)"
+            ],
+            "desc": [
+                "%+d СПРИЙ",
+                "%+d%% Опору шкоді"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/ensemble_lyre.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 240
+        },
+        "EFF_ENSEMBLE_DRUM": {
+            "id": 49,
+            "internal_name": "EFF_ENSEMBLE_DRUM",
+            "name": [
+                "Барабан (Ранг I)",
+                "Барабан (Ранг II)",
+                "Барабан (Ранг III)",
+                "Барабан (Ранг IV)"
+            ],
+            "desc": [
+                "%+d СИЛ",
+                "%+d%% шансу пробити броню в ближньому бою"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/ensemble_drum.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 240
+        },
+        "EFF_ENSEMBLE_LUTE": {
+            "id": 50,
+            "internal_name": "EFF_ENSEMBLE_LUTE",
+            "name": [
+                "Лютня (Ранг I)",
+                "Лютня (Ранг II)",
+                "Лютня (Ранг III)",
+                "Лютня (Ранг IV)"
+            ],
+            "desc": [
+                "%+d%% СЗ",
+                "%+d%% Ухилення"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/ensemble_lute.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 240
+        },
+        "EFF_ENSEMBLE_HORN": {
+            "id": 51,
+            "internal_name": "EFF_ENSEMBLE_HORN",
+            "name": [
+                "Ріг (Ранг I)",
+                "Ріг (Ранг II)",
+                "Ріг (Ранг III)",
+                "Ріг (Ранг IV)"
+            ],
+            "desc": [
+                "%+d СТА",
+                "%+d Шкоди відплати по атакувальниках ближнього бою"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/ensemble_horn.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 240
+        },
+        "EFF_LIFT": {
+            "id": 52,
+            "internal_name": "EFF_LIFT",
+            "name": "Підіймання",
+            "desc": "Блокує рух.\nЗавдає шкоди після\nзавершення ефекту залежно від СТА",
+            "img_path": "",
+            "img_from_spell_id": 185
+        },
+        "EFF_GUARD_SPIRIT": {
+            "id": 53,
+            "internal_name": "EFF_GUARD_SPIRIT",
+            "name": "Охорона Духа",
+            "desc": "+ОМ\nНакопичує заряди, доки активний.\nАтаки витрачають заряди.",
+            "img_path": "",
+            "img_from_spell_id": 71,
+            "use_entry_for_sustained_spell": 71
+        },
+        "EFF_GUARD_BODY": {
+            "id": 54,
+            "internal_name": "EFF_GUARD_BODY",
+            "name": "Охорона Тіла",
+            "desc": "+КЗ\nНакопичує заряди, доки активний\nАтаки витрачають заряди",
+            "img_path": "",
+            "img_from_spell_id": 70,
+            "use_entry_for_sustained_spell": 70
+        },
+        "EFF_DIVINE_GUARD": {
+            "id": 55,
+            "internal_name": "EFF_DIVINE_GUARD",
+            "name": "Божественна Охорона",
+            "desc": "+КЗ\n+ОМ\nНакопичує заряди, доки активний.\nАтаки витрачають заряди.",
+            "img_path": "",
+            "img_from_spell_id": 72,
+            "use_entry_for_sustained_spell": 72
+        },
+        "EFF_NIMBLENESS": {
+            "id": 56,
+            "internal_name": "EFF_NIMBLENESS",
+            "name": "Спритність Рухів",
+            "desc": "+СПР",
+            "img_path": "",
+            "img_from_spell_id": 73
+        },
+        "EFF_GREATER_MIGHT": {
+            "id": 57,
+            "internal_name": "EFF_GREATER_MIGHT",
+            "name": "Велика Міць",
+            "desc": "+СИЛ\n+Натиснути",
+            "img_path": "",
+            "img_from_spell_id": 74
+        },
+        "EFF_COUNSEL": {
+            "id": 58,
+            "internal_name": "EFF_COUNSEL",
+            "name": "Настанова",
+            "desc": "+ІНТ",
+            "img_path": "",
+            "img_from_spell_id": 75
+        },
+        "EFF_STURDINESS": {
+            "id": 59,
+            "internal_name": "EFF_STURDINESS",
+            "name": "Міцність",
+            "desc": "+СТА",
+            "img_path": "",
+            "img_from_spell_id": 76
+        },
+        "EFF_BLESS_FOOD": {
+            "id": 60,
+            "internal_name": "EFF_BLESS_FOOD",
+            "name": "Благословенні Трапези",
+            "desc": "Надає [Nourished],\nколи їжа не зіпсована",
+            "img_path": "",
+            "img_from_spell_id": 77
+        },
+        "EFF_PINPOINT": {
+            "id": 61,
+            "internal_name": "EFF_PINPOINT",
+            "name": "Прицільність",
+            "desc": "Отримує додаткову шкоду, коли на ціль нападає заклинач.",
+            "img_path": "",
+            "img_from_spell_id": 78
+        },
+        "EFF_PENANCE": {
+            "id": 62,
+            "internal_name": "EFF_PENANCE",
+            "name": "Каяття",
+            "desc": "Дружній до заклинача.",
+            "img_path": "",
+            "img_from_spell_id": 84
+        },
+        "EFF_SACRED_PATH": {
+            "id": 63,
+            "internal_name": "EFF_SACRED_PATH",
+            "name": "Захист Від Пасток",
+            "desc": "Знижена шкода від пасток.",
+            "img_path": "",
+            "img_from_spell_id": 86
+        },
+        "EFF_DETECT_ENEMY": {
+            "id": 64,
+            "internal_name": "EFF_DETECT_ENEMY",
+            "name": "Виявлення Ворога",
+            "desc": "Виявлений ворожому заклиначеві.",
+            "img_path": "",
+            "img_from_spell_id": 88,
+            "never_display": true
+        },
+        "EFF_BLOOD_WARD": {
+            "id": 65,
+            "internal_name": "EFF_BLOOD_WARD",
+            "name": "Кривавий Захист",
+            "desc": "Отримує менше шкоди від отруйних\nстворінь і стихійних заклять\nІмунітет до [Poison / Bleed]",
+            "img_path": "",
+            "img_from_spell_id": 92,
+            "use_entry_for_sustained_spell": 92
+        },
+        "EFF_TRUE_BLOOD": {
+            "id": 66,
+            "internal_name": "EFF_TRUE_BLOOD",
+            "name": "Справжня Кров",
+            "desc": "Зменшує шкоду від жал.\nІмунітет до:n-Slow\n-Paralyze\n-Poison\n-Bleed",
+            "img_path": "",
+            "img_from_spell_id": 93
+        },
+        "EFF_DIVINE_ZEAL": {
+            "id": 67,
+            "internal_name": "EFF_DIVINE_ZEAL",
+            "name": "Божественне Завзяття",
+            "desc": "Фізичні атаки завдають додаткової шкоди Smite вразливим ворогам",
+            "img_path": "",
+            "img_from_spell_id": 94,
+            "use_entry_for_sustained_spell": 94
+        },
+        "EFF_MAXIMISE": {
+            "id": 68,
+            "internal_name": "EFF_MAXIMISE",
+            "name": "Максимізація",
+            "desc": "+СИЛ\n+СТА\n-СПР\nПідвищує отримуваний XP",
+            "img_path": "",
+            "img_from_spell_id": 96
+        },
+        "EFF_MINIMISE": {
+            "id": 69,
+            "internal_name": "EFF_MINIMISE",
+            "name": "Мінімізація",
+            "desc": "+СПР\n-СИЛ\n-СТА\nЗменшує отримуваний XP",
+            "img_path": "",
+            "img_from_spell_id": 97
+        },
+        "EFF_WEAKNESS": {
+            "id": 70,
+            "internal_name": "EFF_WEAKNESS",
+            "name": "Слабкість",
+            "desc": "Знижена ближня АТК",
+            "img_path": "",
+            "img_from_spell_id": 43
+        },
+        "EFF_INCOHERENCE": {
+            "id": 71,
+            "internal_name": "EFF_INCOHERENCE",
+            "name": "Безлад",
+            "desc": "Знижено СЗ",
+            "img_path": "",
+            "img_from_spell_id": 99
+        },
+        "EFF_OVERCHARGE": {
+            "id": 72,
+            "internal_name": "EFF_OVERCHARGE",
+            "name": "Перезаряд",
+            "desc": "Накладає +СЗ на:\n-Magicstaffs\n-Off-Hand Spellbooks\n-Magic Foci",
+            "img_path": "",
+            "img_from_spell_id": 100,
+            "use_entry_for_sustained_spell": 100
+        },
+        "EFF_ENVENOM_WEAPON": {
+            "id": 73,
+            "internal_name": "EFF_ENVENOM_WEAPON",
+            "name": "Отруєння Зброї",
+            "desc": "Атаки зброєю мають шанс\n завдати додаткової отруйної шкоди",
+            "img_path": "",
+            "img_from_spell_id": 101,
+            "use_entry_for_sustained_spell": 101
+        },
+        "EFF_MAGIC_GREASE": {
+            "id": 74,
+            "internal_name": "EFF_MAGIC_GREASE",
+            "name": "Слизькість",
+            "desc": "Знижений контроль над рухом",
+            "img_path": "",
+            "img_from_spell_id": 104
+        },
+        "EFF_COMMAND": {
+            "id": 75,
+            "internal_name": "EFF_COMMAND",
+            "name": "Примус",
+            "desc": "Змушує підкоритися одній команді",
+            "img_path": "",
+            "img_from_spell_id": 107
+        },
+        "EFF_MIMIC_VOID": {
+            "id": 76,
+            "internal_name": "EFF_MIMIC_VOID",
+            "name": "EFF_MIMIC_VOID",
+            "desc": "EFF_MIMIC_VOID",
+            "img_path": "",
+            "img_from_spell_id": 115
+        },
+        "EFF_CURSE_FLESH": {
+            "id": 77,
+            "internal_name": "EFF_CURSE_FLESH",
+            "name": "Проклята Плоть",
+            "desc": "При смерті породжує Череп Ревенанта.",
+            "img_path": "",
+            "img_from_spell_id": 121
+        },
+        "EFF_NUMBING_BOLT": {
+            "id": 78,
+            "internal_name": "EFF_NUMBING_BOLT",
+            "name": "Оніміння",
+            "desc": "Не відчуває наступного отриманого удару.",
+            "img_path": "",
+            "img_from_spell_id": 119
+        },
+        "EFF_DELAY_PAIN": {
+            "id": 79,
+            "internal_name": "EFF_DELAY_PAIN",
+            "name": "Невмирущість",
+            "desc": "Відтерміновує отриману шкоду",
+            "img_path": "",
+            "img_from_spell_id": 120
+        },
+        "EFF_SEEK_CREATURE": {
+            "id": 80,
+            "internal_name": "EFF_SEEK_CREATURE",
+            "name": "Шукати Іншого",
+            "desc": "Змушує шукати іншу істоту",
+            "img_path": "",
+            "img_from_spell_id": 126
+        },
+        "EFF_TABOO": {
+            "id": 81,
+            "internal_name": "EFF_TABOO",
+            "name": "Цап-Відбувайло",
+            "desc": "Робить усіх істот ворожими до вас",
+            "img_path": "",
+            "img_from_spell_id": 131
+        },
+        "EFF_COURAGE": {
+            "id": 82,
+            "internal_name": "EFF_COURAGE",
+            "name": "Відвага",
+            "desc": "+СИЛ\n+СТА",
+            "img_path": "",
+            "img_from_spell_id": 124
+        },
+        "EFF_COWARDICE": {
+            "id": 83,
+            "internal_name": "EFF_COWARDICE",
+            "name": "Боягузтво",
+            "desc": "-СТА\n-СИЛ",
+            "img_path": "",
+            "img_from_spell_id": 123
+        },
+        "EFF_SPORES": {
+            "id": 84,
+            "internal_name": "EFF_SPORES",
+            "name": "Спори",
+            "desc": "Випускає хмари спор при отриманні удару,\n-Накладає [Poison / Slow]",
+            "img_path": "",
+            "img_from_spell_id": 133,
+            "use_entry_for_sustained_spell": 133
+        },
+        "EFF_ABUNDANCE": {
+            "id": 85,
+            "internal_name": "EFF_ABUNDANCE",
+            "name": "Достаток",
+            "desc": "Їжа має шанс не витрачатися при споживанні",
+            "img_path": "",
+            "img_from_spell_id": 141,
+            "use_entry_for_sustained_spell": 141
+        },
+        "EFF_GREATER_ABUNDANCE": {
+            "id": 86,
+            "internal_name": "EFF_GREATER_ABUNDANCE",
+            "name": "Великий Достаток",
+            "desc": "Їжа та зілля мають шанс не витрачатися при споживанні",
+            "img_path": "",
+            "img_from_spell_id": 142,
+            "use_entry_for_sustained_spell": 142
+        },
+        "EFF_PRESERVE": {
+            "id": 87,
+            "internal_name": "EFF_PRESERVE",
+            "name": "Збереження",
+            "desc": "Запобігає зношенню спорядження ціною MP",
+            "img_path": "",
+            "img_from_spell_id": 143,
+            "use_entry_for_sustained_spell": 143
+        },
+        "EFF_MIST_FORM": {
+            "id": 88,
+            "internal_name": "EFF_MIST_FORM",
+            "name": "Туманна Форма",
+            "desc": "Дає змогу ухилятися від атак ціною MP.",
+            "img_path": "",
+            "img_from_spell_id": 147,
+            "use_entry_for_sustained_spell": 147
+        },
+        "EFF_FORCE_SHIELD": {
+            "id": 89,
+            "internal_name": "EFF_FORCE_SHIELD",
+            "name": "Кінетичний Щит",
+            "desc": "Додає КЗ предметам у другій руці",
+            "img_path": "",
+            "img_from_spell_id": 149,
+            "use_entry_for_sustained_spell": 149
+        },
+        "EFF_LIGHTEN_LOAD": {
+            "id": 90,
+            "internal_name": "EFF_LIGHTEN_LOAD",
+            "name": "Полегшення Тягаря",
+            "desc": "Зменшує штраф SPD від ВАГ інвентаря",
+            "img_path": "",
+            "img_from_spell_id": 152,
+            "use_entry_for_sustained_spell": 152
+        },
+        "EFF_ATTRACT_ITEMS": {
+            "id": 91,
+            "internal_name": "EFF_ATTRACT_ITEMS",
+            "name": "Притягання",
+            "desc": "Левітує і притягує найближчі предмети.",
+            "img_path": "",
+            "img_from_spell_id": 153,
+            "use_entry_for_sustained_spell": 153
+        },
+        "EFF_RETURN_ITEM": {
+            "id": 92,
+            "internal_name": "EFF_RETURN_ITEM",
+            "name": "Повернення",
+            "desc": "Метальна зброя повертається з підлоги ціною MP.",
+            "img_path": "",
+            "img_from_spell_id": 154,
+            "use_entry_for_sustained_spell": 154
+        },
+        "EFF_DEMESNE_DOOR": {
+            "id": 93,
+            "internal_name": "EFF_DEMESNE_DOOR",
+            "name": "Брама Володіння",
+            "desc": "+КЗ\n+АТК\n+СЗ",
+            "img_path": "",
+            "img_from_spell_id": 159,
+            "use_entry_for_sustained_spell": 159
+        },
+        "EFF_REFLECTOR_SHIELD": {
+            "id": 94,
+            "internal_name": "EFF_REFLECTOR_SHIELD",
+            "name": "Відбивач",
+            "desc": "Предмети у другій руці відбивають магічні снаряди під час захисту.",
+            "img_path": "",
+            "img_from_spell_id": 150,
+            "use_entry_for_sustained_spell": 150
+        },
+        "EFF_DIZZY": {
+            "id": 95,
+            "internal_name": "EFF_DIZZY",
+            "name": "Запаморочення",
+            "desc": "Неконтрольовано крутить вас",
+            "img_path": "",
+            "img_from_spell_id": 150,
+            "use_entry_for_sustained_spell": 150
+        },
+        "EFF_SPIN": {
+            "id": 96,
+            "internal_name": "EFF_SPIN",
+            "name": "Обертання",
+            "desc": "Змушує вас повертатися у протилежний бік.",
+            "img_path": "",
+            "img_from_spell_id": 150,
+            "use_entry_for_sustained_spell": 150
+        },
+        "EFF_CRITICAL_SPELL": {
+            "id": 97,
+            "internal_name": "EFF_CRITICAL_SPELL",
+            "name": "Критичне Закляття",
+            "desc": "Наступне застосоване закляття залишається підготовленим зі зниженою вартістю MP",
+            "img_path": "",
+            "img_from_spell_id": 176,
+            "use_entry_for_sustained_spell": 176
+        },
+        "EFF_MAGIC_WELL": {
+            "id": 98,
+            "internal_name": "EFF_MAGIC_WELL",
+            "name": "Магічна Криниця",
+            "desc": "Збільшує СЗ за кожну MP, витрачену під час дії ефекту.",
+            "img_path": "",
+            "img_from_spell_id": 177,
+            "use_entry_for_sustained_spell": 177
+        },
+        "EFF_STATIC": {
+            "id": 99,
+            "internal_name": "EFF_STATIC",
+            "name": "Статика",
+            "desc": "Отримує підвищену шкоду від стихійних заклять блискавки",
+            "img_path": "*images/ui/HUD/statusfx/static.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_ABSORB_MAGIC": {
+            "id": 100,
+            "internal_name": "EFF_ABSORB_MAGIC",
+            "name": "Поглинання Магії",
+            "desc": "Нівелює вхідні магічні снаряди\nКожне нівельоване закляття збільшує СЗ наступного застосованого закляття",
+            "img_path": "",
+            "img_from_spell_id": 155,
+            "use_entry_for_sustained_spell": 155
+        },
+        "EFF_FLAME_CLOAK": {
+            "id": 101,
+            "internal_name": "EFF_FLAME_CLOAK",
+            "name": "Вогняний Плащ",
+            "desc": "Нівелює шкоду [Burning]\nСпалахує біля джерел вогню\nПідпалює ворогів при контакті",
+            "img_path": "",
+            "img_from_spell_id": 175,
+            "use_entry_for_sustained_spell": 175
+        },
+        "EFF_DUSTED": {
+            "id": 102,
+            "internal_name": "EFF_DUSTED",
+            "name": "Припорошений",
+            "desc": "Помітніший для ворогів\n- Сприйняття",
+            "img_path": "",
+            "img_from_spell_id": 198
+        },
+        "EFF_NOISE_VISIBILITY": {
+            "id": 103,
+            "internal_name": "EFF_NOISE_VISIBILITY",
+            "name": "",
+            "desc": "",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "never_display": true
+        },
+        "EFF_RATION_SPICY": {
+            "id": 104,
+            "internal_name": "EFF_RATION_SPICY",
+            "name": "Раціон (Пряний)",
+            "desc": "+4 Сила\n+4 Спритність",
+            "img_path": "*images/ui/HUD/statusfx/Ration_spicy.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_RATION_SOUR": {
+            "id": 105,
+            "internal_name": "EFF_RATION_SOUR",
+            "name": "Раціон (Кислий)",
+            "desc": "+4 Інтелект\n+25% Сили Заклять",
+            "img_path": "*images/ui/HUD/statusfx/Ration_sour.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_RATION_BITTER": {
+            "id": 106,
+            "internal_name": "EFF_RATION_BITTER",
+            "name": "Раціон (Гіркий)",
+            "desc": "+4 Статура\n+4 Сприйняття",
+            "img_path": "*images/ui/HUD/statusfx/Ration_bitter.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_RATION_HEARTY": {
+            "id": 107,
+            "internal_name": "EFF_RATION_HEARTY",
+            "name": "Раціон (Ситний)",
+            "desc": "+4 Сила\n+4 Статура",
+            "img_path": "*images/ui/HUD/statusfx/Ration_hearty.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_RATION_HERBAL": {
+            "id": 108,
+            "internal_name": "EFF_RATION_HERBAL",
+            "name": "Раціон (Трав'яний)",
+            "desc": "+4 Харизма\n+20% Опору Магії",
+            "img_path": "*images/ui/HUD/statusfx/Ration_herbal.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_RATION_SWEET": {
+            "id": 109,
+            "internal_name": "EFF_RATION_SWEET",
+            "name": "Раціон (Солодкий)",
+            "desc": "+1 [HP Regen]\n+1 [MP Regen]",
+            "img_path": "*images/ui/HUD/statusfx/Ration_sweet.png",
+            "img_from_spell_id": -1
+        },
+        "EFF_GROWTH": {
+            "id": 110,
+            "internal_name": "EFF_GROWTH",
+            "name": [
+                "Ріст (Ранг I)",
+                "Ріст (Ранг II)",
+                "Ріст (Ранг III)"
+            ],
+            "desc": [
+                "Ріст розквітає при отриманні LVL і шансі % при поїданні гнилої їжі",
+                "Ріст розквітає при отриманні LVL і шансі % при питті води",
+                "Швидкість ефекту Спор підвищена",
+                "Спори також спрацьовують при отриманні магічної шкоди та дальніх атак",
+                "%+d КЗ / Шкода Отрути",
+                "%+d%% Фізичного Опору",
+                "%+d%% СЗ",
+                "%+d%% MP РГН",
+                "%+d%% Швидкості руху",
+                "%+d%% Швидкості накладеної Отрути",
+                "%+d%% Шкоди Проростання",
+                "%+d%% Отриманої Вогняної Шкоди"
+            ],
+            "img_path": "*images/ui/HUD/statusfx/growth_dryad_green.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 320
+        },
+        "EFF_THORNS": {
+            "id": 111,
+            "internal_name": "EFF_THORNS",
+            "name": "Шипи",
+            "desc": "Відплачує атакувальникам ближнього бою",
+            "img_path": "",
+            "img_from_spell_id": 201,
+            "use_entry_for_sustained_spell": 201
+        },
+        "EFF_BLADEVINES": {
+            "id": 112,
+            "internal_name": "EFF_BLADEVINES",
+            "name": "Клинкові Лози",
+            "desc": "EFF_BLADEVINES",
+            "img_path": "",
+            "img_from_spell_id": 202,
+            "use_entry_for_sustained_spell": 202
+        },
+        "EFF_BASTION_MUSHROOM": {
+            "id": 113,
+            "internal_name": "EFF_BASTION_MUSHROOM",
+            "name": "Міцелій Бастіону",
+            "desc": "EFF_BASTION_MUSHROOM",
+            "img_path": "",
+            "img_from_spell_id": 203,
+            "use_entry_for_sustained_spell": 203
+        },
+        "EFF_BASTION_ROOTS": {
+            "id": 114,
+            "internal_name": "EFF_BASTION_ROOTS",
+            "name": "Корені Бастіону",
+            "desc": [
+                "Уповільнення",
+                "Корені успадковують Шипи й Клинкові Лози",
+                "Приріст СЗ +10 за кожен ріст"
+            ],
+            "img_path": "",
+            "img_from_spell_id": 204,
+            "use_entry_for_sustained_spell": 204
+        },
+        "EFF_FOCI_LIGHT_PEACE": {
+            "id": 115,
+            "internal_name": "EFF_FOCI_LIGHT_PEACE",
+            "name": "Мир",
+            "desc": "Відновлює HP з часом",
+            "img_path": "",
+            "img_from_spell_id": 210
+        },
+        "EFF_FOCI_LIGHT_JUSTICE": {
+            "id": 116,
+            "internal_name": "EFF_FOCI_LIGHT_JUSTICE",
+            "name": "Справедливість",
+            "desc": "Фізичні атаки завдають додаткової шкоди Smite.",
+            "img_path": "",
+            "img_from_spell_id": 211
+        },
+        "EFF_FOCI_LIGHT_PROVIDENCE": {
+            "id": 117,
+            "internal_name": "EFF_FOCI_LIGHT_PROVIDENCE",
+            "name": "Провидіння",
+            "desc": "Уповільнює голод",
+            "img_path": "",
+            "img_from_spell_id": 212
+        },
+        "EFF_FOCI_LIGHT_PURITY": {
+            "id": 118,
+            "internal_name": "EFF_FOCI_LIGHT_PURITY",
+            "name": "Чистота",
+            "desc": "Захищає від шкідливих статусних ефектів.",
+            "img_path": "",
+            "img_from_spell_id": 213
+        },
+        "EFF_FOCI_LIGHT_SANCTUARY": {
+            "id": 119,
+            "internal_name": "EFF_FOCI_LIGHT_SANCTUARY",
+            "name": "Святилище",
+            "desc": "Покращує КЗ",
+            "img_path": "",
+            "img_from_spell_id": 214
+        },
+        "EFF_STASIS": {
+            "id": 120,
+            "internal_name": "EFF_STASIS",
+            "name": "Стазис Порожнечі",
+            "desc": "Неможливо рухатись або діяти\nНеможливо отримувати шкоду",
+            "img_path": "",
+            "img_from_spell_id": 206
+        },
+        "EFF_HP_MP_REGEN": {
+            "id": 121,
+            "internal_name": "EFF_HP_MP_REGEN",
+            "name": "Нагодований",
+            "desc": "Відновлює HP/MP кожні 5с від споживання благословенної їжі\nЕфект зникає при нетравленні",
+            "img_path": "*images/ui/HUD/statusfx/nourished.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 260
+        },
+        "EFF_DISRUPTED": {
+            "id": 122,
+            "internal_name": "EFF_DISRUPTED",
+            "name": "Порушення",
+            "desc": "Знижені рух і КЗ",
+            "img_path": "",
+            "img_from_spell_id": 180
+        },
+        "EFF_FROST": {
+            "id": 123,
+            "internal_name": "EFF_FROST",
+            "name": "Обмороження",
+            "desc": "Знижений рух",
+            "img_path": "",
+            "img_from_spell_id": 68
+        },
+        "EFF_MAGICIANS_ARMOR": {
+            "id": 124,
+            "internal_name": "EFF_MAGICIANS_ARMOR",
+            "name": "Бульбашка Магів",
+            "desc": "Перехоплює всю шкоду від ворогів, доки залишаються заряди.",
+            "img_path": "",
+            "img_from_spell_id": 216
+        },
+        "EFF_PROJECT_SPIRIT": {
+            "id": 125,
+            "internal_name": "EFF_PROJECT_SPIRIT",
+            "name": "Пташиний Дух",
+            "desc": "Вселяється у форму примарної качки",
+            "img_path": "",
+            "img_from_spell_id": 217
+        },
+        "EFF_DEFY_FLESH": {
+            "id": 126,
+            "internal_name": "EFF_DEFY_FLESH",
+            "name": "Непокора Плоті",
+            "desc": "Отримує додаткову магічну шкоду при ударі",
+            "img_path": "",
+            "img_from_spell_id": 103
+        },
+        "EFF_PINPOINT_DAMAGE": {
+            "id": 127,
+            "internal_name": "EFF_PINPOINT_DAMAGE",
+            "name": "Прицільність",
+            "desc": "Отримує додаткову шкоду Smite при атаці заклинача.",
+            "img_path": "",
+            "img_from_spell_id": 78,
+            "never_display": true
+        },
+        "EFF_RADIANT_HEART": {
+            "id": 128,
+            "internal_name": "EFF_RADIANT_HEART",
+            "name": [
+                "Сяйне Серце",
+                "Сяйне Серце",
+                "Кам'яне Серце",
+                "Кам'яне Серце"
+            ],
+            "desc": [
+                "Розсіюється нижче 60% Завзяття (FR)\nЛевітація\n+СЗ/-СТА від ХАР\n+25% Опору Вогню\nFR виснажується з часом",
+                "Розсіюється нижче 60% Завзяття (FR)\nЗакляття за 0 MP\nПосилені ефекти Breathe Fire\nЛевітація\n+СЗ/-СТА від ХАР\n+25% Опору Вогню\nFR виснажується з часом",
+                "Розсіюється вище 40% Завзяття (FR)\n+СИЛ/СТА від ХАР\n-СПР від ХАР",
+                "Розсіюється вище 40% Завзяття (FR)\nІмунітет до Шкоди\n+СИЛ/СТА від ХАР\n-СПР від ХАР"
+            ],
+            "img_path": [
+                "*images/ui/HUD/statusfx/heart_radiant.png",
+                "*images/ui/HUD/statusfx/heart_radiant_bonus.png",
+                "*images/ui/HUD/statusfx/heart_stone.png",
+                "*images/ui/HUD/statusfx/heart_stone_bonus.png"
+            ],
+            "img_from_spell_id": -1,
+            "tooltip_width": 300
+        },
+        "EFF_DIVINE_FIRE": {
+            "id": 129,
+            "internal_name": "EFF_DIVINE_FIRE",
+            "name": "Святий Вогонь",
+            "desc": "Отримувана шкода збільшена",
+            "img_path": "",
+            "img_from_spell_id": 219,
+            "tooltip_width": 260
+        },
+        "EFF_HEALING_WORD": {
+            "id": 130,
+            "internal_name": "EFF_HEALING_WORD",
+            "name": "Слово Зцілення",
+            "desc": "Молитва про зцілення\nЕфект втрачається при отриманні шкоди",
+            "img_path": "",
+            "img_from_spell_id": 220,
+            "tooltip_width": 260
+        },
+        "EFF_HOLY_FIRE": {
+            "id": 131,
+            "internal_name": "EFF_HOLY_FIRE",
+            "name": "Святий Вогонь",
+            "desc": "Горіння від надприродного джерела вогню",
+            "img_path": "",
+            "img_from_spell_id": -1,
+            "tooltip_width": 260,
+            "never_display": true
+        },
+        "EFF_SIGIL": {
+            "id": 132,
+            "internal_name": "EFF_SIGIL",
+            "name": "Сигіл",
+            "desc": "Отримує додаткове зцілення\nВороги отримують додаткову шкоду Smite",
+            "img_path": "",
+            "img_from_spell_id": 222,
+            "tooltip_width": 260
+        },
+        "EFF_SANCTUARY": {
+            "id": 133,
+            "internal_name": "EFF_SANCTUARY",
+            "name": "Святилище",
+            "desc": "Опір шкоді зростає з кожним рангом",
+            "img_path": "",
+            "img_from_spell_id": 223,
+            "tooltip_width": 260
+        },
+        "EFF_DUCKED": {
+            "id": 134,
+            "internal_name": "EFF_DUCKED",
+            "name": "EFF_DUCKED",
+            "desc": "EFF_DUCKED",
+            "img_path": "*images/ui/HUD/statusfx/ducked.png",
+            "img_from_spell_id": -1,
+            "tooltip_width": 260
+        }
+    }
 }
