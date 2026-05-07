@@ -56,9 +56,9 @@ This guide defines the baseline rules for Ukrainian localization in this reposit
 ## Names And Terms
 - Use glossary-first translation.
 - Check these files before introducing a new term:
-  - [Glossary.Core.csv](D:/Repositories/Localization/Localization-Barony/Localization/Glossary.Core.csv)
-  - [Glossary.Names.csv](D:/Repositories/Localization/Localization-Barony/Localization/Glossary.Names.csv)
-  - [Glossary.Technical.csv](D:/Repositories/Localization/Localization-Barony/Localization/Glossary.Technical.csv)
+  - [Glossary.Core.csv](Data/Glossary.Core.csv)
+  - [Glossary.Names.csv](Data/Glossary.Names.csv)
+  - [Glossary.Technical.csv](Data/Glossary.Technical.csv)
 - Character, boss, faction, and place names must stay consistent across all files.
 - Technical resource references such as fonts and images must remain unchanged.
 
@@ -79,6 +79,6 @@ This guide defines the baseline rules for Ukrainian localization in this reposit
 
 ## Pre-Commit Checks
 - Run:
-  - [validate_translations.py](D:/Repositories/Localization/Localization-Barony/Localization/validate_translations.py)
-  - [check_translation_consistency.py](D:/Repositories/Localization/Localization-Barony/Localization/check_translation_consistency.py)
+  - [validate_translations.py](scripts/validate_translations.py)
+  - [check_translation_consistency.py](scripts/check_translation_consistency.py)
 - Review generated reports before committing a large batch.
