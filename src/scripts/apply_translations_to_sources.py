@@ -14,6 +14,7 @@ REPO_ROOT = SRC_DIR.parent
 DATA_DIR = SRC_DIR / "Data"
 CSV_PATH = DATA_DIR / "Strings.csv"
 SOURCE_ROOT = REPO_ROOT / "Barony Ukrainian Localization"
+ORIGINAL_ROOT = SRC_DIR / "original"
 OUTPUT_ENCODING = "utf-8"
 SOURCE_ENCODING_CANDIDATES = (OUTPUT_ENCODING, "utf-8-sig", "cp1251")
 
@@ -776,10 +777,54 @@ def adapt_translation_to_source_template(source_text: str, translated_text: str)
     return result
 
 
+def txt_line_matches(line: str, row: TranslationRow, translated_text: str) -> bool:
+    current_unescaped = normalize_line_endings(unescape_text(line))
+    current_normalized = normalize_line_endings(line)
+    source_text = normalize_line_endings(row.source_text)
+    source_text_without_bom = source_text.removeprefix("\ufeff")
+    translated_text_normalized = normalize_line_endings(translated_text)
+    return current_unescaped in {
+        source_text,
+        source_text_without_bom,
+        translated_text_normalized,
+    } or current_normalized in {
+        source_text,
+        source_text_without_bom,
+        translated_text_normalized,
+    }
+
+
+def find_txt_row_index(lines: list[str], row: TranslationRow, translated_text: str) -> int | None:
+    source_text = normalize_line_endings(row.source_text)
+    source_text_without_bom = source_text.removeprefix("\ufeff")
+    for index, line in enumerate(lines):
+        current_unescaped = normalize_line_endings(unescape_text(line))
+        current_normalized = normalize_line_endings(line)
+        if current_unescaped in {source_text, source_text_without_bom}:
+            return index
+        if current_normalized in {source_text, source_text_without_bom}:
+            return index
+
+    translated_text_normalized = normalize_line_endings(translated_text)
+    for index, line in enumerate(lines):
+        current_unescaped = normalize_line_endings(unescape_text(line))
+        current_normalized = normalize_line_endings(line)
+        if current_unescaped == translated_text_normalized:
+            return index
+        if current_normalized == translated_text_normalized:
+            return index
+    return None
+
+
 def apply_txt_rows(file_path: Path, rows: list[TranslationRow]) -> tuple[int, list[str], bool]:
     source = read_source_text(file_path)
-    contents = source.text
-    lines = contents.splitlines(keepends=True)
+    current_lines = source.text.splitlines(keepends=True)
+    original_path = ORIGINAL_ROOT / rows[0].relative_path if rows else None
+    if original_path is not None and original_path.exists():
+        base_source = read_source_text(original_path)
+    else:
+        base_source = source
+    lines = base_source.text.splitlines(keepends=True)
     changed = 0
     warnings: list[str] = []
 
@@ -789,37 +834,39 @@ def apply_txt_rows(file_path: Path, rows: list[TranslationRow]) -> tuple[int, li
 
         index = row.line_number - 1
         if index < 0 or index >= len(lines):
-            warnings.append(
-                f"{row.relative_path}:{row.line_number} line is missing"
-            )
-            continue
+            index = -1
 
-        current = lines[index]
-        translated_text = adapt_line_endings(row.translated_text, current)
+        current = lines[index] if index >= 0 else ""
+        translated_text = adapt_line_endings(
+            row.translated_text,
+            current or row.source_text,
+        )
+        if index < 0 or not txt_line_matches(current, row, translated_text):
+            found_index = find_txt_row_index(lines, row, translated_text)
+            if found_index is None:
+                warnings.append(
+                    f"{row.relative_path}:{row.line_number} source mismatch"
+                )
+                continue
+            index = found_index
+            current = lines[index]
+            translated_text = adapt_line_endings(row.translated_text, current)
+
         if current == translated_text:
-            continue
-
-        current_unescaped = normalize_line_endings(unescape_text(current))
-        current_normalized = normalize_line_endings(current)
-        source_text = normalize_line_endings(row.source_text)
-        source_text_without_bom = source_text.removeprefix("\ufeff")
-        translated_text_normalized = normalize_line_endings(translated_text)
-        if current_unescaped not in {
-            source_text,
-            source_text_without_bom,
-            translated_text_normalized,
-        } and current_normalized not in {
-            source_text,
-            source_text_without_bom,
-            translated_text_normalized,
-        }:
-            warnings.append(
-                f"{row.relative_path}:{row.line_number} source mismatch"
-            )
             continue
 
         lines[index] = translated_text
         changed += 1
+
+    if base_source is not source:
+        for index, line in enumerate(lines):
+            if index >= len(current_lines):
+                break
+            if not line.lstrip().startswith("#"):
+                continue
+            current_line = current_lines[index]
+            if current_line.lstrip().startswith("#"):
+                lines[index] = adapt_line_endings(current_line, line)
 
     wrote_file = changed > 0
     if wrote_file:
