@@ -7315,7 +7315,7 @@ intro - God Rest Ye Merry Gentlemen від NaturesEye#
 6198 PWR:#
 6199 HP:#
 6200 AC:#
-6201 SPD:#
+6201 ШВД:#
 6202 ГУМАНОЇД#
 6203 ЗВІРОЛЮДИ#
 6204 ЗВІР#

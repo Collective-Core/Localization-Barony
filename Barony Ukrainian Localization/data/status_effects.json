@@ -1071,7 +1071,7 @@
 			"id": 90,
 			"internal_name": "EFF_LIGHTEN_LOAD",
 			"name": "Полегшення Тягаря",
-			"desc": "Зменшує штраф SPD від ВАГ інвентаря",
+			"desc": "Зменшує штраф ШВД від ваги інвентаря",
 			"img_path": "",
 			"img_from_spell_id": 152,
 			"use_entry_for_sustained_spell": 152

@@ -140,7 +140,7 @@
                 "defensive potions": "Максимальний кинутий збиток:",
                 "booze": "Максимальний кинутий збиток:",
                 "offensive potions": "Максимальний кинутий збиток:",
-                "format": "%d DMG"
+                "format": "%d ШКД"
             }
         },
         {
@@ -176,7 +176,7 @@
         {
             "BLOCKED_HIGHEST_DMG": {
                 "default": "Найбільша шкода заблокована:",
-                "format": "%d DMG"
+                "format": "%d ШКД"
             }
         },
         {
@@ -1105,9 +1105,9 @@
         },
         {
             "MELEE_DMG_TOTAL": {
-                "default": "Усього продано DMG:",
-                "melee": "Усього рукопашних DMG роздано:",
-                "format": "%d DMG"
+                "default": "Усього завдано ШКД:",
+                "melee": "Усього завдано рукопашної ШКД:",
+                "format": "%d ШКД"
             }
         },
         {
@@ -1130,7 +1130,7 @@
         },
         {
             "CRITS_DMG_TOTAL": {
-                "default": "Усього роздано критичних DMG:",
+                "default": "Усього завдано критичної ШКД:",
                 "format": "%d HP"
             }
         },
@@ -1181,9 +1181,9 @@
         },
         {
             "RANGED_DMG_TOTAL": {
-                "missiles": "Усього роздано DMG:",
+                "missiles": "Усього завдано дальньої ШКД:",
                 "default": "Загальний завданий збиток:",
-                "format": "%d DMG"
+                "format": "%d ШКД"
             }
         },
         {
@@ -1206,12 +1206,12 @@
         },
         {
             "THROWN_DMG_TOTAL": {
-                "default": "Усього викинуто DMG Роздано:",
+                "default": "Усього завдано метальної ШКД:",
                 "gem_rock": "Загальний завданий збиток:",
                 "boomerang": "Загальний завданий збиток:",
                 "tomahawks & daggers": "Загальний завданий збиток:",
                 "chakrams and shurikens": "Загальний завданий збиток:",
-                "format": "%d DMG"
+                "format": "%d ШКД"
             }
         },
         {
@@ -1234,8 +1234,8 @@
         },
         {
             "FLANK_DMG": {
-                "default": "Загальний фланговий DMG Роздано:",
-                "format": "%d DMG"
+                "default": "Усього завдано флангової ШКД:",
+                "format": "%d ШКД"
             }
         },
         {
@@ -1246,7 +1246,7 @@
         },
         {
             "CLASS_FLANK_DMG_RUN": {
-                "default": "Найбільше флангових DMG за 1 забіг:",
+                "default": "Найбільше флангової ШКД за 1 забіг:",
                 "format": "%d DMG"
             }
         },
@@ -1572,7 +1572,7 @@
         {
             "SPELL_DMG": {
                 "default": "Заподіяна шкода:",
-                "format": "%d DMG"
+                "format": "%d ШКД"
             }
         },
         {
@@ -1657,7 +1657,7 @@
         {
             "BEARTRAP_DMG": {
                 "default": "Заподіяна шкода:",
-                "format": "%d DMG"
+                "format": "%d ШКД"
             }
         },
         {
@@ -1692,7 +1692,7 @@
         },
         {
             "DUMMY_DMG_TAKEN": {
-                "default": "Всього DMG взято:",
+                "default": "Усього отримано ШКД:",
                 "format": "%d DMG"
             }
         },
@@ -1705,7 +1705,7 @@
         {
             "SENTRY_DEPLOY_DMG": {
                 "default": "Заподіяна шкода:",
-                "format": "%d DMG"
+                "format": "%d ШКД"
             }
         },
         {
@@ -1725,7 +1725,7 @@
         {
             "BOMB_DMG": {
                 "default": "Заподіяна шкода:",
-                "format": "%d DMG"
+                "format": "%d ШКД"
             }
         },
         {
@@ -2698,9 +2698,9 @@
             "format1": "%d Парії"
         },
         "CUSTOM_DMG_PARRIES": {
-            "default": "Усього продано DMG:",
-            "format0": "%d Хіт DMG",
-            "format1": "%d Паррі DMG"
+            "default": "Усього завдано ШКД:",
+            "format0": "%d ШКД влучання",
+            "format1": "%d ШКД парирування"
         },
         "CUSTOM_JEWEL_RECRUITS": {
             "default": "Плата за працевлаштування:",

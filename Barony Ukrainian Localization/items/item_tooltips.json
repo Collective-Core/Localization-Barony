@@ -62,39 +62,39 @@
 			"unknown_scroll": "невідомий сувій"
 		},
 		"equipment_status": {
-			"broken": "Зламаний",
-			"decrepit": "Старий",
-			"worn": "Зношений",
-			"serviceable": "Справний",
-			"excellent": "Відмінний"
+			"broken": "Зламане",
+			"decrepit": "Старе",
+			"worn": "Зношене",
+			"serviceable": "Справне",
+			"excellent": "Відмінне"
 		},
 		"food_status": {
-			"broken": "Гнилий",
-			"decrepit": "Запліснявілий",
-			"worn": "Витриманий",
-			"serviceable": "Злегка Витриманий",
-			"excellent": "Свіжий"
+			"broken": "Гнила",
+			"decrepit": "Запліснявіла",
+			"worn": "Витримана",
+			"serviceable": "Злегка витримана",
+			"excellent": "Свіжа"
 		},
 		"potion_status": {
-			"broken": "Вивітрений",
-			"decrepit": "Каламутний",
-			"worn": "Закручений",
-			"serviceable": "Звичайний",
-			"excellent": "Бульбашковий"
+			"broken": "Випарене",
+			"decrepit": "Каламутне",
+			"worn": "Закручене",
+			"serviceable": "Звичайне",
+			"excellent": "Бульбашкове"
 		},
 		"book_status": {
-			"broken": "Подертий",
-			"decrepit": "Порваний",
-			"worn": "Вицвілий",
-			"serviceable": "Позначений",
-			"excellent": "Новісінький"
+			"broken": "Подерта",
+			"decrepit": "Порвана",
+			"worn": "Вицвіла",
+			"serviceable": "Позначена",
+			"excellent": "Новісінька"
 		},
 		"jewelry_status": {
-			"broken": "Знищений",
-			"decrepit": "Тріснутий",
-			"worn": "Грубий",
-			"serviceable": "Із Вадою",
-			"excellent": "Бездоганний"
+			"broken": "Знищена",
+			"decrepit": "Тріснута",
+			"worn": "Необроблена",
+			"serviceable": "З вадою",
+			"excellent": "Бездоганна"
 		},
 		"jewel_levels": {
 			"1": "[The Mines] і\nраніші глибини ",
@@ -119,10 +119,10 @@
 			"bonus": "бонус"
 		},
 		"item_identified_status": {
-			"unidentified": "Невідомий",
+			"unidentified": "Нерозпізнаний",
 			"cursed": "Проклятий",
 			"blessed": "Благословенний",
-			"uncursed": "Без Прокляття"
+			"uncursed": "Непроклятий"
 		},
 		"potion_ally_damage": {
 			"no_harm_ally": "\n+Без шкоди союзникам",
@@ -167,22 +167,22 @@
 			"unknown": "Невідомо"
 		},
 		"stat_short_name": {
-			"STR": "STR",
-			"DEX": "DEX",
-			"CON": "CON",
-			"INT": "INT",
-			"PER": "PER",
-			"CHR": "CHR",
-			"AC": "AC"
+			"STR": "СИЛ",
+			"DEX": "СПР",
+			"CON": "СТА",
+			"INT": "ІНТ",
+			"PER": "СПРИЙ",
+			"CHR": "ХАР",
+			"AC": "КЗ"
 		},
 		"stat_long_name": {
 			"STR": "Сила",
 			"DEX": "Спритність",
-			"CON": "Витривалість",
+			"CON": "Статура",
 			"INT": "Інтелект",
 			"PER": "Сприйняття",
 			"CHR": "Харизма",
-			"AC": "Клас Броні"
+			"AC": "Клас Захисту"
 		},
 		"spell_strings": {
 			"healing": "зцілення",
@@ -297,8 +297,8 @@
 	},
 	"templates": {
 		"": [ "" ],
-		"template_potion_base_damage": [ "\nПри кидку:", "%+d базової шкоди зілля" ],
-		"template_potion_beatitude": [ "%+d шкоди зілля від %s" ],
+		"template_potion_base_damage": [ "\nПри кидку:", "%+d Базової шкоди зілля" ],
+		"template_potion_beatitude": [ "%+d Шкоди зілля від %s" ],
 		"template_potion_alchemy_damage": [ "%+d%% шкоди від навички Алхімії%s" ],
 		"template_alchemy_type": [ "Алхімія:", "* %s" ],
 		"template_potion_curse_sideeffect": [ "^* Додаткові ефекти від %s" ],
@@ -311,20 +311,20 @@
 		"template_hatnewline_curse_sideeffect": [ "^* Додаткові ефекти від %s\n" ],
 		"template_food_curse_sideeffect": [ "^* Додаткові ефекти від %s\n" ],
 		"template_foci_mage_beatitude_pwr": [ "%+d%% шкоди заклять від %s" ],
-		"template_armor_base_ac": [ "%+d базового AC предмета" ],
-		"template_armor_beatitude_ac": [ "%+d AC від %s" ],
-		"template_armor_shield_bonus": [ "+%d AC пасивного бонусу навички %s", "+%d AC бонусу навички %s під час захисту" ],
-		"template_tool_shield_bonus": [ "+%d AC бонусу навички %s під час захисту" ],
+		"template_armor_base_ac": [ "%+d базового КЗ предмета" ],
+		"template_armor_beatitude_ac": [ "%+d КЗ від %s" ],
+		"template_armor_shield_bonus": [ "+%d КЗ пасивного бонусу навички %s", "+%d КЗ бонусу навички %s під час захисту" ],
+		"template_tool_shield_bonus": [ "+%d КЗ бонусу навички %s під час захисту" ],
 		"template_armor_shield_resistance_bonus": [ "* Додаткові +30% [Опір Магії] \n під час захисту" ],
-		"template_shield_description": [ "Дає додатковий AC під час захисту." ],
+		"template_shield_description": [ "Дає додатковий КЗ під час захисту." ],
 		"template_mirror_shield_description": [ "Крихкий щит, що відбиває всі магічні снаряди під час захисту." ],
 		"template_armor_cloak_backpack_description": [ "Збільшує місткість інвентаря.", "Зняття наплічника викине всі предмети, що в ньому зберігаються." ],
-		"template_torch_description": [ "З часом догорає, поки утримується. Дає додатковий AC і світло під час захисту." ],
-		"template_shard_description": [ "Крихке джерело світла, що горить вічно. Дає додатковий AC і світло під час захисту." ],
+		"template_torch_description": [ "З часом догорає, поки утримується. Дає додатковий КЗ і світло під час захисту." ],
+		"template_shard_description": [ "Крихке джерело світла, що горить вічно. Дає додатковий КЗ і світло під час захисту." ],
 		"template_shield_brittle": [ "+100% шансу зношення при влучанні під час захисту" ],
 		"template_weapon_description": [ "Утримуйте [Attack], щоб виконати критичний удар." ],
 		"template_whip_description": [ "Зброя ближнього бою з великою досяжністю. Утримуйте [Attack], щоб виконати критичний удар." ],
-		"template_knuckles_description": [ "Дає ATK, коли Основна Рука порожня." ],
+		"template_knuckles_description": [ "Дає АТК, коли Основна Рука порожня." ],
 		"template_thrown_description": [ "Метальна зброя. Утримуйте [Attack], щоб збільшити шкоду й дальність." ],
 		"template_gem_description": [ "Можна продати за високу ціну або кинути. Утримуйте [Attack], щоб збільшити шкоду й дальність." ],
 		"template_rock_description": [ "Важка метальна зброя. Утримуйте [Attack], щоб збільшити шкоду й дальність." ],
@@ -345,7 +345,7 @@
 		"template_scrap_magic_description": [ "Шматочки рідкісного магічного матеріалу, що використовуються з набором майстрування.", "Добре паливо для нагрівання котла." ],
 		"template_tool_sentrybot_description": [ "Спорядьте й використайте [Attack], щоб розгорнути." ],
 		"template_spellbot_rate_of_fire": [ "%+d%% швидкості стрільби" ],
-		"template_tinkerbot_status_bonus": [ "Характеристики: (%s якість)" ],
+		"template_tinkerbot_status_bonus": [ "Характеристики: (якість %s)" ],
 		"template_tinkerbot_turn_rate": [ "%+dx швидкості повороту" ],
 		"template_tinkerbot_atk_initiative": [ "* Швидше захоплення цілі" ],
 		"template_tinkerbot_broken_description": [ "Найкраще розібрати на брухт." ],
@@ -360,7 +360,7 @@
 		"template_tool_detonated_charge_description": [ "Непотрібні рештки використаної пастки.", "Найкраще розібрати на брухт." ],
 		"template_tool_bomb_description": [ "Спорядьте й використайте [Attack], щоб розгорнути.", "Прилипає до поверхонь і предметів." ],
 		"template_tool_bomb_lockpickable": [ "* Перемикає режим спрацювання, якщо використати [Attack] з відмичкою після встановлення" ],
-		"template_bomb_atk_stat_per": [ "%+d ATK від %d%% стата PER" ],
+		"template_bomb_atk_stat_per": [ "%+d АТК від %d%% стата СПРИЙ" ],
 		"template_tool_teleport_bomb_description": [ "Спорядьте й використайте [Attack], щоб розгорнути.", "Налаштуйте як приймач для іншої телепортаційної пастки за допомогою відмички." ],
 		"template_tool_decoy_range": [ "%+d плиток радіуса", "* 5 секунд відновлення для послідовних", "приманювань тієї самої цілі" ],
 		"template_tool_pickaxe_description": [ "Руйнує валуни та стіни при влучанні." ],
@@ -368,31 +368,31 @@
 		"template_tool_skeletonkey_description": [ "Відмикає та замикає різні скрині, двері й настінні замки.", "Натисніть [Attack], коли споряджено, щоб використати." ],
 		"template_tool_tinopener_description": [ "Дозволяє відкривати консервовану їжу, поки предмет у інвентарі." ],
 		"template_food_tin_description": [ "Сильно втамовує голод.", "Потрібен консервний ніж, щоб з'їсти." ],
-		"template_weapon_base_atk": [ "%+d базового ATK предмета" ],
-		"template_weapon_beatitude_atk": [ "%+d ATK від %s" ],
-		"template_weapon_on_degraded_atk": [ "%+d ATK від якості %s" ],
-		"template_armor_on_degraded_ac": [ "%+d AC від якості %s" ],
+		"template_weapon_base_atk": [ "%+d базового АТК предмета" ],
+		"template_weapon_beatitude_atk": [ "%+d АТК від %s" ],
+		"template_weapon_on_degraded_atk": [ "%+d АТК від якості %s" ],
+		"template_armor_on_degraded_ac": [ "%+d КЗ від якості %s" ],
 		"template_weapon_mace_effects": [ "+10% ламання броні при влучанні" ],
-		"template_weapon_axe_effects": [ "* Підвищений ATK проти дерев'яних об'єктів" ],
-		"template_weapon_sword_effects": [ "+10% шансу [Кровотечі] при влучанні" ],
+		"template_weapon_axe_effects": [ "* Підвищений АТК проти дерев'яних об'єктів" ],
+		"template_weapon_sword_effects": [ "+10% Шансу [Кровотечі] при влучанні" ],
 		"template_weapon_polearm_effects": [ "+10% мінімальної шкоди зброї" ],
 		"template_weapon_legendary_polearm_effects": [ "* Завжди б'є з максимальною шкодою" ],
 		"template_weapon_skill_modifier": [ "%+d%% ефективності від навички %s" ],
-		"template_weapon_skill_modifier_range": [ "* (%d%% - %d%%) розкиду ATK від", "навички %s" ],
+		"template_weapon_skill_modifier_range": [ "* (%d%% - %d%%) Розкиду АТК від", "навички %s" ],
 		"template_when_equipped_text": [ "\nКоли споряджено:" ],
 		"template_when_equipped_text_no_leading_newline": [ "Коли Споряджено:" ],
-		"template_player_atk_stat_str": [ "%+d%% ATK від стата STR" ],
-		"template_player_atk_stat_scepter": [ "%+d%% ATK від 50%% стата STR" ],
-		"template_player_atk_stat_whip": [ "%+d%% ATK від 50%% статів STR + DEX" ],
-		"template_knuckles_base_ac": [ "%+d базового AC / ATK предмета" ],
-		"template_knuckles_beatitude_ac": [ "%+d AC / ATK від %s" ],
-		"template_ranged_armor_pierce": [ "%+d%% шансу пробиття броні від стата PER" ],
+		"template_player_atk_stat_str": [ "%+d%% АТК від стата СИЛ" ],
+		"template_player_atk_stat_scepter": [ "%+d%% АТК від 50%% стата СИЛ" ],
+		"template_player_atk_stat_whip": [ "%+d%% АТК від 50%% статів СИЛ + СПР" ],
+		"template_knuckles_base_ac": [ "%+d базового КЗ / АТК предмета" ],
+		"template_knuckles_beatitude_ac": [ "%+d КЗ / АТК від %s" ],
+		"template_ranged_armor_pierce": [ "%+d%% шансу пробиття броні від стата СПРИЙ" ],
 		"template_ranged_quiver_augment": [ "* Застосовує ефекти сагайдаків у", " клітинці %s" ],
 		"template_ranged_rate_of_fire": [ "%+d%% базової скорострільності" ],
-		"template_player_unarmed_atk_stat_str": [ "%+d%% ATK від стата STR" ],
-		"template_ring_unarmed_atk": [ "%+d Беззбройного ATK від %s" ],
-		"template_player_atk_stat_dex": [ "%+d%% ATK від стата DEX" ],
-		"template_knuckle_skill_modifier": [ "%+d ATK від навички %s" ],
+		"template_player_unarmed_atk_stat_str": [ "%+d%% АТК від стата СИЛ" ],
+		"template_ring_unarmed_atk": [ "%+d Беззбройного АТК від %s" ],
+		"template_player_atk_stat_dex": [ "%+d%% АТК від стата СПР" ],
+		"template_knuckle_skill_modifier": [ "%+d АТК від навички %s" ],
 		"template_knuckle_knockback_modifier": [ "+%d%% Відкидання при критичному ударі" ],
 		"template_weapon_durability": [ "%+d%% міцності від навички %s" ],
 		"template_weapon_legendary_durability": [ "* Стає незламним від навички %s" ],
@@ -409,19 +409,19 @@
 		"template_armor_ac_text": [ "Бонуси броні:" ],
 		"template_thrown_skill_modifier": [ "%+d%% шкоди від навички %s" ],
 		"template_gem_skill_modifier": [ "%+d шкоди від навички %s" ],
-		"template_quiver_silver_attributes": [ "+50% ATK проти нежиті й демонів від [Кари]" ],
-		"template_quiver_piercing_attributes": [ "* [Пробиття Броні] ігнорує 50% AC цілі" ],
-		"template_quiver_swift_attributes": [ "+50% зменшення часу перезаряджання між дальніми атаками від [Swift Reload]" ],
+		"template_quiver_silver_attributes": [ "+50% АТК проти нежиті й демонів від [Кари]" ],
+		"template_quiver_piercing_attributes": [ "* [Пробиття Броні] ігнорує 50% КЗ цілі" ],
+		"template_quiver_swift_attributes": [ "+50% Зменшення часу перезаряджання між дальніми атаками від [Swift Reload]" ],
 		"template_quiver_fire_attributes": [ "* Дає світло на підлозі й стінах" ],
 		"template_quiver_knockback_attributes": [ "* Цілі, знерухомлені ефектами стану, отримують сильніше [Відкидання]" ],
-		"template_quiver_hunting_attributes": [ "+50% ATK проти великих і малих звірів від [Полювання]" ],
+		"template_quiver_hunting_attributes": [ "+50% АТК проти великих і малих звірів від [Полювання]" ],
 		"template_attributes_text_armor_conditional_tags": [
-			"STR",
-			"DEX",
-			"CON",
-			"INT",
-			"PER",
-			"CHR",
+			"СИЛ",
+			"СПР",
+			"СТА",
+			"ІНТ",
+			"СПРИЙ",
+			"ХАР",
 			"КРИХКЕ",
 			"EFF_FEATHER",
 			"EFF_WATERWALKING",
@@ -496,9 +496,9 @@
 		"template_spellbook_cast_success": [ "%+d%% успіху чаклування, коли закляття не вивчене" ],
 		"template_spellbook_extramana_chance": [ "%+d%% ефективності мани" ],
 		"template_spellbook_magic_requirement": [ "Вимога для вивчення закляття: %d (%s)" ],
-		"template_spellbook_magic_current": [ "Поточний %s + стат INT: %d (%s)" ],
+		"template_spellbook_magic_current": [ "Поточний %s + стат ІНТ: %d (%s)" ],
 		"template_spellbook_icon_damage_bonus": [ "Ефект Чаклування Книги Заклять:", "%+d%% Магічної Шкоди" ],
-		"template_spellbook_icon_duration_bonus": [ "Ефект Чаклування Книги Заклять:", "%+d%% тривалості ефекту" ],
+		"template_spellbook_icon_duration_bonus": [ "Ефект Чаклування Книги Заклять:", "%+d%% Тривалості ефекту" ],
 		"template_spellbook_icon_pwr_bonus": [ "Ефект Чаклування Книги Заклять:", "%+d%% Сили Ефекту" ],
 		"template_spellbook_icon_heal_bonus": [ "Ефект Чаклування Книги Заклять:", "%+d%% Відновлення HP" ],
 		"template_spellbook_icon_cureailment_bonus": [ "Ефект Чаклування Книги Заклять:", "%+ds [Регенерації HP] при чаклуванні" ],
@@ -523,7 +523,7 @@
 		"template_icon_spell_extrahealing": [ "%+d [Відновлення HP]\nЗцілює союзників поруч" ],
 		"template_icon_spell_cureailment": [ "[Очищує] від ефектів стану", "заклинача та союзників поруч" ],
 		"template_icon_spell_dig": [ "Руйнує валуни", "та стіни" ],
-		"template_icon_spell_summon": [ "Призиває %d", "союзника(-ів)-скелета(-ів)" ],
+		"template_icon_spell_summon": [ "Призиває %d", "Союзника(-ів)-скелета(-ів)" ],
 		"template_icon_spell_stoneblood": [ "Накладає [Параліч]" ],
 		"template_icon_spell_bleed": [ "%+d Магічної Шкоди", "Накладає [Кровотечу/Уповільнення]" ],
 		"template_icon_spell_reflect_magic": [ "Дає [Віддзеркалення Магії]", "поки підтримується" ],
@@ -533,7 +533,7 @@
 		"template_icon_spell_drain_soul": [ "%+d Магічної Шкоди", "Завдає [Шкоди MP]" ],
 		"template_icon_spell_vampiric_aura": [ "Надає беззбройній атаці %\n[Викрадення Життя] [Кровотечу]" ],
 		"template_icon_spell_charm": [ "Намагається [Зачарувати]", "монстра в союзника" ],
-		"template_icon_spell_revert_form": [ "Знімає активні", "[Зміна Форми] або ", "ефекти [Поліморфії]" ],
+		"template_icon_spell_revert_form": [ "Знімає активні", "[Зміна Форми] або ", "Ефекти [Поліморфії]" ],
 		"template_icon_spell_rat_form": [ "[Зміна Форми] тимчасово", "в іншу форму" ],
 		"template_icon_spell_spider_form": [ "[Зміна Форми] тимчасово", "в іншу форму" ],
 		"template_icon_spell_troll_form": [ "[Зміна Форми] тимчасово", "в іншу форму" ],
@@ -542,7 +542,7 @@
 		"template_icon_spell_poison": [ "%+d магічної шкоди\nНакладає [Отруту]" ],
 		"template_icon_spell_speed": [ "Надає [Швидкість] заклиначу", "та союзників поруч" ],
 		"template_icon_spell_fear": [ "Накладає [Страх] на ворогів поблизу", "ворогів" ],
-		"template_icon_spell_strike": [ "Заряджає потужний беззбройний\nудар, що завдає +400%% ATK" ],
+		"template_icon_spell_strike": [ "Заряджає потужний беззбройний\nудар, що завдає +400%% АТК" ],
 		"template_icon_spell_detect_food": [ "Відкриває джерела їжі на", "поточний рівень підземелля" ],
 		"template_icon_spell_weakness": ["Накладає [Слабкість]", "%-d%% [Сили Атаки]"],
 		"template_desc_spell_weakness": [ "Натисніть [Cast], коли споряджено, щоб", "чаклувати [Снаряд]." ],
@@ -561,7 +561,7 @@
 		"template_desc_spell_cold": [ "Натисніть [Cast], коли споряджено", "щоб чаклувати [Снаряд]." ],
 		"template_desc_spell_fireball": [ "Натисніть [Cast], коли споряджено", "щоб чаклувати [Снаряд]." ],
 		"template_desc_spell_ghost_bolt": [ "Натисніть [Cast], коли споряджено", "щоб чаклувати [Снаряд]." ],
-		"template_desc_spell_light": [ "Натисніть [Cast], коли споряджено, щоб перемкнути", "[Підтримуваний] ефект." ],
+		"template_desc_spell_light": [ "Натисніть [Cast], коли споряджено, щоб перемкнути", "[підтримуваний] ефект." ],
 		"template_desc_spell_removecurse": [ "Натисніть [Cast], коли споряджено", "щоб вибрати предмет для Зняття Прокляття." ],
 		"template_desc_spell_lightning": [ "Натисніть [Cast], коли споряджено", "щоб чаклувати [Снаряд]." ],
 		"template_desc_spell_identify": [ "Натисніть [Cast], коли споряджено", "щоб вибрати предмет для Ідентифікації." ],
@@ -586,8 +586,8 @@
 		"template_desc_spell_acid_spray": [ "Роз'їдає броню при влучанні.", "Закляття ближньої дії.", "Натисніть [Cast], коли споряджено ", "щоб чаклувати 3x [Снаряди]." ],
 		"template_desc_spell_steal_weapon": [ "Вкрадена зброя додається до", "інвентаря заклинача.", "Натисніть [Cast], коли споряджено", "щоб чаклувати [Снаряд]." ],
 		"template_desc_spell_drain_soul": [ "Відновлює залежно від завданої шкоди.", "Натисніть [Cast], коли споряджено, щоб", "чаклувати [Снаряд]." ],
-		"template_desc_spell_vampiric_aura": [ "Підвищує темп голодування, поки ефект активний.", "Натисніть [Cast], коли споряджено, щоб перемкнути", "[Підтримуваний] ефект." ],
-		"template_desc_spell_charm": [ "Успіх залежить від типу монстра.", "Лише 1 монстр може бути Зачарований у", "союзника одночасно.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]." ],
+		"template_desc_spell_vampiric_aura": [ "Підвищує темп голодування, поки ефект активний.", "Натисніть [Cast], коли споряджено, щоб перемкнути", "[підтримуваний] ефект." ],
+		"template_desc_spell_charm": [ "Успіх залежить від типу монстра.", "Лише 1 монстр може бути Зачарований у", "союзника одночасно.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]." ],
 		"template_desc_spell_revert_form": [ "Натисніть [Cast], коли споряджено, щоб", "повернутися до звичайної форми." ],
 		"template_desc_spell_rat_form": [ "Натисніть [Cast], коли споряджено, щоб", "перетворитися на форму Щура." ],
 		"template_desc_spell_spider_form": [ "Натисніть [Cast], коли споряджено, щоб", "перетворитися на форму Членистоногого." ],
@@ -599,10 +599,10 @@
 		"template_desc_spell_fear": [ "Цілі під Страхом не можуть атакувати", "і зосереджують увагу на заклиначі.", "Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Області]." ],
 		"template_desc_spell_strike": [ "Натисніть [Cast], коли споряджено, щоб", "зарядити удар." ],
 		"template_desc_spell_detect_food": [ "Натисніть [Cast], коли споряджено, щоб", "показати місця з їжею на мапі." ],
-		"template_desc_spell_amplify_magic": [ "Збільшує шкоду та зменшує дальність", "чаклованих стихійних заклять.", "Натисніть [Cast], коли споряджено, щоб перемкнути", "[Підтримуваний] ефект." ],
-		"template_desc_spell_shadow_tag": [ "Позначені цілі перенаправляють Телепортаційні", "закляття, чакловані біля цілі.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]." ],
+		"template_desc_spell_amplify_magic": [ "Збільшує шкоду та зменшує дальність", "чаклованих стихійних заклять.", "Натисніть [Cast], коли споряджено, щоб перемкнути", "[підтримуваний] ефект." ],
+		"template_desc_spell_shadow_tag": [ "Позначені цілі перенаправляють Телепортаційні", "закляття, чакловані біля цілі.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]." ],
 		"template_desc_spell_telepull": [ "Дезорієнтовані цілі тимчасово", "не можуть діяти до першого влучання.", "Натисніть [Cast], коли споряджено, щоб", "чаклувати [Снаряд]." ],
-		"template_desc_spell_demon_illu": [ "Параметри Демона залежать від заклинача.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]." ],
+		"template_desc_spell_demon_illu": [ "Параметри Демона залежать від заклинача.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]." ],
 		"template_desc_spell_trolls_blood": [ "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Області]." ],
 		"template_desc_spell_salvage": [ "Впливає лише на предмети на землі.", "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Області]." ],
 		"template_desc_spell_flutter": [ "Натисніть [Cast], коли споряджено", "щоб злетіти." ],
@@ -614,19 +614,19 @@
 		"template_desc_spell_meteor": [ "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Наземної Цілі]." ],
 		"template_icon_spell_ice_wave": [ "%+d Магічної Шкоди", "Поширює [Крижані Шипи]", "Накладає [Уповільнення]" ],
 		"template_desc_spell_ice_wave": [ "Шипи певний час лишаються небезпекою.", "Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Наземної Цілі]." ],
-		"template_icon_spell_guard_body": ["Збільшує [AC] для", "кожен пункт [Заряду]"],
+		"template_icon_spell_guard_body": ["Збільшує [КЗ] для", "кожен пункт [Заряду]"],
 		"template_desc_spell_guard_body": [ "Витрачає заряди при", "ударів від фізичних атак.", "Натисніть [Cast], коли споряджено, щоб", "перемкнути [Підтримуваний] ефект." ],
-		"template_icon_spell_guard_spirit": ["Збільшує [RES] для", "кожен пункт [Заряду]"],
+		"template_icon_spell_guard_spirit": ["Збільшує [ОМ] для", "кожен пункт [Заряду]"],
 		"template_desc_spell_guard_spirit": [ "Витрачає заряди при", "ударів від магічних атак.", "Натисніть [Cast], коли споряджено, щоб", "перемкнути [Підтримуваний] ефект." ],
-		"template_icon_spell_divine_guard": ["Збільшує [AC / RES]", "за кожен пункт [Заряду]"],
+		"template_icon_spell_divine_guard": ["Збільшує [КЗ / ОМ]", "за кожен пункт [Заряду]"],
 		"template_desc_spell_divine_guard": [ "Витрачає заряди при", "при влучанні будь-якою атакою.", "Натисніть [Cast], коли споряджено, щоб", "перемкнути [Підтримуваний] ефект." ],
-		"template_icon_spell_prof_nimbleness": ["Надає +DEX / +Навички", "до [Майстрування], [Дальнього Бою],", "[Мечів], [Непомітності]", "", ""],
+		"template_icon_spell_prof_nimbleness": ["Надає +СПР / +Навички", "до [Майстрування], [Дальнього Бою],", "[Мечів], [Непомітності]", "", ""],
 		"template_desc_spell_prof_nimbleness": [ "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект рангу." ],
-		"template_icon_spell_prof_counsel": ["Надає +INT / +Навички +PWR", "до [Sorcery], [Mysticism]"],
+		"template_icon_spell_prof_counsel": ["Надає +ІНТ / +Навички +СЗ", "до [Sorcery], [Mysticism]"],
 		"template_desc_spell_prof_counsel": [ "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект рангу." ],
-		"template_icon_spell_prof_greater_might": ["Дає [Поштовх]", "+STR / +Навички до [Булав],", "[Сокир], [Древкової Зброї]", "", ""],
+		"template_icon_spell_prof_greater_might": ["Дає [Поштовх]", "+СИЛ / +Навички до [Булав],", "[Сокир], [Древкової Зброї]", "", ""],
 		"template_desc_spell_prof_greater_might": [ "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект рангу." ],
-		"template_icon_spell_prof_sturdiness": ["Надає [+Макс HP]", "+CON / +Навички до [Блокування]"],
+		"template_icon_spell_prof_sturdiness": ["Надає [+Макс HP]", "+СТА / +Навички до [Блокування]"],
 		"template_desc_spell_prof_sturdiness": [ "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект рангу." ],
 		"template_icon_spell_bless_food": ["Надає [Благословенні Трапези]", "заклинача та союзників поруч", ""],
 		"template_desc_spell_bless_food": ["Тривалість ефекту збільшується за", "кожен шматок спожитої їжі.", "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Області]."],
@@ -654,7 +654,7 @@
 		"template_desc_spell_detect_enemy": ["Натисніть [Cast], коли споряджено", "щоб отримати видіння ворога."],
 		"template_icon_spell_detect_enemies": [],
 		"template_desc_spell_detect_enemies": [],
-		"template_icon_spell_turn_undead": ["Накладає [Відвернення] на", "нечестивих ворогів"],
+		"template_icon_spell_turn_undead": ["Накладає [Відвернення] на", "Нечестивих ворогів"],
 		"template_desc_spell_turn_undead": ["Ефекти Відвернення різняться залежно від", "сили й типу ворога.", "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Наземної Цілі]."],
 		"template_icon_spell_heal_other": ["+%d [Відновлення HP] з часом"],
 		"template_desc_spell_heal_other": ["Ефект закінчується, якщо заклинач отримує шкоду.", "Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Цілі Дотику]."],
@@ -665,9 +665,9 @@
 		"template_desc_spell_divine_zeal": ["Натисніть [Cast], коли споряджено, щоб", "перемкнути [Підтримуваний] ефект."],
 		"template_icon_spell_alter_instrument": ["[Трансмутація] музичного", "інструмента в інший"],
 		"template_desc_spell_alter_instrument": ["Вартість у золоті зменшується зі силою.", "Натисніть [Cast], коли споряджено, щоб", "вибрати предмет для трансмутації."],
-		"template_icon_spell_maximise": ["Накладає %+d [Підсилення]", "+STR/+CON/-DEX"],
+		"template_icon_spell_maximise": ["Накладає %+d [Підсилення]", "+СИЛ/+СТА/-СПР"],
 		"template_desc_spell_maximise": ["Ефекти посилюються від повторних", "чаклувань, до +5 [Підсилення].", "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі Дотику]."],
-		"template_icon_spell_minimise": ["Накладає %+d [Послаблення]", "-STR/-CON/+DEX"],
+		"template_icon_spell_minimise": ["Накладає %+d [Послаблення]", "-СИЛ/-СТА/+СПР"],
 		"template_desc_spell_minimise": ["Ефекти посилюються від повторних", "чаклувань, до +5 [Послаблення].", "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі Дотику]."],
 		"template_icon_spell_jump": ["[Телепортація] до", "місця цілі"],
 		"template_desc_spell_jump": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Наземної Цілі]."],
@@ -682,9 +682,9 @@
 		"template_icon_spell_defy_flesh": ["Накладає [Муку]", "Завдає %+d Магічної Шкоди", "коли ціль уражена"],
 		"template_desc_spell_defy_flesh": [ "Вищий HP цілі збільшує", "кількість спрацювань шкоди.", "Натисніть [Cast], коли споряджено, щоб", "чаклувати [Снаряд]." ],
 		"template_icon_spell_grease_spray": ["Накладає [Масткість] при влучанні", "Покриває землю [Слизькою]", "та [Займистою] масткістю"],
-		"template_desc_spell_grease_spray": [ "Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]." ],
+		"template_desc_spell_grease_spray": [ "Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]." ],
 		"template_icon_spell_blood_waves": ["%+d Магічної Шкоди"],
-		"template_desc_spell_blood_waves": [ "Проходить крізь істот.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]." ],
+		"template_desc_spell_blood_waves": [ "Проходить крізь істот.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]." ],
 		"template_icon_spell_booby_trap": ["%+d Магічної Шкоди", "Накладає [Горіння]"],
 		"template_desc_spell_booby_trap": ["Націлює ламкий об'єкт для підриву", "і завдає шкоди в зоні.", "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі Дотику]."],
 		"template_icon_spell_command": ["[Примушує] не-послідовників", "виконати одну [Команду]"],
@@ -708,18 +708,18 @@
 		"template_icon_spell_puncture_void": ["Відправляє предмет у", "[Порожнинне Сховище]"],
 		"template_desc_spell_puncture_void": ["Натисніть [Cast], коли споряджено, щоб", "виберіть предмет для схову."],
 		"template_icon_spell_lead_bolt": ["%+d Шкоди", "Накладає [Відкидання]"],
-		"template_desc_spell_lead_bolt": ["Вартість у золоті зменшується зі силою.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]."],
+		"template_desc_spell_lead_bolt": ["Вартість у золоті зменшується зі силою.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]."],
 		"template_icon_spell_mercury_bolt": ["%+d Шкоди", "Накладає [Отруту] [Уповільнення]", "[Відкидання]"],
-		"template_desc_spell_mercury_bolt": ["Вартість у золоті зменшується зі силою.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]."],
+		"template_desc_spell_mercury_bolt": ["Вартість у золоті зменшується зі силою.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]."],
 		"template_icon_spell_numbing_bolt": ["Накладає [Оніміння]", "Не дає цілі", "насторожитися при наступному влучанні"],
-		"template_desc_spell_numbing_bolt": ["Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]."],
+		"template_desc_spell_numbing_bolt": ["Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]."],
 		"template_icon_spell_delay_pain": ["Надає [Незгасання] заклиначу", "та союзників поруч"],
 		"template_desc_spell_delay_pain": ["Накопичена шкода застосовується, коли", "ефект завершується. Натисніть [Cast], коли", "споряджено, щоб застосувати ефект [Області]."],
 		"template_icon_spell_curse_flesh": ["Накладає [Слабке Переслідування]", "породжує [Череп Ревенанта]", "союзника, коли ціль помирає", "", ""],
 		"template_desc_spell_curse_flesh": ["Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Цілі Дотику]."],
 		"template_icon_spell_revenant_curse": ["Накладає [Велике Переслідування]", "породжує [Скелета Ревенанта]", "союзника, коли ціль помирає"],
 		"template_desc_spell_revenant_curse": ["Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Цілі Дотику]."],
-		"template_icon_spell_cowardice": ["Накладає %+d [Боягузтва]", "Змушує [Відступати] в бою", "-STR/-CON"],
+		"template_icon_spell_cowardice": ["Накладає %+d [Боягузтва]", "Змушує [Відступати] в бою", "-СИЛ/-СТА"],
 		"template_desc_spell_cowardice": ["Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Цілі Дотику]."],
 		"template_icon_spell_courage": [],
 		"template_desc_spell_courage": ["Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Цілі Дотику]."],
@@ -730,16 +730,16 @@
 		"template_icon_spell_deep_shade": ["Призиває [Глибоку Тінь]", "слідувати за заклиначем"],
 		"template_desc_spell_deep_shade": ["Зменшує видимість для ворогів.", "Натисніть [Cast], коли споряджено, щоб", "перемкнути [Підтримуваний] ефект."],
 		"template_icon_spell_shade_bolt": [],"template_desc_spell_shade_bolt": [],
-		"template_icon_spell_spirit_weapon": ["Призиває [Духовну Зброю]", "щоб той певний час бився поруч", "з %+d STR"],
+		"template_icon_spell_spirit_weapon": ["Призиває [Духовну Зброю]", "щоб той певний час бився поруч", "з %+d СИЛ"],
 		"template_desc_spell_spirit_weapon": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Наземної Цілі]."],
-		"template_icon_spell_adorcism": ["[Адорцизм] вибраної зброї", "щоб той певний час бився поруч", "з %+d STR"],
+		"template_icon_spell_adorcism": ["[Адорцизм] вибраної зброї", "щоб той певний час бився поруч", "з %+d СИЛ"],
 		"template_desc_spell_adorcism": ["Натисніть [Cast], коли споряджено, щоб", "виберіть зброю у вашому інвентарі."],
 		"template_icon_spell_taboo": [],
 		"template_desc_spell_taboo": [],
 		"template_icon_spell_wonderlight": [],
 		"template_desc_spell_wonderlight": [],
 		"template_icon_spell_spores": ["Надає [Спори]", "Лишає позаду [Уповільнення/Отруту]", "небезпечні зони при влучанні"],
-		"template_desc_spell_spores": ["Натисніть [Cast], коли споряджено, щоб перемкнути", "[Підтримуваний] ефект."],
+		"template_desc_spell_spores": ["Натисніть [Cast], коли споряджено, щоб перемкнути", "[підтримуваний] ефект."],
 		"template_icon_spell_windgate": ["Створює [Вітрові Врата]", "%+d шкоди для тих, хто проходить крізь", "[Дальніх/Магічних] снарядів", "", ""],
 		"template_desc_spell_windgate": ["Створює пориви, що штовхають істот і", "снаряди. Натисніть [Cast], коли споряджено,", "щоб застосувати ефект [Цілі-Стіни]."],
 		"template_icon_spell_vortex": [],
@@ -759,7 +759,7 @@
 		"template_desc_spell_preserve": ["Витрачає MP на збереження. Натисніть", "[Cast], коли споряджено, щоб перемкнути", "[Підтримуваний] ефект."],
 		"template_icon_spell_restore": ["[Ремонтує] предмет за допомогою", "золото"],
 		"template_desc_spell_restore": ["Натисніть [Cast], коли споряджено, щоб", "виберіть предмет інвентаря для ремонту."],
-		"template_icon_spell_sabotage": ["+%d Магічної Шкоди по", "істотах [Construct]", "Розбирає [Пастки]"],
+		"template_icon_spell_sabotage": ["+%d Магічної Шкоди по", "Істотах [Construct]", "Розбирає [Пастки]"],
 		"template_desc_spell_sabotage": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі Дотику]."],
 		"template_icon_spell_harvest_trap": ["Розбирає [Пастки] на", "[Металевий/Магічний Брухт]"],
 		"template_desc_spell_harvest_trap": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі Дотику]."],
@@ -767,26 +767,26 @@
 		"template_desc_spell_mist_form": ["Витрачає MP при успішному спрацюванні ефекту.", "Натисніть [Cast], коли споряджено, щоб", "перемкнути [Підтримуваний] ефект."],
 		"template_icon_spell_hologram": ["Призиває [Голограму]", "щоб приманювати нападників"],
 		"template_desc_spell_hologram": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Наземної Цілі]."],
-		"template_icon_spell_force_shield": ["Надає %+d AC спорядженим", "предметів [Лівої Руки]"],
+		"template_icon_spell_force_shield": ["Надає %+d КЗ спорядженим", "Предметів [Лівої Руки]"],
 		"template_desc_spell_force_shield": ["Натисніть [Cast], коли споряджено, щоб", "покращити ваш захист на деякий час."],
-		"template_icon_spell_reflector": ["Дає [Віддзеркалення Магії]", "під час захисту за допомогою", "предметів [Лівої Руки]"],
+		"template_icon_spell_reflector": ["Дає [Віддзеркалення Магії]", "під час захисту за допомогою", "Предметів [Лівої Руки]"],
 		"template_desc_spell_reflector": ["Натисніть [Cast], коли споряджено, щоб отримати", "відбиття на деякий час."],
 		"template_icon_spell_splinter_gear": ["[Псує] броню цілі", "%+d Магічної Шкоди при псуванні"],
 		"template_desc_spell_splinter_gear": ["Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]."],
-		"template_icon_spell_lighten_load": ["%+d [Зменшення WGT]"],
+		"template_icon_spell_lighten_load": ["%+d [Зменшення ВАГ]"],
 		"template_desc_spell_lighten_load": ["Натисніть [Cast], коли споряджено, щоб", "перемкнути [Підтримуваний] ефект."],
 		"template_icon_spell_attract_items": ["[Притягує] предмети поблизу"],
 		"template_desc_spell_attract_items": ["Натисніть [Cast], коли споряджено, щоб", "перемкнути [Підтримуваний] ефект."],
 		"template_icon_spell_return_items": ["[Повертає] кинуті предмети", "у ваш інвентар"],
 		"template_desc_spell_return_items": ["Витрачає MP на ефект. Натисніть [Cast]", "коли споряджено, щоб перемкнути", "[Підтримуваний] ефект."],
 		"template_icon_spell_absorb_magic": ["[Поглинає] Магічні снаряди"],
-		"template_desc_spell_absorb_magic": ["Ефект вичерпується при застосуванні Магічного", "бонусу до Шкоди. Натисніть [Cast], коли", "споряджено, щоб отримати поглинання на деякий час."],
+		"template_desc_spell_absorb_magic": ["Ефект вичерпується при застосуванні Магічного", "Бонусу до Шкоди. Натисніть [Cast], коли", "споряджено, щоб отримати поглинання на деякий час."],
 		"template_icon_spell_seize_magic": [],"template_desc_spell_seize_magic": [],
-		"template_icon_spell_deface": ["[Знищує] цільові раковини,", "надгробки, верстаки", "або казани"],
+		"template_icon_spell_deface": ["[Знищує] цільові раковини,", "Надгробки, верстаки", "або казани"],
 		"template_desc_spell_deface": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі Дотику]."],
 		"template_icon_spell_sunder_monument": [],
 		"template_desc_spell_sunder_monument": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі Дотику]."],
-		"template_icon_spell_demesne_door": ["[Зачаровує] дверний отвір", "Союзники, які проходять крізь нього,", "отримують +STR/+CON/+INT"],
+		"template_icon_spell_demesne_door": ["[Зачаровує] дверний отвір", "Союзники, які проходять крізь нього,", "отримують +СИЛ/+СТА/+ІНТ"],
 		"template_desc_spell_demesne_door": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі Дотику]."],
 		"template_icon_spell_tunnel": ["Призиває [Портал]", "Телепортує користувачів на", "протилежний бік стіни"],
 		"template_desc_spell_tunnel": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Цілі-Стіни]."],
@@ -816,7 +816,7 @@
 		"template_desc_spell_cleanse_food": ["Потребує кількох чаклувань, щоб повністю", "очистити. Натисніть [Cast], коли споряджено,", "щоб вибрати їжу для очищення."],
 		"template_icon_spell_adorcise_instrument": [],"template_desc_spell_adorcise_instrument": [],
 		"template_icon_spell_flame_cloak": ["Надає [Вогняний Плащ]", "Імунітет до шкоди [Опіком]", "Спалахує біля полум'я", "[Палить] ворожих нападників"],
-		"template_desc_spell_flame_cloak": ["Натисніть [Cast], коли споряджено, щоб перемкнути", "[Підтримуваний] ефект."],
+		"template_desc_spell_flame_cloak": ["Натисніть [Cast], коли споряджено, щоб перемкнути", "[підтримуваний] ефект."],
 		"template_icon_spell_critical_spell": [],"template_desc_spell_critical_spell": [],
 		"template_icon_spell_magic_well": [],
 		"template_desc_spell_magic_well": [],
@@ -835,7 +835,7 @@
 		"template_icon_spell_lift": [],
 		"template_desc_spell_lift": ["Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Наземної Цілі]."],
 		"template_icon_spell_slam": ["%+d Магічної Шкоди", "Накладає [Укорінення]"],
-		"template_desc_spell_slam": ["Вищі STR і CON цілі", "збільшують шкоду від падіння.", "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Наземної Цілі]."],
+		"template_desc_spell_slam": ["Вищі СИЛ і СТА цілі", "збільшують шкоду від падіння.", "Натисніть [Cast], коли споряджено, щоб", "застосувати ефект [Наземної Цілі]."],
 		"template_icon_spell_ignite": ["Накладає [Горіння] на істот і об'єкти", "поблизу"],
 		"template_desc_spell_ignite": ["Натисніть [Cast], коли споряджено, щоб підпалити", "область навколо себе."],
 		"template_icon_spell_shatter_objects": ["%+d Магічної Шкоди по", "об'єктах поблизу"],
@@ -871,12 +871,12 @@
 		"template_desc_spell_breathe_fire": ["Проходить крізь істот. Короткої", "дальності закляття. Натисніть [Cast], коли", "споряджено, щоб почати вивергати вогонь."],
 		"template_icon_spell_heal_minor": ["+%d [Відновлення HP] з часом"],
 		"template_desc_spell_heal_minor": ["Ефект закінчується, якщо заклинач отримує шкоду.", "Натисніть [Cast], коли споряджено, щоб застосувати", "ефект самолікування."],
-		"template_icon_spell_sigil": ["Застосовується до союзників у зоні дії:", "%+d%% бонусу до ефектів [Зцілення]", "%+d%% шкоди, завданої ворогам", "", ""],
+		"template_icon_spell_sigil": ["Застосовується до союзників у зоні дії:", "%+d%% Бонусу до ефектів [Зцілення]", "%+d%% шкоди, завданої ворогам", "", ""],
 		"template_desc_spell_sigil": ["Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Наземної Цілі]."],
 		"template_icon_spell_sanctuary": ["Застосовується до союзників у зоні дії:", "%+d%% [Опір Шкоді]"],
 		"template_desc_spell_sanctuary": ["Натисніть [Cast], коли споряджено, щоб застосувати", "ефект [Наземної Цілі]."],
-		"template_icon_spell_holy_beam": ["%+d Магічної Шкоди", "+100%% шкоди по", "нечестивих ворогів", "", ""],
-		"template_desc_spell_holy_beam": ["Проходить крізь істот.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[Снаряд]."],
+		"template_icon_spell_holy_beam": ["%+d Магічної Шкоди", "+100%% шкоди по", "Нечестивих ворогів", "", ""],
+		"template_desc_spell_holy_beam": ["Проходить крізь істот.", "Натисніть [Cast], коли споряджено, щоб чаклувати", "[снаряд]."],
 		
 		"template_spell_cost": [ "Вартість: %d MP" ],
 		"template_spell_cost_gold": [ "Вартість: %d MP %d Золота" ],
@@ -884,27 +884,27 @@
 		"template_spell_cost_demon_illusion": [ "Вартість: %d MP", "10%% Макс HP " ],
 		"template_spell_cost_sustained": [ "Вартість: %d MP", "(1 MP/%1.2fs)" ],
 		"template_spell_damage_bonus": [ "Бонуси заклять %s:", "%+d базового параметра заклять %s", "%+.f%% %s від стата %s", "%+.f%% %s від спорядження" ],
-		"template_spell_damage_bonus_pwr": [ "Бонуси заклять %s:", "%+d базового параметра заклять %s", "%+.f%% заклять %s від PWR" ],
-		"template_spell_cast_time": [ "Властивості Чаклування:", "%+.2fs базового часу чаклування", "%+.2fs часу чаклування від DEX/ефектів" ],
-		"template_spell_distance": [ "%+.1f плиток базової дальності", "%+.1f плиток дальності від PER/ефектів" ],
-		"template_spell_generic_bonus_pwr": [ "Бонуси заклять %s:", "%+.f%% заклять %s від PWR" ],
-		"template_spell_damage_bonus_pwr_dual": [ "Бонуси заклять %s:\n%+d базового параметра заклять %s\n%+.f%% заклять %s від PWR\n%+d базового параметра заклять %s\n%+.f%% заклять %s від PWR" ],
+		"template_spell_damage_bonus_pwr": [ "Бонуси заклять %s:", "%+d базового параметра заклять %s", "%+.f%% заклять %s від СЗ" ],
+		"template_spell_cast_time": [ "Властивості Чаклування:", "%+.2fs базового часу чаклування", "%+.2fs часу чаклування від СПР/ефектів" ],
+		"template_spell_distance": [ "%+.1f плиток базової дальності", "%+.1f плиток дальності від СПРИЙ/ефектів" ],
+		"template_spell_generic_bonus_pwr": [ "Бонуси заклять %s:", "%+.f%% заклять %s від СЗ" ],
+		"template_spell_damage_bonus_pwr_dual": [ "Бонуси заклять %s:\n%+d базового параметра заклять %s\n%+.f%% заклять %s від СЗ\n%+d базового параметра заклять %s\n%+.f%% заклять %s від СЗ" ],
 		"template_spell_cast_success": [ "^Штраф за низьку навичку %s:", "^* %d%% шансу провалу чаклування" ],
 		"template_spell_cast_success1": [ "^Штраф за низьку навичку %s:"],
 		"template_spell_cast_success2": [ "^* %d%% шансу провалу чаклування" ],
 		"template_spell_extramana_chance": [ "^* %d%% шансу витратити", "^додаткове MP " ],
 		"template_spell_no_gain_levels": [ "Ранг Закляття опановано:", "* Зменшений рівень навички", "просування" ],
-		"template_attr_spell_shadow_tag": [ "Характеристики:", "* Типи Шкоди (Дальня, Сокира тощо) по цілі з Nullify завжди завдають 100% шкоди", "-50% вартості MP для телепортаційних заклять, поки ефект активний", "", "* Чаклування [Teleportation] переміщує заклинача до позначеної цілі", "* Чаклування [Teleport Other] переміщує позначену ціль перед заклиначем" ],
-		"template_attr_spell_summon": [ "Характеристики:", "* Рівні призваних союзників зберігаються між чаклуваннями, поліпшуючи спорядження кожні 5 LVL (макс на LVL 30)", "* Вартість MP зростає з рангом призову", "* Expert (60) навички Mysticism + стат INT створює додатковий призов", "", "Команди Послідовників:", "* [Relinquish Soul] знищує призови й повертає MP залежно від поточного HP" ],
+		"template_attr_spell_shadow_tag": [ "Характеристики:", "* Типи Шкоди (Дальня, Сокира тощо) по цілі з Nullify завжди завдають 100% шкоди", "-50% Вартості MP для телепортаційних заклять, поки ефект активний", "", "* Чаклування [Teleportation] переміщує заклинача до позначеної цілі", "* Чаклування [Teleport Other] переміщує позначену ціль перед заклиначем" ],
+		"template_attr_spell_summon": [ "Характеристики:", "* Рівні призваних союзників зберігаються між чаклуваннями, поліпшуючи спорядження кожні 5 LVL (макс на LVL 30)", "* Вартість MP зростає з рангом призову", "* Expert (60) навички Mysticism + стат ІНТ створює додатковий призов", "", "Команди Послідовників:", "* [Relinquish Soul] знищує призови й повертає MP залежно від поточного HP" ],
 		"template_attr_spell_self_polymorph": [ "Характеристики:", "* Ефект [Поліморфії] розсіюється при дотику до води або її споживанні" ],
 		"template_attr_spell_acid_spray": [ "Характеристики:", "+25% базового шансу псувати броню за влучання", "" ],
-		"template_attr_spell_charm": [ "Модифікатори Зачарування:", "+30%% шансу проти монстрів під [Сплутаністю] чи [П'яним]", "%+d%% шансу від стата INT", "%+d%% шансу від стата CHR + навички Leadership" ],
+		"template_attr_spell_charm": [ "Модифікатори Зачарування:", "+30%% шансу проти монстрів під [Сплутаністю] чи [П'яним]", "%+d%% шансу від стата ІНТ", "%+d%% шансу від стата ХАР + навички Leadership" ],
 		"template_attr_spell_dominate": [ "Характеристики:", "* Підкорення монстрів дозволяє перевищити ліміт союзників від навички Leadership", "", "Вартість MP Підкорення:", "* Ослаблені монстри зменшують вартість MP для Підкорення (напр. монстр із 20 поточного HP коштує 41 MP)", "" ],
 		"template_attr_spell_revert_form": [ "Характеристики:", "* Знімає лише 1 ефект за раз" ],
-		"template_attr_spell_blood_waves": [ "Характеристики:", "* +3 шкоди заклять за +1 INT", "" ],
-		"template_attr_spell_magicians_armor": [ "Характеристики:", "* +1 до максимального заряду за кожні +20 сумарних\nINT + навички Sorcery" ],
-		"template_attr_spell_breathe_fire": [ "Характеристики:", "* +1 до вартості MP за кожні 50 Макс MP", "* +100% вартості MP, коли нижче 40% MP", "" ],
-		"template_attr_magicstaff_charm": [ "", "Модифікатори Зачарування:", "+30%% шансу проти монстрів під [Сплутаністю] чи [П'яним]", "%+d%% шансу від стата CHR + навички Leadership" ],
+		"template_attr_spell_blood_waves": [ "Характеристики:", "* +3 шкоди заклять за +1 ІНТ", "" ],
+		"template_attr_spell_magicians_armor": [ "Характеристики:", "* +1 до максимального заряду за кожні +20 сумарних\nІНТ + навички Чаклунства" ],
+		"template_attr_spell_breathe_fire": [ "Характеристики:", "* +1 До вартості MP за кожні 50 Макс MP", "* +100% Вартості MP, коли нижче 40% MP", "" ],
+		"template_attr_magicstaff_charm": [ "", "Модифікатори Зачарування:", "+30%% шансу проти монстрів під [Сплутаністю] чи [П'яним]", "%+d%% шансу від стата ХАР + навички Leadership" ],
 		"template_magicstaff_degrade_chance": [ "Характеристики:", "* %d%% шансу зноситись при використанні" ],
 		"template_magicstaff_charm_worn_degrade": [ "Характеристики:", "* %d%% шансу зноситись при використанні від статусу %s" ],
 		"template_spellbook_degrade_chance": [ "* 100% шансу зноситись при читанні", "* 12% шансу зноситись при Чаклуванні Книги Заклять" ]
@@ -1006,7 +1006,7 @@
 					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
 				},
 				{
-					"fully_charged": [ "+3 ATK при повністю зарядженому кидку" ]
+					"fully_charged": [ "+3 АТК при повністю зарядженому кидку" ]
 				},
 				{
 					"thrown_skill_modifier": "template_gem_skill_modifier"
@@ -1060,7 +1060,7 @@
 					"EFF_GREASE_BALL": [ "* Слизька поверхня загоряється біля полум'я" ]
 				},
 				{
-					"EFF_DUST_BALL": [ "* [Запилення] знижує PER і підвищує помітність" ]
+					"EFF_DUST_BALL": [ "* [Запилення] знижує СПРИЙ і підвищує помітність" ]
 				},
 				{
 					"piercing": [ "+50% Пробиття Броні" ]
@@ -1081,7 +1081,7 @@
 					"when_equipped": "template_when_equipped_text"
 				},
 				{
-					"fully_charged": [ "+3 ATK при повністю зарядженому кидку" ]
+					"fully_charged": [ "+3 АТК при повністю зарядженому кидку" ]
 				}
 			],
 			"size": {
@@ -1133,7 +1133,7 @@
 					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
 				},
 				{
-					"fully_charged": [ "+3 ATK при повністю зарядженому кидку" ]
+					"fully_charged": [ "+3 АТК при повністю зарядженому кидку" ]
 				},
 				{
 					"thrown_skill_modifier": "template_gem_skill_modifier"
@@ -1188,7 +1188,7 @@
 					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
 				},
 				{
-					"fully_charged": [ "+3 ATK при повністю зарядженому кидку" ]
+					"fully_charged": [ "+3 АТК при повністю зарядженому кидку" ]
 				},
 				{
 					"thrown_skill_modifier": "template_gem_skill_modifier"
@@ -1557,7 +1557,7 @@
 					"conditional_attribute": "spell_charm"
 				},
 				{
-					"text": "Форма Щура дає\n+DEX +INT +PER",
+					"text": "Форма Щура дає\n+СПР +ІНТ +СПРИЙ",
 					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
 					"conditional_attribute": "spell_rat_form"
 				},
@@ -1567,7 +1567,7 @@
 					"conditional_attribute": "spell_rat_form"
 				},
 				{
-					"text": "Форма Членистоногого дає\n+STR +CON +PER",
+					"text": "Форма Членистоногого дає\n+СИЛ +СТА +СПРИЙ",
 					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
 					"conditional_attribute": "spell_spider_form"
 				},
@@ -1577,7 +1577,7 @@
 					"conditional_attribute": "spell_spider_form"
 				},
 				{
-					"text": "Форма Троля дає\n+STR +CON -DEX",
+					"text": "Форма Троля дає\n+СИЛ +СТА -СПР",
 					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
 					"conditional_attribute": "spell_troll_form"
 				},
@@ -1587,7 +1587,7 @@
 					"conditional_attribute": "spell_troll_form"
 				},
 				{
-					"text": "Форма Імпа дає\n+INT +PER і [Левітацію]",
+					"text": "Форма Імпа дає\n+ІНТ +СПРИЙ і [Левітацію]",
 					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
 					"conditional_attribute": "spell_imp_form"
 				},
@@ -1797,12 +1797,12 @@
 					"conditional_attribute": "spell_flame_elemental"
 				},
 				{
-					"text": "Залишений рельєф знижує\n[AC/Speed] цілей",
+					"text": "Залишений рельєф знижує\n[КЗ/Speed] цілей",
 					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
 					"conditional_attribute": "spell_disrupt_earth"
 				},
 				{
-					"text": "Залишений рельєф знижує\n[AC/Speed] цілей і завдає\n%+d Магічної Шкоди за кожне спрацювання",
+					"text": "Залишений рельєф знижує\n[КЗ/Speed] цілей і завдає\n%+d Магічної Шкоди за кожне спрацювання",
 					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
 					"conditional_attribute": "spell_earth_spines"
 				},
@@ -1837,7 +1837,7 @@
 					"conditional_attribute": "spell_bladevines"
 				},
 				{
-					"text": "Зменшує опори цілі\nдо %+d разів залежно від CHR",
+					"text": "Зменшує опори цілі\nдо %+d разів залежно від ХАР",
 					"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
 					"conditional_attribute": "spell_breathe_fire"
 				},
@@ -3047,7 +3047,7 @@
 					"conditional_attribute": "EFF_LEVITATION"
 				},
 				{
-					"text": "%+d  %s",
+					"text": "%+d %s",
 					"icon_path": "images/ui/HUD/statusfx/regen_hp.png",
 					"conditional_attribute": "EFF_REGENERATION"
 				},
@@ -3592,7 +3592,7 @@
 				},
 				{
 					"EFF_ROOTED": [ "* Падає на підлогу після завершення [Укорінення]",
-						"* Тривалість ефекту зростає від DEX/PER і часу заряду" ]
+						"* Тривалість ефекту зростає від СПР/СПРИЙ і часу заряду" ]
 				},
 				{
 					"piercing": [ "+50% Пробиття Броні" ]
@@ -3619,7 +3619,7 @@
 					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
 				},
 				{
-					"fully_charged": [ "+3 ATK / +25% Пробиття Броні при повністю зарядженому кидку" ]
+					"fully_charged": [ "+3 АТК / +25% Пробиття Броні при повністю зарядженому кидку" ]
 				},
 				{
 					"thrown_skill_modifier": "template_thrown_skill_modifier"
@@ -3666,7 +3666,7 @@
 					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
 				},
 				{
-					"fully_charged": [ "+3 ATK / +25% Пробиття Броні при\n повністю зарядженому кидку" ]
+					"fully_charged": [ "+3 АТК / +25% Пробиття Броні при\n повністю зарядженому кидку" ]
 				},
 				{
 					"thrown_skill_modifier": "template_thrown_skill_modifier"
@@ -3719,7 +3719,7 @@
 					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
 				},
 				{
-					"fully_charged": [ "+3 ATK / +25% Пробиття Броні при\n повністю зарядженому кидку" ]
+					"fully_charged": [ "+3 АТК / +25% Пробиття Броні при\n повністю зарядженому кидку" ]
 				},
 				{
 					"thrown_skill_modifier": "template_thrown_skill_modifier"
@@ -4151,10 +4151,10 @@
 				{
 					"foci_charge_text": [ 
 					"* Ефекти починаються з Рангу I на першому циклі заряду",
-					"+1 до Сили Ефекту за кожні 4 цикли заряду",
+					"+1 До Сили Ефекту за кожні 4 цикли заряду",
 					"%+.1fs базового часу циклу заряду",
 					"%+.1fs тривалості ефекту за цикл",
-					"* CHR збільшує максимальну Силу Ефекту",
+					"* ХАР збільшує максимальну Силу Ефекту",
 					"* Наступний бонус до Сили Ефекту на: %s" ]
 				},
 				{
@@ -4163,7 +4163,7 @@
 				{
 					"foci_mp_cost": [
 					"%+d MP за цикл",
-					"* Без витрат MP кожні %s з %s циклів завдяки CHR",
+					"* Без витрат MP кожні %s з %s циклів завдяки ХАР",
 					"* Наступний бонус до витрат MP на: %s",
 					"",
 					"%s Бонус Навички:",
@@ -4235,7 +4235,7 @@
 				{
 					"foci_mp_cost": [
 					"%+d MP за цикл",
-					"* Без витрат MP кожні %s з %s циклів завдяки CHR",
+					"* Без витрат MP кожні %s з %s циклів завдяки ХАР",
 					"* Наступний бонус до витрат MP на: %s",
 					"",
 					"%s Бонус Навички:",
@@ -4317,7 +4317,7 @@
 				{
 					"foci_mp_cost": [
 					"%+d MP за цикл",
-					"* Без витрат MP кожні %s з %s циклів завдяки CHR",
+					"* Без витрат MP кожні %s з %s циклів завдяки ХАР",
 					"* Наступний бонус до витрат MP на: %s",
 					"",
 					"%s Бонус Навички:",
@@ -4332,27 +4332,27 @@
 		"tooltip_instrument": {
 			"icons": [
 				{
-					"text": "Надає Натхнення [Флейти]:\nМакс. Ефект: [Ранг %s]\n[%d-%d] +DEX / [%d-%d%%] +Швидкість Криту\n\n",
+					"text": "Надає Натхнення [Флейти]:\nМакс. Ефект: [Ранг %s]\n[%d-%d] +СПР / [%d-%d%%] +Швидкість Криту\n\n",
 					"icon_path": "items/images/flute.png",
 					"conditional_attribute": "EFF_INSTRUMENT_FLUTE"
 				},
 				{
-					"text": "Надає Натхнення [Ліри]:\nМакс. Ефект: [Ранг %s]\n[%d-%d] +PER / [%d-%d%%] +Опір Шкоді\n\n",
+					"text": "Надає Натхнення [Ліри]:\nМакс. Ефект: [Ранг %s]\n[%d-%d] +СПРИЙ / [%d-%d%%] +Опір Шкоді\n\n",
 					"icon_path": "items/images/lyre.png",
 					"conditional_attribute": "EFF_INSTRUMENT_LYRE"
 				},
 				{
-					"text": "Надає Натхнення [Барабана]:\nМакс. Ефект: [Ранг %s]\n[%d-%d] +STR / [%d-%d%%] +Пробиття Броні в Ближньому Бою\n\n",
+					"text": "Надає Натхнення [Барабана]:\nМакс. Ефект: [Ранг %s]\n[%d-%d] +СИЛ / [%d-%d%%] +Пробиття Броні в Ближньому Бою\n\n",
 					"icon_path": "items/images/drum.png",
 					"conditional_attribute": "EFF_INSTRUMENT_DRUM"
 				},
 				{
-					"text": "Надає Натхнення [Лютні]:\nМакс. Ефект: [Ранг %s]\n[%d-%d%%] +PWR / [%d-%d%%] +Ухилення\n\n",
+					"text": "Надає Натхнення [Лютні]:\nМакс. Ефект: [Ранг %s]\n[%d-%d%%] +СЗ / [%d-%d%%] +Ухилення\n\n",
 					"icon_path": "items/images/lute.png",
 					"conditional_attribute": "EFF_INSTRUMENT_LUTE"
 				},
 				{
-					"text": "Надає Натхнення [Рогу]:\nМакс. Ефект: [Ранг %s]\n[%d-%d] +CON / [%d-%d] +Шкода Відплати\n\n",
+					"text": "Надає Натхнення [Рогу]:\nМакс. Ефект: [Ранг %s]\n[%d-%d] +СТА / [%d-%d] +Шкода Відплати\n\n",
 					"icon_path": "items/images/horn.png",
 					"conditional_attribute": "EFF_INSTRUMENT_HORN"
 				},
@@ -4372,7 +4372,7 @@
 						"Ефекти Інструмента:",
 						"%+d MP за цикл гри",
 						"* Ефекти починаються з Рангу I на першому циклі гри",
-						"* CHR збільшує бонус до статів/рангу та зменшує",
+						"* ХАР збільшує бонус до статів/рангу та зменшує",
 						"кількість циклів гри до досягнення максимальних бонусів ефекту",
 						"* Наступний бонус до статів на: %s",
 						"* Наступний бонус до рангу на: %s"
@@ -4383,7 +4383,7 @@
 						"",
 						"Час Циклу Гри:",
 						"* Тривалість ефекту/бонус зростають за цикл",
-						"%+.1fs часу циклу гри від стата CHR",
+						"%+.1fs часу циклу гри від стата ХАР",
 						"",
 						"Тривалість Ефектів:",
 						"%+.1fs тривалості за цикл від навички Знання",
@@ -4536,7 +4536,7 @@
 					"conditional_attribute": "EFF_LEVITATION"
 				},
 				{
-					"text": "%+d  %s",
+					"text": "%+d %s",
 					"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
 					"conditional_attribute": "EFF_MP_REGENERATION"
 				},
@@ -5034,7 +5034,7 @@
 					"conditional_attribute": "FRAGILE"
 				},
 				{
-					"text": "%+d  %s",
+					"text": "%+d %s",
 					"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
 					"conditional_attribute": "EFF_MP_REGENERATION"
 				},
@@ -5074,7 +5074,7 @@
 					"conditional_attribute": "CHR"
 				},
 				{
-					"text": "%+d  %s",
+					"text": "%+d %s",
 					"icon_path": "images/ui/HUD/statusfx/regen_hp.png",
 					"conditional_attribute": "EFF_REGENERATION"
 				},
@@ -5348,7 +5348,7 @@
 					"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
 				},
 				{
-					"text": "%+d Беззбройного ATK",
+					"text": "%+d Беззбройного АТК",
 					"icon_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png"
 				}
 			],
@@ -5463,7 +5463,7 @@
 					"icon_path": "#*images/ui/SkillSheet/Icons/Maces01.png"
 				},
 				{
-					"text": "Базові замахи:\n%+d%% ATK від навички [Mace]\nНакладають [Відкидання] зблизька",
+					"text": "Базові замахи:\n%+d%% АТК від навички [Mace]\nНакладають [Відкидання] зблизька",
 					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/genericeffect.png",
 					"conditional_attribute": "EFF_FLAIL"
 				}
@@ -5530,7 +5530,7 @@
 					"icon_path": "#*images/ui/SkillSheet/Icons/Maces01.png"
 				},
 				{
-					"text": "При ударі по ослаблених ворогах:\nATK зброї додає [%d-%d%%] бонусної\nМагічної Шкоди від навички [Mysticism]",
+					"text": "При ударі по ослаблених ворогах:\nАТК зброї додає [%d-%d%%] бонусної\nМагічної Шкоди від навички [Містицизм]",
 					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/genericeffect.png",
 					"conditional_attribute": "EFF_SHILLELAGH"
 				}
@@ -5552,9 +5552,9 @@
 				{
 					"shillelagh_bonus": ["", "Бонусна магічна шкода при влучанні:", 
 					"* Базова бонусна шкода становить +50% від вихідного", 
-					"ATK носія, якщо ціль під дією одного дебафа,", 
+					"АТК носія, якщо ціль під дією одного дебафа,", 
 					"а далі +25% за кожен додатковий дебаф",
-					"* ATK носія обчислюється до критичних", 
+					"* АТК носія обчислюється до критичних", 
 					"ударів і розкиду шкоди від навички зброї"
 					]
 				},
@@ -5734,7 +5734,7 @@
 					"icon_path": "#*images/ui/SkillSheet/Icons/Swords01.png"
 				},
 				{
-					"text": "-50%% ATK від DEX для базових атак\n+25%% [Критичної] Шкоди\n%+d Шкоди Меча [Riposte]",
+					"text": "-50%% АТК від СПР для базових атак\n+25%% [Критичної] Шкоди\n%+d Шкоди Меча [Riposte]",
 					"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/genericeffect.png"
 				}
 			],
@@ -5756,8 +5756,8 @@
 					"weapon_parry_ac": [
 						"",
 						"Ріпости:",
-						"* AC щита в руці ігнорується під час [Riposte]",
-						"%+d AC під час [Riposte] від ATK зброї та навички Меча"
+						"* КЗ щита в руці ігнорується під час [Riposte]",
+						"%+d КЗ під час [Riposte] від АТК зброї та навички Меча"
 					]
 				},
 				{
@@ -5824,8 +5824,8 @@
 					"weapon_parry_ac": [
 						"",
 						"Парирування:",
-						"* AC щита в руці ігнорується під час [Parry]",
-						"%+d AC під час [Parry] від ATK зброї", "та навички Меча"
+						"* КЗ щита в руці ігнорується під час [Parry]",
+						"%+d КЗ під час [Parry] від АТК зброї", "та навички Меча"
 					]
 				},
 				{
@@ -6077,8 +6077,8 @@
 				},
 				{
 					"whip_attributes": [ "+50% дальності атаки",
-					"+20% шансу [Кровотечі] при флангових ударах", 
-					"+100% шансу [Кровотечі] при обеззброювальних ударах", 
+					"+20% Шансу [Кровотечі] при флангових ударах", 
+					"+100% Шансу [Кровотечі] при обеззброювальних ударах", 
 					"* Незламне" ]
 				},
 				{
@@ -6112,7 +6112,7 @@
 					"when_equipped": "template_when_equipped_text"
 				},
 				{
-					"whip_base_effects": [ "%+d%% шансу пробиття броні від стата PER"]
+					"whip_base_effects": [ "%+d%% шансу пробиття броні від стата СПРИЙ"]
 				},
 				{
 					"weapon_atk_from_player_stat": "template_player_atk_stat_whip"
@@ -6216,7 +6216,7 @@
 					"weapon_base_effects": "template_weapon_legendary_polearm_effects"
 				},
 				{
-					"artifact_spear": [ "* [Пробиття Броні] ігнорує 50% AC цілі", "* Незламне" ]
+					"artifact_spear": [ "* [Пробиття Броні] ігнорує 50% КЗ цілі", "* Незламне" ]
 				},
 				{
 					"blank_space": [ "" ]
@@ -6273,27 +6273,27 @@
 		"tooltip_food_ration": {
 			"icons": [
 				{
-					"text": "Накладає [+4 STR] [+4 DEX]\nТривалість: [60s]",
+					"text": "Накладає [+4 СИЛ] [+4 СПР]\nТривалість: [60s]",
 					"icon_path": "*images/ui/HUD/statusfx/Ration_spicy.png",
 					"conditional_attribute": "EFF_RATION_SPICY"
 				},
 				{
-					"text": "Накладає [+4 INT] [+25%% PWR]\nТривалість: [60s]",
+					"text": "Накладає [+4 ІНТ] [+25%% СЗ]\nТривалість: [60s]",
 					"icon_path": "*images/ui/HUD/statusfx/Ration_sour.png",
 					"conditional_attribute": "EFF_RATION_SOUR"
 				},
 				{
-					"text": "Накладає [+4 CON] [+4 PER]\nТривалість: [60s]",
+					"text": "Накладає [+4 СТА] [+4 СПРИЙ]\nТривалість: [60s]",
 					"icon_path": "*images/ui/HUD/statusfx/Ration_bitter.png",
 					"conditional_attribute": "EFF_RATION_BITTER"
 				},
 				{
-					"text": "Накладає [+4 STR] [+4 CON]\nТривалість: [60s]",
+					"text": "Накладає [+4 СИЛ] [+4 СТА]\nТривалість: [60s]",
 					"icon_path": "*images/ui/HUD/statusfx/Ration_hearty.png",
 					"conditional_attribute": "EFF_RATION_HEARTY"
 				},
 				{
-					"text": "Накладає [+4 CHR] [+20%% RES]\nТривалість: [60s]",
+					"text": "Накладає [+4 ХАР] [+20%% ОМ]\nТривалість: [60s]",
 					"icon_path": "*images/ui/HUD/statusfx/Ration_herbal.png",
 					"conditional_attribute": "EFF_RATION_HERBAL"
 				},
@@ -6633,7 +6633,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_extrahealing_bonus": [ "* %+d Відновлення HP від CON" ]
+					"potion_extrahealing_bonus": [ "* %+d Відновлення HP від СТА" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -6668,7 +6668,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_healing_bonus": [ "* %+d Відновлення HP від CON" ]
+					"potion_healing_bonus": [ "* %+d Відновлення HP від СТА" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -6770,7 +6770,7 @@
 					"potion_on_cursed": "template_potion_curse_sideeffect"
 				},
 				{
-					"potion_restoremagic_bonus": [ "* %+d Відновлення MP від INT" ]
+					"potion_restoremagic_bonus": [ "* %+d Відновлення MP від ІНТ" ]
 				},
 				{
 					"alchemy_details": "template_alchemy_type"
@@ -7328,7 +7328,7 @@
 					"conditional_attribute": "EFF_SKILL_4"
 				},
 				{
-					"text": "Надає [Рівень Вгору: +INT]",
+					"text": "Надає [Рівень Вгору: +ІНТ]",
 					"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
 					"conditional_attribute": "EFF_GROWTH_INT"
 				},
@@ -7583,7 +7583,7 @@
 					"EFF_FOLLOWER_DMGRESIST": [ "* Отримана шкода від пасток не залежить", "від [Опір Шкоді]" ]
 				},
 				{
-					"EFF_HOOD_WHISPERS": [ "* ATK дальнього [Удару в Спину] зростає", "від навички %s" ]
+					"EFF_HOOD_WHISPERS": [ "* АТК дальнього [Удару в Спину] зростає", "від навички %s" ]
 				},
 				{
 					"EFF_MARIGOLD1": [ "* Не діє на їжу, що викликає хворобу" ]

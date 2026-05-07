@@ -232,7 +232,7 @@
             "attributes_wgt_bonus_format": "%+d ВАГ",
             "attributes_wgt_speed_format": "%.1f%% СПД",
             "attributes_wgt_speed_bonus_format": "%+.2f%% СПД",
-            "attributes_wgt_speed_bonus_format1": "%+.2f%% %+.2f%% %+.2f%% SPD",
+            "attributes_wgt_speed_bonus_format1": "%+.2f%% %+.2f%% %+.2f%% ШВД",
             "attributes_wgt_nobonus_format": "%d ВАГ",
             "attributes_wgt_attributes_bonus": "Бонус характеристики (СПР):",
             "attributes_wgt_noweight_speed": "Штраф від перенесеної ваги:",
