@@ -8,7 +8,7 @@
 - Робоча папка моду, куди мають записуватися застосовані переклади: `Barony Ukrainian Localization`
 - Дані перекладу: `src/Data`
 - Скрипти високого рівня: `src/scripts`
-- Низькорівневі скрипти заміни тексту не лежать у цій директорії. Не вигадуй власну заміну JSON-значень і не форматуй JSON автоматично.
+- Низькорівневі скрипти заміни тексту лежать у `src/scripts`. Не вигадуй власну заміну JSON-значень і не форматуй JSON автоматично.
 
 ## Головне Правило
 
@@ -71,7 +71,8 @@ python src\scripts\extract_strings.py
 - `extract_name_glossary.py` — витягує назви й імена для окремого глосарію.
 - `extract_technical_glossary.py` — витягує технічні терміни, які важливо не ламати.
 - `polish_contents_items_names.py` — допоміжний скрипт для синхронізації назв предметів у compendium/item name даних.
-- `translate_remaining_strings.py` — допоміжний скрипт для дозаповнення відомих відсутніх перекладів. Не використовуй як універсальний машинний перекладач.
+- `apply_translations_to_sources.py` — застосовує `src/Data/Strings.csv` напряму до робочого моду `Barony Ukrainian Localization`, зберігаючи layout-sensitive JSON.
+- `split_strings_csv.py` — розділяє `Strings.All.csv` на перекладні й технічні рядки.
 
 ## Що Не Робити
 
