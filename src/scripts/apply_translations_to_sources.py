@@ -876,7 +876,9 @@ def apply_txt_rows(file_path: Path, rows: list[TranslationRow]) -> tuple[int, li
 
 
 def apply_json_rows(file_path: Path, rows: list[TranslationRow]) -> tuple[int, list[str], bool]:
-    source = read_source_text(file_path)
+    relative_path = file_path.relative_to(SOURCE_ROOT)
+    original_file_path = ORIGINAL_ROOT / relative_path
+    source = read_source_text(original_file_path if original_file_path.exists() else file_path)
     original_text = source.text
     original_bytes = source.data
     value_spans, key_spans = build_json_string_spans(original_text)
